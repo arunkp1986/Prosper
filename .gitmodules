@@ -1,0 +1,3 @@
+[submodule "gem5"]
+	path = gem5
+	url = git@github.com:arunkp1986/gem5.git
