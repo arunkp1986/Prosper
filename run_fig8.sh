@@ -1,5 +1,7 @@
 #!/bin/bash
 
+xz -d ./disk_image/data_gapbs.img.xz
+
 echo "Running Prosper"
 ./run_fig8_prosper.sh
 
