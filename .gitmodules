@@ -18,6 +18,3 @@
 	path = gem5_romulus
 	url = git@github.com:arunkp1986/gem5.git
 	ignore = dirty
-[submodule "gem5_test"]
-	path = gem5_test
-	url = https://github.com/arunkp1986/gem5.git
