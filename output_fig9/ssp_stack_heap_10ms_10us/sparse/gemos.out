@@ -1,0 +1,60 @@
+spawn telnet localhost 3457
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+==== m5 terminal: Terminal 0 ====
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11B258 EBP=0x11B2C8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# init
+Setting up init process ...
+Page table setup done, launching init ...
+exit
+checkpoint:1, log_time:199408, time_merge:1677923, copy_size:0 
+checkpoint:2, log_time:136179, time_merge:2097202, copy_size:30592 
+checkpoint:3, log_time:136288, time_merge:2096430, copy_size:31296 
+checkpoint:4, log_time:136056, time_merge:3152158, copy_size:47680 
+checkpoint:5, log_time:135657, time_merge:2110308, copy_size:32896 
+checkpoint:6, log_time:136297, time_merge:2103906, copy_size:32384 
+checkpoint:7, log_time:136171, time_merge:2079497, copy_size:30208 
+checkpoint:8, log_time:136132, time_merge:3145856, copy_size:47680 
+checkpoint:9, log_time:136203, time_merge:2102997, copy_size:32448 
+checkpoint:10, log_time:136120, time_merge:2089194, copy_size:30976 
+checkpoint:11, log_time:136132, time_merge:2103631, copy_size:32448 
+checkpoint:12, log_time:135789, time_merge:3172921, copy_size:50176 
+checkpoint:13, log_time:136240, time_merge:2123944, copy_size:34112 
+checkpoint:14, log_time:136288, time_merge:2112470, copy_size:33408 
+checkpoint:15, log_time:135699, time_merge:2091041, copy_size:31424 
+checkpoint:16, log_time:136174, time_merge:3140504, copy_size:47616 
+checkpoint:17, log_time:135771, time_merge:2090278, copy_size:31168 
+checkpoint:18, log_time:136279, time_merge:2103393, copy_size:32448 
+checkpoint:19, log_time:136180, time_merge:2102908, copy_size:32448 
+checkpoint:20, log_time:136296, time_merge:3188047, copy_size:51456 
+checkpoint:21, log_time:135360, time_merge:2127414, copy_size:33856 
+checkpoint:22, log_time:135299, time_merge:2133869, copy_size:34560 
+checkpoint:23, log_time:135362, time_merge:2107455, copy_size:32320 
+checkpoint:24, log_time:135315, time_merge:3175205, copy_size:49792 
+checkpoint:25, log_time:136167, time_merge:2082209, copy_size:30592 
+checkpoint:26, log_time:136173, time_merge:2103412, copy_size:32448 
+checkpoint:27, log_time:136293, time_merge:2104521, copy_size:32384 
+checkpoint:28, log_time:135699, time_merge:3132255, copy_size:46336 
+checkpoint:29, log_time:135591, time_merge:2120326, copy_size:33280 
+checkpoint:30, log_time:136285, time_merge:2104890, copy_size:32448 
+checkpoint:31, log_time:136260, time_merge:2128936, copy_size:34624 
+checkpoint:32, log_time:135702, time_merge:3126333, copy_size:45760 
+checkpoint:33, log_time:136177, time_merge:2102980, copy_size:32448 
+checkpoint:34, log_time:136182, time_merge:1042231, copy_size:15360 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+Connection closed by foreign host.

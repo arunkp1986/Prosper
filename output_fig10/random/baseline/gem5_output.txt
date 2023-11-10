@@ -1,0 +1,50 @@
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (32768 Mbytes) does not match the address range assigned (4096 Mbytes)
+build/X86/sim/kernel_workload.cc:46: info: kernel located at: /home/kparun/stack_persistence/gemOS_nvm_test2/gemOS.kernel
+      0: system.pc.south_bridge.cmos.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.pc.com_1.device: Listening for connections on port 3457
+0: system.remote_gdb: listening for remote gdb on port 7001
+build/X86/dev/intel_8254_timer.cc:125: warn: Reading current count from inactive timer.
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.1.0.2
+gem5 compiled Apr 28 2022 08:05:41
+gem5 started Apr 29 2022 10:53:42
+gem5 executing on intel, pid 156911
+command line: ./build/X86/gem5.opt --outdir=/home/kparun/stack_persistence/output/random/baseline configs/example/fs.py --mem-size=3GB --nvm-size=2GB --caches --l3cache --cpu-type TimingSimpleCPU --hybrid-channel True --mem-type=DDR4_2400_16x4 --nvm-type=NVM_2666_1x64 --l1d-hwp-type=StridePrefetcher --kernel=/home/kparun/stack_persistence/gemOS_nvm_test2/gemOS.kernel --disk-image /home/kparun/stack_persistence/gem5/fullsystem_images/gemos.img
+
+**** REAL SIMULATION ****
+warn: iobus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: bridge.master is deprecated. `master` is now called `mem_side_port`
+warn: membus.master is deprecated. `master` is now called `mem_side_ports`
+warn: bridge.slave is deprecated. `slave` is now called `cpu_side_port`
+warn: iobus.master is deprecated. `master` is now called `mem_side_ports`
+warn: apicbridge.slave is deprecated. `slave` is now called `cpu_side_port`
+warn: membus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: apicbridge.master is deprecated. `master` is now called `mem_side_port`
+warn: membus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: iobus.master is deprecated. `master` is now called `mem_side_ports`
+warn: membus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: tol3bus.master is deprecated. `master` is now called `mem_side_ports`
+warn: membus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: toL2Bus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: toL2Bus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: toL2Bus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: toL2Bus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: tol3bus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: membus.master is deprecated. `master` is now called `mem_side_ports`
+warn: membus.master is deprecated. `master` is now called `mem_side_ports`
+warn: membus.slave is deprecated. `slave` is now called `cpu_side_ports`
+warn: system.workload.acpi_description_table_pointer.rsdt adopting orphan SimObject param 'entries'
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:107: info: Entering event queue @ 0.  Starting simulation...
+build/X86/dev/x86/pc.cc:117: warn: Don't know what interrupt to clear for console.
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x15b
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x15b
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x15b
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x15b
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x15b
+26353693260: system.pc.com_1.device: attach terminal 0
+37254180195: system.pc.com_1.device: detach terminal 0
+Exiting @ tick 37313859789 because m5_exit instruction encountered

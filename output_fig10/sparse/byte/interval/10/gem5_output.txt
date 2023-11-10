@@ -1,0 +1,126 @@
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (32768 Mbytes) does not match the address range assigned (4096 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/sim/kernel_workload.cc:46: info: kernel located at: /home/kparun/stack_persistence/gemOS_nvm_test2/gemOS.kernel
+      0: system.pc.south_bridge.cmos.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.pc.com_1.device: Listening for connections on port 3456
+0: system.remote_gdb: listening for remote gdb on port 7000
+build/X86/dev/intel_8254_timer.cc:125: warn: Reading current count from inactive timer.
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.1
+gem5 compiled Jun  7 2022 18:27:02
+gem5 started Jun  7 2022 20:24:52
+gem5 executing on intel, pid 141624
+command line: ./build/X86/gem5.opt --outdir=/home/kparun/stack_persistence/output/sparse/byte/interval/10 configs/example/fs.py --mem-size=3GB --nvm-size=2GB --caches --l3cache --cpu-type TimingSimpleCPU --hybrid-channel True --mem-type=DDR4_2400_16x4 --nvm-type=NVM_2666_1x64 --kernel=/home/kparun/stack_persistence/gemOS_nvm_test2/gemOS.kernel --disk-image /home/kparun/stack_persistence/gem5/fullsystem_images/gemos.img
+
+**** REAL SIMULATION ****
+warn: system.workload.acpi_description_table_pointer.rsdt adopting orphan SimObject param 'entries'
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/dev/x86/pc.cc:117: warn: Don't know what interrupt to clear for console.
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+29412137754: system.pc.com_1.device: attach terminal 0
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0xf64
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0xf66
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x11b2
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x11b3
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x13e5
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x13e7
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1619
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x161a
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x184c
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x184e
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1a80
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1a81
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1cb3
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1cb5
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1ee6
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1ee8
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2119
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x211b
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x234d
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x234e
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2580
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2582
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x27b3
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x27b5
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x29e7
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x29e8
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2c1a
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2c1c
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2e4e
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2e4f
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3081
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3083
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x32b5
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x32b6
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x34e8
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x34ea
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x371c
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x371d
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x394f
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3951
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3b82
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3b84
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3db5
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3db7
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3fe9
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3fea
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x421c
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x421e
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x444f
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4451
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4683
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4685
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x48b6
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x48b8
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4aea
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4aeb
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4d1d
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4d1f
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4f51
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4f53
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5185
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5186
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x53b8
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x53ba
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x55eb
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x55ed
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x581f
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5820
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5a52
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5a53
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5c85
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5c87
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5eb9
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5eba
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x60ec
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x60ee
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x631f
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6321
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6553
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6554
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6786
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6788
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x69ba
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x69bb
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6bed
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6bef
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6e21
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x6e23
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x7054
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x7056
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x7288
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x7289
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x74bb
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x74bc
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x74d6
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x74d8
+657204721416: system.pc.com_1.device: detach terminal 0
+Exiting @ tick 657264519558 because m5_exit instruction encountered

@@ -1,0 +1,67 @@
+==== m5 terminal: Terminal 0 ====
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11A1C8 EBP=0x11A238
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+GemOS# 
+====================================================
+Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:0, log_time:112656212, copy_time:131324, copy_size:480 
+checkpoint:1, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:2, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:3, log_time:492, copy_time:105830, copy_size:432 
+checkpoint:4, log_time:492, copy_time:105781, copy_size:432 
+checkpoint:5, log_time:490, copy_time:105796, copy_size:432 
+checkpoint:6, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:7, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:8, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:9, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:10, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:11, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:12, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:13, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:14, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:15, log_time:493, copy_time:105829, copy_size:432 
+checkpoint:16, log_time:490, copy_time:105796, copy_size:432 
+checkpoint:17, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:18, log_time:492, copy_time:105830, copy_size:432 
+checkpoint:19, log_time:492, copy_time:105818, copy_size:432 
+checkpoint:20, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:21, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:22, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:23, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:24, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:25, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:26, log_time:492, copy_time:105806, copy_size:432 
+checkpoint:27, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:28, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:29, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:30, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:31, log_time:492, copy_time:105830, copy_size:432 
+checkpoint:32, log_time:493, copy_time:105796, copy_size:432 
+checkpoint:33, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:34, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:35, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:36, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:37, log_time:492, copy_time:105782, copy_size:432 
+checkpoint:38, log_time:493, copy_time:105829, copy_size:432 
+checkpoint:39, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:40, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:41, log_time:492, copy_time:105793, copy_size:432 
+checkpoint:42, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:43, log_time:490, copy_time:105829, copy_size:432 
+checkpoint:44, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:45, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:46, log_time:492, copy_time:105829, copy_size:432 
+checkpoint:47, log_time:492, copy_time:118693, copy_size:480 
+Cleaned up init process
+GemOS shell again!
+GemOS# 

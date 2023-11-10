@@ -1,0 +1,33 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11C278 EBP=0x11C2E8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:1,time_prosper:6452463,size_prosper:137576,time_ssp:1662,time_merge:3933,size_ssp:0
+checkpoint:2,time_prosper:11662753,size_prosper:290608,time_ssp:735,time_merge:3971,size_ssp:0
+checkpoint:3,time_prosper:10442999,size_prosper:282456,time_ssp:745,time_merge:3234,size_ssp:0
+checkpoint:4,time_prosper:5491106,size_prosper:157368,time_ssp:785,time_merge:3935,size_ssp:0
+checkpoint:5,time_prosper:16262982,size_prosper:381152,time_ssp:807,time_merge:3121,size_ssp:0
+checkpoint:6,time_prosper:5494104,size_prosper:133912,time_ssp:1935,time_merge:4064,size_ssp:0
+checkpoint:7,time_prosper:11734921,size_prosper:282304,time_ssp:747,time_merge:4010,size_ssp:0
+checkpoint:8,time_prosper:5452096,size_prosper:159328,time_ssp:1136,time_merge:3195,size_ssp:0
+checkpoint:9,time_prosper:13498521,size_prosper:339672,time_ssp:747,time_merge:4009,size_ssp:0
+checkpoint:10,time_prosper:11131035,size_prosper:286960,time_ssp:808,time_merge:3234,size_ssp:0
+checkpoint:11,time_prosper:7029827,size_prosper:198872,time_ssp:786,time_merge:4048,size_ssp:0
+checkpoint:12,time_prosper:21030756,size_prosper:440944,time_ssp:745,time_merge:4070,size_ssp:0
+checkpoint:13,time_prosper:8054027,size_prosper:175760,time_ssp:1485,time_merge:4742,size_ssp:0
+checkpoint:14,time_prosper:112005,size_prosper:184,time_ssp:884,time_merge:3253,size_ssp:0
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

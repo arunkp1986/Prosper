@@ -1,0 +1,49 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11A238 EBP=0x11A2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:1, page_time:5448493, size_db:266240
+checkpoint:2, page_time:3698902, size_db:266240
+checkpoint:3, page_time:9193500, size_db:528384
+checkpoint:4, page_time:503972, size_db:36864
+checkpoint:5, page_time:12941114, size_db:790528
+checkpoint:6, page_time:3696283, size_db:266240
+checkpoint:7, page_time:7546728, size_db:528384
+checkpoint:8, page_time:3696303, size_db:266240
+checkpoint:9, page_time:7546742, size_db:528384
+checkpoint:10, page_time:14926631, size_db:966656
+checkpoint:11, page_time:3696297, size_db:266240
+checkpoint:12, page_time:3696304, size_db:266240
+checkpoint:13, page_time:7546717, size_db:528384
+checkpoint:14, page_time:7546733, size_db:528384
+checkpoint:15, page_time:7546737, size_db:528384
+checkpoint:16, page_time:5264210, size_db:368640
+checkpoint:17, page_time:3696320, size_db:266240
+checkpoint:18, page_time:16209322, size_db:1052672
+checkpoint:19, page_time:7546758, size_db:528384
+checkpoint:20, page_time:1400810, size_db:102400
+checkpoint:21, page_time:9945870, size_db:696320
+checkpoint:22, page_time:7546718, size_db:528384
+checkpoint:23, page_time:11291454, size_db:790528
+checkpoint:24, page_time:7546743, size_db:528384
+checkpoint:25, page_time:503947, size_db:36864
+checkpoint:26, page_time:3696300, size_db:266240
+checkpoint:27, page_time:3696337, size_db:266240
+checkpoint:28, page_time:7546729, size_db:528384
+checkpoint:29, page_time:3696333, size_db:266240
+checkpoint:30, page_time:54860, size_db:4096
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

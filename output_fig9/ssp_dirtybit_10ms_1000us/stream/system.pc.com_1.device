@@ -1,0 +1,47 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11B238 EBP=0x11B2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:1, ssp_time:472, page_time:18090009, size_ssp:0, size_db:788984, num_evicts:0
+checkpoint:2, ssp_time:119, page_time:4568604, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:3, ssp_time:119, page_time:4560441, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:4, ssp_time:107, page_time:6682667, size_ssp:0, size_db:388360, num_evicts:0
+checkpoint:5, ssp_time:119, page_time:4561870, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:6, ssp_time:119, page_time:8666024, size_ssp:0, size_db:502824, num_evicts:0
+checkpoint:7, ssp_time:119, page_time:13465961, size_ssp:0, size_db:780808, num_evicts:0
+checkpoint:8, ssp_time:107, page_time:13606068, size_ssp:0, size_db:788984, num_evicts:0
+checkpoint:9, ssp_time:119, page_time:12334904, size_ssp:0, size_db:715400, num_evicts:0
+checkpoint:10, ssp_time:119, page_time:5129874, size_ssp:0, size_db:298424, num_evicts:0
+checkpoint:11, ssp_time:107, page_time:20010973, size_ssp:0, size_db:1050616, num_evicts:0
+checkpoint:12, ssp_time:119, page_time:4565999, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:13, ssp_time:119, page_time:13605393, size_ssp:0, size_db:788984, num_evicts:0
+checkpoint:14, ssp_time:119, page_time:6399291, size_ssp:0, size_db:372008, num_evicts:0
+checkpoint:15, ssp_time:107, page_time:13605634, size_ssp:0, size_db:788984, num_evicts:0
+checkpoint:16, ssp_time:119, page_time:7106364, size_ssp:0, size_db:412888, num_evicts:0
+checkpoint:17, ssp_time:119, page_time:4565403, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:18, ssp_time:107, page_time:4561018, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:19, ssp_time:119, page_time:4572057, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:20, ssp_time:119, page_time:9082976, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:21, ssp_time:119, page_time:1500219, size_ssp:0, size_db:89936, num_evicts:0
+checkpoint:22, ssp_time:107, page_time:9078427, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:23, ssp_time:119, page_time:18995492, size_ssp:0, size_db:1050616, num_evicts:0
+checkpoint:24, ssp_time:119, page_time:11768981, size_ssp:0, size_db:682696, num_evicts:0
+checkpoint:25, ssp_time:119, page_time:12197567, size_ssp:0, size_db:707224, num_evicts:0
+checkpoint:26, ssp_time:107, page_time:3778750, size_ssp:0, size_db:220752, num_evicts:0
+checkpoint:27, ssp_time:139, page_time:66712, size_ssp:0, size_db:4088, num_evicts:0
+num merges:59
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

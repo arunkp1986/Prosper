@@ -1,0 +1,4 @@
+ssp_dirty
+init.c heap alloc from NVM, stack from DRAM, added start and end checkpoint
+pass MAP start end range via MSR in context
+changed context.c (exec_init) and entry(page fault) to allocate STACK from DRAM

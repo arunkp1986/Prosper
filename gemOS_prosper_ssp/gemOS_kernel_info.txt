@@ -1,0 +1,5 @@
+STACK from DRAM, maintained by prosper
+HEAP in NVM, maintained by SSP
+checkpoint start , end in init.c
+stack range passed in dirty.c
+heap range passed in context.c

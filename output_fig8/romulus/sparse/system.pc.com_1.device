@@ -1,0 +1,35 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11B218 EBP=0x11B288
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:1,time:487272605,copy_size:1887312 
+checkpoint:2,time:532407417,copy_size:2060952 
+checkpoint:3,time:531355267,copy_size:2059754 
+checkpoint:4,time:531638986,copy_size:2061194 
+checkpoint:5,time:530766709,copy_size:2057864 
+checkpoint:6,time:534055217,copy_size:2067002 
+checkpoint:7,time:532912039,copy_size:2064290 
+checkpoint:8,time:531690829,copy_size:2061470 
+checkpoint:9,time:533406736,copy_size:2065680 
+checkpoint:10,time:533909558,copy_size:2066694 
+checkpoint:11,time:532588622,copy_size:2063066 
+checkpoint:12,time:532391444,copy_size:2061610 
+checkpoint:13,time:533977628,copy_size:2066644 
+checkpoint:14,time:533227195,copy_size:2064298 
+checkpoint:15,time:532558199,copy_size:2061730 
+checkpoint:16,time:499494985,copy_size:1934572 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

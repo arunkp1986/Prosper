@@ -1,0 +1,140 @@
+spawn telnet localhost 3460
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+==== m5 terminal: Terminal 0 ====
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11A238 EBP=0x11A2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# init
+Setting up init process ...
+Page table setup done, launching init ...
+exit
+checkpoint:1, time:11604163, size:167184 
+checkpoint:2, time:31274506, size:474016 
+checkpoint:3, time:33342571, size:438888 
+checkpoint:4, time:23321502, size:337448 
+checkpoint:5, time:11614248, size:182360 
+checkpoint:6, time:39213899, size:554904 
+checkpoint:7, time:11657026, size:183432 
+checkpoint:8, time:40997792, size:558152 
+checkpoint:9, time:22883324, size:320000 
+checkpoint:10, time:33944935, size:465920 
+checkpoint:11, time:33987031, size:439288 
+checkpoint:12, time:33265352, size:440216 
+checkpoint:13, time:11591431, size:185392 
+checkpoint:14, time:32172693, size:477632 
+checkpoint:15, time:11625891, size:180776 
+checkpoint:16, time:20972402, size:362624 
+checkpoint:17, time:11692363, size:178288 
+checkpoint:18, time:9481804, size:197296 
+checkpoint:19, time:21030819, size:364264 
+checkpoint:20, time:11646987, size:174536 
+checkpoint:21, time:39758683, size:557568 
+checkpoint:22, time:33220539, size:447792 
+checkpoint:23, time:11634952, size:183928 
+checkpoint:24, time:9534753, size:194408 
+checkpoint:25, time:32116503, size:481768 
+checkpoint:26, time:22951256, size:343568 
+checkpoint:27, time:22919027, size:333944 
+checkpoint:28, time:22872189, size:335816 
+checkpoint:29, time:40634110, size:527408 
+checkpoint:30, time:23026135, size:336608 
+checkpoint:31, time:11540885, size:198360 
+checkpoint:32, time:21035607, size:358216 
+checkpoint:33, time:33730785, size:462528 
+checkpoint:34, time:11657748, size:184680 
+checkpoint:35, time:32522912, size:478400 
+checkpoint:36, time:4353353, size:64560 
+checkpoint:37, time:40114103, size:550488 
+checkpoint:38, time:32689440, size:426688 
+checkpoint:39, time:22921490, size:333536 
+checkpoint:40, time:22980447, size:341704 
+checkpoint:41, time:33682809, size:448600 
+checkpoint:42, time:11589216, size:191000 
+checkpoint:43, time:20959260, size:371344 
+checkpoint:44, time:23001760, size:329256 
+checkpoint:45, time:22926819, size:350088 
+checkpoint:46, time:11685996, size:182360 
+checkpoint:47, time:20882273, size:366232 
+checkpoint:48, time:11615906, size:185464 
+checkpoint:49, time:20888898, size:361240 
+checkpoint:50, time:23042877, size:343344 
+checkpoint:51, time:33881977, size:452992 
+checkpoint:52, time:11632165, size:187304 
+checkpoint:53, time:9480561, size:200576 
+checkpoint:54, time:21100940, size:353784 
+checkpoint:55, time:22803969, size:347896 
+checkpoint:56, time:11647858, size:185304 
+checkpoint:57, time:9506589, size:199952 
+checkpoint:58, time:9686836, size:185144 
+checkpoint:59, time:20896107, size:361968 
+checkpoint:60, time:22924533, size:352888 
+checkpoint:61, time:23018234, size:337080 
+checkpoint:62, time:11631549, size:184584 
+checkpoint:63, time:9416791, size:203584 
+checkpoint:64, time:9502210, size:202960 
+checkpoint:65, time:20698487, size:380088 
+checkpoint:66, time:22973767, size:342784 
+checkpoint:67, time:33665281, size:458936 
+checkpoint:68, time:22750777, size:354816 
+checkpoint:69, time:33852001, size:456040 
+checkpoint:70, time:22970892, size:327280 
+checkpoint:71, time:22997928, size:336088 
+checkpoint:72, time:4979164, size:76672 
+checkpoint:73, time:41244595, size:562728 
+checkpoint:74, time:22819847, size:327768 
+checkpoint:75, time:23073517, size:339312 
+checkpoint:76, time:22957766, size:344136 
+checkpoint:77, time:11646771, size:177520 
+checkpoint:78, time:9488688, size:198568 
+checkpoint:79, time:32089291, size:491368 
+checkpoint:80, time:11620738, size:186344 
+checkpoint:81, time:9524119, size:196952 
+checkpoint:82, time:9642095, size:186472 
+checkpoint:83, time:39648876, size:557536 
+checkpoint:84, time:1424718, size:18848 
+checkpoint:85, time:11310516, size:194312 
+checkpoint:86, time:21066533, size:365328 
+checkpoint:87, time:11661380, size:176280 
+checkpoint:88, time:38625645, size:546360 
+checkpoint:89, time:41028325, size:503976 
+checkpoint:90, time:22987326, size:339176 
+checkpoint:91, time:11488432, size:191104 
+checkpoint:92, time:32265911, size:499472 
+checkpoint:93, time:22697534, size:333800 
+checkpoint:94, time:42216372, size:528072 
+checkpoint:95, time:23070694, size:339424 
+checkpoint:96, time:11597270, size:183496 
+checkpoint:97, time:32261983, size:485840 
+checkpoint:98, time:11553936, size:193280 
+checkpoint:99, time:20897976, size:366960 
+checkpoint:100, time:23088290, size:341232 
+checkpoint:101, time:11583774, size:185792 
+checkpoint:102, time:32579341, size:486256 
+checkpoint:103, time:11645642, size:173632 
+checkpoint:104, time:31931632, size:487560 
+checkpoint:105, time:33606355, size:440848 
+checkpoint:106, time:33409001, size:451608 
+checkpoint:107, time:11693405, size:175224 
+checkpoint:108, time:9640319, size:179928 
+checkpoint:109, time:20998972, size:361248 
+checkpoint:110, time:23024453, size:340408 
+checkpoint:111, time:39741317, size:503648 
+checkpoint:112, time:11653065, size:174440 
+checkpoint:113, time:20778992, size:368936 
+checkpoint:114, time:173209, size:88 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+Connection closed by foreign host.

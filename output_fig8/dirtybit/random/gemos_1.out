@@ -1,0 +1,132 @@
+spawn telnet localhost 3459
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+==== m5 terminal: Terminal 0 ====
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11A238 EBP=0x11A2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# init
+Setting up init process ...
+Page table setup done, launching init ...
+exit
+checkpoint:1, page_time:12935848, size_db:788984 
+checkpoint:2, page_time:8605283, size_db:527352 
+checkpoint:3, page_time:4327332, size_db:265720 
+checkpoint:4, page_time:4314612, size_db:265720 
+checkpoint:5, page_time:12885246, size_db:788984 
+checkpoint:6, page_time:8597752, size_db:527352 
+checkpoint:7, page_time:4322698, size_db:265720 
+checkpoint:8, page_time:17204005, size_db:1050616 
+checkpoint:9, page_time:8599617, size_db:527352 
+checkpoint:10, page_time:4328866, size_db:265720 
+checkpoint:11, page_time:4322588, size_db:265720 
+checkpoint:12, page_time:4322557, size_db:265720 
+checkpoint:13, page_time:8603304, size_db:527352 
+checkpoint:14, page_time:8593349, size_db:527352 
+checkpoint:15, page_time:6542478, size_db:400624 
+checkpoint:16, page_time:8594816, size_db:527352 
+checkpoint:17, page_time:8596166, size_db:527352 
+checkpoint:18, page_time:68535, size_db:4088 
+checkpoint:19, page_time:12894078, size_db:788984 
+checkpoint:20, page_time:4321632, size_db:265720 
+checkpoint:21, page_time:12884945, size_db:788984 
+checkpoint:22, page_time:17170966, size_db:1050616 
+checkpoint:23, page_time:4327345, size_db:265720 
+checkpoint:24, page_time:8589435, size_db:527352 
+checkpoint:25, page_time:17179454, size_db:1050616 
+checkpoint:26, page_time:12886393, size_db:788984 
+checkpoint:27, page_time:12887053, size_db:788984 
+checkpoint:28, page_time:4320480, size_db:265720 
+checkpoint:29, page_time:4324114, size_db:265720 
+checkpoint:30, page_time:8594767, size_db:527352 
+checkpoint:31, page_time:17172828, size_db:1050616 
+checkpoint:32, page_time:8598683, size_db:527352 
+checkpoint:33, page_time:12883493, size_db:788984 
+checkpoint:34, page_time:8591424, size_db:527352 
+checkpoint:35, page_time:17167469, size_db:1050616 
+checkpoint:36, page_time:4194824, size_db:257544 
+checkpoint:37, page_time:12883195, size_db:788984 
+checkpoint:38, page_time:8594922, size_db:527352 
+checkpoint:39, page_time:8591099, size_db:527352 
+checkpoint:40, page_time:12886475, size_db:788984 
+checkpoint:41, page_time:12889205, size_db:788984 
+checkpoint:42, page_time:12890950, size_db:788984 
+checkpoint:43, page_time:4310973, size_db:265720 
+checkpoint:44, page_time:8593760, size_db:527352 
+checkpoint:45, page_time:4317393, size_db:265720 
+checkpoint:46, page_time:4320470, size_db:265720 
+checkpoint:47, page_time:4319832, size_db:265720 
+checkpoint:48, page_time:17173503, size_db:1050616 
+checkpoint:49, page_time:8592511, size_db:527352 
+checkpoint:50, page_time:8590884, size_db:527352 
+checkpoint:51, page_time:4311896, size_db:265720 
+checkpoint:52, page_time:8594667, size_db:527352 
+checkpoint:53, page_time:12882703, size_db:788984 
+checkpoint:54, page_time:4306104, size_db:265720 
+checkpoint:55, page_time:4328747, size_db:265720 
+checkpoint:56, page_time:4326387, size_db:265720 
+checkpoint:57, page_time:12885063, size_db:788984 
+checkpoint:58, page_time:12884503, size_db:788984 
+checkpoint:59, page_time:9551366, size_db:584584 
+checkpoint:60, page_time:17175128, size_db:1050616 
+checkpoint:61, page_time:17168451, size_db:1050616 
+checkpoint:62, page_time:12884992, size_db:788984 
+checkpoint:63, page_time:4310085, size_db:265720 
+checkpoint:64, page_time:1276542, size_db:77672 
+checkpoint:65, page_time:8599482, size_db:527352 
+checkpoint:66, page_time:12886097, size_db:788984 
+checkpoint:67, page_time:4326346, size_db:265720 
+checkpoint:68, page_time:12885702, size_db:788984 
+checkpoint:69, page_time:4320110, size_db:265720 
+checkpoint:70, page_time:4320738, size_db:265720 
+checkpoint:71, page_time:4188830, size_db:257544 
+checkpoint:72, page_time:17171841, size_db:1050616 
+checkpoint:73, page_time:4533915, size_db:277984 
+checkpoint:74, page_time:8598802, size_db:527352 
+checkpoint:75, page_time:17178292, size_db:1050616 
+checkpoint:76, page_time:4321504, size_db:265720 
+checkpoint:77, page_time:12886915, size_db:788984 
+checkpoint:78, page_time:8599037, size_db:527352 
+checkpoint:79, page_time:12890432, size_db:788984 
+checkpoint:80, page_time:12887382, size_db:788984 
+checkpoint:81, page_time:17176483, size_db:1050616 
+checkpoint:82, page_time:4326677, size_db:265720 
+checkpoint:83, page_time:4323515, size_db:265720 
+checkpoint:84, page_time:12887731, size_db:788984 
+checkpoint:85, page_time:4323722, size_db:265720 
+checkpoint:86, page_time:17174710, size_db:1050616 
+checkpoint:87, page_time:12885010, size_db:788984 
+checkpoint:88, page_time:8592404, size_db:527352 
+checkpoint:89, page_time:4312279, size_db:265720 
+checkpoint:90, page_time:4321672, size_db:265720 
+checkpoint:91, page_time:12884468, size_db:788984 
+checkpoint:92, page_time:8590101, size_db:527352 
+checkpoint:93, page_time:8593031, size_db:527352 
+checkpoint:94, page_time:4320520, size_db:265720 
+checkpoint:95, page_time:4325178, size_db:265720 
+checkpoint:96, page_time:12887876, size_db:788984 
+checkpoint:97, page_time:8595412, size_db:527352 
+checkpoint:98, page_time:12882952, size_db:788984 
+checkpoint:99, page_time:8599915, size_db:527352 
+checkpoint:100, page_time:12888665, size_db:788984 
+checkpoint:101, page_time:4323849, size_db:265720 
+checkpoint:102, page_time:8595876, size_db:527352 
+checkpoint:103, page_time:17163565, size_db:1050616 
+checkpoint:104, page_time:12883562, size_db:788984 
+checkpoint:105, page_time:12884353, size_db:788984 
+checkpoint:106, page_time:68714, size_db:4088 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+Connection closed by foreign host.

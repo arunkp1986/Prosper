@@ -1,0 +1,35 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11C278 EBP=0x11C2E8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:1,time_prosper:12703758,size_prosper:267280,time_ssp:1722,time_merge:3989,size_ssp:0
+checkpoint:2,time_prosper:5632973,size_prosper:159248,time_ssp:812,time_merge:4071,size_ssp:0
+checkpoint:3,time_prosper:16445396,size_prosper:388224,time_ssp:806,time_merge:3254,size_ssp:0
+checkpoint:4,time_prosper:6719579,size_prosper:161632,time_ssp:1464,time_merge:5092,size_ssp:0
+checkpoint:5,time_prosper:17527195,size_prosper:387024,time_ssp:807,time_merge:3255,size_ssp:0
+checkpoint:6,time_prosper:12979517,size_prosper:292496,time_ssp:1503,time_merge:4699,size_ssp:0
+checkpoint:7,time_prosper:5664124,size_prosper:164824,time_ssp:765,time_merge:4068,size_ssp:0
+checkpoint:8,time_prosper:5473469,size_prosper:164776,time_ssp:807,time_merge:3252,size_ssp:0
+checkpoint:9,time_prosper:5504926,size_prosper:167600,time_ssp:805,time_merge:4050,size_ssp:0
+checkpoint:10,time_prosper:20796720,size_prosper:437128,time_ssp:807,time_merge:3253,size_ssp:0
+checkpoint:11,time_prosper:3323707,size_prosper:77760,time_ssp:1503,time_merge:5548,size_ssp:0
+checkpoint:12,time_prosper:6141099,size_prosper:163056,time_ssp:746,time_merge:4067,size_ssp:0
+checkpoint:13,time_prosper:11102233,size_prosper:279424,time_ssp:805,time_merge:3254,size_ssp:0
+checkpoint:14,time_prosper:5625255,size_prosper:163400,time_ssp:1136,time_merge:4043,size_ssp:0
+checkpoint:15,time_prosper:10814194,size_prosper:294080,time_ssp:805,time_merge:3253,size_ssp:0
+checkpoint:16,time_prosper:112351,size_prosper:136,time_ssp:898,time_merge:1605,size_ssp:0
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

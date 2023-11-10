@@ -1,0 +1,41 @@
+spawn telnet localhost 3472
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+==== m5 terminal: Terminal 0 ====
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11B238 EBP=0x11B2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# init
+Setting up init process ...
+Page table setup done, launching init ...
+exit
+checkpoint:1, time:321183, size:1736 
+checkpoint:2, time:527154, size:3360 
+checkpoint:3, time:274823, size:1728 
+checkpoint:4, time:212330, size:1056 
+checkpoint:5, time:462085, size:3360 
+checkpoint:6, time:274688, size:1728 
+checkpoint:7, time:272952, size:1728 
+checkpoint:8, time:158868, size:504 
+checkpoint:9, time:189970, size:896 
+checkpoint:10, time:189913, size:896 
+checkpoint:11, time:368304, size:2560 
+checkpoint:12, time:188098, size:824 
+checkpoint:13, time:314528, size:2024 
+checkpoint:14, time:273356, size:1728 
+checkpoint:15, time:107839, size:72 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+Connection closed by foreign host.

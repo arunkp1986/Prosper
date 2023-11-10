@@ -1,0 +1,55 @@
+spawn telnet localhost 3460
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+==== m5 terminal: Terminal 0 ====
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11B238 EBP=0x11B2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# init
+Setting up init process ...
+Page table setup done, launching init ...
+exit
+checkpoint:1, ssp_time:484, page_time:16780285, size_ssp:0, size_db:788984, num_evicts:0
+checkpoint:2, ssp_time:119, page_time:9076529, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:3, ssp_time:159, page_time:13611341, size_ssp:0, size_db:788984, num_evicts:0
+checkpoint:4, ssp_time:107, page_time:9077699, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:5, ssp_time:139, page_time:4557545, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:6, ssp_time:119, page_time:4556670, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:7, ssp_time:159, page_time:4556887, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:8, ssp_time:119, page_time:4554598, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:9, ssp_time:119, page_time:4552723, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:10, ssp_time:159, page_time:6253684, size_ssp:0, size_db:363832, num_evicts:0
+checkpoint:11, ssp_time:107, page_time:9504285, size_ssp:0, size_db:551880, num_evicts:0
+checkpoint:12, ssp_time:119, page_time:9077165, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:13, ssp_time:139, page_time:4557826, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:14, ssp_time:139, page_time:21519379, size_ssp:0, size_db:1050616, num_evicts:0
+checkpoint:15, ssp_time:119, page_time:9078290, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:16, ssp_time:139, page_time:4553716, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:17, ssp_time:159, page_time:4558371, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:18, ssp_time:107, page_time:9080369, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:19, ssp_time:119, page_time:4554093, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:20, ssp_time:139, page_time:8513869, size_ssp:0, size_db:494648, num_evicts:0
+checkpoint:21, ssp_time:159, page_time:8582443, size_ssp:0, size_db:498736, num_evicts:0
+checkpoint:22, ssp_time:119, page_time:9081435, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:23, ssp_time:139, page_time:13699112, size_ssp:0, size_db:788984, num_evicts:0
+checkpoint:24, ssp_time:159, page_time:19509791, size_ssp:0, size_db:1009736, num_evicts:0
+checkpoint:25, ssp_time:139, page_time:9074029, size_ssp:0, size_db:527352, num_evicts:0
+checkpoint:26, ssp_time:139, page_time:21095358, size_ssp:0, size_db:1050616, num_evicts:0
+checkpoint:27, ssp_time:139, page_time:4558366, size_ssp:0, size_db:265720, num_evicts:0
+checkpoint:28, ssp_time:139, page_time:69662, size_ssp:0, size_db:4088, num_evicts:0
+num merges:62
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+Connection closed by foreign host.

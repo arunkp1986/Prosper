@@ -1,0 +1,71 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11B238 EBP=0x11B2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:1, time:24863, size:848 
+checkpoint:2, time:4936, size:232 
+checkpoint:3, time:16103, size:792 
+checkpoint:4, time:14677, size:744 
+checkpoint:5, time:13749, size:696 
+checkpoint:6, time:7835, size:336 
+checkpoint:7, time:13829, size:696 
+checkpoint:8, time:16020, size:792 
+checkpoint:9, time:14732, size:744 
+checkpoint:10, time:3999, size:184 
+checkpoint:11, time:8013, size:304 
+checkpoint:12, time:25949, size:1216 
+checkpoint:13, time:16129, size:792 
+checkpoint:14, time:14746, size:744 
+checkpoint:15, time:13341, size:648 
+checkpoint:16, time:6299, size:240 
+checkpoint:17, time:16351, size:808 
+checkpoint:18, time:16132, size:792 
+checkpoint:19, time:4949, size:232 
+checkpoint:20, time:13394, size:648 
+checkpoint:21, time:6276, size:240 
+checkpoint:22, time:16476, size:808 
+checkpoint:23, time:6225, size:280 
+checkpoint:24, time:4951, size:232 
+checkpoint:25, time:3936, size:152 
+checkpoint:26, time:4737, size:192 
+checkpoint:27, time:17734, size:848 
+checkpoint:28, time:6131, size:280 
+checkpoint:29, time:5947, size:248 
+checkpoint:30, time:14569, size:712 
+checkpoint:31, time:13736, size:696 
+checkpoint:32, time:17739, size:848 
+checkpoint:33, time:14688, size:744 
+checkpoint:34, time:16007, size:792 
+checkpoint:35, time:14677, size:744 
+checkpoint:36, time:13750, size:696 
+checkpoint:37, time:17738, size:848 
+checkpoint:38, time:13751, size:696 
+checkpoint:39, time:16020, size:792 
+checkpoint:40, time:14688, size:744 
+checkpoint:41, time:13748, size:696 
+checkpoint:42, time:7669, size:288 
+checkpoint:43, time:14526, size:712 
+checkpoint:44, time:6184, size:280 
+checkpoint:45, time:14829, size:744 
+checkpoint:46, time:13342, size:648 
+checkpoint:47, time:6301, size:240 
+checkpoint:48, time:16341, size:808 
+checkpoint:49, time:16134, size:792 
+checkpoint:50, time:14762, size:744 
+checkpoint:51, time:13340, size:648 
+checkpoint:52, time:6034, size:232 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+

@@ -1,0 +1,48 @@
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (32768 Mbytes) does not match the address range assigned (4096 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/sim/kernel_workload.cc:46: info: kernel located at: /home/kparun/stack_persistence/gemOS_nvm_test3/gemOS.kernel
+      0: system.pc.south_bridge.cmos.rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+system.pc.com_1.device: Listening for connections on port 3457
+0: system.remote_gdb: listening for remote gdb on port 7001
+build/X86/dev/intel_8254_timer.cc:125: warn: Reading current count from inactive timer.
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.1
+gem5 compiled Jun  7 2022 18:27:02
+gem5 started Jun  7 2022 20:13:22
+gem5 executing on intel, pid 141453
+command line: ./build/X86/gem5.opt --outdir=/home/kparun/stack_persistence/output/probpoisson/byte/interval/50 configs/example/fs.py --mem-size=3GB --nvm-size=2GB --caches --l3cache --cpu-type TimingSimpleCPU --hybrid-channel True --mem-type=DDR4_2400_16x4 --nvm-type=NVM_2666_1x64 --kernel=/home/kparun/stack_persistence/gemOS_nvm_test3/gemOS.kernel --disk-image /home/kparun/stack_persistence/gem5/fullsystem_images/gemos.img
+
+**** REAL SIMULATION ****
+warn: system.workload.acpi_description_table_pointer.rsdt adopting orphan SimObject param 'entries'
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/dev/x86/pc.cc:117: warn: Don't know what interrupt to clear for console.
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x168
+27387830088: system.pc.com_1.device: attach terminal 0
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x11f2
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x11f6
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1cb2
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x1cb5
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2765
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x2769
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3219
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x321d
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3ccd
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x3cd1
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4781
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x4785
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5235
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5239
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5ce9
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5ced
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5d96
+build/X86/arch/x86/cpuid.cc:185: warn: x86 cpuid: unknown family 0x5d9a
+524035435338: system.pc.com_1.device: detach terminal 0
+Exiting @ tick 524095466580 because m5_exit instruction encountered

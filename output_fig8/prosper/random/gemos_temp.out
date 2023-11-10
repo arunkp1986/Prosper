@@ -1,0 +1,166 @@
+spawn telnet localhost 3456
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+==== m5 terminal: Terminal 0 ====
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11B238 EBP=0x11B2A8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# init
+Setting up init process ...
+Page table setup done, launching init ...
+next free:0x7FFFFFE000
+next free:0x7FFFFFD000
+next free:0x7FFFFFC000
+next free:0x7FFFFFB000
+next free:0x7FFFFFA000
+next free:0x7FFFFF9000
+next free:0x7FFFFF8000
+next free:0x7FFFFF7000
+next free:0x7FFFFF6000
+next free:0x7FFFFF5000
+next free:0x7FFFFF4000
+next free:0x7FFFFF3000
+next free:0x7FFFFF2000
+next free:0x7FFFFF1000
+next free:0x7FFFFF0000
+next free:0x7FFFFEF000
+next free:0x7FFFFEE000
+next free:0x7FFFFED000
+next free:0x7FFFFEC000
+next free:0x7FFFFEB000
+next free:0x7FFFFEA000
+next free:0x7FFFFE9000
+next free:0x7FFFFE8000
+next free:0x7FFFFE7000
+next free:0x7FFFFE6000
+next free:0x7FFFFE5000
+next free:0x7FFFFE4000
+next free:0x7FFFFE3000
+next free:0x7FFFFE2000
+next free:0x7FFFFE1000
+next free:0x7FFFFE0000
+next free:0x7FFFFDF000
+next free:0x7FFFFDE000
+next free:0x7FFFFDD000
+next free:0x7FFFFDC000
+next free:0x7FFFFDB000
+next free:0x7FFFFDA000
+next free:0x7FFFFD9000
+next free:0x7FFFFD8000
+next free:0x7FFFFD7000
+next free:0x7FFFFD6000
+next free:0x7FFFFD5000
+next free:0x7FFFFD4000
+next free:0x7FFFFD3000
+next free:0x7FFFFD2000
+next free:0x7FFFFD1000
+next free:0x7FFFFD0000
+next free:0x7FFFFCF000
+next free:0x7FFFFCE000
+next free:0x7FFFFCD000
+next free:0x7FFFFCC000
+next free:0x7FFFFCB000
+next free:0x7FFFFCA000
+next free:0x7FFFFC9000
+next free:0x7FFFFC8000
+next free:0x7FFFFC7000
+next free:0x7FFFFC6000
+next free:0x7FFFFC5000
+next free:0x7FFFFC4000
+next free:0x7FFFFC3000
+next free:0x7FFFFC2000
+next free:0x7FFFFC1000
+next free:0x7FFFFC0000
+next free:0x7FFFFBF000
+next free:0x7FFFFBE000
+next free:0x7FFFFBD000
+next free:0x7FFFFBC000
+next free:0x7FFFFBB000
+next free:0x7FFFFBA000
+next free:0x7FFFFB9000
+next free:0x7FFFFB8000
+next free:0x7FFFFB7000
+next free:0x7FFFFB6000
+next free:0x7FFFFB5000
+next free:0x7FFFFB4000
+next free:0x7FFFFB3000
+next free:0x7FFFFB2000
+next free:0x7FFFFB1000
+next free:0x7FFFFB0000
+next free:0x7FFFFAF000
+next free:0x7FFFFAE000
+next free:0x7FFFFAD000
+next free:0x7FFFFAC000
+next free:0x7FFFFAB000
+next free:0x7FFFFAA000
+next free:0x7FFFFA9000
+next free:0x7FFFFA8000
+next free:0x7FFFFA7000
+next free:0x7FFFFA6000
+next free:0x7FFFFA5000
+next free:0x7FFFFA4000
+next free:0x7FFFFA3000
+next free:0x7FFFFA2000
+next free:0x7FFFFA1000
+next free:0x7FFFFA0000
+next free:0x7FFFF9F000
+next free:0x7FFFF9E000
+next free:0x7FFFF9D000
+next free:0x7FFFF9C000
+next free:0x7FFFF9B000
+next free:0x7FFFF9A000
+next free:0x7FFFF99000
+next free:0x7FFFF98000
+next free:0x7FFFF97000
+next free:0x7FFFF96000
+next free:0x7FFFF95000
+next free:0x7FFFF94000
+next free:0x7FFFF93000
+next free:0x7FFFF92000
+next free:0x7FFFF91000
+next free:0x7FFFF90000
+next free:0x7FFFF8F000
+next free:0x7FFFF8E000
+next free:0x7FFFF8D000
+next free:0x7FFFF8C000
+next free:0x7FFFF8B000
+next free:0x7FFFF8A000
+next free:0x7FFFF89000
+next free:0x7FFFF88000
+next free:0x7FFFF87000
+next free:0x7FFFF86000
+next free:0x7FFFF85000
+next free:0x7FFFF84000
+next free:0x7FFFF83000
+next free:0x7FFFF82000
+next free:0x7FFFF81000
+next free:0x7FFFF80000
+next free:0x7FFFF7F000
+next free:0x7FFFF7E000
+next free:0x7FFFF7D000
+next free:0x7FFFF7C000
+checkpoint:1, time:2890085, size:26200, actual:135432 
+checkpoint:2, time:7403417, size:72056, actual:410104 
+checkpoint:3, time:2443470, size:26200, actual:135432 
+checkpoint:4, time:5310456, size:58448, actual:307624 
+checkpoint:5, time:2153792, size:22856, actual:119048 
+checkpoint:6, time:6308512, size:68976, actual:381352 
+checkpoint:7, time:4747515, size:52064, actual:270680 
+checkpoint:8, time:1935570, size:20352, actual:106760 
+checkpoint:9, time:95239, size:112, actual:216 
+Cleaned up init process
+GemOS shell again!
+GemOS# exit
+Shutting down...
+Connection closed by foreign host.

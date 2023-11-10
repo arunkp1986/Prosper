@@ -1,0 +1,2294 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x11B258 EBP=0x11B2C8
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+gemOS shell... 
+Found the IDE device. class etc 0x1018000
+Disk Initialization is successful for IDE disk 0x40
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+checkpoint:1, log_time:77518,time_merge:269049, copy_size:0 
+checkpoint:2, log_time:54882,time_merge:3915888, copy_size:237568 
+checkpoint:3, log_time:54711,time_merge:588543, copy_size:36864 
+checkpoint:4, log_time:52640,time_merge:5140576, copy_size:331776 
+checkpoint:5, log_time:53673,time_merge:4054678, copy_size:278528 
+checkpoint:6, log_time:54897,time_merge:3259318, copy_size:229376 
+checkpoint:7, log_time:54669,time_merge:4195655, copy_size:299008 
+checkpoint:8, log_time:52753,time_merge:6736501, copy_size:455168 
+checkpoint:9, log_time:53381,time_merge:2899801, copy_size:205312 
+checkpoint:10, log_time:53415,time_merge:1662658, copy_size:114688 
+checkpoint:11, log_time:54678,time_merge:930579, copy_size:61440 
+checkpoint:12, log_time:52870,time_merge:5979398, copy_size:422400 
+checkpoint:13, log_time:53714,time_merge:2044858, copy_size:143360 
+checkpoint:14, log_time:54840,time_merge:4238667, copy_size:299520 
+checkpoint:15, log_time:54759,time_merge:1762349, copy_size:122880 
+checkpoint:16, log_time:53049,time_merge:6051315, copy_size:430592 
+checkpoint:17, log_time:53523,time_merge:752095, copy_size:49152 
+checkpoint:18, log_time:54678,time_merge:757365, copy_size:49152 
+checkpoint:19, log_time:54846,time_merge:3590425, copy_size:254464 
+checkpoint:20, log_time:53139,time_merge:3323993, copy_size:233472 
+checkpoint:21, log_time:54696,time_merge:3039908, copy_size:212992 
+checkpoint:22, log_time:54750,time_merge:3653269, copy_size:258048 
+checkpoint:23, log_time:54862,time_merge:4400913, copy_size:311808 
+checkpoint:24, log_time:53304,time_merge:4132652, copy_size:290816 
+checkpoint:25, log_time:54678,time_merge:2681158, copy_size:188416 
+checkpoint:26, log_time:54681,time_merge:2506924, copy_size:176128 
+checkpoint:27, log_time:54723,time_merge:2750935, copy_size:192512 
+checkpoint:28, log_time:53159,time_merge:3135978, copy_size:217088 
+checkpoint:29, log_time:54846,time_merge:4115651, copy_size:290816 
+checkpoint:30, log_time:54756,time_merge:3711377, copy_size:262144 
+checkpoint:31, log_time:54891,time_merge:4424284, copy_size:316416 
+checkpoint:32, log_time:53340,time_merge:4263622, copy_size:299008 
+checkpoint:33, log_time:54756,time_merge:3661121, copy_size:258048 
+checkpoint:34, log_time:54783,time_merge:2279034, copy_size:159744 
+checkpoint:35, log_time:54708,time_merge:1259504, copy_size:86016 
+checkpoint:36, log_time:52907,time_merge:5599117, copy_size:397312 
+checkpoint:37, log_time:54705,time_merge:3974779, copy_size:283136 
+checkpoint:38, log_time:54859,time_merge:4524737, copy_size:320000 
+checkpoint:39, log_time:54831,time_merge:4431345, copy_size:311808 
+checkpoint:40, log_time:53198,time_merge:2809866, copy_size:192512 
+checkpoint:41, log_time:54789,time_merge:2666606, copy_size:188416 
+checkpoint:42, log_time:54861,time_merge:3101038, copy_size:217088 
+checkpoint:43, log_time:54832,time_merge:3197538, copy_size:225280 
+checkpoint:44, log_time:53896,time_merge:4850527, copy_size:340480 
+checkpoint:45, log_time:54738,time_merge:1827938, copy_size:126976 
+checkpoint:46, log_time:54702,time_merge:3147724, copy_size:221696 
+checkpoint:47, log_time:54798,time_merge:3772342, copy_size:266240 
+checkpoint:48, log_time:53129,time_merge:4985822, copy_size:352256 
+checkpoint:49, log_time:54690,time_merge:2526828, copy_size:176128 
+checkpoint:50, log_time:54693,time_merge:3949447, copy_size:278528 
+checkpoint:51, log_time:54831,time_merge:4174908, copy_size:295424 
+checkpoint:52, log_time:53694,time_merge:6420610, copy_size:455168 
+checkpoint:53, log_time:54807,time_merge:4197182, copy_size:299008 
+checkpoint:54, log_time:54681,time_merge:3228212, copy_size:225280 
+checkpoint:55, log_time:52778,time_merge:5560185, copy_size:389632 
+checkpoint:56, log_time:53455,time_merge:1886537, copy_size:131072 
+checkpoint:57, log_time:54762,time_merge:4317308, copy_size:307712 
+checkpoint:58, log_time:54861,time_merge:2235950, copy_size:155648 
+checkpoint:59, log_time:52943,time_merge:2029478, copy_size:139264 
+checkpoint:60, log_time:54484,time_merge:2488756, copy_size:176128 
+checkpoint:61, log_time:54883,time_merge:1943243, copy_size:135168 
+checkpoint:62, log_time:54708,time_merge:1317742, copy_size:90112 
+checkpoint:63, log_time:53267,time_merge:4405789, copy_size:311296 
+checkpoint:64, log_time:54563,time_merge:3196236, copy_size:225792 
+checkpoint:65, log_time:54792,time_merge:3516396, copy_size:249856 
+checkpoint:66, log_time:54762,time_merge:3015600, copy_size:212992 
+checkpoint:67, log_time:52816,time_merge:6406850, copy_size:455680 
+checkpoint:68, log_time:54645,time_merge:4169694, copy_size:294912 
+checkpoint:69, log_time:54519,time_merge:3665655, copy_size:258048 
+checkpoint:70, log_time:54879,time_merge:4084047, copy_size:290816 
+checkpoint:71, log_time:52950,time_merge:4607164, copy_size:323584 
+checkpoint:72, log_time:54113,time_merge:4572808, copy_size:324096 
+checkpoint:73, log_time:54759,time_merge:3897370, copy_size:274432 
+checkpoint:74, log_time:54823,time_merge:2550581, copy_size:180224 
+checkpoint:75, log_time:53421,time_merge:3560402, copy_size:249856 
+checkpoint:76, log_time:54579,time_merge:3346792, copy_size:237568 
+checkpoint:77, log_time:54705,time_merge:1989102, copy_size:139264 
+checkpoint:78, log_time:54756,time_merge:3818118, copy_size:270336 
+checkpoint:79, log_time:53324,time_merge:3171644, copy_size:221184 
+checkpoint:80, log_time:54786,time_merge:3573931, copy_size:253952 
+checkpoint:81, log_time:54759,time_merge:3064863, copy_size:217088 
+checkpoint:82, log_time:54877,time_merge:4556730, copy_size:324608 
+checkpoint:83, log_time:53517,time_merge:2152082, copy_size:147456 
+checkpoint:84, log_time:54696,time_merge:2799459, copy_size:196608 
+checkpoint:85, log_time:54831,time_merge:3763637, copy_size:266240 
+checkpoint:86, log_time:54799,time_merge:4620993, copy_size:327680 
+checkpoint:87, log_time:53866,time_merge:4627578, copy_size:324096 
+checkpoint:88, log_time:54424,time_merge:1847270, copy_size:126976 
+checkpoint:89, log_time:54804,time_merge:2779570, copy_size:196608 
+checkpoint:90, log_time:54684,time_merge:2124909, copy_size:147456 
+checkpoint:91, log_time:53006,time_merge:5802895, copy_size:409600 
+checkpoint:92, log_time:54796,time_merge:4625029, copy_size:328192 
+checkpoint:93, log_time:54882,time_merge:3302716, copy_size:233472 
+checkpoint:94, log_time:54810,time_merge:3511905, copy_size:249856 
+checkpoint:95, log_time:52985,time_merge:3664560, copy_size:258048 
+checkpoint:96, log_time:54672,time_merge:2876216, copy_size:204800 
+checkpoint:97, log_time:54711,time_merge:4519747, copy_size:320512 
+checkpoint:98, log_time:54696,time_merge:3188152, copy_size:225280 
+checkpoint:99, log_time:53995,time_merge:6125202, copy_size:430080 
+checkpoint:100, log_time:54708,time_merge:3453968, copy_size:241664 
+checkpoint:101, log_time:54801,time_merge:2811478, copy_size:197120 
+checkpoint:102, log_time:54681,time_merge:2219361, copy_size:155648 
+checkpoint:103, log_time:54427,time_merge:5768718, copy_size:409600 
+checkpoint:104, log_time:54720,time_merge:3826427, copy_size:270336 
+checkpoint:105, log_time:54756,time_merge:2954036, copy_size:208896 
+checkpoint:106, log_time:52574,time_merge:4081540, copy_size:286720 
+checkpoint:107, log_time:53239,time_merge:3944962, copy_size:279040 
+checkpoint:108, log_time:54681,time_merge:4616820, copy_size:328704 
+checkpoint:109, log_time:54768,time_merge:4318606, copy_size:307712 
+checkpoint:110, log_time:52844,time_merge:4458558, copy_size:315392 
+checkpoint:111, log_time:54645,time_merge:4150808, copy_size:294912 
+checkpoint:112, log_time:54792,time_merge:3695544, copy_size:262144 
+checkpoint:113, log_time:54720,time_merge:1030272, copy_size:69632 
+checkpoint:114, log_time:52902,time_merge:6657857, copy_size:472064 
+checkpoint:115, log_time:54582,time_merge:3121160, copy_size:221184 
+checkpoint:116, log_time:54702,time_merge:2957834, copy_size:209408 
+checkpoint:117, log_time:54816,time_merge:2739728, copy_size:192512 
+checkpoint:118, log_time:52946,time_merge:4469146, copy_size:315392 
+checkpoint:119, log_time:54648,time_merge:3248101, copy_size:229888 
+checkpoint:120, log_time:54867,time_merge:3868743, copy_size:274944 
+checkpoint:121, log_time:54808,time_merge:3678180, copy_size:262144 
+checkpoint:122, log_time:53054,time_merge:4513491, copy_size:319488 
+checkpoint:123, log_time:53995,time_merge:3656718, copy_size:258048 
+checkpoint:124, log_time:54849,time_merge:753525, copy_size:49152 
+checkpoint:125, log_time:54705,time_merge:2281659, copy_size:159744 
+checkpoint:126, log_time:53070,time_merge:6252676, copy_size:438784 
+checkpoint:127, log_time:54702,time_merge:3140789, copy_size:221696 
+checkpoint:128, log_time:54841,time_merge:3010730, copy_size:212992 
+checkpoint:129, log_time:54683,time_merge:2980845, copy_size:212992 
+checkpoint:130, log_time:52861,time_merge:4645817, copy_size:328192 
+checkpoint:131, log_time:54690,time_merge:4200142, copy_size:299520 
+checkpoint:132, log_time:54801,time_merge:4265586, copy_size:299008 
+checkpoint:133, log_time:54777,time_merge:2995625, copy_size:208896 
+checkpoint:134, log_time:53376,time_merge:5322910, copy_size:377344 
+checkpoint:135, log_time:54819,time_merge:4436866, copy_size:315904 
+checkpoint:136, log_time:54822,time_merge:4575341, copy_size:324096 
+checkpoint:137, log_time:54871,time_merge:4613880, copy_size:328192 
+checkpoint:138, log_time:53856,time_merge:4938121, copy_size:344064 
+checkpoint:139, log_time:53526,time_merge:2728402, copy_size:192512 
+checkpoint:140, log_time:54879,time_merge:1100524, copy_size:73728 
+checkpoint:141, log_time:54885,time_merge:921508, copy_size:61440 
+checkpoint:142, log_time:53929,time_merge:4939352, copy_size:348160 
+checkpoint:143, log_time:54696,time_merge:3454976, copy_size:245760 
+checkpoint:144, log_time:54843,time_merge:4210503, copy_size:299520 
+checkpoint:145, log_time:54825,time_merge:2979819, copy_size:208896 
+checkpoint:146, log_time:53118,time_merge:4844257, copy_size:339968 
+checkpoint:147, log_time:54729,time_merge:4217033, copy_size:299520 
+checkpoint:148, log_time:54747,time_merge:4098661, copy_size:290816 
+checkpoint:149, log_time:54702,time_merge:3750675, copy_size:262656 
+checkpoint:150, log_time:54021,time_merge:5445969, copy_size:385536 
+checkpoint:151, log_time:54741,time_merge:4227203, copy_size:299008 
+checkpoint:152, log_time:54765,time_merge:3608707, copy_size:254464 
+checkpoint:153, log_time:54699,time_merge:2753036, copy_size:192512 
+checkpoint:154, log_time:54039,time_merge:6120406, copy_size:430592 
+checkpoint:155, log_time:54160,time_merge:3899169, copy_size:274432 
+checkpoint:156, log_time:54798,time_merge:3224894, copy_size:229376 
+checkpoint:157, log_time:52763,time_merge:4713172, copy_size:335872 
+checkpoint:158, log_time:53263,time_merge:2012621, copy_size:139264 
+checkpoint:159, log_time:54684,time_merge:2451640, copy_size:172032 
+checkpoint:160, log_time:54690,time_merge:3451746, copy_size:245760 
+checkpoint:161, log_time:52783,time_merge:6070037, copy_size:430592 
+checkpoint:162, log_time:54696,time_merge:3468443, copy_size:245760 
+checkpoint:163, log_time:54693,time_merge:4432257, copy_size:316416 
+checkpoint:164, log_time:54759,time_merge:2497902, copy_size:172032 
+checkpoint:165, log_time:53112,time_merge:6145051, copy_size:434688 
+checkpoint:166, log_time:54550,time_merge:4311042, copy_size:303616 
+checkpoint:167, log_time:54790,time_merge:4291606, copy_size:303616 
+checkpoint:168, log_time:54831,time_merge:3572693, copy_size:249856 
+checkpoint:169, log_time:53075,time_merge:5191638, copy_size:369152 
+checkpoint:170, log_time:54651,time_merge:2274974, copy_size:159744 
+checkpoint:171, log_time:54802,time_merge:2637743, copy_size:184320 
+checkpoint:172, log_time:54886,time_merge:2728696, copy_size:192512 
+checkpoint:173, log_time:52978,time_merge:6074518, copy_size:434176 
+checkpoint:174, log_time:54242,time_merge:2915052, copy_size:204800 
+checkpoint:175, log_time:54894,time_merge:1270856, copy_size:86016 
+checkpoint:176, log_time:54828,time_merge:2698435, copy_size:188416 
+checkpoint:177, log_time:53009,time_merge:6160042, copy_size:434688 
+checkpoint:178, log_time:54099,time_merge:4228482, copy_size:299008 
+checkpoint:179, log_time:54732,time_merge:3484455, copy_size:245760 
+checkpoint:180, log_time:54784,time_merge:3718724, copy_size:262144 
+checkpoint:181, log_time:53024,time_merge:6511757, copy_size:459776 
+checkpoint:182, log_time:54831,time_merge:3563669, copy_size:249856 
+checkpoint:183, log_time:54822,time_merge:2959959, copy_size:208896 
+checkpoint:184, log_time:54753,time_merge:2833581, copy_size:200704 
+checkpoint:185, log_time:52893,time_merge:6864971, copy_size:488448 
+checkpoint:186, log_time:53538,time_merge:2116097, copy_size:147456 
+checkpoint:187, log_time:53465,time_merge:1498739, copy_size:102400 
+checkpoint:188, log_time:54834,time_merge:2859007, copy_size:200704 
+checkpoint:189, log_time:52937,time_merge:4849974, copy_size:344064 
+checkpoint:190, log_time:54615,time_merge:3152553, copy_size:221696 
+checkpoint:191, log_time:54804,time_merge:3693169, copy_size:262144 
+checkpoint:192, log_time:54840,time_merge:2447040, copy_size:172032 
+checkpoint:193, log_time:53065,time_merge:4064394, copy_size:287232 
+checkpoint:194, log_time:53363,time_merge:4040009, copy_size:287232 
+checkpoint:195, log_time:54729,time_merge:3350081, copy_size:237568 
+checkpoint:196, log_time:54687,time_merge:4029641, copy_size:287232 
+checkpoint:197, log_time:52876,time_merge:6013979, copy_size:426496 
+checkpoint:198, log_time:54768,time_merge:4376226, copy_size:312320 
+checkpoint:199, log_time:52932,time_merge:4203090, copy_size:294912 
+checkpoint:200, log_time:54732,time_merge:3668231, copy_size:258048 
+checkpoint:201, log_time:53148,time_merge:4839719, copy_size:344064 
+checkpoint:202, log_time:54835,time_merge:3692908, copy_size:258048 
+checkpoint:203, log_time:54711,time_merge:3388320, copy_size:241664 
+checkpoint:204, log_time:54862,time_merge:4328498, copy_size:307712 
+checkpoint:205, log_time:53203,time_merge:4777867, copy_size:336384 
+checkpoint:206, log_time:54871,time_merge:4626447, copy_size:324096 
+checkpoint:207, log_time:54711,time_merge:1811798, copy_size:126976 
+checkpoint:208, log_time:52787,time_merge:3735170, copy_size:262144 
+checkpoint:209, log_time:53529,time_merge:3548718, copy_size:249856 
+checkpoint:210, log_time:54804,time_merge:3196430, copy_size:225280 
+checkpoint:211, log_time:54732,time_merge:3457622, copy_size:245760 
+checkpoint:212, log_time:52941,time_merge:5305119, copy_size:377344 
+checkpoint:213, log_time:54636,time_merge:2864021, copy_size:200704 
+checkpoint:214, log_time:54756,time_merge:2896691, copy_size:204800 
+checkpoint:215, log_time:54813,time_merge:4080819, copy_size:290816 
+checkpoint:216, log_time:53155,time_merge:6119385, copy_size:430592 
+checkpoint:217, log_time:54518,time_merge:3272651, copy_size:229888 
+checkpoint:218, log_time:54835,time_merge:3701462, copy_size:262144 
+checkpoint:219, log_time:54840,time_merge:3253910, copy_size:229888 
+checkpoint:220, log_time:53168,time_merge:3781984, copy_size:266240 
+checkpoint:221, log_time:54807,time_merge:1944318, copy_size:135168 
+checkpoint:222, log_time:54709,time_merge:4228526, copy_size:299008 
+checkpoint:223, log_time:54711,time_merge:4355706, copy_size:307712 
+checkpoint:224, log_time:52854,time_merge:6017220, copy_size:426496 
+checkpoint:225, log_time:54795,time_merge:2307233, copy_size:159744 
+checkpoint:226, log_time:54858,time_merge:4079920, copy_size:287232 
+checkpoint:227, log_time:54852,time_merge:2219961, copy_size:155648 
+checkpoint:228, log_time:52925,time_merge:4489181, copy_size:319488 
+checkpoint:229, log_time:53309,time_merge:1821585, copy_size:126976 
+checkpoint:230, log_time:54813,time_merge:1316226, copy_size:90112 
+checkpoint:231, log_time:54792,time_merge:2283887, copy_size:159744 
+checkpoint:232, log_time:53241,time_merge:5624216, copy_size:397312 
+checkpoint:233, log_time:54840,time_merge:2510204, copy_size:176128 
+checkpoint:234, log_time:54772,time_merge:3259535, copy_size:229888 
+checkpoint:235, log_time:54606,time_merge:2849819, copy_size:200704 
+checkpoint:236, log_time:53316,time_merge:4453253, copy_size:311296 
+checkpoint:237, log_time:54744,time_merge:1259673, copy_size:86016 
+checkpoint:238, log_time:54825,time_merge:3786366, copy_size:270336 
+checkpoint:239, log_time:54696,time_merge:1767777, copy_size:122880 
+checkpoint:240, log_time:53329,time_merge:5387124, copy_size:381952 
+checkpoint:241, log_time:54175,time_merge:3971448, copy_size:278528 
+checkpoint:242, log_time:54756,time_merge:2017541, copy_size:139264 
+checkpoint:243, log_time:54703,time_merge:3489347, copy_size:245760 
+checkpoint:244, log_time:52908,time_merge:4786719, copy_size:335872 
+checkpoint:245, log_time:54672,time_merge:4057085, copy_size:287232 
+checkpoint:246, log_time:54675,time_merge:3894331, copy_size:274432 
+checkpoint:247, log_time:54693,time_merge:3614867, copy_size:253952 
+checkpoint:248, log_time:53400,time_merge:3518613, copy_size:245760 
+checkpoint:249, log_time:54756,time_merge:2845998, copy_size:200704 
+checkpoint:250, log_time:54883,time_merge:4088751, copy_size:290816 
+checkpoint:251, log_time:54775,time_merge:4135439, copy_size:290816 
+checkpoint:252, log_time:54363,time_merge:6272587, copy_size:442880 
+checkpoint:253, log_time:54732,time_merge:3542733, copy_size:250368 
+checkpoint:254, log_time:54870,time_merge:4208630, copy_size:294912 
+checkpoint:255, log_time:54798,time_merge:1605325, copy_size:110592 
+checkpoint:256, log_time:54128,time_merge:5599666, copy_size:397312 
+checkpoint:257, log_time:54699,time_merge:3188073, copy_size:225792 
+checkpoint:258, log_time:54699,time_merge:3676364, copy_size:262144 
+checkpoint:259, log_time:52769,time_merge:4516343, copy_size:319488 
+checkpoint:260, log_time:54381,time_merge:3460231, copy_size:245760 
+checkpoint:261, log_time:54617,time_merge:3660562, copy_size:258048 
+checkpoint:262, log_time:54696,time_merge:1879407, copy_size:131072 
+checkpoint:263, log_time:52911,time_merge:5377693, copy_size:381440 
+checkpoint:264, log_time:54527,time_merge:2100428, copy_size:147456 
+checkpoint:265, log_time:54769,time_merge:3027892, copy_size:212992 
+checkpoint:266, log_time:54758,time_merge:1373560, copy_size:94208 
+checkpoint:267, log_time:52904,time_merge:6343347, copy_size:451072 
+checkpoint:268, log_time:53507,time_merge:2447545, copy_size:172032 
+checkpoint:269, log_time:54748,time_merge:3663893, copy_size:258048 
+checkpoint:270, log_time:54835,time_merge:1163715, copy_size:77824 
+checkpoint:271, log_time:52834,time_merge:5461096, copy_size:385536 
+checkpoint:272, log_time:54576,time_merge:2963258, copy_size:208896 
+checkpoint:273, log_time:54570,time_merge:752404, copy_size:49152 
+checkpoint:274, log_time:54897,time_merge:1091294, copy_size:73728 
+checkpoint:275, log_time:52899,time_merge:5363192, copy_size:377344 
+checkpoint:276, log_time:54810,time_merge:4112528, copy_size:287232 
+checkpoint:277, log_time:54801,time_merge:3373412, copy_size:241664 
+checkpoint:278, log_time:54676,time_merge:3545391, copy_size:249856 
+checkpoint:279, log_time:52926,time_merge:5938760, copy_size:418304 
+checkpoint:280, log_time:54717,time_merge:3030546, copy_size:212992 
+checkpoint:281, log_time:54693,time_merge:3105754, copy_size:221184 
+checkpoint:282, log_time:54711,time_merge:3822581, copy_size:270848 
+checkpoint:283, log_time:53622,time_merge:3556974, copy_size:245760 
+checkpoint:284, log_time:54841,time_merge:3894275, copy_size:274944 
+checkpoint:285, log_time:54633,time_merge:1713387, copy_size:118784 
+checkpoint:286, log_time:54696,time_merge:4248101, copy_size:303104 
+checkpoint:287, log_time:53297,time_merge:4846511, copy_size:344064 
+checkpoint:288, log_time:54870,time_merge:3556235, copy_size:250368 
+checkpoint:289, log_time:54736,time_merge:3517798, copy_size:245760 
+checkpoint:290, log_time:54693,time_merge:3679071, copy_size:258560 
+checkpoint:291, log_time:53873,time_merge:5130532, copy_size:360960 
+checkpoint:292, log_time:54675,time_merge:3914394, copy_size:278528 
+checkpoint:293, log_time:54822,time_merge:4027910, copy_size:287232 
+checkpoint:294, log_time:54768,time_merge:1098601, copy_size:73728 
+checkpoint:295, log_time:54118,time_merge:6181976, copy_size:434176 
+checkpoint:296, log_time:54709,time_merge:4503035, copy_size:320512 
+checkpoint:297, log_time:54856,time_merge:3715828, copy_size:262656 
+checkpoint:298, log_time:54885,time_merge:2972775, copy_size:208896 
+checkpoint:299, log_time:53408,time_merge:4825270, copy_size:339968 
+checkpoint:300, log_time:54741,time_merge:4038142, copy_size:287232 
+checkpoint:301, log_time:54314,time_merge:4561276, copy_size:324096 
+checkpoint:302, log_time:54711,time_merge:2496547, copy_size:176128 
+checkpoint:303, log_time:53087,time_merge:6238421, copy_size:442880 
+checkpoint:304, log_time:54825,time_merge:3150950, copy_size:221184 
+checkpoint:305, log_time:54615,time_merge:1662599, copy_size:114688 
+checkpoint:306, log_time:54752,time_merge:583126, copy_size:36864 
+checkpoint:307, log_time:54364,time_merge:6834491, copy_size:484352 
+checkpoint:308, log_time:54765,time_merge:4118700, copy_size:290816 
+checkpoint:309, log_time:54711,time_merge:3713840, copy_size:262144 
+checkpoint:310, log_time:52749,time_merge:6021053, copy_size:426496 
+checkpoint:311, log_time:53912,time_merge:4308645, copy_size:307712 
+checkpoint:312, log_time:54687,time_merge:1827803, copy_size:126976 
+checkpoint:313, log_time:54852,time_merge:3779438, copy_size:266240 
+checkpoint:314, log_time:52860,time_merge:3917316, copy_size:274944 
+checkpoint:315, log_time:54674,time_merge:4479899, copy_size:315904 
+checkpoint:316, log_time:53568,time_merge:3199322, copy_size:225280 
+checkpoint:317, log_time:54753,time_merge:1954911, copy_size:135168 
+checkpoint:318, log_time:52916,time_merge:5115072, copy_size:360448 
+checkpoint:319, log_time:53523,time_merge:1941360, copy_size:135168 
+checkpoint:320, log_time:54876,time_merge:3520789, copy_size:249856 
+checkpoint:321, log_time:54879,time_merge:1940549, copy_size:135168 
+checkpoint:322, log_time:52894,time_merge:5190882, copy_size:369152 
+checkpoint:323, log_time:54189,time_merge:3605588, copy_size:254464 
+checkpoint:324, log_time:54720,time_merge:3657700, copy_size:258048 
+checkpoint:325, log_time:54844,time_merge:3625809, copy_size:258048 
+checkpoint:326, log_time:53400,time_merge:5300518, copy_size:373248 
+checkpoint:327, log_time:52878,time_merge:4451256, copy_size:316416 
+checkpoint:328, log_time:54678,time_merge:2644868, copy_size:184320 
+checkpoint:329, log_time:54675,time_merge:2676392, copy_size:188416 
+checkpoint:330, log_time:53147,time_merge:5756582, copy_size:406016 
+checkpoint:331, log_time:54858,time_merge:1483716, copy_size:102400 
+checkpoint:332, log_time:54862,time_merge:1716133, copy_size:118784 
+checkpoint:333, log_time:54802,time_merge:4290932, copy_size:303616 
+checkpoint:334, log_time:52974,time_merge:5108424, copy_size:360960 
+checkpoint:335, log_time:54690,time_merge:3074894, copy_size:217088 
+checkpoint:336, log_time:54693,time_merge:3659885, copy_size:258048 
+checkpoint:337, log_time:54678,time_merge:3721147, copy_size:262656 
+checkpoint:338, log_time:53129,time_merge:5183949, copy_size:364544 
+checkpoint:339, log_time:53552,time_merge:4596813, copy_size:324096 
+checkpoint:340, log_time:54855,time_merge:3637157, copy_size:258048 
+checkpoint:341, log_time:54696,time_merge:1540391, copy_size:106496 
+checkpoint:342, log_time:53175,time_merge:5745435, copy_size:406016 
+checkpoint:343, log_time:53394,time_merge:2177672, copy_size:151552 
+checkpoint:344, log_time:54681,time_merge:1822595, copy_size:126976 
+checkpoint:345, log_time:54765,time_merge:2566561, copy_size:180224 
+checkpoint:346, log_time:54178,time_merge:6675720, copy_size:475648 
+checkpoint:347, log_time:54879,time_merge:4255044, copy_size:299008 
+checkpoint:348, log_time:54711,time_merge:2950485, copy_size:208896 
+checkpoint:349, log_time:54843,time_merge:2391444, copy_size:167936 
+checkpoint:350, log_time:53063,time_merge:3569743, copy_size:249856 
+checkpoint:351, log_time:54822,time_merge:3266338, copy_size:229376 
+checkpoint:352, log_time:54714,time_merge:4206550, copy_size:299520 
+checkpoint:353, log_time:54828,time_merge:3251729, copy_size:229888 
+checkpoint:354, log_time:53439,time_merge:4860814, copy_size:344064 
+checkpoint:355, log_time:54202,time_merge:2697042, copy_size:192512 
+checkpoint:356, log_time:54828,time_merge:2864318, copy_size:200704 
+checkpoint:357, log_time:54681,time_merge:2815323, copy_size:196608 
+checkpoint:358, log_time:53107,time_merge:4494431, copy_size:315392 
+checkpoint:359, log_time:54687,time_merge:2396651, copy_size:167936 
+checkpoint:360, log_time:54843,time_merge:3646943, copy_size:258048 
+checkpoint:361, log_time:52733,time_merge:4696561, copy_size:331776 
+checkpoint:362, log_time:54527,time_merge:4018260, copy_size:286720 
+checkpoint:363, log_time:54678,time_merge:2043293, copy_size:143360 
+checkpoint:364, log_time:54760,time_merge:4232037, copy_size:299008 
+checkpoint:365, log_time:52919,time_merge:4190178, copy_size:295424 
+checkpoint:366, log_time:54371,time_merge:2946940, copy_size:208896 
+checkpoint:367, log_time:54832,time_merge:2727322, copy_size:192512 
+checkpoint:368, log_time:54780,time_merge:2515803, copy_size:176128 
+checkpoint:369, log_time:52933,time_merge:6952753, copy_size:492032 
+checkpoint:370, log_time:54322,time_merge:3864609, copy_size:274432 
+checkpoint:371, log_time:54693,time_merge:2217014, copy_size:155648 
+checkpoint:372, log_time:54684,time_merge:2710997, copy_size:192512 
+checkpoint:373, log_time:52884,time_merge:4875390, copy_size:344064 
+checkpoint:374, log_time:54005,time_merge:2609237, copy_size:184320 
+checkpoint:375, log_time:54684,time_merge:4198540, copy_size:299008 
+checkpoint:376, log_time:54772,time_merge:2502319, copy_size:176128 
+checkpoint:377, log_time:53136,time_merge:3838473, copy_size:270336 
+checkpoint:378, log_time:54762,time_merge:3069657, copy_size:217088 
+checkpoint:379, log_time:54682,time_merge:4546226, copy_size:320000 
+checkpoint:380, log_time:54693,time_merge:3757778, copy_size:262144 
+checkpoint:381, log_time:52986,time_merge:6441518, copy_size:455168 
+checkpoint:382, log_time:54126,time_merge:4063045, copy_size:287232 
+checkpoint:383, log_time:54852,time_merge:3190006, copy_size:225280 
+checkpoint:384, log_time:54702,time_merge:1711780, copy_size:118784 
+checkpoint:385, log_time:53322,time_merge:3415203, copy_size:237568 
+checkpoint:386, log_time:53195,time_merge:3301076, copy_size:233472 
+checkpoint:387, log_time:54729,time_merge:4419528, copy_size:311296 
+checkpoint:388, log_time:54684,time_merge:3289258, copy_size:229888 
+checkpoint:389, log_time:53097,time_merge:6050690, copy_size:426496 
+checkpoint:390, log_time:54786,time_merge:2059497, copy_size:143360 
+checkpoint:391, log_time:54792,time_merge:1822029, copy_size:126976 
+checkpoint:392, log_time:54680,time_merge:1255493, copy_size:86016 
+checkpoint:393, log_time:53079,time_merge:4405994, copy_size:311296 
+checkpoint:394, log_time:54705,time_merge:3113147, copy_size:221184 
+checkpoint:395, log_time:54864,time_merge:1940034, copy_size:135168 
+checkpoint:396, log_time:54879,time_merge:2508105, copy_size:176128 
+checkpoint:397, log_time:53147,time_merge:4741240, copy_size:335872 
+checkpoint:398, log_time:54837,time_merge:4204006, copy_size:294912 
+checkpoint:399, log_time:54855,time_merge:2471270, copy_size:172032 
+checkpoint:400, log_time:54822,time_merge:1921671, copy_size:135168 
+checkpoint:401, log_time:52935,time_merge:5725940, copy_size:406016 
+checkpoint:402, log_time:54696,time_merge:3427146, copy_size:241664 
+checkpoint:403, log_time:54687,time_merge:4262406, copy_size:303616 
+checkpoint:404, log_time:54774,time_merge:3562360, copy_size:253952 
+checkpoint:405, log_time:53390,time_merge:5249403, copy_size:368640 
+checkpoint:406, log_time:53481,time_merge:2717080, copy_size:192512 
+checkpoint:407, log_time:54687,time_merge:2850590, copy_size:200704 
+checkpoint:408, log_time:54723,time_merge:4173348, copy_size:294912 
+checkpoint:409, log_time:53103,time_merge:6413337, copy_size:455168 
+checkpoint:410, log_time:54705,time_merge:2691746, copy_size:188416 
+checkpoint:411, log_time:54696,time_merge:4100153, copy_size:290816 
+checkpoint:412, log_time:52782,time_merge:4234375, copy_size:299008 
+checkpoint:413, log_time:53327,time_merge:3100948, copy_size:217088 
+checkpoint:414, log_time:54687,time_merge:3260772, copy_size:229888 
+checkpoint:415, log_time:53538,time_merge:3927332, copy_size:279040 
+checkpoint:416, log_time:52790,time_merge:5092426, copy_size:360448 
+checkpoint:417, log_time:54312,time_merge:4581739, copy_size:324096 
+checkpoint:418, log_time:54807,time_merge:2815397, copy_size:196608 
+checkpoint:419, log_time:54732,time_merge:2976354, copy_size:208896 
+checkpoint:420, log_time:53007,time_merge:4858068, copy_size:344064 
+checkpoint:421, log_time:54445,time_merge:3893432, copy_size:274432 
+checkpoint:422, log_time:54756,time_merge:3698336, copy_size:262144 
+checkpoint:423, log_time:54702,time_merge:3343986, copy_size:233472 
+checkpoint:424, log_time:53338,time_merge:3475955, copy_size:241664 
+checkpoint:425, log_time:54738,time_merge:2500562, copy_size:176128 
+checkpoint:426, log_time:54873,time_merge:2802921, copy_size:196608 
+checkpoint:427, log_time:54843,time_merge:921983, copy_size:61440 
+checkpoint:428, log_time:52913,time_merge:4567994, copy_size:323584 
+checkpoint:429, log_time:53358,time_merge:1772107, copy_size:122880 
+checkpoint:430, log_time:54837,time_merge:3361986, copy_size:237568 
+checkpoint:431, log_time:54823,time_merge:4080231, copy_size:290816 
+checkpoint:432, log_time:53118,time_merge:3931187, copy_size:278528 
+checkpoint:433, log_time:54681,time_merge:3905559, copy_size:274944 
+checkpoint:434, log_time:54814,time_merge:3350680, copy_size:237568 
+checkpoint:435, log_time:54762,time_merge:3012096, copy_size:212992 
+checkpoint:436, log_time:53180,time_merge:6289521, copy_size:442880 
+checkpoint:437, log_time:53291,time_merge:3936444, copy_size:278528 
+checkpoint:438, log_time:54681,time_merge:2107889, copy_size:147456 
+checkpoint:439, log_time:54705,time_merge:3784755, copy_size:266240 
+checkpoint:440, log_time:53264,time_merge:4906518, copy_size:344064 
+checkpoint:441, log_time:54756,time_merge:2871819, copy_size:200704 
+checkpoint:442, log_time:54700,time_merge:4574096, copy_size:324096 
+checkpoint:443, log_time:54873,time_merge:2707540, copy_size:188416 
+checkpoint:444, log_time:53366,time_merge:2936371, copy_size:204800 
+checkpoint:445, log_time:54843,time_merge:3444631, copy_size:245760 
+checkpoint:446, log_time:54711,time_merge:3116032, copy_size:221184 
+checkpoint:447, log_time:54756,time_merge:2718405, copy_size:192512 
+checkpoint:448, log_time:53169,time_merge:6763832, copy_size:475648 
+checkpoint:449, log_time:53673,time_merge:3485450, copy_size:245760 
+checkpoint:450, log_time:54871,time_merge:4186266, copy_size:294912 
+checkpoint:451, log_time:54854,time_merge:3849329, copy_size:270848 
+checkpoint:452, log_time:53378,time_merge:2947922, copy_size:204800 
+checkpoint:453, log_time:54681,time_merge:3332197, copy_size:237568 
+checkpoint:454, log_time:54843,time_merge:3468531, copy_size:245760 
+checkpoint:455, log_time:54684,time_merge:2447886, copy_size:172032 
+checkpoint:456, log_time:53580,time_merge:3476988, copy_size:241664 
+checkpoint:457, log_time:54841,time_merge:1434890, copy_size:98304 
+checkpoint:458, log_time:54660,time_merge:1933607, copy_size:135168 
+checkpoint:459, log_time:54855,time_merge:3295866, copy_size:233472 
+checkpoint:460, log_time:54045,time_merge:4698237, copy_size:331776 
+checkpoint:461, log_time:54828,time_merge:2898767, copy_size:204800 
+checkpoint:462, log_time:54816,time_merge:2272558, copy_size:159744 
+checkpoint:463, log_time:52793,time_merge:2642090, copy_size:184320 
+checkpoint:464, log_time:53225,time_merge:2111094, copy_size:147456 
+checkpoint:465, log_time:54717,time_merge:2356965, copy_size:163840 
+checkpoint:466, log_time:54873,time_merge:3886447, copy_size:274432 
+checkpoint:467, log_time:52730,time_merge:5535405, copy_size:389120 
+checkpoint:468, log_time:54489,time_merge:2946243, copy_size:208896 
+checkpoint:469, log_time:53817,time_merge:4298178, copy_size:303616 
+checkpoint:470, log_time:54663,time_merge:3772235, copy_size:266752 
+checkpoint:471, log_time:53388,time_merge:5228397, copy_size:369152 
+checkpoint:472, log_time:54037,time_merge:2380757, copy_size:167936 
+checkpoint:473, log_time:54810,time_merge:4455620, copy_size:315904 
+checkpoint:474, log_time:54699,time_merge:2779179, copy_size:196608 
+checkpoint:475, log_time:52887,time_merge:5980267, copy_size:421888 
+checkpoint:476, log_time:54730,time_merge:4434113, copy_size:311808 
+checkpoint:477, log_time:54750,time_merge:2891899, copy_size:204800 
+checkpoint:478, log_time:54696,time_merge:4198310, copy_size:299008 
+checkpoint:479, log_time:53142,time_merge:5823720, copy_size:414208 
+checkpoint:480, log_time:53478,time_merge:4604899, copy_size:324096 
+checkpoint:481, log_time:54078,time_merge:2764958, copy_size:192512 
+checkpoint:482, log_time:54753,time_merge:2933825, copy_size:204800 
+checkpoint:483, log_time:52985,time_merge:6565457, copy_size:463360 
+checkpoint:484, log_time:54708,time_merge:4188854, copy_size:294912 
+checkpoint:485, log_time:54753,time_merge:3471666, copy_size:245760 
+checkpoint:486, log_time:54888,time_merge:2446788, copy_size:172032 
+checkpoint:487, log_time:52914,time_merge:4450307, copy_size:311296 
+checkpoint:488, log_time:54831,time_merge:3806897, copy_size:266752 
+checkpoint:489, log_time:54702,time_merge:3308195, copy_size:233472 
+checkpoint:490, log_time:54693,time_merge:4395237, copy_size:311296 
+checkpoint:491, log_time:53292,time_merge:5403803, copy_size:381440 
+checkpoint:492, log_time:54864,time_merge:1600062, copy_size:110592 
+checkpoint:493, log_time:54750,time_merge:4133831, copy_size:294912 
+checkpoint:494, log_time:54891,time_merge:3471994, copy_size:245760 
+checkpoint:495, log_time:53208,time_merge:2780968, copy_size:192512 
+checkpoint:496, log_time:54660,time_merge:2932893, copy_size:204800 
+checkpoint:497, log_time:54796,time_merge:3648561, copy_size:258048 
+checkpoint:498, log_time:54804,time_merge:3554597, copy_size:253952 
+checkpoint:499, log_time:52962,time_merge:4222367, copy_size:299008 
+checkpoint:500, log_time:54795,time_merge:4051227, copy_size:286720 
+checkpoint:501, log_time:54697,time_merge:3366356, copy_size:237568 
+checkpoint:502, log_time:54853,time_merge:4671338, copy_size:328192 
+checkpoint:503, log_time:53099,time_merge:3954954, copy_size:278528 
+checkpoint:504, log_time:54784,time_merge:4142491, copy_size:294912 
+checkpoint:505, log_time:54597,time_merge:2899024, copy_size:204800 
+checkpoint:506, log_time:54705,time_merge:4146573, copy_size:290816 
+checkpoint:507, log_time:54073,time_merge:4606927, copy_size:324096 
+checkpoint:508, log_time:54836,time_merge:4636599, copy_size:328192 
+checkpoint:509, log_time:54764,time_merge:4182515, copy_size:294912 
+checkpoint:510, log_time:54894,time_merge:2659134, copy_size:184832 
+checkpoint:511, log_time:54036,time_merge:3208981, copy_size:225280 
+checkpoint:512, log_time:54864,time_merge:4299156, copy_size:303104 
+checkpoint:513, log_time:54490,time_merge:4103753, copy_size:290816 
+checkpoint:514, log_time:52844,time_merge:2646893, copy_size:184320 
+checkpoint:515, log_time:54426,time_merge:3550931, copy_size:249856 
+checkpoint:516, log_time:54759,time_merge:2750144, copy_size:192512 
+checkpoint:517, log_time:54814,time_merge:2829000, copy_size:196608 
+checkpoint:518, log_time:52961,time_merge:3514130, copy_size:245760 
+checkpoint:519, log_time:54697,time_merge:4328035, copy_size:307712 
+checkpoint:520, log_time:54682,time_merge:4588122, copy_size:324096 
+checkpoint:521, log_time:54844,time_merge:3451173, copy_size:241664 
+checkpoint:522, log_time:52973,time_merge:4608540, copy_size:323584 
+checkpoint:523, log_time:54567,time_merge:2534418, copy_size:176128 
+checkpoint:524, log_time:54741,time_merge:3756667, copy_size:266752 
+checkpoint:525, log_time:54807,time_merge:2791202, copy_size:196608 
+checkpoint:526, log_time:53121,time_merge:5591303, copy_size:393216 
+checkpoint:527, log_time:54563,time_merge:2972544, copy_size:208896 
+checkpoint:528, log_time:54756,time_merge:3317371, copy_size:233472 
+checkpoint:529, log_time:54699,time_merge:3497821, copy_size:245760 
+checkpoint:530, log_time:53043,time_merge:6973948, copy_size:492544 
+checkpoint:531, log_time:52886,time_merge:4548375, copy_size:324096 
+checkpoint:532, log_time:54744,time_merge:4548483, copy_size:324096 
+checkpoint:533, log_time:54816,time_merge:4098821, copy_size:291328 
+checkpoint:534, log_time:53202,time_merge:5363916, copy_size:377344 
+checkpoint:535, log_time:54723,time_merge:2280217, copy_size:159744 
+checkpoint:536, log_time:54711,time_merge:3587301, copy_size:253952 
+checkpoint:537, log_time:54834,time_merge:4200216, copy_size:294912 
+checkpoint:538, log_time:53097,time_merge:5453685, copy_size:385536 
+checkpoint:539, log_time:54711,time_merge:3504754, copy_size:245760 
+checkpoint:540, log_time:54755,time_merge:3177721, copy_size:225280 
+checkpoint:541, log_time:54699,time_merge:3551065, copy_size:250368 
+checkpoint:542, log_time:53027,time_merge:4641253, copy_size:327680 
+checkpoint:543, log_time:54840,time_merge:1438966, copy_size:98304 
+checkpoint:544, log_time:54708,time_merge:1821382, copy_size:126976 
+checkpoint:545, log_time:54687,time_merge:4160593, copy_size:294912 
+checkpoint:546, log_time:53217,time_merge:5117055, copy_size:360448 
+checkpoint:547, log_time:54831,time_merge:4381838, copy_size:312320 
+checkpoint:548, log_time:54796,time_merge:4688568, copy_size:328192 
+checkpoint:549, log_time:54747,time_merge:1550033, copy_size:106496 
+checkpoint:550, log_time:53406,time_merge:5970768, copy_size:422400 
+checkpoint:551, log_time:54687,time_merge:1816213, copy_size:126976 
+checkpoint:552, log_time:54765,time_merge:4315509, copy_size:307712 
+checkpoint:553, log_time:54822,time_merge:3486636, copy_size:245760 
+checkpoint:554, log_time:53390,time_merge:4062932, copy_size:286720 
+checkpoint:555, log_time:52974,time_merge:4281506, copy_size:303616 
+checkpoint:556, log_time:54702,time_merge:4119651, copy_size:290816 
+checkpoint:557, log_time:54708,time_merge:2515659, copy_size:176128 
+checkpoint:558, log_time:54162,time_merge:6597077, copy_size:467456 
+checkpoint:559, log_time:54783,time_merge:3224256, copy_size:225792 
+checkpoint:560, log_time:54735,time_merge:3046188, copy_size:212992 
+checkpoint:561, log_time:54699,time_merge:3057871, copy_size:212992 
+checkpoint:562, log_time:53439,time_merge:5153933, copy_size:360448 
+checkpoint:563, log_time:53474,time_merge:1659103, copy_size:114688 
+checkpoint:564, log_time:54687,time_merge:1094311, copy_size:73728 
+checkpoint:565, log_time:52599,time_merge:5964683, copy_size:422400 
+checkpoint:566, log_time:53672,time_merge:1977039, copy_size:135680 
+checkpoint:567, log_time:54693,time_merge:3597009, copy_size:254464 
+checkpoint:568, log_time:54772,time_merge:4495551, copy_size:315392 
+checkpoint:569, log_time:52542,time_merge:6686059, copy_size:471552 
+checkpoint:570, log_time:54503,time_merge:4115387, copy_size:291328 
+checkpoint:571, log_time:53208,time_merge:2813901, copy_size:196608 
+checkpoint:572, log_time:54675,time_merge:2744675, copy_size:192512 
+checkpoint:573, log_time:53181,time_merge:4656427, copy_size:327680 
+checkpoint:574, log_time:54361,time_merge:3379977, copy_size:238080 
+checkpoint:575, log_time:54693,time_merge:3165750, copy_size:225280 
+checkpoint:576, log_time:54702,time_merge:2679443, copy_size:188416 
+checkpoint:577, log_time:53387,time_merge:3564841, copy_size:249856 
+checkpoint:578, log_time:53507,time_merge:2083225, copy_size:147456 
+checkpoint:579, log_time:54804,time_merge:3509286, copy_size:245760 
+checkpoint:580, log_time:54882,time_merge:3114182, copy_size:221184 
+checkpoint:581, log_time:53087,time_merge:3444464, copy_size:241664 
+checkpoint:582, log_time:54540,time_merge:3073301, copy_size:217088 
+checkpoint:583, log_time:54315,time_merge:3885290, copy_size:274432 
+checkpoint:584, log_time:53954,time_merge:931402, copy_size:61440 
+checkpoint:585, log_time:53450,time_merge:3716858, copy_size:262656 
+checkpoint:586, log_time:54687,time_merge:4272747, copy_size:303104 
+checkpoint:587, log_time:54702,time_merge:3809063, copy_size:270336 
+checkpoint:588, log_time:54762,time_merge:2458865, copy_size:172032 
+checkpoint:589, log_time:53073,time_merge:5808305, copy_size:409600 
+checkpoint:590, log_time:54819,time_merge:3635413, copy_size:258048 
+checkpoint:591, log_time:54681,time_merge:3704613, copy_size:262144 
+checkpoint:592, log_time:54690,time_merge:2940812, copy_size:208896 
+checkpoint:593, log_time:53404,time_merge:3907717, copy_size:274432 
+checkpoint:594, log_time:54696,time_merge:3468455, copy_size:245760 
+checkpoint:595, log_time:54831,time_merge:3645872, copy_size:258560 
+checkpoint:596, log_time:54858,time_merge:2003504, copy_size:139264 
+checkpoint:597, log_time:53903,time_merge:5501624, copy_size:390144 
+checkpoint:598, log_time:54143,time_merge:4158248, copy_size:294912 
+checkpoint:599, log_time:54708,time_merge:4527202, copy_size:324096 
+checkpoint:600, log_time:54877,time_merge:4413700, copy_size:311808 
+checkpoint:601, log_time:53109,time_merge:5584552, copy_size:393216 
+checkpoint:602, log_time:54691,time_merge:3545674, copy_size:249856 
+checkpoint:603, log_time:54705,time_merge:2451105, copy_size:172032 
+checkpoint:604, log_time:54840,time_merge:3601903, copy_size:254464 
+checkpoint:605, log_time:53448,time_merge:3860577, copy_size:270848 
+checkpoint:606, log_time:54850,time_merge:2791944, copy_size:196608 
+checkpoint:607, log_time:54864,time_merge:4440461, copy_size:315904 
+checkpoint:608, log_time:54837,time_merge:3509104, copy_size:245760 
+checkpoint:609, log_time:52851,time_merge:6293708, copy_size:447488 
+checkpoint:610, log_time:54022,time_merge:3736316, copy_size:262656 
+checkpoint:611, log_time:54831,time_merge:3193679, copy_size:225280 
+checkpoint:612, log_time:54750,time_merge:3313194, copy_size:233984 
+checkpoint:613, log_time:54062,time_merge:5778348, copy_size:406016 
+checkpoint:614, log_time:54841,time_merge:4032169, copy_size:282624 
+checkpoint:615, log_time:54834,time_merge:2003539, copy_size:139264 
+checkpoint:616, log_time:52769,time_merge:4647865, copy_size:328192 
+checkpoint:617, log_time:54345,time_merge:2849635, copy_size:200704 
+checkpoint:618, log_time:54777,time_merge:3277432, copy_size:233472 
+checkpoint:619, log_time:54825,time_merge:3218851, copy_size:225280 
+checkpoint:620, log_time:53075,time_merge:4205722, copy_size:294912 
+checkpoint:621, log_time:54688,time_merge:3044440, copy_size:213504 
+checkpoint:622, log_time:54852,time_merge:3757382, copy_size:266752 
+checkpoint:623, log_time:54696,time_merge:3739057, copy_size:266240 
+checkpoint:624, log_time:53646,time_merge:3944841, copy_size:278528 
+checkpoint:625, log_time:54756,time_merge:3094126, copy_size:217088 
+checkpoint:626, log_time:54702,time_merge:1942315, copy_size:135168 
+checkpoint:627, log_time:54816,time_merge:2559136, copy_size:180224 
+checkpoint:628, log_time:52851,time_merge:5206282, copy_size:369152 
+checkpoint:629, log_time:54388,time_merge:3527245, copy_size:250368 
+checkpoint:630, log_time:54843,time_merge:2237410, copy_size:155648 
+checkpoint:631, log_time:54756,time_merge:1318639, copy_size:90112 
+checkpoint:632, log_time:52898,time_merge:5863059, copy_size:413696 
+checkpoint:633, log_time:54832,time_merge:2576572, copy_size:180736 
+checkpoint:634, log_time:54762,time_merge:2594659, copy_size:180224 
+checkpoint:635, log_time:54678,time_merge:3098126, copy_size:217088 
+checkpoint:636, log_time:52815,time_merge:6524180, copy_size:463872 
+checkpoint:637, log_time:54603,time_merge:2221382, copy_size:155648 
+checkpoint:638, log_time:54858,time_merge:3032930, copy_size:212992 
+checkpoint:639, log_time:54722,time_merge:2673574, copy_size:188416 
+checkpoint:640, log_time:52895,time_merge:5939077, copy_size:418304 
+checkpoint:641, log_time:54795,time_merge:3475902, copy_size:242176 
+checkpoint:642, log_time:54729,time_merge:1773987, copy_size:122880 
+checkpoint:643, log_time:54714,time_merge:4201461, copy_size:295424 
+checkpoint:644, log_time:53330,time_merge:4538634, copy_size:319488 
+checkpoint:645, log_time:53810,time_merge:2274051, copy_size:159744 
+checkpoint:646, log_time:54771,time_merge:1420728, copy_size:98304 
+checkpoint:647, log_time:54683,time_merge:4453333, copy_size:315904 
+checkpoint:648, log_time:53346,time_merge:4476228, copy_size:315392 
+checkpoint:649, log_time:53137,time_merge:4623504, copy_size:328704 
+checkpoint:650, log_time:54822,time_merge:3226735, copy_size:229376 
+checkpoint:651, log_time:54831,time_merge:3903001, copy_size:278528 
+checkpoint:652, log_time:52902,time_merge:6863895, copy_size:484352 
+checkpoint:653, log_time:54817,time_merge:4403431, copy_size:312320 
+checkpoint:654, log_time:54690,time_merge:1212284, copy_size:81920 
+checkpoint:655, log_time:54687,time_merge:3685819, copy_size:262144 
+checkpoint:656, log_time:52875,time_merge:5941127, copy_size:418816 
+checkpoint:657, log_time:54819,time_merge:3655305, copy_size:258048 
+checkpoint:658, log_time:54693,time_merge:1660967, copy_size:114688 
+checkpoint:659, log_time:54813,time_merge:3049435, copy_size:217600 
+checkpoint:660, log_time:53547,time_merge:6066388, copy_size:430592 
+checkpoint:661, log_time:54864,time_merge:3593420, copy_size:254464 
+checkpoint:662, log_time:54865,time_merge:3987791, copy_size:283136 
+checkpoint:663, log_time:54786,time_merge:2783208, copy_size:196608 
+checkpoint:664, log_time:52905,time_merge:5974839, copy_size:422400 
+checkpoint:665, log_time:54031,time_merge:4502105, copy_size:320000 
+checkpoint:666, log_time:54751,time_merge:4287907, copy_size:303616 
+checkpoint:667, log_time:52574,time_merge:4573908, copy_size:323584 
+checkpoint:668, log_time:54418,time_merge:4168937, copy_size:294912 
+checkpoint:669, log_time:54807,time_merge:2663463, copy_size:188416 
+checkpoint:670, log_time:54681,time_merge:3144154, copy_size:225280 
+checkpoint:671, log_time:52814,time_merge:4904076, copy_size:348160 
+checkpoint:672, log_time:53534,time_merge:1206407, copy_size:81920 
+checkpoint:673, log_time:54894,time_merge:1491303, copy_size:102400 
+checkpoint:674, log_time:54904,time_merge:4191833, copy_size:294912 
+checkpoint:675, log_time:53534,time_merge:1594961, copy_size:106496 
+checkpoint:676, log_time:54657,time_merge:2359827, copy_size:163840 
+checkpoint:677, log_time:54795,time_merge:2512625, copy_size:176128 
+checkpoint:678, log_time:54774,time_merge:4044278, copy_size:286720 
+checkpoint:679, log_time:53589,time_merge:3370494, copy_size:237568 
+checkpoint:680, log_time:54468,time_merge:3073016, copy_size:217088 
+checkpoint:681, log_time:54690,time_merge:3464499, copy_size:245760 
+checkpoint:682, log_time:54804,time_merge:3093732, copy_size:217600 
+checkpoint:683, log_time:52861,time_merge:5469583, copy_size:385536 
+checkpoint:684, log_time:54710,time_merge:3539113, copy_size:249856 
+checkpoint:685, log_time:54705,time_merge:3759290, copy_size:266752 
+checkpoint:686, log_time:54747,time_merge:4146963, copy_size:290816 
+checkpoint:687, log_time:53168,time_merge:4845206, copy_size:344064 
+checkpoint:688, log_time:54160,time_merge:4588338, copy_size:324096 
+checkpoint:689, log_time:54796,time_merge:4382252, copy_size:307712 
+checkpoint:690, log_time:54693,time_merge:3481937, copy_size:245760 
+checkpoint:691, log_time:53218,time_merge:5221138, copy_size:369152 
+checkpoint:692, log_time:54627,time_merge:1261209, copy_size:86016 
+checkpoint:693, log_time:54798,time_merge:3546590, copy_size:249856 
+checkpoint:694, log_time:54867,time_merge:3670399, copy_size:258048 
+checkpoint:695, log_time:53075,time_merge:2982893, copy_size:208896 
+checkpoint:696, log_time:54691,time_merge:4112391, copy_size:290816 
+checkpoint:697, log_time:54879,time_merge:2928460, copy_size:204800 
+checkpoint:698, log_time:54817,time_merge:3665778, copy_size:262144 
+checkpoint:699, log_time:52987,time_merge:4761350, copy_size:335872 
+checkpoint:700, log_time:54845,time_merge:3748913, copy_size:262144 
+checkpoint:701, log_time:54843,time_merge:2523202, copy_size:176128 
+checkpoint:702, log_time:54693,time_merge:3719344, copy_size:262144 
+checkpoint:703, log_time:53505,time_merge:3067547, copy_size:212992 
+checkpoint:704, log_time:53688,time_merge:1477549, copy_size:102400 
+checkpoint:705, log_time:54672,time_merge:920640, copy_size:61440 
+checkpoint:706, log_time:54801,time_merge:3673271, copy_size:258048 
+checkpoint:707, log_time:53433,time_merge:3639463, copy_size:254464 
+checkpoint:708, log_time:54840,time_merge:1486646, copy_size:102400 
+checkpoint:709, log_time:54732,time_merge:3562110, copy_size:250368 
+checkpoint:710, log_time:54871,time_merge:4148006, copy_size:290816 
+checkpoint:711, log_time:53411,time_merge:4130449, copy_size:291328 
+checkpoint:712, log_time:54078,time_merge:3023376, copy_size:212992 
+checkpoint:713, log_time:54681,time_merge:3095404, copy_size:217600 
+checkpoint:714, log_time:54696,time_merge:3704254, copy_size:262656 
+checkpoint:715, log_time:53330,time_merge:5089726, copy_size:360448 
+checkpoint:716, log_time:54771,time_merge:3031843, copy_size:217088 
+checkpoint:717, log_time:54679,time_merge:4300650, copy_size:303616 
+checkpoint:718, log_time:52683,time_merge:4838670, copy_size:340480 
+checkpoint:719, log_time:54095,time_merge:2622926, copy_size:184320 
+checkpoint:720, log_time:54837,time_merge:3706991, copy_size:262144 
+checkpoint:721, log_time:54834,time_merge:2969045, copy_size:208896 
+checkpoint:722, log_time:52795,time_merge:3390223, copy_size:238080 
+checkpoint:723, log_time:54519,time_merge:1664077, copy_size:114688 
+checkpoint:724, log_time:53955,time_merge:2635066, copy_size:184320 
+checkpoint:725, log_time:54710,time_merge:2341694, copy_size:163840 
+checkpoint:726, log_time:52884,time_merge:6744157, copy_size:480768 
+checkpoint:727, log_time:53584,time_merge:3983257, copy_size:279040 
+checkpoint:728, log_time:54675,time_merge:3150941, copy_size:221696 
+checkpoint:729, log_time:54865,time_merge:3567175, copy_size:250368 
+checkpoint:730, log_time:52995,time_merge:4490946, copy_size:315392 
+checkpoint:731, log_time:54542,time_merge:3469716, copy_size:245760 
+checkpoint:732, log_time:54034,time_merge:3255779, copy_size:229888 
+checkpoint:733, log_time:54669,time_merge:2000758, copy_size:139264 
+checkpoint:734, log_time:52971,time_merge:6467930, copy_size:459776 
+checkpoint:735, log_time:54835,time_merge:4003135, copy_size:282624 
+checkpoint:736, log_time:54705,time_merge:2961643, copy_size:208896 
+checkpoint:737, log_time:54158,time_merge:3979760, copy_size:278528 
+checkpoint:738, log_time:53144,time_merge:4601389, copy_size:323584 
+checkpoint:739, log_time:54018,time_merge:3692135, copy_size:262144 
+checkpoint:740, log_time:54825,time_merge:2122848, copy_size:147456 
+checkpoint:741, log_time:54816,time_merge:3269794, copy_size:233472 
+checkpoint:742, log_time:52952,time_merge:4803490, copy_size:339968 
+checkpoint:743, log_time:53306,time_merge:4217163, copy_size:299520 
+checkpoint:744, log_time:54714,time_merge:2971502, copy_size:208896 
+checkpoint:745, log_time:54792,time_merge:4019619, copy_size:286720 
+checkpoint:746, log_time:53200,time_merge:4571359, copy_size:319488 
+checkpoint:747, log_time:54732,time_merge:3729329, copy_size:262656 
+checkpoint:748, log_time:54813,time_merge:2739699, copy_size:192512 
+checkpoint:749, log_time:54693,time_merge:3297364, copy_size:233472 
+checkpoint:750, log_time:53455,time_merge:4872919, copy_size:344576 
+checkpoint:751, log_time:54777,time_merge:3466751, copy_size:245760 
+checkpoint:752, log_time:54751,time_merge:4461408, copy_size:311808 
+checkpoint:753, log_time:54831,time_merge:3562500, copy_size:249856 
+checkpoint:754, log_time:54163,time_merge:5894289, copy_size:418304 
+checkpoint:755, log_time:54721,time_merge:4544897, copy_size:320000 
+checkpoint:756, log_time:54672,time_merge:3708879, copy_size:262144 
+checkpoint:757, log_time:54881,time_merge:4386744, copy_size:307712 
+checkpoint:758, log_time:53393,time_merge:4766954, copy_size:336384 
+checkpoint:759, log_time:53972,time_merge:1271565, copy_size:86016 
+checkpoint:760, log_time:54834,time_merge:2510029, copy_size:176128 
+checkpoint:761, log_time:54849,time_merge:3054301, copy_size:217088 
+checkpoint:762, log_time:54153,time_merge:4116462, copy_size:290816 
+checkpoint:763, log_time:54681,time_merge:2676805, copy_size:188416 
+checkpoint:764, log_time:54644,time_merge:2509393, copy_size:176128 
+checkpoint:765, log_time:54822,time_merge:1929759, copy_size:135168 
+checkpoint:766, log_time:54387,time_merge:4838317, copy_size:344064 
+checkpoint:767, log_time:54870,time_merge:975648, copy_size:65536 
+checkpoint:768, log_time:54696,time_merge:3627409, copy_size:258048 
+checkpoint:769, log_time:52832,time_merge:3631931, copy_size:253952 
+checkpoint:770, log_time:54314,time_merge:3475801, copy_size:245760 
+checkpoint:771, log_time:54750,time_merge:3750963, copy_size:266240 
+checkpoint:772, log_time:54738,time_merge:3128403, copy_size:221184 
+checkpoint:773, log_time:52786,time_merge:6447371, copy_size:455168 
+checkpoint:774, log_time:53670,time_merge:3737779, copy_size:262656 
+checkpoint:775, log_time:54549,time_merge:3204643, copy_size:225280 
+checkpoint:776, log_time:54825,time_merge:3516306, copy_size:245760 
+checkpoint:777, log_time:53093,time_merge:6178058, copy_size:434176 
+checkpoint:778, log_time:54044,time_merge:4165997, copy_size:294912 
+checkpoint:779, log_time:54843,time_merge:4001522, copy_size:283136 
+checkpoint:780, log_time:54696,time_merge:2116256, copy_size:147456 
+checkpoint:781, log_time:53253,time_merge:5246078, copy_size:368640 
+checkpoint:782, log_time:54142,time_merge:3683916, copy_size:258048 
+checkpoint:783, log_time:54724,time_merge:4323577, copy_size:303616 
+checkpoint:784, log_time:54885,time_merge:2951655, copy_size:208896 
+checkpoint:785, log_time:53178,time_merge:4426604, copy_size:311808 
+checkpoint:786, log_time:54702,time_merge:3343968, copy_size:237568 
+checkpoint:787, log_time:54693,time_merge:2160590, copy_size:151552 
+checkpoint:788, log_time:54810,time_merge:2900597, copy_size:204800 
+checkpoint:789, log_time:53457,time_merge:3434095, copy_size:241664 
+checkpoint:790, log_time:53668,time_merge:3964549, copy_size:278528 
+checkpoint:791, log_time:54798,time_merge:3420848, copy_size:241664 
+checkpoint:792, log_time:54681,time_merge:2404039, copy_size:167936 
+checkpoint:793, log_time:53346,time_merge:4464615, copy_size:315392 
+checkpoint:794, log_time:53471,time_merge:2510030, copy_size:176128 
+checkpoint:795, log_time:54690,time_merge:2343893, copy_size:163840 
+checkpoint:796, log_time:54690,time_merge:3184973, copy_size:225280 
+checkpoint:797, log_time:53202,time_merge:4816429, copy_size:339968 
+checkpoint:798, log_time:54765,time_merge:4160145, copy_size:294912 
+checkpoint:799, log_time:54717,time_merge:1823343, copy_size:126976 
+checkpoint:800, log_time:54903,time_merge:4268300, copy_size:303104 
+checkpoint:801, log_time:53511,time_merge:2835665, copy_size:196608 
+checkpoint:802, log_time:54750,time_merge:1307576, copy_size:90112 
+checkpoint:803, log_time:54699,time_merge:3562933, copy_size:250368 
+checkpoint:804, log_time:54602,time_merge:2162161, copy_size:151552 
+checkpoint:805, log_time:52818,time_merge:4896887, copy_size:344576 
+checkpoint:806, log_time:53373,time_merge:3216931, copy_size:225280 
+checkpoint:807, log_time:54765,time_merge:2648618, copy_size:184320 
+checkpoint:808, log_time:54696,time_merge:2966982, copy_size:208896 
+checkpoint:809, log_time:53038,time_merge:6537123, copy_size:463360 
+checkpoint:810, log_time:54705,time_merge:4323990, copy_size:307712 
+checkpoint:811, log_time:54676,time_merge:4601577, copy_size:324096 
+checkpoint:812, log_time:54687,time_merge:4395206, copy_size:311296 
+checkpoint:813, log_time:53234,time_merge:5412718, copy_size:381440 
+checkpoint:814, log_time:54816,time_merge:2747176, copy_size:193024 
+checkpoint:815, log_time:54883,time_merge:2132759, copy_size:147456 
+checkpoint:816, log_time:54688,time_merge:4306336, copy_size:303616 
+checkpoint:817, log_time:53190,time_merge:4075933, copy_size:286720 
+checkpoint:818, log_time:54711,time_merge:4391318, copy_size:311296 
+checkpoint:819, log_time:54766,time_merge:3850617, copy_size:270848 
+checkpoint:820, log_time:52820,time_merge:4105479, copy_size:286720 
+checkpoint:821, log_time:53171,time_merge:2960625, copy_size:208896 
+checkpoint:822, log_time:54904,time_merge:4227464, copy_size:299520 
+checkpoint:823, log_time:54707,time_merge:3185891, copy_size:225280 
+checkpoint:824, log_time:52943,time_merge:4773047, copy_size:336384 
+checkpoint:825, log_time:54156,time_merge:3884990, copy_size:274432 
+checkpoint:826, log_time:54591,time_merge:4343373, copy_size:307712 
+checkpoint:827, log_time:54819,time_merge:3791577, copy_size:266240 
+checkpoint:828, log_time:52910,time_merge:4756670, copy_size:335872 
+checkpoint:829, log_time:52991,time_merge:4173588, copy_size:294912 
+checkpoint:830, log_time:54879,time_merge:3750856, copy_size:262144 
+checkpoint:831, log_time:54852,time_merge:1420121, copy_size:98304 
+checkpoint:832, log_time:53036,time_merge:5155794, copy_size:365056 
+checkpoint:833, log_time:54657,time_merge:2355030, copy_size:163840 
+checkpoint:834, log_time:54705,time_merge:2813312, copy_size:196608 
+checkpoint:835, log_time:54877,time_merge:3691342, copy_size:262144 
+checkpoint:836, log_time:52914,time_merge:3994161, copy_size:282624 
+checkpoint:837, log_time:54686,time_merge:3865193, copy_size:274432 
+checkpoint:838, log_time:53541,time_merge:4381861, copy_size:307712 
+checkpoint:839, log_time:54687,time_merge:3147293, copy_size:221184 
+checkpoint:840, log_time:53384,time_merge:3671064, copy_size:253952 
+checkpoint:841, log_time:54711,time_merge:3645006, copy_size:258560 
+checkpoint:842, log_time:54810,time_merge:2670589, copy_size:188416 
+checkpoint:843, log_time:54717,time_merge:3487007, copy_size:245760 
+checkpoint:844, log_time:53460,time_merge:3650621, copy_size:253952 
+checkpoint:845, log_time:54774,time_merge:753377, copy_size:49152 
+checkpoint:846, log_time:54687,time_merge:2454228, copy_size:172032 
+checkpoint:847, log_time:54688,time_merge:4320028, copy_size:307200 
+checkpoint:848, log_time:52965,time_merge:5672310, copy_size:401920 
+checkpoint:849, log_time:53314,time_merge:4440486, copy_size:316416 
+checkpoint:850, log_time:54341,time_merge:2910065, copy_size:205312 
+checkpoint:851, log_time:54693,time_merge:2801888, copy_size:196608 
+checkpoint:852, log_time:53075,time_merge:4887731, copy_size:344064 
+checkpoint:853, log_time:54684,time_merge:3138027, copy_size:221184 
+checkpoint:854, log_time:54786,time_merge:4118884, copy_size:290816 
+checkpoint:855, log_time:54751,time_merge:3825052, copy_size:270336 
+checkpoint:856, log_time:54016,time_merge:6816990, copy_size:479744 
+checkpoint:857, log_time:54876,time_merge:1783282, copy_size:122880 
+checkpoint:858, log_time:54880,time_merge:4496439, copy_size:320512 
+checkpoint:859, log_time:54807,time_merge:2233018, copy_size:155648 
+checkpoint:860, log_time:52905,time_merge:3862770, copy_size:270336 
+checkpoint:861, log_time:54714,time_merge:3951380, copy_size:279040 
+checkpoint:862, log_time:54868,time_merge:3478022, copy_size:245760 
+checkpoint:863, log_time:54858,time_merge:2503441, copy_size:176128 
+checkpoint:864, log_time:54345,time_merge:6182121, copy_size:438784 
+checkpoint:865, log_time:54528,time_merge:3684709, copy_size:262144 
+checkpoint:866, log_time:54705,time_merge:2767340, copy_size:192512 
+checkpoint:867, log_time:54844,time_merge:4421922, copy_size:311808 
+checkpoint:868, log_time:53088,time_merge:3831696, copy_size:270336 
+checkpoint:869, log_time:54675,time_merge:3729840, copy_size:262144 
+checkpoint:870, log_time:54858,time_merge:3075814, copy_size:217088 
+checkpoint:871, log_time:52769,time_merge:4681263, copy_size:331776 
+checkpoint:872, log_time:53559,time_merge:1148863, copy_size:77824 
+checkpoint:873, log_time:54705,time_merge:2820020, copy_size:196608 
+checkpoint:874, log_time:54811,time_merge:3794946, copy_size:270336 
+checkpoint:875, log_time:52643,time_merge:4903108, copy_size:348160 
+checkpoint:876, log_time:53744,time_merge:3882406, copy_size:274432 
+checkpoint:877, log_time:54705,time_merge:4349758, copy_size:312320 
+checkpoint:878, log_time:54774,time_merge:3606045, copy_size:254464 
+checkpoint:879, log_time:53010,time_merge:5219596, copy_size:368640 
+checkpoint:880, log_time:54485,time_merge:4335952, copy_size:307712 
+checkpoint:881, log_time:54690,time_merge:3687709, copy_size:258048 
+checkpoint:882, log_time:54703,time_merge:4055770, copy_size:290816 
+checkpoint:883, log_time:53096,time_merge:6476875, copy_size:459264 
+checkpoint:884, log_time:54404,time_merge:4229800, copy_size:299520 
+checkpoint:885, log_time:54571,time_merge:3673654, copy_size:262144 
+checkpoint:886, log_time:54861,time_merge:2351373, copy_size:163840 
+checkpoint:887, log_time:53126,time_merge:4109073, copy_size:290816 
+checkpoint:888, log_time:54546,time_merge:3226874, copy_size:229376 
+checkpoint:889, log_time:53307,time_merge:2720937, copy_size:192512 
+checkpoint:890, log_time:54822,time_merge:2709611, copy_size:188928 
+checkpoint:891, log_time:53055,time_merge:3844847, copy_size:270336 
+checkpoint:892, log_time:54837,time_merge:2850804, copy_size:200704 
+checkpoint:893, log_time:54850,time_merge:1372254, copy_size:94208 
+checkpoint:894, log_time:54819,time_merge:2918563, copy_size:205312 
+checkpoint:895, log_time:52855,time_merge:5516244, copy_size:389632 
+checkpoint:896, log_time:53930,time_merge:4498503, copy_size:315904 
+checkpoint:897, log_time:54747,time_merge:3667809, copy_size:258048 
+checkpoint:898, log_time:54834,time_merge:3571770, copy_size:249856 
+checkpoint:899, log_time:53046,time_merge:5555098, copy_size:397312 
+checkpoint:900, log_time:54693,time_merge:3833282, copy_size:270848 
+checkpoint:901, log_time:54882,time_merge:3725637, copy_size:262656 
+checkpoint:902, log_time:54807,time_merge:3073405, copy_size:217088 
+checkpoint:903, log_time:53268,time_merge:4263166, copy_size:299008 
+checkpoint:904, log_time:53895,time_merge:4188734, copy_size:294912 
+checkpoint:905, log_time:54810,time_merge:3252561, copy_size:229376 
+checkpoint:906, log_time:54684,time_merge:3208977, copy_size:225792 
+checkpoint:907, log_time:53313,time_merge:6484289, copy_size:459264 
+checkpoint:908, log_time:54711,time_merge:2353834, copy_size:163840 
+checkpoint:909, log_time:54696,time_merge:2552734, copy_size:180224 
+checkpoint:910, log_time:54879,time_merge:4122882, copy_size:291328 
+checkpoint:911, log_time:53285,time_merge:4978693, copy_size:352256 
+checkpoint:912, log_time:54679,time_merge:4034137, copy_size:282624 
+checkpoint:913, log_time:54864,time_merge:3429020, copy_size:241664 
+checkpoint:914, log_time:54838,time_merge:3640372, copy_size:258048 
+checkpoint:915, log_time:53417,time_merge:2653070, copy_size:184320 
+checkpoint:916, log_time:53099,time_merge:3218746, copy_size:225280 
+checkpoint:917, log_time:54798,time_merge:2853810, copy_size:200704 
+checkpoint:918, log_time:54684,time_merge:1823808, copy_size:126976 
+checkpoint:919, log_time:53239,time_merge:3894838, copy_size:274432 
+checkpoint:920, log_time:54771,time_merge:3541297, copy_size:249856 
+checkpoint:921, log_time:54894,time_merge:2285637, copy_size:159744 
+checkpoint:922, log_time:52871,time_merge:1074380, copy_size:69632 
+checkpoint:923, log_time:53675,time_merge:2968370, copy_size:208896 
+checkpoint:924, log_time:54760,time_merge:4654989, copy_size:328192 
+checkpoint:925, log_time:54864,time_merge:2830754, copy_size:196608 
+checkpoint:926, log_time:52803,time_merge:6353622, copy_size:450560 
+checkpoint:927, log_time:54399,time_merge:2637020, copy_size:184320 
+checkpoint:928, log_time:54675,time_merge:2215361, copy_size:155648 
+checkpoint:929, log_time:54795,time_merge:3905236, copy_size:278528 
+checkpoint:930, log_time:52792,time_merge:4815852, copy_size:340480 
+checkpoint:931, log_time:54660,time_merge:2781593, copy_size:196608 
+checkpoint:932, log_time:54690,time_merge:2953856, copy_size:208896 
+checkpoint:933, log_time:54789,time_merge:4326762, copy_size:307712 
+checkpoint:934, log_time:53130,time_merge:5364272, copy_size:376832 
+checkpoint:935, log_time:53649,time_merge:1539517, copy_size:106496 
+checkpoint:936, log_time:54705,time_merge:2728807, copy_size:192512 
+checkpoint:937, log_time:54690,time_merge:2894279, copy_size:204800 
+checkpoint:938, log_time:53090,time_merge:4406831, copy_size:311808 
+checkpoint:939, log_time:52982,time_merge:3723409, copy_size:262144 
+checkpoint:940, log_time:54810,time_merge:3918917, copy_size:278528 
+checkpoint:941, log_time:54801,time_merge:3732607, copy_size:262144 
+checkpoint:942, log_time:53385,time_merge:3345001, copy_size:233472 
+checkpoint:943, log_time:54693,time_merge:3685537, copy_size:262144 
+checkpoint:944, log_time:54807,time_merge:4561840, copy_size:324096 
+checkpoint:945, log_time:54714,time_merge:3645408, copy_size:258048 
+checkpoint:946, log_time:53265,time_merge:4827423, copy_size:339968 
+checkpoint:947, log_time:54690,time_merge:4197481, copy_size:299520 
+checkpoint:948, log_time:54696,time_merge:3758726, copy_size:266752 
+checkpoint:949, log_time:54849,time_merge:2960897, copy_size:208896 
+checkpoint:950, log_time:53582,time_merge:3856540, copy_size:270336 
+checkpoint:951, log_time:54684,time_merge:2609641, copy_size:184320 
+checkpoint:952, log_time:54756,time_merge:2950925, copy_size:208896 
+checkpoint:953, log_time:54840,time_merge:3194398, copy_size:225280 
+checkpoint:954, log_time:53168,time_merge:3574817, copy_size:249856 
+checkpoint:955, log_time:54735,time_merge:2578693, copy_size:180224 
+checkpoint:956, log_time:54684,time_merge:4554521, copy_size:324096 
+checkpoint:957, log_time:54710,time_merge:3712742, copy_size:262144 
+checkpoint:958, log_time:53008,time_merge:6658598, copy_size:471552 
+checkpoint:959, log_time:54697,time_merge:4663532, copy_size:328192 
+checkpoint:960, log_time:54793,time_merge:4287606, copy_size:303616 
+checkpoint:961, log_time:54822,time_merge:2225207, copy_size:155648 
+checkpoint:962, log_time:53461,time_merge:5294855, copy_size:373248 
+checkpoint:963, log_time:54085,time_merge:3963787, copy_size:278528 
+checkpoint:964, log_time:54786,time_merge:4237656, copy_size:299008 
+checkpoint:965, log_time:54694,time_merge:4021713, copy_size:282624 
+checkpoint:966, log_time:53207,time_merge:5364274, copy_size:377344 
+checkpoint:967, log_time:54795,time_merge:1097896, copy_size:73728 
+checkpoint:968, log_time:54684,time_merge:1540357, copy_size:106496 
+checkpoint:969, log_time:54678,time_merge:2871194, copy_size:204800 
+checkpoint:970, log_time:54342,time_merge:5787705, copy_size:410112 
+checkpoint:971, log_time:54023,time_merge:4625973, copy_size:328704 
+checkpoint:972, log_time:54693,time_merge:1661445, copy_size:114688 
+checkpoint:973, log_time:52734,time_merge:5529761, copy_size:393728 
+checkpoint:974, log_time:54504,time_merge:4128922, copy_size:290816 
+checkpoint:975, log_time:54852,time_merge:2602844, copy_size:184320 
+checkpoint:976, log_time:54835,time_merge:4593512, copy_size:324096 
+checkpoint:977, log_time:53028,time_merge:2094590, copy_size:143360 
+checkpoint:978, log_time:54600,time_merge:3393388, copy_size:237568 
+checkpoint:979, log_time:54864,time_merge:3030325, copy_size:212992 
+checkpoint:980, log_time:54729,time_merge:3712257, copy_size:262656 
+checkpoint:981, log_time:52899,time_merge:6516107, copy_size:463872 
+checkpoint:982, log_time:54491,time_merge:2447110, copy_size:172032 
+checkpoint:983, log_time:54870,time_merge:3043936, copy_size:212992 
+checkpoint:984, log_time:54855,time_merge:1442572, copy_size:98304 
+checkpoint:985, log_time:53006,time_merge:4296836, copy_size:303104 
+checkpoint:986, log_time:53861,time_merge:4133280, copy_size:294912 
+checkpoint:987, log_time:54771,time_merge:2213434, copy_size:151552 
+checkpoint:988, log_time:54813,time_merge:1819530, copy_size:126976 
+checkpoint:989, log_time:53445,time_merge:2142239, copy_size:147456 
+checkpoint:990, log_time:54702,time_merge:1314458, copy_size:90112 
+checkpoint:991, log_time:54732,time_merge:4122188, copy_size:290816 
+checkpoint:992, log_time:54888,time_merge:4345922, copy_size:307712 
+checkpoint:993, log_time:52842,time_merge:4653565, copy_size:328192 
+checkpoint:994, log_time:54816,time_merge:1263743, copy_size:86016 
+checkpoint:995, log_time:54729,time_merge:1435935, copy_size:98304 
+checkpoint:996, log_time:54723,time_merge:3915708, copy_size:278528 
+checkpoint:997, log_time:52838,time_merge:5263857, copy_size:373248 
+checkpoint:998, log_time:54696,time_merge:3873186, copy_size:274944 
+checkpoint:999, log_time:54699,time_merge:4375657, copy_size:312320 
+checkpoint:1000, log_time:54729,time_merge:2681018, copy_size:188416 
+checkpoint:1001, log_time:53316,time_merge:4754733, copy_size:335872 
+checkpoint:1002, log_time:54690,time_merge:3433953, copy_size:241664 
+checkpoint:1003, log_time:54687,time_merge:3940285, copy_size:278528 
+checkpoint:1004, log_time:54801,time_merge:2851530, copy_size:200704 
+checkpoint:1005, log_time:53628,time_merge:5193804, copy_size:364544 
+checkpoint:1006, log_time:54693,time_merge:2692508, copy_size:188416 
+checkpoint:1007, log_time:54804,time_merge:2248215, copy_size:155648 
+checkpoint:1008, log_time:54789,time_merge:2566063, copy_size:180224 
+checkpoint:1009, log_time:53124,time_merge:4918732, copy_size:348160 
+checkpoint:1010, log_time:54726,time_merge:2970388, copy_size:208896 
+checkpoint:1011, log_time:54822,time_merge:2343003, copy_size:163840 
+checkpoint:1012, log_time:54876,time_merge:1541816, copy_size:106496 
+checkpoint:1013, log_time:53744,time_merge:5239639, copy_size:369152 
+checkpoint:1014, log_time:54688,time_merge:4100139, copy_size:290816 
+checkpoint:1015, log_time:54857,time_merge:4622601, copy_size:324096 
+checkpoint:1016, log_time:54678,time_merge:4396878, copy_size:311808 
+checkpoint:1017, log_time:53850,time_merge:4923245, copy_size:348160 
+checkpoint:1018, log_time:54837,time_merge:4255850, copy_size:303104 
+checkpoint:1019, log_time:54691,time_merge:4244976, copy_size:299008 
+checkpoint:1020, log_time:54849,time_merge:4347376, copy_size:307712 
+checkpoint:1021, log_time:54359,time_merge:6145655, copy_size:434688 
+checkpoint:1022, log_time:54717,time_merge:2346199, copy_size:163840 
+checkpoint:1023, log_time:54687,time_merge:3255229, copy_size:229376 
+checkpoint:1024, log_time:52790,time_merge:5560359, copy_size:393216 
+checkpoint:1025, log_time:54526,time_merge:4385856, copy_size:312320 
+checkpoint:1026, log_time:54819,time_merge:3105133, copy_size:221184 
+checkpoint:1027, log_time:54750,time_merge:2803626, copy_size:197120 
+checkpoint:1028, log_time:52940,time_merge:5530129, copy_size:389632 
+checkpoint:1029, log_time:53130,time_merge:2894584, copy_size:201216 
+checkpoint:1030, log_time:54726,time_merge:2382062, copy_size:167936 
+checkpoint:1031, log_time:54820,time_merge:3580210, copy_size:253952 
+checkpoint:1032, log_time:53363,time_merge:2928237, copy_size:204800 
+checkpoint:1033, log_time:53729,time_merge:922406, copy_size:61440 
+checkpoint:1034, log_time:54880,time_merge:2214228, copy_size:155648 
+checkpoint:1035, log_time:54834,time_merge:867277, copy_size:57344 
+checkpoint:1036, log_time:53415,time_merge:2431710, copy_size:167936 
+checkpoint:1037, log_time:54504,time_merge:2329348, copy_size:163840 
+checkpoint:1038, log_time:54795,time_merge:2708191, copy_size:192512 
+checkpoint:1039, log_time:54813,time_merge:1316487, copy_size:90112 
+checkpoint:1040, log_time:52828,time_merge:5301560, copy_size:377344 
+checkpoint:1041, log_time:54261,time_merge:1601654, copy_size:110592 
+checkpoint:1042, log_time:54882,time_merge:4141859, copy_size:290816 
+checkpoint:1043, log_time:54792,time_merge:2814717, copy_size:197120 
+checkpoint:1044, log_time:53204,time_merge:4070695, copy_size:286720 
+checkpoint:1045, log_time:54672,time_merge:3836682, copy_size:270336 
+checkpoint:1046, log_time:54696,time_merge:3865680, copy_size:274944 
+checkpoint:1047, log_time:54675,time_merge:3248480, copy_size:229376 
+checkpoint:1048, log_time:52868,time_merge:5772900, copy_size:410624 
+checkpoint:1049, log_time:54681,time_merge:2108389, copy_size:147456 
+checkpoint:1050, log_time:54819,time_merge:3883559, copy_size:274432 
+checkpoint:1051, log_time:54687,time_merge:4629951, copy_size:328704 
+checkpoint:1052, log_time:53367,time_merge:3910091, copy_size:274432 
+checkpoint:1053, log_time:54694,time_merge:4557574, copy_size:320000 
+checkpoint:1054, log_time:54735,time_merge:2915019, copy_size:204800 
+checkpoint:1055, log_time:54687,time_merge:4092003, copy_size:290816 
+checkpoint:1056, log_time:53259,time_merge:4004968, copy_size:278528 
+checkpoint:1057, log_time:54681,time_merge:3723953, copy_size:262656 
+checkpoint:1058, log_time:54859,time_merge:3579142, copy_size:253952 
+checkpoint:1059, log_time:54693,time_merge:4489000, copy_size:320512 
+checkpoint:1060, log_time:53036,time_merge:5640016, copy_size:397312 
+checkpoint:1061, log_time:54696,time_merge:2476136, copy_size:172032 
+checkpoint:1062, log_time:54693,time_merge:3165889, copy_size:221184 
+checkpoint:1063, log_time:54808,time_merge:4097245, copy_size:290816 
+checkpoint:1064, log_time:54147,time_merge:5590423, copy_size:389632 
+checkpoint:1065, log_time:54840,time_merge:2647140, copy_size:184320 
+checkpoint:1066, log_time:54810,time_merge:3980454, copy_size:283136 
+checkpoint:1067, log_time:54814,time_merge:3709192, copy_size:262144 
+checkpoint:1068, log_time:52923,time_merge:4806525, copy_size:339968 
+checkpoint:1069, log_time:53103,time_merge:3895294, copy_size:274432 
+checkpoint:1070, log_time:54819,time_merge:2702213, copy_size:188416 
+checkpoint:1071, log_time:54858,time_merge:2516408, copy_size:176128 
+checkpoint:1072, log_time:54337,time_merge:5144237, copy_size:364544 
+checkpoint:1073, log_time:54784,time_merge:3425710, copy_size:241664 
+checkpoint:1074, log_time:54840,time_merge:4234541, copy_size:295424 
+checkpoint:1075, log_time:52734,time_merge:5961289, copy_size:422400 
+checkpoint:1076, log_time:54608,time_merge:4532725, copy_size:320000 
+checkpoint:1077, log_time:54714,time_merge:3908985, copy_size:274432 
+checkpoint:1078, log_time:54890,time_merge:3734282, copy_size:262144 
+checkpoint:1079, log_time:52892,time_merge:2880870, copy_size:200704 
+checkpoint:1080, log_time:54660,time_merge:3751333, copy_size:266240 
+checkpoint:1081, log_time:54873,time_merge:2454306, copy_size:172032 
+checkpoint:1082, log_time:54700,time_merge:4336488, copy_size:307712 
+checkpoint:1083, log_time:53057,time_merge:4286673, copy_size:303104 
+checkpoint:1084, log_time:54507,time_merge:3694759, copy_size:262144 
+checkpoint:1085, log_time:54847,time_merge:4231993, copy_size:299520 
+checkpoint:1086, log_time:54871,time_merge:1273433, copy_size:86016 
+checkpoint:1087, log_time:53084,time_merge:5057597, copy_size:356864 
+checkpoint:1088, log_time:54219,time_merge:3689179, copy_size:258560 
+checkpoint:1089, log_time:52995,time_merge:3951665, copy_size:278528 
+checkpoint:1090, log_time:54681,time_merge:3406644, copy_size:241664 
+checkpoint:1091, log_time:53183,time_merge:4587528, copy_size:323584 
+checkpoint:1092, log_time:53502,time_merge:2447733, copy_size:172032 
+checkpoint:1093, log_time:54705,time_merge:2281927, copy_size:159744 
+checkpoint:1094, log_time:54702,time_merge:2920625, copy_size:204800 
+checkpoint:1095, log_time:53389,time_merge:5569868, copy_size:393728 
+checkpoint:1096, log_time:54699,time_merge:2260313, copy_size:159744 
+checkpoint:1097, log_time:54781,time_merge:4050800, copy_size:287232 
+checkpoint:1098, log_time:54852,time_merge:3985354, copy_size:282624 
+checkpoint:1099, log_time:53436,time_merge:4034093, copy_size:282624 
+checkpoint:1100, log_time:54541,time_merge:2889126, copy_size:204800 
+checkpoint:1101, log_time:54756,time_merge:2721301, copy_size:192512 
+checkpoint:1102, log_time:54864,time_merge:3259526, copy_size:229888 
+checkpoint:1103, log_time:53279,time_merge:4412210, copy_size:311296 
+checkpoint:1104, log_time:54700,time_merge:4315928, copy_size:303616 
+checkpoint:1105, log_time:54705,time_merge:3646812, copy_size:258048 
+checkpoint:1106, log_time:54846,time_merge:4022298, copy_size:282624 
+checkpoint:1107, log_time:52954,time_merge:6407525, copy_size:455168 
+checkpoint:1108, log_time:54740,time_merge:2558233, copy_size:176128 
+checkpoint:1109, log_time:53162,time_merge:4109222, copy_size:291328 
+checkpoint:1110, log_time:54693,time_merge:2737223, copy_size:192512 
+checkpoint:1111, log_time:54015,time_merge:5383992, copy_size:380928 
+checkpoint:1112, log_time:54568,time_merge:3359548, copy_size:238080 
+checkpoint:1113, log_time:54819,time_merge:4155282, copy_size:294912 
+checkpoint:1114, log_time:54904,time_merge:3650015, copy_size:258048 
+checkpoint:1115, log_time:53264,time_merge:3776396, copy_size:266240 
+checkpoint:1116, log_time:54783,time_merge:2484478, copy_size:176128 
+checkpoint:1117, log_time:54879,time_merge:3924799, copy_size:278528 
+checkpoint:1118, log_time:54847,time_merge:3030547, copy_size:212992 
+checkpoint:1119, log_time:53129,time_merge:5335181, copy_size:373248 
+checkpoint:1120, log_time:53670,time_merge:2790312, copy_size:196608 
+checkpoint:1121, log_time:54750,time_merge:3211549, copy_size:225280 
+checkpoint:1122, log_time:54735,time_merge:3088074, copy_size:217088 
+checkpoint:1123, log_time:54407,time_merge:5367133, copy_size:377344 
+checkpoint:1124, log_time:54834,time_merge:3820636, copy_size:270336 
+checkpoint:1125, log_time:54822,time_merge:2930758, copy_size:208896 
+checkpoint:1126, log_time:52879,time_merge:4901521, copy_size:344576 
+checkpoint:1127, log_time:53216,time_merge:1933595, copy_size:135168 
+checkpoint:1128, log_time:54871,time_merge:3862969, copy_size:274432 
+checkpoint:1129, log_time:54702,time_merge:4000249, copy_size:282624 
+checkpoint:1130, log_time:52619,time_merge:6667969, copy_size:471552 
+checkpoint:1131, log_time:53994,time_merge:4162023, copy_size:290816 
+checkpoint:1132, log_time:53376,time_merge:3105604, copy_size:217088 
+checkpoint:1133, log_time:54759,time_merge:1496517, copy_size:102400 
+checkpoint:1134, log_time:53462,time_merge:4866937, copy_size:344576 
+checkpoint:1135, log_time:53646,time_merge:4248241, copy_size:299008 
+checkpoint:1136, log_time:54801,time_merge:3833497, copy_size:274432 
+checkpoint:1137, log_time:54748,time_merge:4409930, copy_size:311808 
+checkpoint:1138, log_time:53028,time_merge:5110843, copy_size:360448 
+checkpoint:1139, log_time:54299,time_merge:3021001, copy_size:212992 
+checkpoint:1140, log_time:54814,time_merge:4551202, copy_size:324096 
+checkpoint:1141, log_time:54279,time_merge:2784704, copy_size:196608 
+checkpoint:1142, log_time:52795,time_merge:5890270, copy_size:418304 
+checkpoint:1143, log_time:54843,time_merge:3804907, copy_size:270336 
+checkpoint:1144, log_time:54883,time_merge:4573762, copy_size:320000 
+checkpoint:1145, log_time:54771,time_merge:2529487, copy_size:176128 
+checkpoint:1146, log_time:53060,time_merge:5915606, copy_size:418304 
+checkpoint:1147, log_time:54578,time_merge:2567557, copy_size:180736 
+checkpoint:1148, log_time:54702,time_merge:2002918, copy_size:139264 
+checkpoint:1149, log_time:54738,time_merge:3051085, copy_size:212992 
+checkpoint:1150, log_time:52940,time_merge:6122534, copy_size:430080 
+checkpoint:1151, log_time:53384,time_merge:2748217, copy_size:192512 
+checkpoint:1152, log_time:54738,time_merge:1089956, copy_size:73728 
+checkpoint:1153, log_time:54687,time_merge:3303902, copy_size:233472 
+checkpoint:1154, log_time:52940,time_merge:6172053, copy_size:438784 
+checkpoint:1155, log_time:54496,time_merge:3910557, copy_size:274432 
+checkpoint:1156, log_time:54579,time_merge:1499576, copy_size:102400 
+checkpoint:1157, log_time:54723,time_merge:2901516, copy_size:205312 
+checkpoint:1158, log_time:53160,time_merge:4647876, copy_size:327680 
+checkpoint:1159, log_time:54348,time_merge:4554313, copy_size:320000 
+checkpoint:1160, log_time:54882,time_merge:3190316, copy_size:225280 
+checkpoint:1161, log_time:54738,time_merge:1263261, copy_size:86016 
+checkpoint:1162, log_time:53099,time_merge:5545215, copy_size:393216 
+checkpoint:1163, log_time:54840,time_merge:4089100, copy_size:291328 
+checkpoint:1164, log_time:54846,time_merge:1593094, copy_size:110592 
+checkpoint:1165, log_time:54633,time_merge:3263733, copy_size:233472 
+checkpoint:1166, log_time:53078,time_merge:3942708, copy_size:278528 
+checkpoint:1167, log_time:54711,time_merge:3245138, copy_size:229376 
+checkpoint:1168, log_time:54672,time_merge:2506880, copy_size:176128 
+checkpoint:1169, log_time:54849,time_merge:3247123, copy_size:229376 
+checkpoint:1170, log_time:53252,time_merge:4694900, copy_size:331776 
+checkpoint:1171, log_time:54684,time_merge:1551735, copy_size:106496 
+checkpoint:1172, log_time:54684,time_merge:3240135, copy_size:229376 
+checkpoint:1173, log_time:54699,time_merge:2856501, copy_size:200704 
+checkpoint:1174, log_time:53227,time_merge:3674838, copy_size:258048 
+checkpoint:1175, log_time:54272,time_merge:4346932, copy_size:307712 
+checkpoint:1176, log_time:54681,time_merge:3216297, copy_size:225280 
+checkpoint:1177, log_time:52616,time_merge:5305420, copy_size:376832 
+checkpoint:1178, log_time:53845,time_merge:3750758, copy_size:266752 
+checkpoint:1179, log_time:54684,time_merge:4118343, copy_size:291328 
+checkpoint:1180, log_time:54738,time_merge:3359340, copy_size:237568 
+checkpoint:1181, log_time:52846,time_merge:6509005, copy_size:459264 
+checkpoint:1182, log_time:53413,time_merge:2479033, copy_size:172032 
+checkpoint:1183, log_time:54711,time_merge:3927196, copy_size:278528 
+checkpoint:1184, log_time:54783,time_merge:2901369, copy_size:200704 
+checkpoint:1185, log_time:52997,time_merge:4616584, copy_size:327680 
+checkpoint:1186, log_time:54537,time_merge:3008395, copy_size:212992 
+checkpoint:1187, log_time:54774,time_merge:4002262, copy_size:282624 
+checkpoint:1188, log_time:54819,time_merge:2762092, copy_size:192512 
+checkpoint:1189, log_time:53057,time_merge:3142252, copy_size:221184 
+checkpoint:1190, log_time:54327,time_merge:3362135, copy_size:237568 
+checkpoint:1191, log_time:54781,time_merge:4092910, copy_size:290816 
+checkpoint:1192, log_time:54846,time_merge:3015817, copy_size:212992 
+checkpoint:1193, log_time:53006,time_merge:3802337, copy_size:266240 
+checkpoint:1194, log_time:53042,time_merge:4041168, copy_size:286720 
+checkpoint:1195, log_time:54750,time_merge:3341733, copy_size:233472 
+checkpoint:1196, log_time:54826,time_merge:4511052, copy_size:320000 
+checkpoint:1197, log_time:53154,time_merge:5212796, copy_size:368640 
+checkpoint:1198, log_time:54711,time_merge:2776659, copy_size:196608 
+checkpoint:1199, log_time:54819,time_merge:3027852, copy_size:212992 
+checkpoint:1200, log_time:54711,time_merge:1713947, copy_size:118784 
+checkpoint:1201, log_time:53023,time_merge:6419708, copy_size:455680 
+checkpoint:1202, log_time:54786,time_merge:2531721, copy_size:180224 
+checkpoint:1203, log_time:54882,time_merge:2310490, copy_size:163840 
+checkpoint:1204, log_time:54545,time_merge:4566363, copy_size:320000 
+checkpoint:1205, log_time:53069,time_merge:4292981, copy_size:303104 
+checkpoint:1206, log_time:54750,time_merge:2663570, copy_size:188416 
+checkpoint:1207, log_time:54765,time_merge:4200914, copy_size:299520 
+checkpoint:1208, log_time:54834,time_merge:4279520, copy_size:303104 
+checkpoint:1209, log_time:52852,time_merge:5463435, copy_size:385536 
+checkpoint:1210, log_time:54891,time_merge:4244558, copy_size:299520 
+checkpoint:1211, log_time:54825,time_merge:3088091, copy_size:217088 
+checkpoint:1212, log_time:54681,time_merge:3254091, copy_size:229376 
+checkpoint:1213, log_time:53028,time_merge:5564767, copy_size:393216 
+checkpoint:1214, log_time:53951,time_merge:3803441, copy_size:270336 
+checkpoint:1215, log_time:54900,time_merge:3210391, copy_size:225792 
+checkpoint:1216, log_time:54696,time_merge:3050753, copy_size:217088 
+checkpoint:1217, log_time:53107,time_merge:5132701, copy_size:364544 
+checkpoint:1218, log_time:54750,time_merge:2512454, copy_size:176128 
+checkpoint:1219, log_time:54841,time_merge:4523855, copy_size:320000 
+checkpoint:1220, log_time:54829,time_merge:1222477, copy_size:81920 
+checkpoint:1221, log_time:53322,time_merge:3275944, copy_size:229376 
+checkpoint:1222, log_time:54808,time_merge:2859179, copy_size:201216 
+checkpoint:1223, log_time:54675,time_merge:4028184, copy_size:286720 
+checkpoint:1224, log_time:54801,time_merge:3536436, copy_size:250368 
+checkpoint:1225, log_time:53294,time_merge:5867216, copy_size:413696 
+checkpoint:1226, log_time:54765,time_merge:3480069, copy_size:245760 
+checkpoint:1227, log_time:54835,time_merge:4357486, copy_size:307200 
+checkpoint:1228, log_time:52507,time_merge:6585864, copy_size:463360 
+checkpoint:1229, log_time:52998,time_merge:3924229, copy_size:278528 
+checkpoint:1230, log_time:54711,time_merge:3416621, copy_size:241664 
+checkpoint:1231, log_time:54843,time_merge:2507066, copy_size:176128 
+checkpoint:1232, log_time:52607,time_merge:3333047, copy_size:233472 
+checkpoint:1233, log_time:53759,time_merge:2644373, copy_size:184320 
+checkpoint:1234, log_time:54757,time_merge:4020834, copy_size:282624 
+checkpoint:1235, log_time:54840,time_merge:2966677, copy_size:208896 
+checkpoint:1236, log_time:52883,time_merge:6368223, copy_size:450560 
+checkpoint:1237, log_time:54709,time_merge:4493377, copy_size:316416 
+checkpoint:1238, log_time:54395,time_merge:4199832, copy_size:294912 
+checkpoint:1239, log_time:54802,time_merge:4587937, copy_size:324096 
+checkpoint:1240, log_time:53025,time_merge:5948087, copy_size:422400 
+checkpoint:1241, log_time:54570,time_merge:2764776, copy_size:192512 
+checkpoint:1242, log_time:54810,time_merge:928833, copy_size:61440 
+checkpoint:1243, log_time:54753,time_merge:2945053, copy_size:208896 
+checkpoint:1244, log_time:53457,time_merge:4406164, copy_size:311296 
+checkpoint:1245, log_time:54618,time_merge:1260872, copy_size:86016 
+checkpoint:1246, log_time:54787,time_merge:3648784, copy_size:258048 
+checkpoint:1247, log_time:54837,time_merge:1829137, copy_size:126976 
+checkpoint:1248, log_time:53339,time_merge:3196971, copy_size:225280 
+checkpoint:1249, log_time:54577,time_merge:3634203, copy_size:258048 
+checkpoint:1250, log_time:54679,time_merge:4512261, copy_size:320000 
+checkpoint:1251, log_time:54832,time_merge:4608389, copy_size:324096 
+checkpoint:1252, log_time:52995,time_merge:5606353, copy_size:397312 
+checkpoint:1253, log_time:53830,time_merge:4340180, copy_size:307712 
+checkpoint:1254, log_time:54687,time_merge:2687477, copy_size:188416 
+checkpoint:1255, log_time:54755,time_merge:3648345, copy_size:258048 
+checkpoint:1256, log_time:53385,time_merge:5328462, copy_size:377344 
+checkpoint:1257, log_time:54333,time_merge:4565013, copy_size:320000 
+checkpoint:1258, log_time:54873,time_merge:977486, copy_size:65536 
+checkpoint:1259, log_time:54864,time_merge:1031492, copy_size:69632 
+checkpoint:1260, log_time:53219,time_merge:6201935, copy_size:438784 
+checkpoint:1261, log_time:53069,time_merge:3240469, copy_size:229376 
+checkpoint:1262, log_time:54852,time_merge:3436786, copy_size:241664 
+checkpoint:1263, log_time:54750,time_merge:2398933, copy_size:167936 
+checkpoint:1264, log_time:53631,time_merge:6175287, copy_size:438272 
+checkpoint:1265, log_time:54629,time_merge:3715841, copy_size:262144 
+checkpoint:1266, log_time:54798,time_merge:1979357, copy_size:139264 
+checkpoint:1267, log_time:54684,time_merge:1766352, copy_size:122880 
+checkpoint:1268, log_time:53094,time_merge:5969238, copy_size:422400 
+checkpoint:1269, log_time:54681,time_merge:3782009, copy_size:266240 
+checkpoint:1270, log_time:54690,time_merge:3213895, copy_size:225792 
+checkpoint:1271, log_time:54762,time_merge:3900089, copy_size:274432 
+checkpoint:1272, log_time:53067,time_merge:6402038, copy_size:446976 
+checkpoint:1273, log_time:54750,time_merge:2806690, copy_size:196608 
+checkpoint:1274, log_time:54687,time_merge:586139, copy_size:36864 
+checkpoint:1275, log_time:54786,time_merge:3129002, copy_size:221184 
+checkpoint:1276, log_time:54247,time_merge:5906876, copy_size:414208 
+checkpoint:1277, log_time:54862,time_merge:4600250, copy_size:324096 
+checkpoint:1278, log_time:54699,time_merge:3676717, copy_size:258048 
+checkpoint:1279, log_time:52832,time_merge:5135468, copy_size:360960 
+checkpoint:1280, log_time:54347,time_merge:3071454, copy_size:217600 
+checkpoint:1281, log_time:54792,time_merge:2467004, copy_size:172032 
+checkpoint:1282, log_time:54699,time_merge:3137451, copy_size:221184 
+checkpoint:1283, log_time:53010,time_merge:4786446, copy_size:339968 
+checkpoint:1284, log_time:53043,time_merge:4043534, copy_size:286720 
+checkpoint:1285, log_time:54693,time_merge:3357642, copy_size:238080 
+checkpoint:1286, log_time:54714,time_merge:3452590, copy_size:245760 
+checkpoint:1287, log_time:52922,time_merge:6371900, copy_size:450560 
+checkpoint:1288, log_time:53697,time_merge:3472957, copy_size:245760 
+checkpoint:1289, log_time:54705,time_merge:1961330, copy_size:135168 
+checkpoint:1290, log_time:54687,time_merge:3186543, copy_size:225280 
+checkpoint:1291, log_time:52938,time_merge:5563032, copy_size:389632 
+checkpoint:1292, log_time:54814,time_merge:4447313, copy_size:315904 
+checkpoint:1293, log_time:54856,time_merge:3804467, copy_size:270336 
+checkpoint:1294, log_time:54690,time_merge:2836739, copy_size:200704 
+checkpoint:1295, log_time:53006,time_merge:6201733, copy_size:438784 
+checkpoint:1296, log_time:54687,time_merge:4076037, copy_size:291328 
+checkpoint:1297, log_time:54684,time_merge:3204597, copy_size:225280 
+checkpoint:1298, log_time:54708,time_merge:4165826, copy_size:294912 
+checkpoint:1299, log_time:52816,time_merge:5333592, copy_size:377344 
+checkpoint:1300, log_time:54843,time_merge:3723745, copy_size:262144 
+checkpoint:1301, log_time:54726,time_merge:3084067, copy_size:217088 
+checkpoint:1302, log_time:54693,time_merge:3475043, copy_size:245760 
+checkpoint:1303, log_time:53511,time_merge:3695442, copy_size:258560 
+checkpoint:1304, log_time:54150,time_merge:3445724, copy_size:245760 
+checkpoint:1305, log_time:54807,time_merge:3020102, copy_size:212992 
+checkpoint:1306, log_time:54805,time_merge:4657656, copy_size:328192 
+checkpoint:1307, log_time:52974,time_merge:5385455, copy_size:377344 
+checkpoint:1308, log_time:54690,time_merge:4064792, copy_size:287232 
+checkpoint:1309, log_time:54676,time_merge:4567992, copy_size:320000 
+checkpoint:1310, log_time:54810,time_merge:4273036, copy_size:303616 
+checkpoint:1311, log_time:53429,time_merge:4642805, copy_size:323584 
+checkpoint:1312, log_time:54825,time_merge:4260258, copy_size:299008 
+checkpoint:1313, log_time:54834,time_merge:4045740, copy_size:287232 
+checkpoint:1314, log_time:54699,time_merge:1093701, copy_size:73728 
+checkpoint:1315, log_time:53397,time_merge:5094441, copy_size:356864 
+checkpoint:1316, log_time:54783,time_merge:3179391, copy_size:225280 
+checkpoint:1317, log_time:54808,time_merge:4060390, copy_size:287232 
+checkpoint:1318, log_time:54813,time_merge:2514606, copy_size:176128 
+checkpoint:1319, log_time:53348,time_merge:2370099, copy_size:163840 
+checkpoint:1320, log_time:53369,time_merge:2727102, copy_size:192512 
+checkpoint:1321, log_time:54819,time_merge:2113770, copy_size:147456 
+checkpoint:1322, log_time:54799,time_merge:3690280, copy_size:258560 
+checkpoint:1323, log_time:53313,time_merge:3801377, copy_size:266240 
+checkpoint:1324, log_time:54849,time_merge:2916977, copy_size:204800 
+checkpoint:1325, log_time:54858,time_merge:2395342, copy_size:167936 
+checkpoint:1326, log_time:54690,time_merge:1819770, copy_size:126976 
+checkpoint:1327, log_time:54276,time_merge:5706495, copy_size:401408 
+checkpoint:1328, log_time:54722,time_merge:3153029, copy_size:221184 
+checkpoint:1329, log_time:54748,time_merge:4343408, copy_size:307712 
+checkpoint:1330, log_time:52848,time_merge:5111741, copy_size:360960 
+checkpoint:1331, log_time:53235,time_merge:4046211, copy_size:286720 
+checkpoint:1332, log_time:53549,time_merge:1593801, copy_size:110592 
+checkpoint:1333, log_time:54735,time_merge:3732407, copy_size:262144 
+checkpoint:1334, log_time:52560,time_merge:6814774, copy_size:480256 
+checkpoint:1335, log_time:53542,time_merge:2919061, copy_size:205312 
+checkpoint:1336, log_time:53913,time_merge:3320397, copy_size:233472 
+checkpoint:1337, log_time:54858,time_merge:2504899, copy_size:176128 
+checkpoint:1338, log_time:53282,time_merge:4924074, copy_size:344064 
+checkpoint:1339, log_time:53300,time_merge:3267333, copy_size:229376 
+checkpoint:1340, log_time:54864,time_merge:4451131, copy_size:315904 
+checkpoint:1341, log_time:54822,time_merge:2485721, copy_size:172032 
+checkpoint:1342, log_time:52907,time_merge:6679111, copy_size:475648 
+checkpoint:1343, log_time:53604,time_merge:4297958, copy_size:303616 
+checkpoint:1344, log_time:54687,time_merge:3077248, copy_size:217088 
+checkpoint:1345, log_time:53346,time_merge:2916549, copy_size:204800 
+checkpoint:1346, log_time:52881,time_merge:3812934, copy_size:266752 
+checkpoint:1347, log_time:54699,time_merge:2853644, copy_size:200704 
+checkpoint:1348, log_time:54840,time_merge:4329324, copy_size:303616 
+checkpoint:1349, log_time:54768,time_merge:4640322, copy_size:327680 
+checkpoint:1350, log_time:53231,time_merge:5356804, copy_size:377344 
+checkpoint:1351, log_time:54199,time_merge:3098448, copy_size:217088 
+checkpoint:1352, log_time:54864,time_merge:4063059, copy_size:282624 
+checkpoint:1353, log_time:54345,time_merge:3669248, copy_size:258048 
+checkpoint:1354, log_time:52860,time_merge:3657410, copy_size:254464 
+checkpoint:1355, log_time:54855,time_merge:2108070, copy_size:147456 
+checkpoint:1356, log_time:54855,time_merge:2869625, copy_size:201216 
+checkpoint:1357, log_time:54687,time_merge:2840527, copy_size:200704 
+checkpoint:1358, log_time:53130,time_merge:6077497, copy_size:431104 
+checkpoint:1359, log_time:54847,time_merge:3304087, copy_size:233472 
+checkpoint:1360, log_time:54840,time_merge:2624327, copy_size:184320 
+checkpoint:1361, log_time:54690,time_merge:2908758, copy_size:204800 
+checkpoint:1362, log_time:53069,time_merge:6232408, copy_size:442880 
+checkpoint:1363, log_time:54798,time_merge:3019324, copy_size:212992 
+checkpoint:1364, log_time:54711,time_merge:3667480, copy_size:258048 
+checkpoint:1365, log_time:54892,time_merge:4268951, copy_size:303616 
+checkpoint:1366, log_time:52972,time_merge:6377885, copy_size:451072 
+checkpoint:1367, log_time:54136,time_merge:4459235, copy_size:315392 
+checkpoint:1368, log_time:54810,time_merge:3830611, copy_size:270848 
+checkpoint:1369, log_time:54771,time_merge:1370192, copy_size:94208 
+checkpoint:1370, log_time:53397,time_merge:4652560, copy_size:327680 
+checkpoint:1371, log_time:54292,time_merge:3652622, copy_size:258048 
+checkpoint:1372, log_time:54780,time_merge:3670163, copy_size:258560 
+checkpoint:1373, log_time:54783,time_merge:3923336, copy_size:278528 
+checkpoint:1374, log_time:53409,time_merge:4632679, copy_size:327680 
+checkpoint:1375, log_time:54709,time_merge:4134545, copy_size:290816 
+checkpoint:1376, log_time:54891,time_merge:3741976, copy_size:266752 
+checkpoint:1377, log_time:54759,time_merge:1031469, copy_size:69632 
+checkpoint:1378, log_time:54395,time_merge:6722400, copy_size:475648 
+checkpoint:1379, log_time:54699,time_merge:3180770, copy_size:225280 
+checkpoint:1380, log_time:54708,time_merge:3012989, copy_size:212992 
+checkpoint:1381, log_time:52805,time_merge:4404187, copy_size:307200 
+checkpoint:1382, log_time:53054,time_merge:2820021, copy_size:196608 
+checkpoint:1383, log_time:54921,time_merge:3638549, copy_size:258048 
+checkpoint:1384, log_time:54853,time_merge:4516793, copy_size:320000 
+checkpoint:1385, log_time:52868,time_merge:3206153, copy_size:225280 
+checkpoint:1386, log_time:53963,time_merge:2826311, copy_size:196608 
+checkpoint:1387, log_time:54368,time_merge:4131254, copy_size:294912 
+checkpoint:1388, log_time:54702,time_merge:2862175, copy_size:200704 
+checkpoint:1389, log_time:53195,time_merge:4141145, copy_size:290816 
+checkpoint:1390, log_time:54825,time_merge:3044457, copy_size:213504 
+checkpoint:1391, log_time:54702,time_merge:3805007, copy_size:270336 
+checkpoint:1392, log_time:54736,time_merge:3899339, copy_size:274432 
+checkpoint:1393, log_time:53006,time_merge:5637626, copy_size:397312 
+checkpoint:1394, log_time:53780,time_merge:2273782, copy_size:159744 
+checkpoint:1395, log_time:54702,time_merge:3345964, copy_size:237568 
+checkpoint:1396, log_time:54717,time_merge:3251557, copy_size:229376 
+checkpoint:1397, log_time:52979,time_merge:4699544, copy_size:331776 
+checkpoint:1398, log_time:54861,time_merge:2817069, copy_size:200704 
+checkpoint:1399, log_time:53087,time_merge:2297978, copy_size:159744 
+checkpoint:1400, log_time:54822,time_merge:3022603, copy_size:212992 
+checkpoint:1401, log_time:52893,time_merge:5281199, copy_size:373248 
+checkpoint:1402, log_time:54831,time_merge:2480898, copy_size:172032 
+checkpoint:1403, log_time:54756,time_merge:4633214, copy_size:328704 
+checkpoint:1404, log_time:54691,time_merge:4504519, copy_size:320512 
+checkpoint:1405, log_time:53453,time_merge:3806469, copy_size:266240 
+checkpoint:1406, log_time:54720,time_merge:3009651, copy_size:213504 
+checkpoint:1407, log_time:54678,time_merge:3800066, copy_size:270336 
+checkpoint:1408, log_time:54633,time_merge:2911810, copy_size:205312 
+checkpoint:1409, log_time:53000,time_merge:3044355, copy_size:212992 
+checkpoint:1410, log_time:53409,time_merge:3492604, copy_size:246272 
+checkpoint:1411, log_time:54765,time_merge:3735475, copy_size:262144 
+checkpoint:1412, log_time:54717,time_merge:2689555, copy_size:188416 
+checkpoint:1413, log_time:53831,time_merge:5945287, copy_size:422400 
+checkpoint:1414, log_time:54858,time_merge:3021632, copy_size:212992 
+checkpoint:1415, log_time:54747,time_merge:3813036, copy_size:270336 
+checkpoint:1416, log_time:54774,time_merge:4208163, copy_size:299520 
+checkpoint:1417, log_time:53986,time_merge:6689518, copy_size:471552 
+checkpoint:1418, log_time:54306,time_merge:2386522, copy_size:167936 
+checkpoint:1419, log_time:54805,time_merge:4567995, copy_size:320000 
+checkpoint:1420, log_time:54705,time_merge:1763887, copy_size:122880 
+checkpoint:1421, log_time:53585,time_merge:6394312, copy_size:451072 
+checkpoint:1422, log_time:54852,time_merge:3374315, copy_size:237568 
+checkpoint:1423, log_time:54723,time_merge:3755403, copy_size:270336 
+checkpoint:1424, log_time:54678,time_merge:2449500, copy_size:172032 
+checkpoint:1425, log_time:53450,time_merge:5211170, copy_size:369664 
+checkpoint:1426, log_time:54837,time_merge:3393368, copy_size:237568 
+checkpoint:1427, log_time:54849,time_merge:3482271, copy_size:245760 
+checkpoint:1428, log_time:54753,time_merge:3319981, copy_size:233472 
+checkpoint:1429, log_time:53208,time_merge:5551288, copy_size:393216 
+checkpoint:1430, log_time:54735,time_merge:3691732, copy_size:262144 
+checkpoint:1431, log_time:54819,time_merge:3587220, copy_size:253952 
+checkpoint:1432, log_time:52898,time_merge:4311509, copy_size:303616 
+checkpoint:1433, log_time:54579,time_merge:4036722, copy_size:286720 
+checkpoint:1434, log_time:54714,time_merge:2500500, copy_size:176128 
+checkpoint:1435, log_time:54732,time_merge:2293069, copy_size:159744 
+checkpoint:1436, log_time:52616,time_merge:5660815, copy_size:397824 
+checkpoint:1437, log_time:53945,time_merge:2786130, copy_size:192512 
+checkpoint:1438, log_time:54744,time_merge:4390740, copy_size:312320 
+checkpoint:1439, log_time:54840,time_merge:2770942, copy_size:196608 
+checkpoint:1440, log_time:53456,time_merge:1414046, copy_size:94208 
+checkpoint:1441, log_time:53936,time_merge:3442054, copy_size:245760 
+checkpoint:1442, log_time:54606,time_merge:3027656, copy_size:212992 
+checkpoint:1443, log_time:54680,time_merge:3699607, copy_size:262144 
+checkpoint:1444, log_time:53163,time_merge:4346827, copy_size:307200 
+checkpoint:1445, log_time:54783,time_merge:4351422, copy_size:307712 
+checkpoint:1446, log_time:54666,time_merge:2959559, copy_size:208896 
+checkpoint:1447, log_time:54684,time_merge:3233047, copy_size:229376 
+checkpoint:1448, log_time:52855,time_merge:6343416, copy_size:446976 
+checkpoint:1449, log_time:54591,time_merge:2177678, copy_size:151552 
+checkpoint:1450, log_time:54693,time_merge:3128131, copy_size:221184 
+checkpoint:1451, log_time:54741,time_merge:3450044, copy_size:245760 
+checkpoint:1452, log_time:53330,time_merge:3601174, copy_size:253952 
+checkpoint:1453, log_time:54585,time_merge:4428387, copy_size:311808 
+checkpoint:1454, log_time:54822,time_merge:2504693, copy_size:176128 
+checkpoint:1455, log_time:54720,time_merge:2718450, copy_size:192512 
+checkpoint:1456, log_time:53063,time_merge:6424076, copy_size:455680 
+checkpoint:1457, log_time:54825,time_merge:4185665, copy_size:295424 
+checkpoint:1458, log_time:54427,time_merge:3673594, copy_size:258048 
+checkpoint:1459, log_time:54804,time_merge:2837985, copy_size:200704 
+checkpoint:1460, log_time:53009,time_merge:6135616, copy_size:430592 
+checkpoint:1461, log_time:53000,time_merge:2971799, copy_size:208896 
+checkpoint:1462, log_time:54825,time_merge:4293218, copy_size:303616 
+checkpoint:1463, log_time:54681,time_merge:1712184, copy_size:118784 
+checkpoint:1464, log_time:53354,time_merge:3680082, copy_size:258048 
+checkpoint:1465, log_time:54825,time_merge:1881076, copy_size:131072 
+checkpoint:1466, log_time:54705,time_merge:3816954, copy_size:270336 
+checkpoint:1467, log_time:54864,time_merge:2965156, copy_size:208896 
+checkpoint:1468, log_time:53019,time_merge:4141908, copy_size:290816 
+checkpoint:1469, log_time:54705,time_merge:4335133, copy_size:307712 
+checkpoint:1470, log_time:54901,time_merge:4447063, copy_size:315392 
+checkpoint:1471, log_time:54723,time_merge:3622476, copy_size:254464 
+checkpoint:1472, log_time:52832,time_merge:6993519, copy_size:495616 
+checkpoint:1473, log_time:54726,time_merge:4510006, copy_size:320512 
+checkpoint:1474, log_time:54264,time_merge:4561790, copy_size:320000 
+checkpoint:1475, log_time:53105,time_merge:2766210, copy_size:192512 
+checkpoint:1476, log_time:53023,time_merge:5211145, copy_size:364544 
+checkpoint:1477, log_time:53726,time_merge:3770144, copy_size:266240 
+checkpoint:1478, log_time:54532,time_merge:4189547, copy_size:294912 
+checkpoint:1479, log_time:54675,time_merge:3764143, copy_size:266240 
+checkpoint:1480, log_time:53309,time_merge:3852753, copy_size:270336 
+checkpoint:1481, log_time:54687,time_merge:2360485, copy_size:163840 
+checkpoint:1482, log_time:54825,time_merge:3663527, copy_size:258048 
+checkpoint:1483, log_time:52680,time_merge:6566793, copy_size:463872 
+checkpoint:1484, log_time:53450,time_merge:2954000, copy_size:208896 
+checkpoint:1485, log_time:54684,time_merge:2908724, copy_size:204800 
+checkpoint:1486, log_time:54862,time_merge:4511910, copy_size:320512 
+checkpoint:1487, log_time:52857,time_merge:5680828, copy_size:401408 
+checkpoint:1488, log_time:54584,time_merge:4638850, copy_size:328704 
+checkpoint:1489, log_time:54694,time_merge:4322125, copy_size:307712 
+checkpoint:1490, log_time:54873,time_merge:3687182, copy_size:262144 
+checkpoint:1491, log_time:52885,time_merge:6080568, copy_size:430592 
+checkpoint:1492, log_time:53172,time_merge:2215036, copy_size:155648 
+checkpoint:1493, log_time:54720,time_merge:2673532, copy_size:188416 
+checkpoint:1494, log_time:54675,time_merge:3245609, copy_size:229376 
+checkpoint:1495, log_time:52970,time_merge:5391904, copy_size:380928 
+checkpoint:1496, log_time:54732,time_merge:3527995, copy_size:249856 
+checkpoint:1497, log_time:54705,time_merge:4403823, copy_size:311808 
+checkpoint:1498, log_time:54693,time_merge:3089013, copy_size:217088 
+checkpoint:1499, log_time:53015,time_merge:5923140, copy_size:417792 
+checkpoint:1500, log_time:54697,time_merge:4254945, copy_size:299008 
+checkpoint:1501, log_time:54811,time_merge:4399727, copy_size:311808 
+checkpoint:1502, log_time:54687,time_merge:4631982, copy_size:328704 
+checkpoint:1503, log_time:53246,time_merge:4699666, copy_size:331776 
+checkpoint:1504, log_time:54891,time_merge:2513338, copy_size:176128 
+checkpoint:1505, log_time:54645,time_merge:2583636, copy_size:180224 
+checkpoint:1506, log_time:54696,time_merge:3635204, copy_size:258048 
+checkpoint:1507, log_time:53363,time_merge:3518791, copy_size:245760 
+checkpoint:1508, log_time:54807,time_merge:2452634, copy_size:172032 
+checkpoint:1509, log_time:54711,time_merge:3793685, copy_size:266240 
+checkpoint:1510, log_time:54594,time_merge:3428352, copy_size:241664 
+checkpoint:1511, log_time:53429,time_merge:5547591, copy_size:389632 
+checkpoint:1512, log_time:54843,time_merge:1731058, copy_size:118784 
+checkpoint:1513, log_time:54811,time_merge:4437198, copy_size:311808 
+checkpoint:1514, log_time:54792,time_merge:3593144, copy_size:253952 
+checkpoint:1515, log_time:53036,time_merge:4961409, copy_size:352256 
+checkpoint:1516, log_time:54792,time_merge:3456730, copy_size:245760 
+checkpoint:1517, log_time:54697,time_merge:4545838, copy_size:320000 
+checkpoint:1518, log_time:54804,time_merge:4234304, copy_size:299520 
+checkpoint:1519, log_time:53157,time_merge:5431588, copy_size:385024 
+checkpoint:1520, log_time:54415,time_merge:2454205, copy_size:172032 
+checkpoint:1521, log_time:54856,time_merge:1369592, copy_size:94208 
+checkpoint:1522, log_time:54726,time_merge:4115978, copy_size:291328 
+checkpoint:1523, log_time:53938,time_merge:6442843, copy_size:455168 
+checkpoint:1524, log_time:54864,time_merge:4452822, copy_size:315904 
+checkpoint:1525, log_time:54811,time_merge:1712789, copy_size:118784 
+checkpoint:1526, log_time:54705,time_merge:2675361, copy_size:188416 
+checkpoint:1527, log_time:53468,time_merge:4063935, copy_size:286720 
+checkpoint:1528, log_time:54768,time_merge:3096991, copy_size:217600 
+checkpoint:1529, log_time:54696,time_merge:2451225, copy_size:172032 
+checkpoint:1530, log_time:54837,time_merge:3431538, copy_size:241664 
+checkpoint:1531, log_time:53439,time_merge:3609516, copy_size:253952 
+checkpoint:1532, log_time:54822,time_merge:3978704, copy_size:282624 
+checkpoint:1533, log_time:54690,time_merge:1759137, copy_size:122880 
+checkpoint:1534, log_time:52526,time_merge:4563919, copy_size:323584 
+checkpoint:1535, log_time:53036,time_merge:3647764, copy_size:258048 
+checkpoint:1536, log_time:54781,time_merge:4557861, copy_size:320000 
+checkpoint:1537, log_time:54699,time_merge:4249415, copy_size:299008 
+checkpoint:1538, log_time:52868,time_merge:4633515, copy_size:327680 
+checkpoint:1539, log_time:54633,time_merge:2792423, copy_size:196608 
+checkpoint:1540, log_time:54828,time_merge:3015413, copy_size:212992 
+checkpoint:1541, log_time:54732,time_merge:3904720, copy_size:278528 
+checkpoint:1542, log_time:52791,time_merge:5893161, copy_size:418304 
+checkpoint:1543, log_time:54660,time_merge:3656410, copy_size:258048 
+checkpoint:1544, log_time:54829,time_merge:4542165, copy_size:320512 
+checkpoint:1545, log_time:54708,time_merge:3402433, copy_size:241664 
+checkpoint:1546, log_time:53081,time_merge:5434815, copy_size:385536 
+checkpoint:1547, log_time:54499,time_merge:3456578, copy_size:245760 
+checkpoint:1548, log_time:54789,time_merge:1598843, copy_size:110592 
+checkpoint:1549, log_time:54687,time_merge:2231544, copy_size:155648 
+checkpoint:1550, log_time:53021,time_merge:6272138, copy_size:442880 
+checkpoint:1551, log_time:54744,time_merge:2978037, copy_size:208896 
+checkpoint:1552, log_time:54708,time_merge:2715786, copy_size:192512 
+checkpoint:1553, log_time:54787,time_merge:3899079, copy_size:274432 
+checkpoint:1554, log_time:53337,time_merge:5424272, copy_size:381440 
+checkpoint:1555, log_time:54744,time_merge:3747443, copy_size:262144 
+checkpoint:1556, log_time:54759,time_merge:2738854, copy_size:192512 
+checkpoint:1557, log_time:54888,time_merge:3945567, copy_size:278528 
+checkpoint:1558, log_time:53198,time_merge:2845203, copy_size:196608 
+checkpoint:1559, log_time:53952,time_merge:4104393, copy_size:290816 
+checkpoint:1560, log_time:54819,time_merge:3911148, copy_size:278528 
+checkpoint:1561, log_time:54777,time_merge:2759790, copy_size:193024 
+checkpoint:1562, log_time:53154,time_merge:5780722, copy_size:410112 
+checkpoint:1563, log_time:54804,time_merge:4343647, copy_size:307712 
+checkpoint:1564, log_time:54822,time_merge:3997337, copy_size:282624 
+checkpoint:1565, log_time:54810,time_merge:3967657, copy_size:282624 
+checkpoint:1566, log_time:53611,time_merge:5220946, copy_size:369152 
+checkpoint:1567, log_time:54760,time_merge:4148122, copy_size:290816 
+checkpoint:1568, log_time:54714,time_merge:2260345, copy_size:159744 
+checkpoint:1569, log_time:54843,time_merge:4253497, copy_size:299520 
+checkpoint:1570, log_time:53485,time_merge:4656013, copy_size:327680 
+checkpoint:1571, log_time:54762,time_merge:3687257, copy_size:262144 
+checkpoint:1572, log_time:54763,time_merge:4182478, copy_size:294912 
+checkpoint:1573, log_time:54834,time_merge:3596312, copy_size:254464 
+checkpoint:1574, log_time:54090,time_merge:4187424, copy_size:294912 
+checkpoint:1575, log_time:54756,time_merge:2855907, copy_size:200704 
+checkpoint:1576, log_time:54696,time_merge:2989153, copy_size:208896 
+checkpoint:1577, log_time:54696,time_merge:2968540, copy_size:208896 
+checkpoint:1578, log_time:53991,time_merge:5321360, copy_size:376832 
+checkpoint:1579, log_time:54841,time_merge:4683477, copy_size:328192 
+checkpoint:1580, log_time:54798,time_merge:3393712, copy_size:237568 
+checkpoint:1581, log_time:54829,time_merge:4402909, copy_size:311296 
+checkpoint:1582, log_time:53634,time_merge:5351552, copy_size:377856 
+checkpoint:1583, log_time:54717,time_merge:4339900, copy_size:307712 
+checkpoint:1584, log_time:54689,time_merge:3410727, copy_size:241664 
+checkpoint:1585, log_time:52751,time_merge:4637998, copy_size:327680 
+checkpoint:1586, log_time:54477,time_merge:2885795, copy_size:204800 
+checkpoint:1587, log_time:54705,time_merge:1093023, copy_size:73728 
+checkpoint:1588, log_time:54897,time_merge:3865920, copy_size:274432 
+checkpoint:1589, log_time:52605,time_merge:4290083, copy_size:303104 
+checkpoint:1590, log_time:54680,time_merge:4256275, copy_size:303616 
+checkpoint:1591, log_time:54811,time_merge:2937577, copy_size:204800 
+checkpoint:1592, log_time:54846,time_merge:2849349, copy_size:200704 
+checkpoint:1593, log_time:53237,time_merge:4235117, copy_size:299008 
+checkpoint:1594, log_time:53398,time_merge:4182124, copy_size:295424 
+checkpoint:1595, log_time:54748,time_merge:4182913, copy_size:294912 
+checkpoint:1596, log_time:54775,time_merge:4108452, copy_size:290816 
+checkpoint:1597, log_time:52934,time_merge:4941943, copy_size:344064 
+checkpoint:1598, log_time:54841,time_merge:4330986, copy_size:307712 
+checkpoint:1599, log_time:54723,time_merge:2229196, copy_size:155648 
+checkpoint:1600, log_time:54807,time_merge:2961678, copy_size:208896 
+checkpoint:1601, log_time:52893,time_merge:3904041, copy_size:274944 
+checkpoint:1602, log_time:54796,time_merge:3772297, copy_size:266752 
+checkpoint:1603, log_time:54699,time_merge:3876471, copy_size:274432 
+checkpoint:1604, log_time:54858,time_merge:3929860, copy_size:278528 
+checkpoint:1605, log_time:52927,time_merge:6709170, copy_size:471552 
+checkpoint:1606, log_time:53880,time_merge:3534026, copy_size:245760 
+checkpoint:1607, log_time:54715,time_merge:4148143, copy_size:291328 
+checkpoint:1608, log_time:54711,time_merge:2773351, copy_size:192512 
+checkpoint:1609, log_time:53319,time_merge:5186733, copy_size:364544 
+checkpoint:1610, log_time:54837,time_merge:1819967, copy_size:126976 
+checkpoint:1611, log_time:54814,time_merge:4436969, copy_size:311808 
+checkpoint:1612, log_time:54678,time_merge:3231781, copy_size:229376 
+checkpoint:1613, log_time:53294,time_merge:6033799, copy_size:427008 
+checkpoint:1614, log_time:54633,time_merge:2644887, copy_size:184320 
+checkpoint:1615, log_time:54750,time_merge:3378470, copy_size:237568 
+checkpoint:1616, log_time:54735,time_merge:3606434, copy_size:254464 
+checkpoint:1617, log_time:53093,time_merge:4672169, copy_size:327680 
+checkpoint:1618, log_time:54594,time_merge:2338639, copy_size:163840 
+checkpoint:1619, log_time:54684,time_merge:2963513, copy_size:208896 
+checkpoint:1620, log_time:54840,time_merge:4026479, copy_size:286720 
+checkpoint:1621, log_time:53451,time_merge:3904478, copy_size:274432 
+checkpoint:1622, log_time:54811,time_merge:2131515, copy_size:147456 
+checkpoint:1623, log_time:54852,time_merge:2509680, copy_size:176128 
+checkpoint:1624, log_time:54733,time_merge:4343381, copy_size:307712 
+checkpoint:1625, log_time:54186,time_merge:6244503, copy_size:442880 
+checkpoint:1626, log_time:54855,time_merge:3688734, copy_size:262144 
+checkpoint:1627, log_time:54723,time_merge:1758721, copy_size:122880 
+checkpoint:1628, log_time:54744,time_merge:2742032, copy_size:192512 
+checkpoint:1629, log_time:53129,time_merge:5569160, copy_size:393216 
+checkpoint:1630, log_time:54690,time_merge:3686046, copy_size:262144 
+checkpoint:1631, log_time:54759,time_merge:4464850, copy_size:316416 
+checkpoint:1632, log_time:54684,time_merge:3832729, copy_size:270336 
+checkpoint:1633, log_time:53316,time_merge:5764155, copy_size:401920 
+checkpoint:1634, log_time:54693,time_merge:2232398, copy_size:155648 
+checkpoint:1635, log_time:54679,time_merge:3657685, copy_size:258560 
+checkpoint:1636, log_time:52693,time_merge:6473633, copy_size:455168 
+checkpoint:1637, log_time:54189,time_merge:3531297, copy_size:249856 
+checkpoint:1638, log_time:54726,time_merge:3423936, copy_size:241664 
+checkpoint:1639, log_time:54735,time_merge:3039411, copy_size:212992 
+checkpoint:1640, log_time:52856,time_merge:4949340, copy_size:348672 
+checkpoint:1641, log_time:53694,time_merge:2227315, copy_size:155648 
+checkpoint:1642, log_time:54825,time_merge:2609201, copy_size:184320 
+checkpoint:1643, log_time:54849,time_merge:3986480, copy_size:282624 
+checkpoint:1644, log_time:53180,time_merge:3892785, copy_size:270336 
+checkpoint:1645, log_time:54030,time_merge:4648164, copy_size:328192 
+checkpoint:1646, log_time:54901,time_merge:3575935, copy_size:253952 
+checkpoint:1647, log_time:54675,time_merge:3338861, copy_size:233472 
+checkpoint:1648, log_time:53532,time_merge:4022328, copy_size:279040 
+checkpoint:1649, log_time:54515,time_merge:2750171, copy_size:193024 
+checkpoint:1650, log_time:54687,time_merge:1428080, copy_size:98304 
+checkpoint:1651, log_time:54769,time_merge:4665064, copy_size:328192 
+checkpoint:1652, log_time:53333,time_merge:3315240, copy_size:233472 
+checkpoint:1653, log_time:54732,time_merge:4177614, copy_size:294912 
+checkpoint:1654, log_time:54774,time_merge:3612603, copy_size:254464 
+checkpoint:1655, log_time:54799,time_merge:4554119, copy_size:320000 
+checkpoint:1656, log_time:52832,time_merge:5980313, copy_size:422400 
+checkpoint:1657, log_time:54711,time_merge:2747001, copy_size:192512 
+checkpoint:1658, log_time:54720,time_merge:2731357, copy_size:192512 
+checkpoint:1659, log_time:54681,time_merge:3385896, copy_size:238080 
+checkpoint:1660, log_time:52879,time_merge:6810569, copy_size:484864 
+checkpoint:1661, log_time:54681,time_merge:3122735, copy_size:221184 
+checkpoint:1662, log_time:54810,time_merge:3768806, copy_size:266240 
+checkpoint:1663, log_time:54591,time_merge:2950351, copy_size:208896 
+checkpoint:1664, log_time:52938,time_merge:4586770, copy_size:323584 
+checkpoint:1665, log_time:54762,time_merge:2713005, copy_size:192512 
+checkpoint:1666, log_time:54843,time_merge:2252758, copy_size:155648 
+checkpoint:1667, log_time:54874,time_merge:4562446, copy_size:324096 
+checkpoint:1668, log_time:53141,time_merge:3083725, copy_size:212992 
+checkpoint:1669, log_time:54721,time_merge:4172957, copy_size:294912 
+checkpoint:1670, log_time:54708,time_merge:3120861, copy_size:221184 
+checkpoint:1671, log_time:54852,time_merge:3723608, copy_size:262656 
+checkpoint:1672, log_time:53468,time_merge:3723523, copy_size:262144 
+checkpoint:1673, log_time:52937,time_merge:4176292, copy_size:294912 
+checkpoint:1674, log_time:54813,time_merge:3955730, copy_size:278528 
+checkpoint:1675, log_time:54828,time_merge:4550819, copy_size:324096 
+checkpoint:1676, log_time:53391,time_merge:3289292, copy_size:229376 
+checkpoint:1677, log_time:54714,time_merge:4155225, copy_size:294912 
+checkpoint:1678, log_time:53324,time_merge:2374407, copy_size:163840 
+checkpoint:1679, log_time:54864,time_merge:2622951, copy_size:184320 
+checkpoint:1680, log_time:53954,time_merge:4036018, copy_size:282624 
+checkpoint:1681, log_time:54762,time_merge:3808041, copy_size:266240 
+checkpoint:1682, log_time:54879,time_merge:4162780, copy_size:294912 
+checkpoint:1683, log_time:54753,time_merge:2794408, copy_size:196608 
+checkpoint:1684, log_time:54072,time_merge:5156235, copy_size:364544 
+checkpoint:1685, log_time:54873,time_merge:2003625, copy_size:139264 
+checkpoint:1686, log_time:54817,time_merge:4460318, copy_size:315392 
+checkpoint:1687, log_time:52768,time_merge:6587948, copy_size:467968 
+checkpoint:1688, log_time:53479,time_merge:1433446, copy_size:98304 
+checkpoint:1689, log_time:54894,time_merge:3290055, copy_size:233472 
+checkpoint:1690, log_time:54804,time_merge:3589580, copy_size:253952 
+checkpoint:1691, log_time:52836,time_merge:4527359, copy_size:319488 
+checkpoint:1692, log_time:54495,time_merge:3342588, copy_size:237568 
+checkpoint:1693, log_time:54726,time_merge:1773031, copy_size:122880 
+checkpoint:1694, log_time:54858,time_merge:3712945, copy_size:262656 
+checkpoint:1695, log_time:52807,time_merge:5839009, copy_size:410112 
+checkpoint:1696, log_time:53949,time_merge:2938150, copy_size:208896 
+checkpoint:1697, log_time:54723,time_merge:2128149, copy_size:147456 
+checkpoint:1698, log_time:54747,time_merge:2730211, copy_size:192512 
+checkpoint:1699, log_time:53649,time_merge:3027026, copy_size:208896 
+checkpoint:1700, log_time:54801,time_merge:2641045, copy_size:184320 
+checkpoint:1701, log_time:54831,time_merge:3924576, copy_size:278528 
+checkpoint:1702, log_time:54712,time_merge:4489357, copy_size:320512 
+checkpoint:1703, log_time:53061,time_merge:5439473, copy_size:385024 
+checkpoint:1704, log_time:53994,time_merge:3326596, copy_size:237568 
+checkpoint:1705, log_time:54742,time_merge:4676079, copy_size:328192 
+checkpoint:1706, log_time:54783,time_merge:4450910, copy_size:315904 
+checkpoint:1707, log_time:53450,time_merge:3982680, copy_size:278528 
+checkpoint:1708, log_time:54855,time_merge:1039189, copy_size:69632 
+checkpoint:1709, log_time:54690,time_merge:3219808, copy_size:229376 
+checkpoint:1710, log_time:54585,time_merge:2413010, copy_size:167936 
+checkpoint:1711, log_time:53183,time_merge:2514168, copy_size:176128 
+checkpoint:1712, log_time:54790,time_merge:3651612, copy_size:258048 
+checkpoint:1713, log_time:54741,time_merge:3944045, copy_size:278528 
+checkpoint:1714, log_time:54815,time_merge:4512972, copy_size:320512 
+checkpoint:1715, log_time:53117,time_merge:5189628, copy_size:365056 
+checkpoint:1716, log_time:54693,time_merge:2834007, copy_size:197120 
+checkpoint:1717, log_time:54821,time_merge:3694620, copy_size:258048 
+checkpoint:1718, log_time:54750,time_merge:3525765, copy_size:249856 
+checkpoint:1719, log_time:53373,time_merge:4580508, copy_size:323584 
+checkpoint:1720, log_time:54462,time_merge:3910995, copy_size:274944 
+checkpoint:1721, log_time:54708,time_merge:1767956, copy_size:122880 
+checkpoint:1722, log_time:54777,time_merge:3600497, copy_size:254464 
+checkpoint:1723, log_time:53412,time_merge:4586165, copy_size:323584 
+checkpoint:1724, log_time:54732,time_merge:3981039, copy_size:283136 
+checkpoint:1725, log_time:54819,time_merge:2742005, copy_size:192512 
+checkpoint:1726, log_time:54627,time_merge:1595220, copy_size:110592 
+checkpoint:1727, log_time:53655,time_merge:1248318, copy_size:81920 
+checkpoint:1728, log_time:53252,time_merge:3257368, copy_size:229376 
+checkpoint:1729, log_time:54701,time_merge:2744129, copy_size:192512 
+checkpoint:1730, log_time:54696,time_merge:4547536, copy_size:324096 
+checkpoint:1731, log_time:52848,time_merge:5243348, copy_size:373248 
+checkpoint:1732, log_time:54711,time_merge:2479478, copy_size:172032 
+checkpoint:1733, log_time:54750,time_merge:3312085, copy_size:233472 
+checkpoint:1734, log_time:54871,time_merge:4386091, copy_size:311808 
+checkpoint:1735, log_time:54318,time_merge:3892500, copy_size:274432 
+checkpoint:1736, log_time:54681,time_merge:3479406, copy_size:245760 
+checkpoint:1737, log_time:54798,time_merge:2961837, copy_size:209408 
+checkpoint:1738, log_time:52796,time_merge:4852781, copy_size:339968 
+checkpoint:1739, log_time:54498,time_merge:4363169, copy_size:312320 
+checkpoint:1740, log_time:54726,time_merge:2786292, copy_size:196608 
+checkpoint:1741, log_time:54020,time_merge:1851186, copy_size:126976 
+checkpoint:1742, log_time:53018,time_merge:2426176, copy_size:167936 
+checkpoint:1743, log_time:53221,time_merge:2339127, copy_size:163840 
+checkpoint:1744, log_time:54687,time_merge:3186374, copy_size:225280 
+checkpoint:1745, log_time:54874,time_merge:4666814, copy_size:328192 
+checkpoint:1746, log_time:52928,time_merge:5052688, copy_size:356352 
+checkpoint:1747, log_time:54759,time_merge:3866615, copy_size:274432 
+checkpoint:1748, log_time:54552,time_merge:3393459, copy_size:241664 
+checkpoint:1749, log_time:54787,time_merge:3664474, copy_size:258048 
+checkpoint:1750, log_time:53514,time_merge:4209278, copy_size:295424 
+checkpoint:1751, log_time:54728,time_merge:2894687, copy_size:205312 
+checkpoint:1752, log_time:54843,time_merge:3604948, copy_size:254464 
+checkpoint:1753, log_time:54696,time_merge:3085486, copy_size:217088 
+checkpoint:1754, log_time:53365,time_merge:5254099, copy_size:373248 
+checkpoint:1755, log_time:54666,time_merge:4267394, copy_size:303616 
+checkpoint:1756, log_time:54873,time_merge:2272826, copy_size:159744 
+checkpoint:1757, log_time:54771,time_merge:3251412, copy_size:229376 
+checkpoint:1758, log_time:53012,time_merge:6080629, copy_size:430080 
+checkpoint:1759, log_time:54816,time_merge:2305410, copy_size:159744 
+checkpoint:1760, log_time:54837,time_merge:3930679, copy_size:278528 
+checkpoint:1761, log_time:54732,time_merge:3258880, copy_size:229888 
+checkpoint:1762, log_time:53577,time_merge:4351822, copy_size:307200 
+checkpoint:1763, log_time:54807,time_merge:2280797, copy_size:159744 
+checkpoint:1764, log_time:54783,time_merge:2670865, copy_size:188416 
+checkpoint:1765, log_time:54870,time_merge:3257175, copy_size:229888 
+checkpoint:1766, log_time:53164,time_merge:6653790, copy_size:471552 
+checkpoint:1767, log_time:54711,time_merge:3712945, copy_size:262144 
+checkpoint:1768, log_time:54828,time_merge:2800300, copy_size:196608 
+checkpoint:1769, log_time:54750,time_merge:3684374, copy_size:262144 
+checkpoint:1770, log_time:52840,time_merge:6356508, copy_size:451072 
+checkpoint:1771, log_time:54828,time_merge:3753546, copy_size:266240 
+checkpoint:1772, log_time:54897,time_merge:4153097, copy_size:290816 
+checkpoint:1773, log_time:54702,time_merge:3189614, copy_size:225280 
+checkpoint:1774, log_time:52836,time_merge:6495511, copy_size:459264 
+checkpoint:1775, log_time:54697,time_merge:4304996, copy_size:303616 
+checkpoint:1776, log_time:54702,time_merge:3580210, copy_size:253952 
+checkpoint:1777, log_time:54708,time_merge:3058594, copy_size:217088 
+checkpoint:1778, log_time:52888,time_merge:5646036, copy_size:401920 
+checkpoint:1779, log_time:54858,time_merge:4249940, copy_size:299008 
+checkpoint:1780, log_time:54678,time_merge:3457324, copy_size:241664 
+checkpoint:1781, log_time:54876,time_merge:3867484, copy_size:274432 
+checkpoint:1782, log_time:53086,time_merge:6092253, copy_size:430592 
+checkpoint:1783, log_time:54711,time_merge:4024115, copy_size:282624 
+checkpoint:1784, log_time:54867,time_merge:4147866, copy_size:294912 
+checkpoint:1785, log_time:54798,time_merge:3091889, copy_size:217088 
+checkpoint:1786, log_time:53127,time_merge:3056952, copy_size:212992 
+checkpoint:1787, log_time:54774,time_merge:2508415, copy_size:176128 
+checkpoint:1788, log_time:54708,time_merge:4006722, copy_size:283136 
+checkpoint:1789, log_time:52769,time_merge:2717999, copy_size:188416 
+checkpoint:1790, log_time:54284,time_merge:2971117, copy_size:208896 
+checkpoint:1791, log_time:54783,time_merge:3208382, copy_size:225280 
+checkpoint:1792, log_time:54684,time_merge:2724936, copy_size:192512 
+checkpoint:1793, log_time:52622,time_merge:4911429, copy_size:344064 
+checkpoint:1794, log_time:53366,time_merge:3788612, copy_size:270336 
+checkpoint:1795, log_time:54792,time_merge:3479761, copy_size:245760 
+checkpoint:1796, log_time:54693,time_merge:2961526, copy_size:208896 
+checkpoint:1797, log_time:52970,time_merge:5132082, copy_size:364544 
+checkpoint:1798, log_time:53936,time_merge:3326177, copy_size:233472 
+checkpoint:1799, log_time:54693,time_merge:3673769, copy_size:258048 
+checkpoint:1800, log_time:54861,time_merge:2797949, copy_size:197120 
+checkpoint:1801, log_time:53390,time_merge:1915646, copy_size:131072 
+checkpoint:1802, log_time:54429,time_merge:3824463, copy_size:270336 
+checkpoint:1803, log_time:54708,time_merge:3710238, copy_size:262656 
+checkpoint:1804, log_time:54711,time_merge:4325159, copy_size:307712 
+checkpoint:1805, log_time:53000,time_merge:4865357, copy_size:344064 
+checkpoint:1806, log_time:54415,time_merge:4106199, copy_size:291328 
+checkpoint:1807, log_time:54840,time_merge:2120812, copy_size:147456 
+checkpoint:1808, log_time:54865,time_merge:3514258, copy_size:249856 
+checkpoint:1809, log_time:53321,time_merge:2472583, copy_size:172032 
+checkpoint:1810, log_time:54804,time_merge:2055856, copy_size:143360 
+checkpoint:1811, log_time:54780,time_merge:4127319, copy_size:290816 
+checkpoint:1812, log_time:54747,time_merge:2237663, copy_size:155648 
+checkpoint:1813, log_time:52828,time_merge:5802821, copy_size:414208 
+checkpoint:1814, log_time:54153,time_merge:3875694, copy_size:274432 
+checkpoint:1815, log_time:54687,time_merge:3300741, copy_size:233472 
+checkpoint:1816, log_time:54786,time_merge:3182032, copy_size:225280 
+checkpoint:1817, log_time:53395,time_merge:4201652, copy_size:294912 
+checkpoint:1818, log_time:54699,time_merge:4096088, copy_size:291328 
+checkpoint:1819, log_time:54768,time_merge:3471377, copy_size:245760 
+checkpoint:1820, log_time:54753,time_merge:4381410, copy_size:312320 
+checkpoint:1821, log_time:52871,time_merge:6534875, copy_size:462848 
+checkpoint:1822, log_time:54783,time_merge:2944468, copy_size:205312 
+checkpoint:1823, log_time:54681,time_merge:3923502, copy_size:278528 
+checkpoint:1824, log_time:54826,time_merge:3451166, copy_size:241664 
+checkpoint:1825, log_time:53016,time_merge:4285663, copy_size:303104 
+checkpoint:1826, log_time:54726,time_merge:1835955, copy_size:126976 
+checkpoint:1827, log_time:53130,time_merge:3478685, copy_size:245760 
+checkpoint:1828, log_time:54750,time_merge:2542074, copy_size:176128 
+checkpoint:1829, log_time:53409,time_merge:3518759, copy_size:245760 
+checkpoint:1830, log_time:54196,time_merge:4123354, copy_size:290816 
+checkpoint:1831, log_time:54816,time_merge:3987417, copy_size:279040 
+checkpoint:1832, log_time:54873,time_merge:3109277, copy_size:217600 
+checkpoint:1833, log_time:53103,time_merge:4695401, copy_size:331776 
+checkpoint:1834, log_time:54847,time_merge:1944771, copy_size:135168 
+checkpoint:1835, log_time:54832,time_merge:3042669, copy_size:213504 
+checkpoint:1836, log_time:54837,time_merge:3538530, copy_size:250368 
+checkpoint:1837, log_time:54117,time_merge:3858024, copy_size:270848 
+checkpoint:1838, log_time:54831,time_merge:3519624, copy_size:249856 
+checkpoint:1839, log_time:54804,time_merge:3200370, copy_size:225280 
+checkpoint:1840, log_time:52742,time_merge:3939254, copy_size:278528 
+checkpoint:1841, log_time:54094,time_merge:1601256, copy_size:110592 
+checkpoint:1842, log_time:54747,time_merge:2896185, copy_size:204800 
+checkpoint:1843, log_time:54790,time_merge:4555504, copy_size:320000 
+checkpoint:1844, log_time:52943,time_merge:5418944, copy_size:380928 
+checkpoint:1845, log_time:53609,time_merge:2456412, copy_size:172032 
+checkpoint:1846, log_time:54843,time_merge:3081198, copy_size:217600 
+checkpoint:1847, log_time:54800,time_merge:4636514, copy_size:324096 
+checkpoint:1848, log_time:52988,time_merge:6618546, copy_size:471552 
+checkpoint:1849, log_time:53955,time_merge:3125814, copy_size:217088 
+checkpoint:1850, log_time:54705,time_merge:2743106, copy_size:192512 
+checkpoint:1851, log_time:54814,time_merge:4504727, copy_size:315904 
+checkpoint:1852, log_time:52878,time_merge:3972481, copy_size:279040 
+checkpoint:1853, log_time:53445,time_merge:1268138, copy_size:86016 
+checkpoint:1854, log_time:54277,time_merge:3878346, copy_size:274432 
+checkpoint:1855, log_time:54798,time_merge:2599933, copy_size:184320 
+checkpoint:1856, log_time:52925,time_merge:4384172, copy_size:311296 
+checkpoint:1857, log_time:54723,time_merge:4170313, copy_size:294912 
+checkpoint:1858, log_time:54675,time_merge:4394153, copy_size:311296 
+checkpoint:1859, log_time:54810,time_merge:3668580, copy_size:258560 
+checkpoint:1860, log_time:52788,time_merge:3863926, copy_size:270848 
+checkpoint:1861, log_time:54825,time_merge:2743498, copy_size:193024 
+checkpoint:1862, log_time:54747,time_merge:1879962, copy_size:131072 
+checkpoint:1863, log_time:54738,time_merge:3484646, copy_size:245760 
+checkpoint:1864, log_time:53511,time_merge:4287193, copy_size:303104 
+checkpoint:1865, log_time:53054,time_merge:4146565, copy_size:291328 
+checkpoint:1866, log_time:54711,time_merge:3085343, copy_size:217088 
+checkpoint:1867, log_time:54717,time_merge:3711530, copy_size:262144 
+checkpoint:1868, log_time:52992,time_merge:6049847, copy_size:430080 
+checkpoint:1869, log_time:54685,time_merge:4382032, copy_size:311808 
+checkpoint:1870, log_time:54822,time_merge:2911351, copy_size:204800 
+checkpoint:1871, log_time:54819,time_merge:3033915, copy_size:213504 
+checkpoint:1872, log_time:53810,time_merge:5661542, copy_size:397824 
+checkpoint:1873, log_time:54676,time_merge:4025053, copy_size:282624 
+checkpoint:1874, log_time:54768,time_merge:4000194, copy_size:283136 
+checkpoint:1875, log_time:54696,time_merge:2618346, copy_size:184320 
+checkpoint:1876, log_time:53396,time_merge:3174431, copy_size:221184 
+checkpoint:1877, log_time:54732,time_merge:4399523, copy_size:311296 
+checkpoint:1878, log_time:54852,time_merge:2936864, copy_size:205312 
+checkpoint:1879, log_time:54696,time_merge:2465386, copy_size:172032 
+checkpoint:1880, log_time:54232,time_merge:6033817, copy_size:425984 
+checkpoint:1881, log_time:54843,time_merge:2240002, copy_size:155648 
+checkpoint:1882, log_time:54721,time_merge:3737644, copy_size:262144 
+checkpoint:1883, log_time:54853,time_merge:4340341, copy_size:307712 
+checkpoint:1884, log_time:53222,time_merge:3743511, copy_size:262144 
+checkpoint:1885, log_time:54687,time_merge:2994289, copy_size:208896 
+checkpoint:1886, log_time:54555,time_merge:4381130, copy_size:311296 
+checkpoint:1887, log_time:54834,time_merge:4235055, copy_size:299520 
+checkpoint:1888, log_time:53136,time_merge:3869054, copy_size:270848 
+checkpoint:1889, log_time:54765,time_merge:3368617, copy_size:237568 
+checkpoint:1890, log_time:54667,time_merge:4299378, copy_size:303616 
+checkpoint:1891, log_time:52808,time_merge:6209317, copy_size:438784 
+checkpoint:1892, log_time:54103,time_merge:3517117, copy_size:245760 
+checkpoint:1893, log_time:54706,time_merge:4274077, copy_size:299008 
+checkpoint:1894, log_time:54679,time_merge:4304909, copy_size:303616 
+checkpoint:1895, log_time:52826,time_merge:5931198, copy_size:422400 
+checkpoint:1896, log_time:54693,time_merge:3319872, copy_size:233472 
+checkpoint:1897, log_time:54771,time_merge:2827852, copy_size:200704 
+checkpoint:1898, log_time:54756,time_merge:2905481, copy_size:204800 
+checkpoint:1899, log_time:53586,time_merge:4606536, copy_size:323584 
+checkpoint:1900, log_time:54582,time_merge:3410952, copy_size:241664 
+checkpoint:1901, log_time:53141,time_merge:3245981, copy_size:229376 
+checkpoint:1902, log_time:54903,time_merge:3726671, copy_size:262144 
+checkpoint:1903, log_time:52962,time_merge:5164599, copy_size:364544 
+checkpoint:1904, log_time:54370,time_merge:3208591, copy_size:225792 
+checkpoint:1905, log_time:54681,time_merge:1102132, copy_size:73728 
+checkpoint:1906, log_time:54852,time_merge:3079852, copy_size:217088 
+checkpoint:1907, log_time:52835,time_merge:3681497, copy_size:258048 
+checkpoint:1908, log_time:54702,time_merge:3138876, copy_size:221696 
+checkpoint:1909, log_time:54825,time_merge:1881403, copy_size:131072 
+checkpoint:1910, log_time:54741,time_merge:2736886, copy_size:192512 
+checkpoint:1911, log_time:52957,time_merge:4804950, copy_size:339968 
+checkpoint:1912, log_time:54681,time_merge:4029703, copy_size:287232 
+checkpoint:1913, log_time:54732,time_merge:3126217, copy_size:217600 
+checkpoint:1914, log_time:54686,time_merge:2817091, copy_size:196608 
+checkpoint:1915, log_time:53448,time_merge:4770840, copy_size:336384 
+checkpoint:1916, log_time:54693,time_merge:1835686, copy_size:126976 
+checkpoint:1917, log_time:54739,time_merge:4432575, copy_size:311808 
+checkpoint:1918, log_time:54835,time_merge:4286631, copy_size:303616 
+checkpoint:1919, log_time:53115,time_merge:5082182, copy_size:356352 
+checkpoint:1920, log_time:54690,time_merge:3347109, copy_size:237568 
+checkpoint:1921, log_time:54820,time_merge:3782820, copy_size:266240 
+checkpoint:1922, log_time:54711,time_merge:2635167, copy_size:184320 
+checkpoint:1923, log_time:52982,time_merge:5815152, copy_size:409600 
+checkpoint:1924, log_time:54711,time_merge:2859423, copy_size:200704 
+checkpoint:1925, log_time:54750,time_merge:1992681, copy_size:139264 
+checkpoint:1926, log_time:54750,time_merge:2752200, copy_size:192512 
+checkpoint:1927, log_time:52931,time_merge:4910006, copy_size:344064 
+checkpoint:1928, log_time:53391,time_merge:3570318, copy_size:250368 
+checkpoint:1929, log_time:54723,time_merge:3083160, copy_size:217088 
+checkpoint:1930, log_time:54681,time_merge:3093301, copy_size:217600 
+checkpoint:1931, log_time:52908,time_merge:6556957, copy_size:463360 
+checkpoint:1932, log_time:53861,time_merge:4125713, copy_size:291328 
+checkpoint:1933, log_time:54831,time_merge:2762479, copy_size:192512 
+checkpoint:1934, log_time:54834,time_merge:1544264, copy_size:106496 
+checkpoint:1935, log_time:53137,time_merge:4870918, copy_size:344064 
+checkpoint:1936, log_time:54761,time_merge:4306839, copy_size:303616 
+checkpoint:1937, log_time:54690,time_merge:1426236, copy_size:98304 
+checkpoint:1938, log_time:54768,time_merge:4194247, copy_size:299520 
+checkpoint:1939, log_time:53905,time_merge:5560598, copy_size:393728 
+checkpoint:1940, log_time:54693,time_merge:3244881, copy_size:229376 
+checkpoint:1941, log_time:54678,time_merge:3937524, copy_size:278528 
+checkpoint:1942, log_time:52841,time_merge:4893950, copy_size:344064 
+checkpoint:1943, log_time:53472,time_merge:1426457, copy_size:98304 
+checkpoint:1944, log_time:54864,time_merge:3088351, copy_size:217088 
+checkpoint:1945, log_time:54687,time_merge:4319277, copy_size:307712 
+checkpoint:1946, log_time:52845,time_merge:4474597, copy_size:315392 
+checkpoint:1947, log_time:54252,time_merge:2955558, copy_size:208896 
+checkpoint:1948, log_time:54735,time_merge:2508061, copy_size:176128 
+checkpoint:1949, log_time:54859,time_merge:2906994, copy_size:204800 
+checkpoint:1950, log_time:53346,time_merge:3324303, copy_size:233472 
+checkpoint:1951, log_time:54642,time_merge:3629392, copy_size:258048 
+checkpoint:1952, log_time:54703,time_merge:4225301, copy_size:299008 
+checkpoint:1953, log_time:54873,time_merge:3024715, copy_size:213504 
+checkpoint:1954, log_time:52887,time_merge:5570548, copy_size:393728 
+checkpoint:1955, log_time:54717,time_merge:4149150, copy_size:294912 
+checkpoint:1956, log_time:54861,time_merge:1880714, copy_size:131072 
+checkpoint:1957, log_time:54717,time_merge:867085, copy_size:57344 
+checkpoint:1958, log_time:53069,time_merge:5641614, copy_size:401408 
+checkpoint:1959, log_time:53622,time_merge:1599996, copy_size:110592 
+checkpoint:1960, log_time:54683,time_merge:1489048, copy_size:102400 
+checkpoint:1961, log_time:54696,time_merge:3244601, copy_size:229376 
+checkpoint:1962, log_time:53388,time_merge:3098143, copy_size:217088 
+checkpoint:1963, log_time:54762,time_merge:1616600, copy_size:110592 
+checkpoint:1964, log_time:54814,time_merge:4004232, copy_size:283136 
+checkpoint:1965, log_time:54753,time_merge:3387751, copy_size:237568 
+checkpoint:1966, log_time:53405,time_merge:4537326, copy_size:320000 
+checkpoint:1967, log_time:54819,time_merge:2735164, copy_size:192512 
+checkpoint:1968, log_time:54750,time_merge:1780638, copy_size:122880 
+checkpoint:1969, log_time:54702,time_merge:4142423, copy_size:294912 
+checkpoint:1970, log_time:52828,time_merge:4803564, copy_size:340480 
+checkpoint:1971, log_time:54901,time_merge:3671577, copy_size:258048 
+checkpoint:1972, log_time:54792,time_merge:3205507, copy_size:225280 
+checkpoint:1973, log_time:54687,time_merge:2900814, copy_size:204800 
+checkpoint:1974, log_time:53219,time_merge:6032568, copy_size:427008 
+checkpoint:1975, log_time:54894,time_merge:3557326, copy_size:249856 
+checkpoint:1976, log_time:54696,time_merge:2586190, copy_size:180224 
+checkpoint:1977, log_time:54726,time_merge:2281579, copy_size:159744 
+checkpoint:1978, log_time:53274,time_merge:4708857, copy_size:331776 
+checkpoint:1979, log_time:54717,time_merge:2984784, copy_size:212992 
+checkpoint:1980, log_time:54861,time_merge:2168689, copy_size:151552 
+checkpoint:1981, log_time:54864,time_merge:2793953, copy_size:196608 
+checkpoint:1982, log_time:53360,time_merge:3215014, copy_size:225280 
+checkpoint:1983, log_time:54723,time_merge:3070809, copy_size:217088 
+checkpoint:1984, log_time:54846,time_merge:4433672, copy_size:315904 
+checkpoint:1985, log_time:54771,time_merge:3505229, copy_size:249856 
+checkpoint:1986, log_time:53569,time_merge:6082814, copy_size:430080 
+checkpoint:1987, log_time:53312,time_merge:2531033, copy_size:176128 
+checkpoint:1988, log_time:54822,time_merge:1649405, copy_size:114688 
+checkpoint:1989, log_time:54747,time_merge:1366015, copy_size:94208 
+checkpoint:1990, log_time:53216,time_merge:5184657, copy_size:364544 
+checkpoint:1991, log_time:54765,time_merge:3965340, copy_size:283136 
+checkpoint:1992, log_time:54925,time_merge:3800293, copy_size:266752 
+checkpoint:1993, log_time:52794,time_merge:4641926, copy_size:324096 
+checkpoint:1994, log_time:54529,time_merge:2853955, copy_size:201216 
+checkpoint:1995, log_time:54032,time_merge:1668185, copy_size:114688 
+checkpoint:1996, log_time:54909,time_merge:699149, copy_size:45056 
+checkpoint:1997, log_time:52757,time_merge:3092223, copy_size:217088 
+checkpoint:1998, log_time:53373,time_merge:2113988, copy_size:147456 
+checkpoint:1999, log_time:54696,time_merge:3930541, copy_size:278528 
+checkpoint:2000, log_time:54867,time_merge:4242370, copy_size:299520 
+checkpoint:2001, log_time:53349,time_merge:3850457, copy_size:270336 
+checkpoint:2002, log_time:53651,time_merge:2749208, copy_size:192512 
+checkpoint:2003, log_time:54700,time_merge:3889682, copy_size:274432 
+checkpoint:2004, log_time:54714,time_merge:3505103, copy_size:249856 
+checkpoint:2005, log_time:53099,time_merge:5021983, copy_size:356352 
+checkpoint:2006, log_time:54603,time_merge:3183748, copy_size:225280 
+checkpoint:2007, log_time:54849,time_merge:2370567, copy_size:164352 
+checkpoint:2008, log_time:54888,time_merge:871214, copy_size:57344 
+checkpoint:2009, log_time:52983,time_merge:4196482, copy_size:294912 
+checkpoint:2010, log_time:54020,time_merge:2650812, copy_size:184320 
+checkpoint:2011, log_time:53507,time_merge:1146727, copy_size:77824 
+checkpoint:2012, log_time:54681,time_merge:2097549, copy_size:147456 
+checkpoint:2013, log_time:53069,time_merge:6167951, copy_size:438784 
+checkpoint:2014, log_time:54768,time_merge:3407063, copy_size:241664 
+checkpoint:2015, log_time:54888,time_merge:3638058, copy_size:258048 
+checkpoint:2016, log_time:54759,time_merge:3859601, copy_size:274432 
+checkpoint:2017, log_time:53157,time_merge:5786506, copy_size:410112 
+checkpoint:2018, log_time:54819,time_merge:3587537, copy_size:253952 
+checkpoint:2019, log_time:54759,time_merge:3589999, copy_size:254464 
+checkpoint:2020, log_time:54703,time_merge:4001835, copy_size:282624 
+checkpoint:2021, log_time:53075,time_merge:5432108, copy_size:385024 
+checkpoint:2022, log_time:54714,time_merge:4237835, copy_size:299008 
+checkpoint:2023, log_time:54795,time_merge:4092842, copy_size:290816 
+checkpoint:2024, log_time:54862,time_merge:4530612, copy_size:320000 
+checkpoint:2025, log_time:53181,time_merge:3539268, copy_size:249856 
+checkpoint:2026, log_time:54690,time_merge:4348053, copy_size:312320 
+checkpoint:2027, log_time:54810,time_merge:4329227, copy_size:307712 
+checkpoint:2028, log_time:54786,time_merge:2291789, copy_size:159744 
+checkpoint:2029, log_time:53858,time_merge:5515643, copy_size:390144 
+checkpoint:2030, log_time:54684,time_merge:2942238, copy_size:208896 
+checkpoint:2031, log_time:54870,time_merge:3703043, copy_size:262144 
+checkpoint:2032, log_time:54690,time_merge:2592739, copy_size:184320 
+checkpoint:2033, log_time:54024,time_merge:5146303, copy_size:364544 
+checkpoint:2034, log_time:54774,time_merge:1881748, copy_size:131072 
+checkpoint:2035, log_time:54687,time_merge:2634571, copy_size:184320 
+checkpoint:2036, log_time:54690,time_merge:3938517, copy_size:278528 
+checkpoint:2037, log_time:54331,time_merge:5279575, copy_size:372736 
+checkpoint:2038, log_time:54816,time_merge:4063664, copy_size:286720 
+checkpoint:2039, log_time:54777,time_merge:3183191, copy_size:225280 
+checkpoint:2040, log_time:54708,time_merge:1880696, copy_size:131072 
+checkpoint:2041, log_time:53325,time_merge:4509904, copy_size:319488 
+checkpoint:2042, log_time:54865,time_merge:4426774, copy_size:315904 
+checkpoint:2043, log_time:54759,time_merge:3771588, copy_size:266240 
+checkpoint:2044, log_time:52758,time_merge:6783857, copy_size:479744 
+checkpoint:2045, log_time:53211,time_merge:4584604, copy_size:324096 
+checkpoint:2046, log_time:54768,time_merge:2758413, copy_size:193024 
+checkpoint:2047, log_time:54828,time_merge:3185390, copy_size:225280 
+checkpoint:2048, log_time:52961,time_merge:5243070, copy_size:369152 
+checkpoint:2049, log_time:54403,time_merge:4167383, copy_size:295424 
+checkpoint:2050, log_time:54742,time_merge:4634343, copy_size:328192 
+checkpoint:2051, log_time:54844,time_merge:4545577, copy_size:320000 
+checkpoint:2052, log_time:53108,time_merge:5848009, copy_size:410112 
+checkpoint:2053, log_time:53873,time_merge:3608763, copy_size:258048 
+checkpoint:2054, log_time:54741,time_merge:4034691, copy_size:282624 
+checkpoint:2055, log_time:54693,time_merge:3207295, copy_size:225280 
+checkpoint:2056, log_time:52828,time_merge:6862853, copy_size:484352 
+checkpoint:2057, log_time:53478,time_merge:1491145, copy_size:102400 
+checkpoint:2058, log_time:54753,time_merge:921717, copy_size:61440 
+checkpoint:2059, log_time:54699,time_merge:3338898, copy_size:233472 
+checkpoint:2060, log_time:53370,time_merge:5227728, copy_size:364544 
+checkpoint:2061, log_time:54702,time_merge:2543634, copy_size:180224 
+checkpoint:2062, log_time:54877,time_merge:3928523, copy_size:278528 
+checkpoint:2063, log_time:54708,time_merge:2738663, copy_size:192512 
+checkpoint:2064, log_time:53358,time_merge:4575765, copy_size:323584 
+checkpoint:2065, log_time:54765,time_merge:2292206, copy_size:159744 
+checkpoint:2066, log_time:54852,time_merge:2920925, copy_size:204800 
+checkpoint:2067, log_time:54795,time_merge:2700093, copy_size:188416 
+checkpoint:2068, log_time:52822,time_merge:4837804, copy_size:340480 
+checkpoint:2069, log_time:54717,time_merge:3934315, copy_size:274432 
+checkpoint:2070, log_time:54673,time_merge:3953391, copy_size:278528 
+checkpoint:2071, log_time:54796,time_merge:3662888, copy_size:258560 
+checkpoint:2072, log_time:53583,time_merge:4114305, copy_size:286720 
+checkpoint:2073, log_time:54786,time_merge:3088547, copy_size:217088 
+checkpoint:2074, log_time:54828,time_merge:2281463, copy_size:159744 
+checkpoint:2075, log_time:54759,time_merge:2450811, copy_size:172032 
+checkpoint:2076, log_time:52949,time_merge:6208443, copy_size:438272 
+checkpoint:2077, log_time:53393,time_merge:1826228, copy_size:126976 
+checkpoint:2078, log_time:54699,time_merge:2664188, copy_size:188416 
+checkpoint:2079, log_time:54820,time_merge:3564895, copy_size:253952 
+checkpoint:2080, log_time:53012,time_merge:4611021, copy_size:323584 
+checkpoint:2081, log_time:54127,time_merge:4369424, copy_size:307200 
+checkpoint:2082, log_time:54861,time_merge:2511165, copy_size:176640 
+checkpoint:2083, log_time:54684,time_merge:3626594, copy_size:258048 
+checkpoint:2084, log_time:53030,time_merge:5509069, copy_size:389632 
+checkpoint:2085, log_time:54756,time_merge:3089212, copy_size:221184 
+checkpoint:2086, log_time:54846,time_merge:3030846, copy_size:212992 
+checkpoint:2087, log_time:54714,time_merge:1821014, copy_size:126976 
+checkpoint:2088, log_time:53102,time_merge:5078422, copy_size:356352 
+checkpoint:2089, log_time:54466,time_merge:3121510, copy_size:221184 
+checkpoint:2090, log_time:54696,time_merge:2006500, copy_size:139264 
+checkpoint:2091, log_time:54696,time_merge:3367203, copy_size:237568 
+checkpoint:2092, log_time:53800,time_merge:5556719, copy_size:393216 
+checkpoint:2093, log_time:54757,time_merge:3477118, copy_size:242176 
+checkpoint:2094, log_time:54693,time_merge:4115037, copy_size:291328 
+checkpoint:2095, log_time:52769,time_merge:3758283, copy_size:262144 
+checkpoint:2096, log_time:53016,time_merge:4346812, copy_size:307712 
+checkpoint:2097, log_time:53144,time_merge:3894472, copy_size:274944 
+checkpoint:2098, log_time:54895,time_merge:3680904, copy_size:262144 
+checkpoint:2099, log_time:52749,time_merge:4692778, copy_size:328192 
+checkpoint:2100, log_time:53388,time_merge:1708349, copy_size:118784 
+checkpoint:2101, log_time:54816,time_merge:2804895, copy_size:196608 
+checkpoint:2102, log_time:54699,time_merge:3454015, copy_size:245760 
+checkpoint:2103, log_time:53108,time_merge:3896621, copy_size:274432 
+checkpoint:2104, log_time:54068,time_merge:3766222, copy_size:266240 
+checkpoint:2105, log_time:54699,time_merge:3404674, copy_size:241664 
+checkpoint:2106, log_time:54690,time_merge:3089520, copy_size:217600 
+checkpoint:2107, log_time:52962,time_merge:5322986, copy_size:376832 
+checkpoint:2108, log_time:54032,time_merge:3153162, copy_size:221184 
+checkpoint:2109, log_time:54681,time_merge:2966720, copy_size:208896 
+checkpoint:2110, log_time:54732,time_merge:2278101, copy_size:159744 
+checkpoint:2111, log_time:52853,time_merge:6492281, copy_size:463872 
+checkpoint:2112, log_time:54639,time_merge:2480345, copy_size:176128 
+checkpoint:2113, log_time:54870,time_merge:3573054, copy_size:253952 
+checkpoint:2114, log_time:54873,time_merge:3055488, copy_size:217088 
+checkpoint:2115, log_time:53063,time_merge:3180659, copy_size:221184 
+checkpoint:2116, log_time:53093,time_merge:3408743, copy_size:241664 
+checkpoint:2117, log_time:54684,time_merge:2341898, copy_size:163840 
+checkpoint:2118, log_time:54858,time_merge:4642841, copy_size:327680 
+checkpoint:2119, log_time:53387,time_merge:5026572, copy_size:356864 
+checkpoint:2120, log_time:54745,time_merge:4653579, copy_size:328192 
+checkpoint:2121, log_time:54738,time_merge:4085944, copy_size:287232 
+checkpoint:2122, log_time:54811,time_merge:2838066, copy_size:196608 
+checkpoint:2123, log_time:52982,time_merge:4460988, copy_size:315392 
+checkpoint:2124, log_time:53465,time_merge:3734319, copy_size:262144 
+checkpoint:2125, log_time:54856,time_merge:4127094, copy_size:291328 
+checkpoint:2126, log_time:54681,time_merge:2851499, copy_size:200704 
+checkpoint:2127, log_time:53428,time_merge:5177647, copy_size:364544 
+checkpoint:2128, log_time:54135,time_merge:4261249, copy_size:303104 
+checkpoint:2129, log_time:53612,time_merge:1434647, copy_size:98304 
+checkpoint:2130, log_time:54684,time_merge:2225439, copy_size:155648 
+checkpoint:2131, log_time:54075,time_merge:5482673, copy_size:389120 
+checkpoint:2132, log_time:54879,time_merge:2737539, copy_size:192512 
+checkpoint:2133, log_time:54828,time_merge:3693147, copy_size:262144 
+checkpoint:2134, log_time:54762,time_merge:3707750, copy_size:262144 
+checkpoint:2135, log_time:54238,time_merge:6209209, copy_size:438784 
+checkpoint:2136, log_time:54687,time_merge:2652364, copy_size:184832 
+checkpoint:2137, log_time:54687,time_merge:3477508, copy_size:246272 
+checkpoint:2138, log_time:54717,time_merge:2578211, copy_size:180224 
+checkpoint:2139, log_time:53988,time_merge:5195434, copy_size:368640 
+checkpoint:2140, log_time:54873,time_merge:3117481, copy_size:221184 
+checkpoint:2141, log_time:54693,time_merge:3096447, copy_size:221184 
+checkpoint:2142, log_time:54705,time_merge:3704714, copy_size:262656 
+checkpoint:2143, log_time:53250,time_merge:4624367, copy_size:327680 
+checkpoint:2144, log_time:54503,time_merge:2050022, copy_size:143360 
+checkpoint:2145, log_time:54868,time_merge:4131202, copy_size:290816 
+checkpoint:2146, log_time:52802,time_merge:1467848, copy_size:98304 
+checkpoint:2147, log_time:53669,time_merge:925999, copy_size:61440 
+checkpoint:2148, log_time:54768,time_merge:2466937, copy_size:172032 
+checkpoint:2149, log_time:54879,time_merge:3813512, copy_size:270336 
+checkpoint:2150, log_time:52955,time_merge:3110790, copy_size:217088 
+checkpoint:2151, log_time:53951,time_merge:2953043, copy_size:208896 
+checkpoint:2152, log_time:54678,time_merge:2831637, copy_size:200704 
+checkpoint:2153, log_time:54705,time_merge:3419726, copy_size:241664 
+checkpoint:2154, log_time:53322,time_merge:3331461, copy_size:233472 
+checkpoint:2155, log_time:54636,time_merge:4323185, copy_size:307712 
+checkpoint:2156, log_time:54687,time_merge:4159098, copy_size:294912 
+checkpoint:2157, log_time:54741,time_merge:4264743, copy_size:303104 
+checkpoint:2158, log_time:52950,time_merge:6112362, copy_size:430080 
+checkpoint:2159, log_time:54720,time_merge:2343187, copy_size:163840 
+checkpoint:2160, log_time:54711,time_merge:3540453, copy_size:249856 
+checkpoint:2161, log_time:54675,time_merge:4126175, copy_size:290816 
+checkpoint:2162, log_time:53458,time_merge:3627990, copy_size:254464 
+checkpoint:2163, log_time:54801,time_merge:3881460, copy_size:274944 
+checkpoint:2164, log_time:54678,time_merge:2747451, copy_size:192512 
+checkpoint:2165, log_time:54789,time_merge:3659963, copy_size:258048 
+checkpoint:2166, log_time:52955,time_merge:6454466, copy_size:455168 
+checkpoint:2167, log_time:54726,time_merge:1095117, copy_size:73728 
+checkpoint:2168, log_time:54696,time_merge:3018239, copy_size:212992 
+checkpoint:2169, log_time:54805,time_merge:4514139, copy_size:320000 
+checkpoint:2170, log_time:53048,time_merge:4793720, copy_size:335872 
+checkpoint:2171, log_time:54756,time_merge:3618345, copy_size:254464 
+checkpoint:2172, log_time:54718,time_merge:4293040, copy_size:303616 
+checkpoint:2173, log_time:54684,time_merge:3288877, copy_size:233472 
+checkpoint:2174, log_time:53212,time_merge:5410920, copy_size:381440 
+checkpoint:2175, log_time:54190,time_merge:3967724, copy_size:283136 
+checkpoint:2176, log_time:54841,time_merge:3665393, copy_size:258048 
+checkpoint:2177, log_time:54850,time_merge:1204321, copy_size:81920 
+checkpoint:2178, log_time:53097,time_merge:4124893, copy_size:290816 
+checkpoint:2179, log_time:53135,time_merge:2741571, copy_size:192512 
+checkpoint:2180, log_time:54779,time_merge:2448911, copy_size:172032 
+checkpoint:2181, log_time:54849,time_merge:4321341, copy_size:307712 
+checkpoint:2182, log_time:53342,time_merge:3101366, copy_size:217088 
+checkpoint:2183, log_time:53244,time_merge:3432702, copy_size:241664 
+checkpoint:2184, log_time:54699,time_merge:2959237, copy_size:208896 
+checkpoint:2185, log_time:54723,time_merge:3200237, copy_size:225280 
+checkpoint:2186, log_time:53405,time_merge:3922205, copy_size:274432 
+checkpoint:2187, log_time:53225,time_merge:3318171, copy_size:233472 
+checkpoint:2188, log_time:54573,time_merge:3498248, copy_size:245760 
+checkpoint:2189, log_time:54861,time_merge:2761303, copy_size:192512 
+checkpoint:2190, log_time:53433,time_merge:3001865, copy_size:208896 
+checkpoint:2191, log_time:54696,time_merge:2595696, copy_size:184320 
+checkpoint:2192, log_time:54697,time_merge:4512357, copy_size:320512 
+checkpoint:2193, log_time:54883,time_merge:4308776, copy_size:307712 
+checkpoint:2194, log_time:53531,time_merge:3995144, copy_size:282624 
+checkpoint:2195, log_time:54877,time_merge:4417471, copy_size:311808 
+checkpoint:2196, log_time:54660,time_merge:3194481, copy_size:225280 
+checkpoint:2197, log_time:52732,time_merge:5131102, copy_size:360960 
+checkpoint:2198, log_time:54385,time_merge:3489478, copy_size:245760 
+checkpoint:2199, log_time:54669,time_merge:2523227, copy_size:176128 
+checkpoint:2200, log_time:54726,time_merge:4105354, copy_size:290816 
+checkpoint:2201, log_time:52710,time_merge:6751709, copy_size:479744 
+checkpoint:2202, log_time:52914,time_merge:4326109, copy_size:303616 
+checkpoint:2203, log_time:54780,time_merge:2525397, copy_size:176128 
+checkpoint:2204, log_time:54855,time_merge:2520705, copy_size:176128 
+checkpoint:2205, log_time:53112,time_merge:4380942, copy_size:307200 
+checkpoint:2206, log_time:54651,time_merge:3983945, copy_size:282624 
+checkpoint:2207, log_time:54805,time_merge:3819121, copy_size:270336 
+checkpoint:2208, log_time:54681,time_merge:3204765, copy_size:225280 
+checkpoint:2209, log_time:52798,time_merge:6543836, copy_size:463360 
+checkpoint:2210, log_time:54846,time_merge:1724829, copy_size:118784 
+checkpoint:2211, log_time:54519,time_merge:4031204, copy_size:286720 
+checkpoint:2212, log_time:54840,time_merge:2853885, copy_size:200704 
+checkpoint:2213, log_time:53301,time_merge:2304067, copy_size:159744 
+checkpoint:2214, log_time:54714,time_merge:4372137, copy_size:312320 
+checkpoint:2215, log_time:54690,time_merge:4019390, copy_size:282624 
+checkpoint:2216, log_time:54819,time_merge:2583234, copy_size:180224 
+checkpoint:2217, log_time:53195,time_merge:5496472, copy_size:389632 
+checkpoint:2218, log_time:54804,time_merge:3294030, copy_size:233472 
+checkpoint:2219, log_time:54864,time_merge:3019378, copy_size:212992 
+checkpoint:2220, log_time:54700,time_merge:4608802, copy_size:324096 
+checkpoint:2221, log_time:53360,time_merge:3301885, copy_size:229376 
+checkpoint:2222, log_time:53409,time_merge:3081286, copy_size:217088 
+checkpoint:2223, log_time:54774,time_merge:3323065, copy_size:233472 
+checkpoint:2224, log_time:54674,time_merge:2791435, copy_size:196608 
+checkpoint:2225, log_time:53441,time_merge:3619769, copy_size:253952 
+checkpoint:2226, log_time:54801,time_merge:3246461, copy_size:225792 
+checkpoint:2227, log_time:54735,time_merge:3488749, copy_size:246272 
+checkpoint:2228, log_time:54870,time_merge:3311452, copy_size:233472 
+checkpoint:2229, log_time:53273,time_merge:3659956, copy_size:258048 
+checkpoint:2230, log_time:54702,time_merge:2568967, copy_size:180224 
+checkpoint:2231, log_time:54841,time_merge:3697517, copy_size:262144 
+checkpoint:2232, log_time:54783,time_merge:4015481, copy_size:286720 
+checkpoint:2233, log_time:52947,time_merge:6948524, copy_size:492544 
+checkpoint:2234, log_time:54757,time_merge:3651803, copy_size:258560 
+checkpoint:2235, log_time:54754,time_merge:4609597, copy_size:324096 
+checkpoint:2236, log_time:54825,time_merge:3772400, copy_size:266240 
+checkpoint:2237, log_time:53923,time_merge:5521904, copy_size:389632 
+checkpoint:2238, log_time:54780,time_merge:2063235, copy_size:143360 
+checkpoint:2239, log_time:54684,time_merge:2730912, copy_size:192512 
+checkpoint:2240, log_time:54780,time_merge:3173521, copy_size:225280 
+checkpoint:2241, log_time:53379,time_merge:5290091, copy_size:372736 
+checkpoint:2242, log_time:53736,time_merge:2110088, copy_size:147456 
+checkpoint:2243, log_time:54837,time_merge:1992840, copy_size:139264 
+checkpoint:2244, log_time:54819,time_merge:2172978, copy_size:151552 
+checkpoint:2245, log_time:53342,time_merge:4707814, copy_size:331776 
+checkpoint:2246, log_time:54852,time_merge:2113410, copy_size:147456 
+checkpoint:2247, log_time:54669,time_merge:3643544, copy_size:258560 
+checkpoint:2248, log_time:52437,time_merge:6412702, copy_size:454656 
+checkpoint:2249, log_time:53087,time_merge:4561522, copy_size:324096 
+checkpoint:2250, log_time:54403,time_merge:3501694, copy_size:245760 
+checkpoint:2251, log_time:54831,time_merge:3086894, copy_size:217088 
+checkpoint:2252, log_time:52461,time_merge:5420615, copy_size:380928 
+checkpoint:2253, log_time:53375,time_merge:2990939, copy_size:209408 
+checkpoint:2254, log_time:54750,time_merge:4246916, copy_size:299008 
+checkpoint:2255, log_time:54811,time_merge:2467599, copy_size:172032 
+checkpoint:2256, log_time:53538,time_merge:2734350, copy_size:188416 
+checkpoint:2257, log_time:54676,time_merge:4391897, copy_size:311808 
+checkpoint:2258, log_time:53979,time_merge:3413093, copy_size:241664 
+checkpoint:2259, log_time:54840,time_merge:3915084, copy_size:278528 
+checkpoint:2260, log_time:53397,time_merge:3211872, copy_size:225280 
+checkpoint:2261, log_time:54242,time_merge:3801421, copy_size:270848 
+checkpoint:2262, log_time:54813,time_merge:1263927, copy_size:86016 
+checkpoint:2263, log_time:54717,time_merge:2579534, copy_size:180224 
+checkpoint:2264, log_time:52846,time_merge:6130066, copy_size:434688 
+checkpoint:2265, log_time:54810,time_merge:3200956, copy_size:225792 
+checkpoint:2266, log_time:54861,time_merge:2681738, copy_size:188416 
+checkpoint:2267, log_time:54760,time_merge:3382156, copy_size:237568 
+checkpoint:2268, log_time:53436,time_merge:5345720, copy_size:373248 
+checkpoint:2269, log_time:54795,time_merge:2906939, copy_size:205312 
+checkpoint:2270, log_time:54163,time_merge:4179881, copy_size:294912 
+checkpoint:2271, log_time:54810,time_merge:4006199, copy_size:283136 
+checkpoint:2272, log_time:53171,time_merge:6290756, copy_size:442880 
+checkpoint:2273, log_time:54814,time_merge:4587431, copy_size:324096 
+checkpoint:2274, log_time:54690,time_merge:1265835, copy_size:86016 
+checkpoint:2275, log_time:54749,time_merge:3595877, copy_size:253952 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+
