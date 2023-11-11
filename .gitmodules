@@ -8,13 +8,13 @@
 	ignore = dirty
 [submodule "gem5_prosper"]
 	path = gem5_prosper
-	url = git@github.com:arunkp1986/gem5.git
+	url = https://github.com/arunkp1986/gem5.git
 	ignore = dirty
 [submodule "gem5_prosper_ssp"]
 	path = gem5_prosper_ssp
-	url = git@github.com:arunkp1986/gem5.git
+	url = https://github.com/arunkp1986/gem5.git
 	ignore = dirty
 [submodule "gem5_romulus"]
 	path = gem5_romulus
-	url = git@github.com:arunkp1986/gem5.git
+	url = https://github.com/arunkp1986/gem5.git
 	ignore = dirty
