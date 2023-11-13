@@ -10,7 +10,7 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - Change to home directory inside the docker container `cd /home`
 - Clone this git repo using `git clone --recurse-submodules` inside the running container.
 - All steps mentioned below are to be performed inside container.
-- Download linux disk image (linux_disk.xz) from [OneDrive](https://iitk-my.sharepoint.com/:u:/g/personal/kparun_iitk_ac_in/Eb12ZLz_oe5Brc7WtYH9a7QBO_glbhSxE9gci0HldbFKQw?e=J5tLp2) to **disk_image** directory.
+- Download linux disk image (linux_disk.xz) `gdown https://drive.google.com/uc?id=1QPTfRPezp3P2YrPnOFRisFDhPBD0N3Es` to **disk_image** directory.
 - Extract all **.xz** files in **disk_image** directory ( data_gapbs.img.xz, data_sssp.img.xz, data_workloadb.img.xz, gemos.img.xz, and linux_disk.xz), for example `xz -v -d data_gapbs.img.xz`
 - **Run-scripts** corresponding to each plot in paper is named after the Figure number, **run_fig8.sh** corresponds to **Figure 8** in paper.
 - **Run-scripts** build **gem5** and **gemOS kernel** required for running experiments and generate output in folders designated with Figure number, for example, `./run_fig8.sh` saves output in **output_fig8** for **Figure 8** in paper.
