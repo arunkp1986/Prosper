@@ -3,17 +3,17 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 
 ### Building and Running Prosper
 - Install Docker on your system, we used Ubuntu 20.04.3.
-- Download Docker export file [prosper.tar](https://iitk-my.sharepoint.com/:u:/g/personal/kparun_iitk_ac_in/EQRtpc9JHR1JlMByP-Evg6QBudagDQNgeBV2I_aBUOTshQ?e=TCvZI7), size ~ 1GB
+- Download Docker export file [prosper.tar](https://drive.google.com/file/d/15zgZGVF875KMg2COBpXdJpEJAlfV88Jr/view?usp=sharing), size ~ 1GB
 - Import downloaded **prosper.tar** using `docker import prosper.tar prosper:latest`
 - List the image using `docker image ls`
 - Start the docker container `docker run -it prosper:latest /bin/bash`
 - Change to home directory inside the docker container `cd /home`
-- Clone this git repo using `git clone --recurse-submodules` inside the running container.
+- Clone this git repo using `git clone --recurse-submodules https://github.com/arunkp1986/Prosper.git` inside the running container.
 - All steps mentioned below are to be performed inside container.
-- Download linux disk image (linux_disk.xz) `gdown https://drive.google.com/uc?id=1QPTfRPezp3P2YrPnOFRisFDhPBD0N3Es` to **disk_image** directory.
-- Extract all **.xz** files in **disk_image** directory ( data_gapbs.img.xz, data_sssp.img.xz, data_workloadb.img.xz, gemos.img.xz, and linux_disk.xz), for example `xz -v -d data_gapbs.img.xz`
-- **Run-scripts** corresponding to each plot in paper is named after the Figure number, **run_fig8.sh** corresponds to **Figure 8** in paper.
-- **Run-scripts** build **gem5** and **gemOS kernel** required for running experiments and generate output in folders designated with Figure number, for example, `./run_fig8.sh` saves output in **output_fig8** for **Figure 8** in paper.
+- Download linux disk image (linux_disk.xz) `gdown https://drive.google.com/uc?id=1QPTfRPezp3P2YrPnOFRisFDhPBD0N3Es` to **Prosper/disk_image**.
+- Extract all **.xz** files in **Prosper/disk_image** directory ( data_gapbs.img.xz, data_sssp.img.xz, data_workloadb.img.xz, gemos.img.xz, and linux_disk.xz), for example `xz -v -d data_gapbs.img.xz`
+- Bash scripts to generate output corresponding to each plot in paper is named after the Figure number, **run_fig8.sh** corresponds to **Figure 8** in paper.
+- Bash scripts build **gem5** and **gemOS kernel** required for running experiments and generate output in folders designated with Figure number, for example, `./run_fig8.sh` saves output in **output_fig8** for **Figure 8** in paper.
 - Python script to parse output files is provided in corresponding output folder.
 - Expected output file is provided in corresponding output folder for comparison.
 - Execute **Run-scripts** corresponding to Figure 12 and 13 with **sudo** permissions to use **KVM**.
