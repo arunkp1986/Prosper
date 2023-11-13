@@ -1,0 +1,537 @@
+runcpu v5825 started at 2022-06-30 03:20:42 on "intel"
+runcpu is: /home/gem5/spec2017/bin/harness/runcpu
+runcpu: runcpu --fake --loose --size ref --tune base --config myconfig.x86.cfg 644.nab_s
+toolset: linux-x86_64
+
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/gem5/spec2017/config/myconfig.x86.cfg'
+
+1 configuration selected:
+
+ Action    Run Mode   Workload     Report Type      Benchmarks
+--------   --------   --------   ----------------   ---------------------------
+validate   speed      refspeed   SPECspeed2017_fp   644.nab_s                  
+-------------------------------------------------------------------------------
+
+Setting up environment for running 644.nab_s...
+Starting runcpu for 644.nab_s...
+Retrieving flags file (/home/gem5/spec2017/config/flags/gcc.xml)...
+Verbosity = 5
+Action    = validate
+Tune      = base
+Label     = mytest-m64
+Size      = refspeed
+benchmarks= 644.nab_s
+outputs   = txt,html,cfg,pdf,csv
+username  = root
+Environment settings:
+LD_LIBRARY_PATH = "%{gcc_dir}/lib64/:%{gcc_dir}/lib/:/lib64"
+OMP_STACKSIZE = "120M"
+
+Benchmarks selected: 644.nab_s
+%% You have selected --fake: commands will be echoed but not actually
+%% executed.  (You can search for "%%" to find the beginning and end
+%% of each command section.)
+
+Compiling Binaries
+------------------------------------------------------------------------
+  Building 644.nab_s base mytest-m64: (build_base_mytest-m64.0000) [2022-06-30 03:20:43]
+Wrote to makefile '/home/gem5/spec2017/benchspec/CPU/644.nab_s/build/build_base_mytest-m64.0000/Makefile.deps':
+# End dependencies
+# These are the build dependencies
+$(addsuffix $(OBJ), $(basename binpos.c)): binpos.c memutil.h
+$(addsuffix $(OBJ), $(basename chirvol.c)): chirvol.c defreal.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename database.c)): database.c database.h
+$(addsuffix $(OBJ), $(basename errormsg.c)): errormsg.c errormsg.h
+$(addsuffix $(OBJ), $(basename memutil.c)): memutil.c defreal.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename molio.c)): molio.c defreal.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename molutil.c)): molutil.c defreal.h errormsg.h memutil.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename nabmd.c)): nabmd.c nabcode.h
+$(addsuffix $(OBJ), $(basename nblist.c)): nblist.c defreal.h
+$(addsuffix $(OBJ), $(basename prm.c)): prm.c defreal.h errormsg.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename rand2.c)): rand2.c defreal.h
+$(addsuffix $(OBJ), $(basename reslib.c)): reslib.c chirvol.h database.h defreal.h errormsg.h memutil.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename select_atoms.c)): select_atoms.c defreal.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename sff.c)): sff.c debug.h defreal.h eff.c gbsa.c intersect.c memutil.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename traceback.c)): traceback.c errormsg.h
+Wrote to makefile '/home/gem5/spec2017/benchspec/CPU/644.nab_s/build/build_base_mytest-m64.0000/Makefile.spec':
+TUNE=base
+LABEL=mytest-m64
+NUMBER=644
+NAME=nab_s
+SOURCES= nabmd.c sff.c nblist.c prm.c memutil.c molio.c molutil.c \
+	 errormsg.c binpos.c rand2.c select_atoms.c reslib.c database.c \
+	 traceback.c chirvol.c specrand/specrand.c regex-alpha/regcomp.c \
+	 regex-alpha/regerror.c regex-alpha/regexec.c regex-alpha/regfree.c
+EXEBASE=nab_s
+NEED_MATH=yes
+BENCHLANG=C
+BENCH_FLAGS      = -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE
+CC               = /usr/bin/gcc     -std=c99   -m64
+CC_VERSION_OPTION = -v
+CXX              = /usr/bin/g++                -m64
+CXX_VERSION_OPTION = -v
+EXTRA_OPTIMIZE   = -fopenmp -DSPEC_OPENMP
+EXTRA_PORTABILITY = -DSPEC_LP64
+FC               = /usr/bin/gfortran           -m64
+FC_VERSION_OPTION = -v
+OPTIMIZE         = -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize
+OS               = unix
+SPECLANG         = /usr/lib/gcc/x86_64-linux-gnu/7/bin/
+absolutely_no_locking = 0
+abstol           = 
+action           = validate
+allow_label_override = 0
+backup_config    = 1
+baseexe          = nab_s
+basepeak         = 0
+benchdir         = benchspec
+benchmark        = 644.nab_s
+binary           = 
+bindir           = exe
+builddir         = build
+bundleaction     = 
+bundlename       = 
+calctol          = 1
+changedhash      = 0
+check_version    = 0
+clean_between_builds = no
+command_add_redirect = 1
+commanderrfile   = speccmds.err
+commandexe       = nab_s_base.mytest-m64
+commandfile      = speccmds.cmd
+commandoutfile   = speccmds.out
+commandstdoutfile = speccmds.stdout
+comparedir       = compare
+compareerrfile   = compare.err
+comparefile      = compare.cmd
+compareoutfile   = compare.out
+comparestdoutfile = compare.stdout
+compile_error    = 0
+compwhite        = 
+configdir        = config
+configfile       = myconfig.x86.cfg
+configpath       = /home/gem5/spec2017/config/myconfig.x86.cfg
+copies           = 1
+current_range    = 
+datadir          = data
+default_size     = ref
+default_submit   = $command
+delay            = 0
+deletebinaries   = 0
+deletework       = 0
+dependent_workloads = 0
+device           = 
+difflines        = 10
+dirprot          = 511
+discard_power_samples = 0
+enable_monitor   = 1
+endian           = 12345678
+env_vars         = 0
+expand_notes     = 0
+expid            = 
+exthash_bits     = 256
+failflags        = 0
+fake             = 1
+feedback         = 1
+flag_url_base    = https://www.spec.org/auto/cpu2017/Docs/benchmarks/flags/
+floatcompare     = 
+force_monitor    = 0
+from_runcpu      = 2
+fw_bios          = 
+hostname         = intel
+http_proxy       = 
+http_timeout     = 30
+hw_avail         = 
+hw_cpu_max_mhz   = 
+hw_cpu_nominal_mhz = 
+hw_model         = 
+hw_ncores        = 
+hw_ncpuorder     = 
+hw_nthreadspercore = 
+hw_ocache        = 
+hw_other         = 
+hw_pcache        = 
+hw_scache        = 
+hw_tcache        = 
+hw_vendor        = My Corporation
+idle_current_range = 
+idledelay        = 10
+idleduration     = 60
+ignore_errors    = 1
+ignore_sigint    = 0
+ignorecase       = 
+info_wrap_columns = 50
+inputdir         = input
+inputgenerrfile  = inputgen.err
+inputgenfile     = inputgen.cmd
+inputgenoutfile  = inputgen.out
+inputgenstdoutfile = inputgen.stdout
+iteration        = -1
+iterations       = 1
+keeptmp          = 0
+label            = mytest-m64
+license_num      = nnn (Your SPEC license number)
+line_width       = 1020
+link_input_files = 1
+locking          = 1
+log              = CPU2017
+log_line_width   = 1020
+log_timestamp    = 0
+logfile          = /home/gem5/spec2017/tmp/CPU2017.011/templogs/preenv.fpspeed.011.0
+logname          = /home/gem5/spec2017/tmp/CPU2017.011/templogs/preenv.fpspeed.011.0
+lognum           = 011.0
+mail_reports     = all
+mailcompress     = 0
+mailmethod       = smtp
+mailport         = 25
+mailserver       = 127.0.0.1
+mailto           = 
+make             = specmake
+make_no_clobber  = 0
+makefile_template = Makefile.YYYtArGeTYYYspec
+makeflags        = --jobs=8
+max_average_uncertainty = 1
+max_hum_limit    = 0
+max_report_runs  = 3
+max_unknown_uncertainty = 1
+mean_anyway      = 1
+meter_connect_timeout = 30
+meter_errors_default = 5
+meter_errors_percentage = 5
+min_report_runs  = 2
+min_temp_limit   = 20
+minimize_builddirs = 0
+minimize_rundirs = 0
+name             = nab_s
+nansupport       = 
+need_math        = yes
+no_input_handler = close
+no_monitor       = 
+noratios         = 0
+note_preenv      = 1
+notes_wrap_columns = 0
+notes_wrap_indent =   
+num              = 644
+obiwan           = 
+os_exe_ext       = 
+output_format    = txt,html,cfg,pdf,csv
+output_root      = 
+outputdir        = output
+parallel_test    = 0
+parallel_test_submit = 0
+parallel_test_workloads = 
+path             = /home/gem5/spec2017/benchspec/CPU/644.nab_s
+plain_train      = 1
+platform         = 
+power            = 0
+preENV_LD_LIBRARY_PATH = %{gcc_dir}/lib64/:%{gcc_dir}/lib/:/lib64
+preENV_OMP_STACKSIZE = 120M
+preenv           = 0
+prefix           = 
+ranks            = 1
+rawhash_bits     = 256
+rebuild          = 1
+reftime          = reftime
+reltol           = 0.01
+reportable       = 0
+resultdir        = result
+review           = 0
+run              = all
+runcpu           = /home/gem5/spec2017/bin/harness/runcpu --fake --loose --size ref --tune base --configfile myconfig.x86.cfg --noreportable --nopower --runmode speed --tune base --size refspeed 644.nab_s --nopreenv --note-preenv --logfile /home/gem5/spec2017/tmp/CPU2017.011/templogs/preenv.fpspeed.011.0 --lognum 011.0 --from_runcpu 2
+rundir           = run
+runmode          = speed
+safe_eval        = 1
+save_build_files = 
+section_specifier_fatal = 1
+setprocgroup     = 1
+setup_error      = 0
+sigint           = 2
+size             = refspeed
+size_class       = ref
+skipabstol       = 
+skipobiwan       = 
+skipreltol       = 2
+skiptol          = 
+smarttune        = base
+specdiff         = specdiff
+specrun          = specinvoke
+srcalt           = 
+srcdir           = src
+srcsource        = /home/gem5/spec2017/benchspec/CPU/544.nab_r/src
+stagger          = 10
+strict_rundir_verify = 1
+sw_avail         = 
+sw_base_ptrsize  = 64-bit
+sw_compiler001   = C/C++/Fortran: Version 6.2.0 of GCC, the
+sw_compiler002   = GNU Compiler Collection
+sw_other         = 
+sw_peak_ptrsize  = 64-bit
+sysinfo_hash_bits = 256
+sysinfo_program  = 
+sysinfo_program_hash = 
+table            = 1
+teeout           = 1
+test_date        = Jun-2022
+test_sponsor     = My Corporation
+tester           = My Corporation
+threads          = 4
+top              = /home/gem5/spec2017
+train_single_thread = 0
+train_with       = train
+tune             = base
+uid              = 0
+unbuffer         = 1
+uncertainty_exception = 5
+update           = 0
+update_url       = http://www.spec.org/auto/cpu2017/updates/
+use_submit_for_compare = 0
+use_submit_for_speed = 0
+username         = root
+verbose          = 5
+verify_binaries  = 1
+version          = 0.903000
+version_url      = http://www.spec.org/auto/cpu2017/current_version
+voltage_range    = 
+worklist         = list
+OUTPUT_RMFILES   = aminos.out gcn4dna.out
+  Compile for '644.nab_s' started at: 2022-06-30 03:20:43 (1656573643)
+specmake -n --output-sync --jobs=8 clean
+%% Fake commands from make.clean (specmake -n --output-sync --jobs=8 clean):
+rm -rf *.o  aminos.out gcn4dna.out
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf nab_s
+rm -rf nab_s.exe
+rm -rf core
+%% End of fake output from make.clean (specmake -n --output-sync --jobs=8 clean)
+
+specmake -n --output-sync --jobs=8 build
+%% Fake commands from make (specmake -n --output-sync --jobs=8 build):
+/usr/bin/gcc     -std=c99   -m64 -c -o nabmd.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  nabmd.c
+/usr/bin/gcc     -std=c99   -m64 -c -o sff.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  sff.c
+/usr/bin/gcc     -std=c99   -m64 -c -o nblist.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  nblist.c
+/usr/bin/gcc     -std=c99   -m64 -c -o prm.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  prm.c
+/usr/bin/gcc     -std=c99   -m64 -c -o memutil.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  memutil.c
+/usr/bin/gcc     -std=c99   -m64 -c -o molio.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  molio.c
+/usr/bin/gcc     -std=c99   -m64 -c -o molutil.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  molutil.c
+/usr/bin/gcc     -std=c99   -m64 -c -o errormsg.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  errormsg.c
+/usr/bin/gcc     -std=c99   -m64 -c -o binpos.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  binpos.c
+/usr/bin/gcc     -std=c99   -m64 -c -o rand2.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  rand2.c
+/usr/bin/gcc     -std=c99   -m64 -c -o select_atoms.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  select_atoms.c
+/usr/bin/gcc     -std=c99   -m64 -c -o reslib.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  reslib.c
+/usr/bin/gcc     -std=c99   -m64 -c -o database.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  database.c
+/usr/bin/gcc     -std=c99   -m64 -c -o traceback.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  traceback.c
+/usr/bin/gcc     -std=c99   -m64 -c -o chirvol.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  chirvol.c
+/usr/bin/gcc     -std=c99   -m64 -c -o specrand/specrand.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  specrand/specrand.c
+/usr/bin/gcc     -std=c99   -m64 -c -o regex-alpha/regcomp.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  regex-alpha/regcomp.c
+/usr/bin/gcc     -std=c99   -m64 -c -o regex-alpha/regerror.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  regex-alpha/regerror.c
+/usr/bin/gcc     -std=c99   -m64 -c -o regex-alpha/regexec.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  regex-alpha/regexec.c
+/usr/bin/gcc     -std=c99   -m64 -c -o regex-alpha/regfree.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  regex-alpha/regfree.c
+/usr/bin/gcc     -std=c99   -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  nabmd.o sff.o nblist.o prm.o memutil.o molio.o molutil.o errormsg.o binpos.o rand2.o select_atoms.o reslib.o database.o traceback.o chirvol.o specrand/specrand.o regex-alpha/regcomp.o regex-alpha/regerror.o regex-alpha/regexec.o regex-alpha/regfree.o             -lm         -o nab_s  
+%% End of fake output from make (specmake -n --output-sync --jobs=8 build)
+
+specmake -n --output-sync --jobs=8 options
+%% Fake commands from options (specmake -n --output-sync --jobs=8 optio...):
+cat "options.tmpout"
+COMP: "/usr/bin/gcc     -std=c99   -m64 -c -o options.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  <source>"
+C: CC="/usr/bin/gcc     -std=c99   -m64"
+C: COBJOPT="-c -o options"
+P: CPUFLAGS="-DSPEC -DNDEBUG"
+P: BENCH_FLAGS="-Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE"
+P: BENCH_CFLAGS=""
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: COPTIMIZE=""
+P: PORTABILITY=""
+P: CPORTABILITY=""
+O: EXTRA_CFLAGS=""
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+O: EXTRA_COPTIMIZE=""
+P: EXTRA_PORTABILITY="-DSPEC_LP64"
+P: EXTRA_CPORTABILITY=""
+LINK: "/usr/bin/gcc     -std=c99   -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  <objects>   -lm         -o options  "
+C: LD="/usr/bin/gcc     -std=c99   -m64"
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+C: MATH_LIBS="-lm"
+C: LDOUT="-o options"
+rm -rf options.tmpout
+%% End of fake output from options (specmake -n --output-sync --jobs=8 optio...)
+
+specmake -n --output-sync --jobs=8 compiler-version
+%% Fake commands from compiler-version (specmake -n --output-sync --jobs=8 compi...):
+/usr/bin/gcc     -std=c99   -m64 -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  -v >>compiler-version.tmpout 2>&1
+cat "compiler-version.tmpout"
+ CC_VERSION_OPTION:
+rm -rf compiler-version.tmpout
+%% End of fake output from compiler-version (specmake -n --output-sync --jobs=8 compi...)
+
+  Compile for '644.nab_s' ended at: 2022-06-30 03:20:44 (1656573644)
+  Elapsed compile for '644.nab_s': 00:00:01 (1)
+COMP: "/usr/bin/gcc     -std=c99   -m64 -c -o options.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  <source>"
+C: CC="/usr/bin/gcc     -std=c99   -m64"
+C: COBJOPT="-c -o options"
+P: CPUFLAGS="-DSPEC -DNDEBUG"
+P: BENCH_FLAGS="-Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE"
+P: BENCH_CFLAGS=""
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: COPTIMIZE=""
+P: PORTABILITY=""
+P: CPORTABILITY=""
+O: EXTRA_CFLAGS=""
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+O: EXTRA_COPTIMIZE=""
+P: EXTRA_PORTABILITY="-DSPEC_LP64"
+P: EXTRA_CPORTABILITY=""
+LINK: "/usr/bin/gcc     -std=c99   -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  <objects>   -lm         -o options  "
+C: LD="/usr/bin/gcc     -std=c99   -m64"
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+C: MATH_LIBS="-lm"
+C: LDOUT="-o options"
+%% End of fake output from options (specmake -f /home/gem5/spec2017/benchspe...)
+
+ CC_VERSION_OPTION:
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --tar
+get=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+%% End of fake output from compiler-version (specmake -f /home/gem5/spec2017/benchspe...)
+
+
+
+
+Build successes for fpspeed: 644.nab_s(base)
+Build errors for fpspeed: None
+
+Setting Up Run Directories
+  Setting up 644.nab_s refspeed (ref) base mytest-m64: run_base_refspeed_mytest-m64.0000
+-----------------------------------
+Running Benchmarks
+-----------------------------------
+  Running 644.nab_s refspeed (ref) base mytest-m64 threads:4 [2022-06-30 03:20:44]
+OpenMP environment variables removed: None
+OpenMP environment variables in effect:
+	OMP_NUM_THREADS	=> '4'
+	OMP_STACKSIZE	=> '120M'
+Pre-run environment changes:
+	'OMP_NUM_THREADS' added: (value now '4')
+Benchmark invocation
+--------------------
+Commands to run (specinvoke command file):
+    -r
+    -N C
+    -C /home/gem5/spec2017/benchspec/CPU/644.nab_s/run/run_base_refspeed_mytest-m64.0000
+    -o 3j1n.out -e 3j1n.err ../run_base_refspeed_mytest-m64.0000/nab_s_base.mytest-m64 3j1n 20140317 220 > 3j1n.out 2>> 3j1n.err (timed)
+/home/gem5/spec2017/bin/specinvoke -d /home/gem5/spec2017/benchspec/CPU/644.nab_s/run/run_base_refspeed_mytest-m64.0000 -f speccmds.cmd -q -e speccmds.err -o speccmds.stdout -nn
+%% Fake commands from benchmark_run (/home/gem5/spec2017/bin/specinvoke -d /h...):
+# specinvoke r4356
+#  Invoked as: /home/gem5/spec2017/bin/specinvoke -d /home/gem5/spec2017/benchspec/CPU/644.nab_s/run/run_base_refspeed_mytest-m64.0000 -f speccmds.cmd -q -e speccmds.err -o speccmds.stdout -nn
+# timer ticks over every 1000 ns
+# Environment in effect for these runs:
+HOME=/root
+LANG=en_US.UTF-8
+LC_ALL=C
+LC_LANG=C
+LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/lib64/:/usr/lib/gcc/x86_64-linux-gnu/7/lib/:/lib64
+LESSCLOSE='/usr/bin/lesspipe %s %s'
+LESSOPEN='| /usr/bin/lesspipe %s'
+LIBC_FATAL_STDERR_=1
+LOGNAME=root
+LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;
+35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+MAIL=/var/mail/root
+OLDPWD=/home/gem5/spec2017/benchspec/CPU
+OMP_NUM_THREADS=4
+OMP_STACKSIZE=120M
+PATH=/home/gem5/spec2017/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+SHELL=/bin/bash
+SPEC=/home/gem5/spec2017
+SPECDB_PWD=/home/gem5/spec2017
+SPECPERLLIB=/home/gem5/spec2017/bin/lib:/home/gem5/spec2017/bin
+SUDO_COMMAND='/usr/sbin/chroot /mnt /bin/bash'
+SUDO_GID=1001
+SUDO_UID=1001
+SUDO_USER=kparun
+TERM=xterm-256color
+USER=root
+export HOME LANG LC_ALL LC_LANG LD_LIBRARY_PATH LESSCLOSE LESSOPEN
+export LIBC_FATAL_STDERR_ LOGNAME LS_COLORS MAIL OLDPWD OMP_NUM_THREADS
+export OMP_STACKSIZE PATH SHELL SPEC SPECDB_PWD SPECPERLLIB SUDO_COMMAND SUDO_GID
+export SUDO_UID SUDO_USER TERM USER
+unset _
+unset SHLVL
+unset PWD
+# Starting run for copy #0
+cd /home/gem5/spec2017/benchspec/CPU/644.nab_s/run/run_base_refspeed_mytest-m64.0000
+../run_base_refspeed_mytest-m64.0000/nab_s_base.mytest-m64 3j1n 20140317 220 > 3j1n.out 2>> 3j1n.err
+specinvoke exit: rc=0
+%% End of fake output from benchmark_run (/home/gem5/spec2017/bin/specinvoke -d /h...)
+
+Benchmark verification
+----------------------
+OpenMP environment variables removed: None
+OpenMP environment variables in effect:
+	OMP_NUM_THREADS	=> '4'
+	OMP_STACKSIZE	=> '120M'
+Pre-run environment changes:
+	'OMP_NUM_THREADS' added: (value now '4')
+/home/gem5/spec2017/bin/specinvoke -d /home/gem5/spec2017/benchspec/CPU/644.nab_s/run/run_base_refspeed_mytest-m64.0000 -f compare.cmd -E -e compare.err -o compare.stdout -nn
+%% Fake commands from compare_run (/home/gem5/spec2017/bin/specinvoke -d /h...):
+# specinvoke r4356
+#  Invoked as: /home/gem5/spec2017/bin/specinvoke -d /home/gem5/spec2017/benchspec/CPU/644.nab_s/run/run_base_refspeed_mytest-m64.0000 -f compare.cmd -E -e compare.err -o compare.stdout -nn
+# timer ticks over every 1000 ns
+# Environment in effect for these runs:
+HOME=/root
+LANG=en_US.UTF-8
+LC_ALL=C
+LC_LANG=C
+LD_LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/lib64/:/usr/lib/gcc/x86_64-linux-gnu/7/lib/:/lib64
+LESSCLOSE='/usr/bin/lesspipe %s %s'
+LESSOPEN='| /usr/bin/lesspipe %s'
+LIBC_FATAL_STDERR_=1
+LOGNAME=root
+LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;
+35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+MAIL=/var/mail/root
+OLDPWD=/home/gem5/spec2017/benchspec/CPU
+OMP_NUM_THREADS=4
+OMP_STACKSIZE=120M
+PATH=/home/gem5/spec2017/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+SHELL=/bin/bash
+SPEC=/home/gem5/spec2017
+SPECDB_PWD=/home/gem5/spec2017
+SPECPERLLIB=/home/gem5/spec2017/bin/lib:/home/gem5/spec2017/bin
+SUDO_COMMAND='/usr/sbin/chroot /mnt /bin/bash'
+SUDO_GID=1001
+SUDO_UID=1001
+SUDO_USER=kparun
+TERM=xterm-256color
+USER=root
+export HOME LANG LC_ALL LC_LANG LD_LIBRARY_PATH LESSCLOSE LESSOPEN
+export LIBC_FATAL_STDERR_ LOGNAME LS_COLORS MAIL OLDPWD OMP_NUM_THREADS
+export OMP_STACKSIZE PATH SHELL SPEC SPECDB_PWD SPECPERLLIB SUDO_COMMAND SUDO_GID
+export SUDO_UID SUDO_USER TERM USER
+unset SHLVL
+unset _
+unset PWD
+# Starting run for copy #0
+cd /home/gem5/spec2017/benchspec/CPU/644.nab_s/run/run_base_refspeed_mytest-m64.0000
+/home/gem5/spec2017/bin/specperl /home/gem5/spec2017/bin/harness/specdiff -m -l 10 --reltol 0.01 --skipreltol 2 /home/gem5/spec2017/benchspec/CPU/544.nab_r/data/refspeed/output/3j1n.out 3j1n.out > 3j1n.out.cmp
+specinvoke exit: rc=0
+%% End of fake output from compare_run (/home/gem5/spec2017/bin/specinvoke -d /h...)
+
+ Success 644.nab_s base refspeed ratio=0.00, runtime=0.000000, copies=1, threads=4, power=0.00W, temp=0.00 degC, humidity=0.00%
+
+
+Success: 1x644.nab_s
+runcpu finished at 2022-06-30 03:20:45; 2 total seconds elapsed
+Info: file_tail(11556): file '/home/gem5/spec2017/tmp/CPU2017.011/templogs/preenv.fpspeed.011.0.debug' was removed and will no longer be followed.  No action is required.
+The log for this run is in /home/gem5/spec2017/result/CPU2017.011.log
+
+runcpu finished at 2022-06-30 03:20:45; 3 total seconds elapsed
