@@ -1,0 +1,133 @@
+runcpu v5825 started at 2022-06-26 05:18:19 on "gem5-host"
+runcpu is: /home/gem5/spec2017/bin/harness/runcpu
+runcpu: runcpu --size test --iterations 1 --config myconfig.x86.cfg --noreportable --nobuild 605.mcf_s
+toolset: linux-x86_64
+
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/gem5/spec2017/config/myconfig.x86.cfg'
+
+1 configuration selected:
+
+ Action    Run Mode   Workload      Report Type      Benchmarks
+--------   --------   --------   -----------------   --------------------------
+validate   speed      test       SPECspeed2017_int   605.mcf_s                 
+-------------------------------------------------------------------------------
+
+Setting up environment for running 605.mcf_s...
+Starting runcpu for 605.mcf_s...
+Retrieving flags file (/home/gem5/spec2017/config/flags/gcc.xml)...
+Verbosity = 5
+Action    = validate
+Tune      = base
+Label     = mytest-m64
+Size      = test
+benchmarks= 605.mcf_s
+outputs   = txt,html,cfg,pdf,csv
+username  = root
+Environment settings:
+LD_LIBRARY_PATH = "%{gcc_dir}/lib64/:%{gcc_dir}/lib/:/lib64"
+
+Benchmarks selected: 605.mcf_s
+Compiling Binaries
+------------------------------------------------------------------------
+COMP: "/usr/bin/gcc     -std=c99   -m64 -c -o options.o -DSPEC -DNDEBUG  -Ispec_qsort -DSPEC_AUTO_SUPPRESS_OPENMP -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP -fno-strict-aliasing   -DSPEC_LP64  <source>"
+C: CC="/usr/bin/gcc     -std=c99   -m64"
+C: COBJOPT="-c -o options"
+P: CPUFLAGS="-DSPEC -DNDEBUG"
+P: BENCH_FLAGS=""
+P: BENCH_CFLAGS="-Ispec_qsort -DSPEC_AUTO_SUPPRESS_OPENMP"
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: COPTIMIZE=""
+P: PORTABILITY=""
+P: CPORTABILITY=""
+O: EXTRA_CFLAGS=""
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+O: EXTRA_COPTIMIZE="-fno-strict-aliasing"
+P: EXTRA_PORTABILITY="-DSPEC_LP64"
+P: EXTRA_CPORTABILITY=""
+LINK: "/usr/bin/gcc     -std=c99   -m64  -z muldefs    -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP -fno-strict-aliasing <objects>   -lm         -o options  "
+C: LD="/usr/bin/gcc     -std=c99   -m64"
+O: LDCFLAGS="-z muldefs"
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+O: EXTRA_COPTIMIZE="-fno-strict-aliasing"
+C: MATH_LIBS="-lm"
+C: LDOUT="-o options"
+ CC_VERSION_OPTION:
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --tar
+get=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+  Up to date 605.mcf_s base mytest-m64
+
+
+Setting Up Run Directories
+  Setting up 605.mcf_s test base mytest-m64: run_base_test_mytest-m64.0000
+-----------------------------------
+Running Benchmarks
+-----------------------------------
+  Running 605.mcf_s test base mytest-m64 threads:4 [2022-06-26 05:18:29]
+OpenMP environment variables removed: None
+OpenMP environment variables in effect:
+	OMP_NUM_THREADS	=> '4'
+Pre-run environment changes:
+	'OMP_NUM_THREADS' added: (value now '4')
+Commands to run (specinvoke command file):
+    -r
+    -N C
+    -C /home/gem5/spec2017/benchspec/CPU/605.mcf_s/run/run_base_test_mytest-m64.0000
+    -o inp.out -e inp.err ../run_base_test_mytest-m64.0000/mcf_s_base.mytest-m64 inp.in  > inp.out 2>> inp.err (timed)
+Specinvoke: /home/gem5/spec2017/bin/specinvoke -d /home/gem5/spec2017/benchspec/CPU/605.mcf_s/run/run_base_test_mytest-m64.0000 -f speccmds.cmd -q -e speccmds.err -o speccmds.stdout
+Issuing command '/home/gem5/spec2017/bin/specinvoke -d /home/gem5/spec2017/benchspec/CPU/605.mcf_s/run/run_base_test_mytest-m64.0000 -f speccmds.cmd -q -e speccmds.err -o speccmds.stdout'
+Start command: 2022-06-26 05:18:29 (1656235109.49193)
+Stop command: 2022-06-26 05:19:41 (1656235181.377)
+Elapsed time for command: 00:01:11 (71.8850719928741)
+Workload elapsed time (copy 0 workload 1) = 71.607115 seconds
+Copy 0 of 605.mcf_s (base test) run 1 finished at 2022-06-26 05:19:41.  Total elapsed time: 71.607115
+OpenMP environment variables removed: None
+OpenMP environment variables in effect:
+	OMP_NUM_THREADS	=> '4'
+Pre-run environment changes:
+	'OMP_NUM_THREADS' added: (value now '4')
+comparing 'inp.out' with 
+comparing 'mcf.out' with 
+Specinvoke: /home/gem5/spec2017/bin/specinvoke -d /home/gem5/spec2017/benchspec/CPU/605.mcf_s/run/run_base_test_mytest-m64.0000 -f compare.cmd -E -e compare.err -o compare.stdout
+Issuing command '/home/gem5/spec2017/bin/specinvoke -d /home/gem5/spec2017/benchspec/CPU/605.mcf_s/run/run_base_test_mytest-m64.0000 -f compare.cmd -E -e compare.err -o compare.stdout'
+Start command: 2022-06-26 05:19:41 (1656235181.82293)
+Stop command: 2022-06-26 05:19:43 (1656235183.3577)
+Elapsed time for command: 00:00:01 (1.53476595878601)
+Benchmark Times:
+  Run Start:    2022-06-26 05:18:29 (1656235109)
+  Run Stop:     2022-06-26 05:19:41 (1656235181)
+  Run Elapsed:  00:01:12 (72)
+  Run Reported: 00:01:11 (71 607115000 71.607)
+ Success 605.mcf_s base test ratio=-0.00, runtime=71.607000, copies=1, threads=4, power=0.00W, temp=0.00 degC, humidity=0.00%
+Success: 1x605.mcf_s
+Producing Raw Reports
+ label: mytest-m64
+  workload: test
+   benchset: intspeed
+   metric: SPECspeed2017_int_base
+    format: raw -> /home/gem5/spec2017/result/CPU2017.007.intspeed.test.rsf
+Parsing flags for 605.mcf_s base: done
+Doing flag reduction: done
+    format: flags -> /home/gem5/spec2017/result/CPU2017.007.intspeed.test.flags.html
+    format: cfg -> /home/gem5/spec2017/result/CPU2017.007.intspeed.test.cfg, /home/gem5/spec2017/result/CPU2017.007.intspeed.test.orig.cfg
+    format: CSV -> /home/gem5/spec2017/result/CPU2017.007.intspeed.test.csv
+    format: PDF -> /home/gem5/spec2017/result/CPU2017.007.intspeed.test.pdf
+    format: HTML -> /home/gem5/spec2017/result/CPU2017.007.intspeed.test.html, /home/gem5/spec2017/result/invalid.gif
+    format: Text -> /home/gem5/spec2017/result/CPU2017.007.intspeed.test.txt
+   benchset: intrate
+   benchset: fpspeed
+   benchset: fprate
+runcpu finished at 2022-06-26 05:20:02; 99 total seconds elapsed
+Info: file_tail(1194): file '/home/gem5/spec2017/tmp/CPU2017.007/templogs/preenv.intspeed.007.0.debug' was removed and will no longer be followed.  No action is required.
+The log for this run is in /home/gem5/spec2017/result/CPU2017.007.log
+
+runcpu finished at 2022-06-26 05:20:03; 103 total seconds elapsed

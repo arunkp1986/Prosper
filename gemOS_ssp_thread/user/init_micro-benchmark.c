@@ -10,7 +10,7 @@
 #define HEAP1_ELEM 524288 // 512 pages 
 #define HEAP2_SIZE 4194304 // 4MB,
 #define HEAP2_ELEM 1048576 // 1024 pages 
-#define REC_COUNT 10000000 // number of operations
+#define REC_COUNT 1000 // number of operations
 
 
 #define RDTSC_START()            \
@@ -146,7 +146,7 @@ int main(u64 arg1, u64 arg2, u64 arg3, u64 arg4, u64 arg5)
         printf("Can not allocated stack\n");
         exit(0);
     }
-    tharg = 1000;// thread sleep time
+    tharg = 10000;// thread sleep time
     thpid = clone(&thfunc1, ((u64)stackp) + 8192, &tharg);
     if(thpid <= 0){
         printf("Error creating thread!\n");

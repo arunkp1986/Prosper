@@ -1,0 +1,514 @@
+runcpu v5825 started at 2022-06-26 12:01:08 on "kparun-kd222"
+runcpu is: /home/gem5/spec2017/bin/harness/runcpu
+runcpu: runcpu --config=myconfig.x86.cfg --action=build 641.leela_s
+toolset: linux-x86_64
+
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/gem5/spec2017/config/myconfig.x86.cfg'
+
+1 configuration selected:
+
+Action   Benchmarks
+------   ----------------------------------------------------------------------
+build    641.leela_s                                                           
+-------------------------------------------------------------------------------
+
+Setting up environment for running 641.leela_s...
+Starting runcpu for 641.leela_s...
+Retrieving flags file (/home/gem5/spec2017/config/flags/gcc.xml)...
+Verbosity = 5
+Action    = build
+Tune      = base
+Label     = mytest-m64
+Size      = refspeed
+benchmarks= 641.leela_s
+outputs   = txt,html,cfg,pdf,csv
+username  = root
+Environment settings:
+LD_LIBRARY_PATH = "%{gcc_dir}/lib64/:%{gcc_dir}/lib/:/lib64"
+
+Benchmarks selected: 641.leela_s
+When checking executables (/home/gem5/spec2017/benchspec/CPU/641.leela_s/exe/leela_s_base.mytest-m64), no checksums were
+  found in the config file.  They will be installed after build.
+When checking executables (/home/gem5/spec2017/benchspec/CPU/641.leela_s/exe/leela_s_base.mytest-m64), no checksums were
+  found in the config file.  They will be installed after build.
+Compiling Binaries
+------------------------------------------------------------------------
+When checking options for /home/gem5/spec2017/benchspec/CPU/641.leela_s/exe/leela_s_base.mytest-m64, no checksums were
+  found in the config file.  They will be installed after build.
+When checking executables (/home/gem5/spec2017/benchspec/CPU/641.leela_s/exe/leela_s_base.mytest-m64), no checksums were
+  found in the config file.  They will be installed after build.
+  Building 641.leela_s base mytest-m64: (build_base_mytest-m64.0000) [2022-06-26 12:01:09]
+Wrote to makefile '/home/gem5/spec2017/benchspec/CPU/641.leela_s/build/build_base_mytest-m64.0000/Makefile.deps':
+# End dependencies
+# These are the build dependencies
+Wrote to makefile '/home/gem5/spec2017/benchspec/CPU/641.leela_s/build/build_base_mytest-m64.0000/Makefile.spec':
+TUNE=base
+LABEL=mytest-m64
+NUMBER=641
+NAME=leela_s
+SOURCES= FullBoard.cpp KoState.cpp Playout.cpp TimeControl.cpp \
+	 UCTSearch.cpp GameState.cpp Leela.cpp SGFParser.cpp Timing.cpp Utils.cpp \
+	 FastBoard.cpp Matcher.cpp SGFTree.cpp TTable.cpp Zobrist.cpp \
+	 FastState.cpp GTP.cpp MCOTable.cpp Random.cpp SMP.cpp UCTNode.cpp
+EXEBASE=leela_s
+NEED_MATH=
+BENCHLANG=CXX
+BENCH_FLAGS      = -I.
+CC               = /usr/bin/gcc     -std=c99   -m64
+CC_VERSION_OPTION = -v
+CXX              = /usr/bin/g++                -m64
+CXX_VERSION_OPTION = -v
+EXTRA_COPTIMIZE  = -fno-strict-aliasing
+EXTRA_OPTIMIZE   = -fopenmp -DSPEC_OPENMP
+EXTRA_PORTABILITY = -DSPEC_LP64
+FC               = /usr/bin/gfortran           -m64
+FC_VERSION_OPTION = -v
+LDCFLAGS         = -z muldefs
+OPTIMIZE         = -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize
+OS               = unix
+SPECLANG         = /usr/lib/gcc/x86_64-linux-gnu/7//bin/
+absolutely_no_locking = 0
+abstol           = 
+action           = build
+allow_label_override = 0
+backup_config    = 1
+baseexe          = leela_s
+basepeak         = 0
+benchdir         = benchspec
+benchmark        = 641.leela_s
+binary           = 
+bindir           = exe
+builddir         = build
+bundleaction     = 
+bundlename       = 
+calctol          = 1
+changedhash      = 0
+check_version    = 0
+clean_between_builds = no
+command_add_redirect = 1
+commanderrfile   = speccmds.err
+commandexe       = leela_s_base.mytest-m64
+commandfile      = speccmds.cmd
+commandoutfile   = speccmds.out
+commandstdoutfile = speccmds.stdout
+comparedir       = compare
+compareerrfile   = compare.err
+comparefile      = compare.cmd
+compareoutfile   = compare.out
+comparestdoutfile = compare.stdout
+compile_error    = 0
+compwhite        = 
+configdir        = config
+configfile       = myconfig.x86.cfg
+configpath       = /home/gem5/spec2017/config/myconfig.x86.cfg
+copies           = 1
+current_range    = 
+datadir          = data
+default_size     = ref
+default_submit   = $command
+delay            = 0
+deletebinaries   = 0
+deletework       = 0
+dependent_workloads = 0
+device           = 
+difflines        = 10
+dirprot          = 511
+discard_power_samples = 0
+enable_monitor   = 1
+endian           = 12345678
+env_vars         = 0
+expand_notes     = 0
+expid            = 
+exthash_bits     = 256
+failflags        = 0
+fake             = 0
+feedback         = 1
+flag_url_base    = https://www.spec.org/auto/cpu2017/Docs/benchmarks/flags/
+floatcompare     = 
+force_monitor    = 0
+from_runcpu      = 2
+fw_bios          = 
+hostname         = kparun-kd222
+http_proxy       = 
+http_timeout     = 30
+hw_avail         = 
+hw_cpu_max_mhz   = 
+hw_cpu_nominal_mhz = 
+hw_model         = 
+hw_ncores        = 
+hw_ncpuorder     = 
+hw_nthreadspercore = 
+hw_ocache        = 
+hw_other         = 
+hw_pcache        = 
+hw_scache        = 
+hw_tcache        = 
+hw_vendor        = My Corporation
+idle_current_range = 
+idledelay        = 10
+idleduration     = 60
+ignore_errors    = 1
+ignore_sigint    = 0
+ignorecase       = 
+info_wrap_columns = 50
+inputdir         = input
+inputgenerrfile  = inputgen.err
+inputgenfile     = inputgen.cmd
+inputgenoutfile  = inputgen.out
+inputgenstdoutfile = inputgen.stdout
+iteration        = -1
+iterations       = 1
+keeptmp          = 0
+label            = mytest-m64
+license_num      = nnn (Your SPEC license number)
+line_width       = 1020
+link_input_files = 1
+locking          = 1
+log              = CPU2017
+log_line_width   = 1020
+log_timestamp    = 0
+logfile          = /home/gem5/spec2017/tmp/CPU2017.004/templogs/preenv.intspeed.004.0
+logname          = /home/gem5/spec2017/tmp/CPU2017.004/templogs/preenv.intspeed.004.0
+lognum           = 004.0
+mail_reports     = all
+mailcompress     = 0
+mailmethod       = smtp
+mailport         = 25
+mailserver       = 127.0.0.1
+mailto           = 
+make             = specmake
+make_no_clobber  = 0
+makefile_template = Makefile.YYYtArGeTYYYspec
+makeflags        = --jobs=8
+max_average_uncertainty = 1
+max_hum_limit    = 0
+max_report_runs  = 3
+max_unknown_uncertainty = 1
+mean_anyway      = 1
+meter_connect_timeout = 30
+meter_errors_default = 5
+meter_errors_percentage = 5
+min_report_runs  = 2
+min_temp_limit   = 20
+minimize_builddirs = 0
+minimize_rundirs = 0
+name             = leela_s
+nansupport       = 
+need_math        = 
+no_input_handler = close
+no_monitor       = 
+noratios         = 0
+note_preenv      = 1
+notes_wrap_columns = 0
+notes_wrap_indent =   
+num              = 641
+obiwan           = 
+os_exe_ext       = 
+output_format    = txt,html,cfg,pdf,csv
+output_root      = 
+outputdir        = output
+parallel_test    = 0
+parallel_test_submit = 0
+parallel_test_workloads = 
+path             = /home/gem5/spec2017/benchspec/CPU/641.leela_s
+plain_train      = 1
+platform         = 
+power            = 0
+preENV_LD_LIBRARY_PATH = %{gcc_dir}/lib64/:%{gcc_dir}/lib/:/lib64
+preenv           = 0
+prefix           = 
+ranks            = 1
+rawhash_bits     = 256
+rebuild          = 0
+reftime          = reftime
+reltol           = 
+reportable       = 0
+resultdir        = result
+review           = 0
+run              = all
+runcpu           = /home/gem5/spec2017/bin/harness/runcpu --configfile myconfig.x86.cfg --action build --noreportable --nopower --runmode speed --tune base --size refspeed 641.leela_s --nopreenv --note-preenv --logfile /home/gem5/spec2017/tmp/CPU2017.004/templogs/preenv.intspeed.004.0 --lognum 004.0 --from_runcpu 2
+rundir           = run
+runmode          = speed
+safe_eval        = 1
+save_build_files = 
+section_specifier_fatal = 1
+setprocgroup     = 1
+setup_error      = 0
+sigint           = 2
+size             = refspeed
+size_class       = ref
+skipabstol       = 
+skipobiwan       = 
+skipreltol       = 
+skiptol          = 
+smarttune        = base
+specdiff         = specdiff
+specrun          = specinvoke
+srcalt           = 
+srcdir           = src
+srcsource        = /home/gem5/spec2017/benchspec/CPU/541.leela_r/src
+stagger          = 10
+strict_rundir_verify = 1
+sw_avail         = 
+sw_base_ptrsize  = 64-bit
+sw_compiler001   = C/C++/Fortran: Version 6.2.0 of GCC, the
+sw_compiler002   = GNU Compiler Collection
+sw_other         = 
+sw_peak_ptrsize  = 64-bit
+sysinfo_hash_bits = 256
+sysinfo_program  = 
+sysinfo_program_hash = 
+table            = 1
+teeout           = 0
+test_date        = Jun-2022
+test_sponsor     = My Corporation
+tester           = My Corporation
+threads          = 4
+top              = /home/gem5/spec2017
+train_single_thread = 0
+train_with       = train
+tune             = base
+uid              = 0
+unbuffer         = 1
+uncertainty_exception = 5
+update           = 0
+update_url       = http://www.spec.org/auto/cpu2017/updates/
+use_submit_for_compare = 0
+use_submit_for_speed = 0
+username         = root
+verbose          = 5
+verify_binaries  = 1
+version          = 0.905000
+version_url      = http://www.spec.org/auto/cpu2017/current_version
+voltage_range    = 
+worklist         = list
+OUTPUT_RMFILES   = train.out
+  Compile for '641.leela_s' started at: 2022-06-26 12:01:09 (1656259269)
+Issuing make.clean command 'specmake --output-sync --jobs=8 clean'
+Start make.clean command: 2022-06-26 12:01:09 (1656259269.74361)
+rm -rf *.o  train.out
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf leela_s
+rm -rf leela_s.exe
+rm -rf core
+Stop make.clean command: 2022-06-26 12:01:09 (1656259269.90406)
+Elapsed time for make.clean command: 00:00:00 (0.160453796386719)
+Issuing make command 'specmake --output-sync --jobs=8 build'
+Start make command: 2022-06-26 12:01:09 (1656259269.90477)
+/usr/bin/g++                -m64 -c -o FullBoard.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  FullBoard.cpp
+/usr/bin/g++                -m64 -c -o TimeControl.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  TimeControl.cpp
+/usr/bin/g++                -m64 -c -o Playout.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  Playout.cpp
+/usr/bin/g++                -m64 -c -o Timing.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  Timing.cpp
+/usr/bin/g++                -m64 -c -o Utils.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  Utils.cpp
+/usr/bin/g++                -m64 -c -o KoState.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  KoState.cpp
+/usr/bin/g++                -m64 -c -o Leela.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  Leela.cpp
+Leela.cpp: In function 'int main(int, char**)':
+Leela.cpp:46:10: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<Random> rng(new Random(5489UL));
+          ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from Leela.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+Leela.cpp:51:10: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+     std::auto_ptr<GameState> maingame(new GameState);
+          ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from Leela.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+Leela.cpp:57:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<SGFTree> sgftree(new SGFTree);
+                  ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from Leela.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+Leela.cpp:64:22: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                 std::auto_ptr<UCTSearch> search(new UCTSearch(*maingame));
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from Leela.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+/usr/bin/g++                -m64 -c -o Zobrist.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  Zobrist.cpp
+/usr/bin/g++                -m64 -c -o GameState.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  GameState.cpp
+GameState.cpp: In member function 'void GameState::place_free_handicap(int)':
+GameState.cpp:265:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<UCTSearch> search(new UCTSearch(*this));
+              ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from UCTSearch.h:4,
+                 from GameState.cpp:11:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+/usr/bin/g++                -m64 -c -o UCTSearch.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  UCTSearch.cpp
+/usr/bin/g++                -m64 -c -o Matcher.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  Matcher.cpp
+/usr/bin/g++                -m64 -c -o TTable.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  TTable.cpp
+/usr/bin/g++                -m64 -c -o SMP.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  SMP.cpp
+/usr/bin/g++                -m64 -c -o Random.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  Random.cpp
+/usr/bin/g++                -m64 -c -o SGFParser.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  SGFParser.cpp
+SGFParser.cpp: In static member function 'static void SGFParser::parse(std::istringstream&, SGFTree*)':
+SGFParser.cpp:161:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<SGFTree> newnode(new SGFTree);
+                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from SGFParser.cpp:4:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+SGFParser.cpp:178:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<SGFTree> newnode(new SGFTree);
+                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from SGFParser.cpp:4:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+/usr/bin/g++                -m64 -c -o MCOTable.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  MCOTable.cpp
+/usr/bin/g++                -m64 -c -o FastState.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  FastState.cpp
+/usr/bin/g++                -m64 -c -o UCTNode.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  UCTNode.cpp
+/usr/bin/g++                -m64 -c -o SGFTree.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  SGFTree.cpp
+/usr/bin/g++                -m64 -c -o GTP.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  GTP.cpp
+GTP.cpp: In static member function 'static bool GTP::execute(GameState&, std::__cxx11::string)':
+GTP.cpp:250:22: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+                 std::auto_ptr<UCTSearch> search(new UCTSearch(game));
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from UCTSearch.h:4,
+                 from GTP.cpp:13:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+GTP.cpp:290:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<UCTSearch> search(new UCTSearch(game));
+                  ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from UCTSearch.h:4,
+                 from GTP.cpp:13:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+GTP.cpp:399:18: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<UCTSearch> search(new UCTSearch(game));
+                  ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from UCTSearch.h:4,
+                 from GTP.cpp:13:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+GTP.cpp:412:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<UCTSearch> search(new UCTSearch(game));
+              ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from UCTSearch.h:4,
+                 from GTP.cpp:13:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+GTP.cpp:491:14: warning: 'template<class> class std::auto_ptr' is deprecated [-Wdeprecated-declarations]
+         std::auto_ptr<SGFTree> sgftree(new SGFTree);
+              ^~~~~~~~
+In file included from /usr/include/c++/7/memory:80:0,
+                 from UCTSearch.h:4,
+                 from GTP.cpp:13:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+/usr/bin/g++                -m64 -c -o FastBoard.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  FastBoard.cpp
+/usr/bin/g++                -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  FullBoard.o KoState.o Playout.o TimeControl.o UCTSearch.o GameState.o Leela.o SGFParser.o Timing.o Utils.o FastBoard.o Matcher.o SGFTree.o TTable.o Zobrist.o FastState.o GTP.o MCOTable.o Random.o SMP.o UCTNode.o                      -o leela_s  
+Stop make command: 2022-06-26 12:01:12 (1656259272.33578)
+Elapsed time for make command: 00:00:02 (2.43101000785828)
+Issuing options command 'specmake --output-sync --jobs=8 options'
+Start options command: 2022-06-26 12:01:12 (1656259272.33861)
+COMP: "/usr/bin/g++                -m64 -c -o options.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  <source>"
+C: CXXC="/usr/bin/g++                -m64"
+C: CXXOBJOPT="-c -o options"
+P: CPUFLAGS="-DSPEC -DNDEBUG"
+P: BENCH_FLAGS="-I."
+P: BENCH_CXXFLAGS=""
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: CXXOPTIMIZE=""
+P: PORTABILITY=""
+P: CXXPORTABILITY=""
+O: EXTRA_CXXFLAGS=""
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+O: EXTRA_CXXOPTIMIZE=""
+P: EXTRA_PORTABILITY="-DSPEC_LP64"
+P: EXTRA_CXXPORTABILITY=""
+LINK: "/usr/bin/g++                -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  <objects>            -o options  "
+C: LD="/usr/bin/g++                -m64"
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+C: LDOUT="-o options"
+Stop options command: 2022-06-26 12:01:12 (1656259272.51419)
+Elapsed time for options command: 00:00:00 (0.175584077835083)
+Issuing compiler-version command 'specmake --output-sync --jobs=8 compiler-version'
+Start compiler-version command: 2022-06-26 12:01:12 (1656259272.51824)
+ CXXC_VERSION_OPTION:
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --tar
+get=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+Stop compiler-version command: 2022-06-26 12:01:12 (1656259272.69884)
+Elapsed time for compiler-version command: 00:00:00 (0.180605888366699)
+  Compile for '641.leela_s' ended at: 2022-06-26 12:01:12 (1656259272)
+  Elapsed compile for '641.leela_s': 00:00:03 (3)
+COMP: "/usr/bin/g++                -m64 -c -o options.o -DSPEC -DNDEBUG -I.  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize       -fopenmp -DSPEC_OPENMP  -DSPEC_LP64  <source>"
+C: CXXC="/usr/bin/g++                -m64"
+C: CXXOBJOPT="-c -o options"
+P: CPUFLAGS="-DSPEC -DNDEBUG"
+P: BENCH_FLAGS="-I."
+P: BENCH_CXXFLAGS=""
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: CXXOPTIMIZE=""
+P: PORTABILITY=""
+P: CXXPORTABILITY=""
+O: EXTRA_CXXFLAGS=""
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+O: EXTRA_CXXOPTIMIZE=""
+P: EXTRA_PORTABILITY="-DSPEC_LP64"
+P: EXTRA_CXXPORTABILITY=""
+LINK: "/usr/bin/g++                -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  <objects>            -o options  "
+C: LD="/usr/bin/g++                -m64"
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+C: LDOUT="-o options"
+ CXXC_VERSION_OPTION:
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --tar
+get=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+
+Build successes for intspeed: 641.leela_s(base)
+Build errors for intspeed: None
+
+Build Complete
+runcpu finished at 2022-06-26 12:01:13; 3 total seconds elapsed
+Info: file_tail(86290): file '/home/gem5/spec2017/tmp/CPU2017.004/templogs/preenv.intspeed.004.0.debug' was removed and will no longer be followed.  No action is required.
+The log for this run is in /home/gem5/spec2017/result/CPU2017.004.log
+
+runcpu finished at 2022-06-26 12:01:13; 4 total seconds elapsed

@@ -13,58 +13,62 @@
 Disk Initialization is successful for IDE disk 0x40
 GemOS# Setting up init process ...
 Page table setup done, launching init ...
-checkpoint:1, time:24863, size:848 
-checkpoint:2, time:4936, size:232 
-checkpoint:3, time:16103, size:792 
-checkpoint:4, time:14677, size:744 
-checkpoint:5, time:13749, size:696 
-checkpoint:6, time:7835, size:336 
-checkpoint:7, time:13829, size:696 
-checkpoint:8, time:16020, size:792 
-checkpoint:9, time:14732, size:744 
-checkpoint:10, time:3999, size:184 
-checkpoint:11, time:8013, size:304 
-checkpoint:12, time:25949, size:1216 
-checkpoint:13, time:16129, size:792 
-checkpoint:14, time:14746, size:744 
-checkpoint:15, time:13341, size:648 
-checkpoint:16, time:6299, size:240 
-checkpoint:17, time:16351, size:808 
-checkpoint:18, time:16132, size:792 
-checkpoint:19, time:4949, size:232 
-checkpoint:20, time:13394, size:648 
-checkpoint:21, time:6276, size:240 
-checkpoint:22, time:16476, size:808 
-checkpoint:23, time:6225, size:280 
-checkpoint:24, time:4951, size:232 
-checkpoint:25, time:3936, size:152 
-checkpoint:26, time:4737, size:192 
-checkpoint:27, time:17734, size:848 
-checkpoint:28, time:6131, size:280 
-checkpoint:29, time:5947, size:248 
-checkpoint:30, time:14569, size:712 
-checkpoint:31, time:13736, size:696 
-checkpoint:32, time:17739, size:848 
-checkpoint:33, time:14688, size:744 
-checkpoint:34, time:16007, size:792 
-checkpoint:35, time:14677, size:744 
-checkpoint:36, time:13750, size:696 
-checkpoint:37, time:17738, size:848 
-checkpoint:38, time:13751, size:696 
-checkpoint:39, time:16020, size:792 
-checkpoint:40, time:14688, size:744 
-checkpoint:41, time:13748, size:696 
-checkpoint:42, time:7669, size:288 
-checkpoint:43, time:14526, size:712 
-checkpoint:44, time:6184, size:280 
-checkpoint:45, time:14829, size:744 
-checkpoint:46, time:13342, size:648 
-checkpoint:47, time:6301, size:240 
-checkpoint:48, time:16341, size:808 
-checkpoint:49, time:16134, size:792 
-checkpoint:50, time:14762, size:744 
-checkpoint:51, time:13340, size:648 
-checkpoint:52, time:6034, size:232 
+checkpoint:1, time:14916, size:336 
+checkpoint:2, time:5562, size:232 
+checkpoint:3, time:20937, size:792 
+checkpoint:4, time:15716, size:744 
+checkpoint:5, time:14246, size:648 
+checkpoint:6, time:7958, size:240 
+checkpoint:7, time:28733, size:1168 
+checkpoint:8, time:6916, size:280 
+checkpoint:9, time:5623, size:232 
+checkpoint:10, time:26213, size:1168 
+checkpoint:11, time:14432, size:696 
+checkpoint:12, time:9085, size:336 
+checkpoint:13, time:5561, size:232 
+checkpoint:14, time:17246, size:792 
+checkpoint:15, time:23410, size:1104 
+checkpoint:16, time:14244, size:648 
+checkpoint:17, time:7969, size:240 
+checkpoint:18, time:17485, size:808 
+checkpoint:19, time:6914, size:280 
+checkpoint:20, time:5610, size:232 
+checkpoint:21, time:15645, size:712 
+checkpoint:22, time:14431, size:696 
+checkpoint:23, time:9086, size:336 
+checkpoint:24, time:5562, size:232 
+checkpoint:25, time:17246, size:792 
+checkpoint:26, time:23456, size:1104 
+checkpoint:27, time:24197, size:1104 
+checkpoint:28, time:7970, size:240 
+checkpoint:29, time:17488, size:808 
+checkpoint:30, time:6916, size:280 
+checkpoint:31, time:5609, size:232 
+checkpoint:32, time:15645, size:712 
+checkpoint:33, time:14431, size:696 
+checkpoint:34, time:9084, size:336 
+checkpoint:35, time:5560, size:232 
+checkpoint:36, time:22419, size:1008 
+checkpoint:37, time:23327, size:1104 
+checkpoint:38, time:14246, size:648 
+checkpoint:39, time:7969, size:240 
+checkpoint:40, time:17487, size:808 
+checkpoint:41, time:6913, size:280 
+checkpoint:42, time:5611, size:232 
+checkpoint:43, time:15645, size:712 
+checkpoint:44, time:14432, size:696 
+checkpoint:45, time:9087, size:336 
+checkpoint:46, time:5560, size:232 
+checkpoint:47, time:17246, size:792 
+checkpoint:48, time:23446, size:1104 
+checkpoint:49, time:14246, size:648 
+checkpoint:50, time:7970, size:240 
+checkpoint:51, time:17483, size:808 
+checkpoint:52, time:6913, size:280 
+checkpoint:53, time:5612, size:232 
+checkpoint:54, time:15649, size:712 
+checkpoint:55, time:14430, size:696 
+checkpoint:56, time:3777, size:48 
 Cleaned up init process
 GemOS shell again!
 GemOS# Shutting down...

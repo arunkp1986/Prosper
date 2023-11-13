@@ -1,0 +1,654 @@
+runcpu v5825 started at 2022-06-26 12:02:11 on "kparun-kd222"
+runcpu is: /home/gem5/spec2017/bin/harness/runcpu
+runcpu: runcpu --config=myconfig.x86.cfg --action=build 644.nab_s
+toolset: linux-x86_64
+
+Locating benchmarks...found 47 benchmarks in 53 benchsets.
+Reading config file '/home/gem5/spec2017/config/myconfig.x86.cfg'
+
+1 configuration selected:
+
+Action   Benchmarks
+------   ----------------------------------------------------------------------
+build    644.nab_s                                                             
+-------------------------------------------------------------------------------
+
+Setting up environment for running 644.nab_s...
+Starting runcpu for 644.nab_s...
+Retrieving flags file (/home/gem5/spec2017/config/flags/gcc.xml)...
+Verbosity = 5
+Action    = build
+Tune      = base
+Label     = mytest-m64
+Size      = refspeed
+benchmarks= 644.nab_s
+outputs   = txt,html,cfg,pdf,csv
+username  = root
+Environment settings:
+LD_LIBRARY_PATH = "%{gcc_dir}/lib64/:%{gcc_dir}/lib/:/lib64"
+OMP_STACKSIZE = "120M"
+
+Benchmarks selected: 644.nab_s
+When checking executables (/home/gem5/spec2017/benchspec/CPU/644.nab_s/exe/nab_s_base.mytest-m64), no checksums were
+  found in the config file.  They will be installed after build.
+When checking executables (/home/gem5/spec2017/benchspec/CPU/644.nab_s/exe/nab_s_base.mytest-m64), no checksums were
+  found in the config file.  They will be installed after build.
+Compiling Binaries
+------------------------------------------------------------------------
+When checking options for /home/gem5/spec2017/benchspec/CPU/644.nab_s/exe/nab_s_base.mytest-m64, no checksums were
+  found in the config file.  They will be installed after build.
+When checking executables (/home/gem5/spec2017/benchspec/CPU/644.nab_s/exe/nab_s_base.mytest-m64), no checksums were
+  found in the config file.  They will be installed after build.
+  Building 644.nab_s base mytest-m64: (build_base_mytest-m64.0000) [2022-06-26 12:02:12]
+Wrote to makefile '/home/gem5/spec2017/benchspec/CPU/644.nab_s/build/build_base_mytest-m64.0000/Makefile.deps':
+# End dependencies
+# These are the build dependencies
+$(addsuffix $(OBJ), $(basename binpos.c)): binpos.c memutil.h
+$(addsuffix $(OBJ), $(basename chirvol.c)): chirvol.c defreal.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename database.c)): database.c database.h
+$(addsuffix $(OBJ), $(basename errormsg.c)): errormsg.c errormsg.h
+$(addsuffix $(OBJ), $(basename memutil.c)): memutil.c defreal.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename molio.c)): molio.c defreal.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename molutil.c)): molutil.c defreal.h errormsg.h memutil.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename nabmd.c)): nabmd.c nabcode.h
+$(addsuffix $(OBJ), $(basename nblist.c)): nblist.c defreal.h
+$(addsuffix $(OBJ), $(basename prm.c)): prm.c defreal.h errormsg.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename rand2.c)): rand2.c defreal.h
+$(addsuffix $(OBJ), $(basename reslib.c)): reslib.c chirvol.h database.h defreal.h errormsg.h memutil.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename select_atoms.c)): select_atoms.c defreal.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename sff.c)): sff.c debug.h defreal.h eff.c gbsa.c intersect.c memutil.h nab.h nabtypes.h
+$(addsuffix $(OBJ), $(basename traceback.c)): traceback.c errormsg.h
+Wrote to makefile '/home/gem5/spec2017/benchspec/CPU/644.nab_s/build/build_base_mytest-m64.0000/Makefile.spec':
+TUNE=base
+LABEL=mytest-m64
+NUMBER=644
+NAME=nab_s
+SOURCES= nabmd.c sff.c nblist.c prm.c memutil.c molio.c molutil.c \
+	 errormsg.c binpos.c rand2.c select_atoms.c reslib.c database.c \
+	 traceback.c chirvol.c specrand/specrand.c regex-alpha/regcomp.c \
+	 regex-alpha/regerror.c regex-alpha/regexec.c regex-alpha/regfree.c
+EXEBASE=nab_s
+NEED_MATH=yes
+BENCHLANG=C
+BENCH_FLAGS      = -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE
+CC               = /usr/bin/gcc     -std=c99   -m64
+CC_VERSION_OPTION = -v
+CXX              = /usr/bin/g++                -m64
+CXX_VERSION_OPTION = -v
+EXTRA_OPTIMIZE   = -fopenmp -DSPEC_OPENMP
+EXTRA_PORTABILITY = -DSPEC_LP64
+FC               = /usr/bin/gfortran           -m64
+FC_VERSION_OPTION = -v
+OPTIMIZE         = -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize
+OS               = unix
+SPECLANG         = /usr/lib/gcc/x86_64-linux-gnu/7//bin/
+absolutely_no_locking = 0
+abstol           = 
+action           = build
+allow_label_override = 0
+backup_config    = 1
+baseexe          = nab_s
+basepeak         = 0
+benchdir         = benchspec
+benchmark        = 644.nab_s
+binary           = 
+bindir           = exe
+builddir         = build
+bundleaction     = 
+bundlename       = 
+calctol          = 1
+changedhash      = 0
+check_version    = 0
+clean_between_builds = no
+command_add_redirect = 1
+commanderrfile   = speccmds.err
+commandexe       = nab_s_base.mytest-m64
+commandfile      = speccmds.cmd
+commandoutfile   = speccmds.out
+commandstdoutfile = speccmds.stdout
+comparedir       = compare
+compareerrfile   = compare.err
+comparefile      = compare.cmd
+compareoutfile   = compare.out
+comparestdoutfile = compare.stdout
+compile_error    = 0
+compwhite        = 
+configdir        = config
+configfile       = myconfig.x86.cfg
+configpath       = /home/gem5/spec2017/config/myconfig.x86.cfg
+copies           = 1
+current_range    = 
+datadir          = data
+default_size     = ref
+default_submit   = $command
+delay            = 0
+deletebinaries   = 0
+deletework       = 0
+dependent_workloads = 0
+device           = 
+difflines        = 10
+dirprot          = 511
+discard_power_samples = 0
+enable_monitor   = 1
+endian           = 12345678
+env_vars         = 0
+expand_notes     = 0
+expid            = 
+exthash_bits     = 256
+failflags        = 0
+fake             = 0
+feedback         = 1
+flag_url_base    = https://www.spec.org/auto/cpu2017/Docs/benchmarks/flags/
+floatcompare     = 
+force_monitor    = 0
+from_runcpu      = 2
+fw_bios          = 
+hostname         = kparun-kd222
+http_proxy       = 
+http_timeout     = 30
+hw_avail         = 
+hw_cpu_max_mhz   = 
+hw_cpu_nominal_mhz = 
+hw_model         = 
+hw_ncores        = 
+hw_ncpuorder     = 
+hw_nthreadspercore = 
+hw_ocache        = 
+hw_other         = 
+hw_pcache        = 
+hw_scache        = 
+hw_tcache        = 
+hw_vendor        = My Corporation
+idle_current_range = 
+idledelay        = 10
+idleduration     = 60
+ignore_errors    = 1
+ignore_sigint    = 0
+ignorecase       = 
+info_wrap_columns = 50
+inputdir         = input
+inputgenerrfile  = inputgen.err
+inputgenfile     = inputgen.cmd
+inputgenoutfile  = inputgen.out
+inputgenstdoutfile = inputgen.stdout
+iteration        = -1
+iterations       = 1
+keeptmp          = 0
+label            = mytest-m64
+license_num      = nnn (Your SPEC license number)
+line_width       = 1020
+link_input_files = 1
+locking          = 1
+log              = CPU2017
+log_line_width   = 1020
+log_timestamp    = 0
+logfile          = /home/gem5/spec2017/tmp/CPU2017.006/templogs/preenv.fpspeed.006.0
+logname          = /home/gem5/spec2017/tmp/CPU2017.006/templogs/preenv.fpspeed.006.0
+lognum           = 006.0
+mail_reports     = all
+mailcompress     = 0
+mailmethod       = smtp
+mailport         = 25
+mailserver       = 127.0.0.1
+mailto           = 
+make             = specmake
+make_no_clobber  = 0
+makefile_template = Makefile.YYYtArGeTYYYspec
+makeflags        = --jobs=8
+max_average_uncertainty = 1
+max_hum_limit    = 0
+max_report_runs  = 3
+max_unknown_uncertainty = 1
+mean_anyway      = 1
+meter_connect_timeout = 30
+meter_errors_default = 5
+meter_errors_percentage = 5
+min_report_runs  = 2
+min_temp_limit   = 20
+minimize_builddirs = 0
+minimize_rundirs = 0
+name             = nab_s
+nansupport       = 
+need_math        = yes
+no_input_handler = close
+no_monitor       = 
+noratios         = 0
+note_preenv      = 1
+notes_wrap_columns = 0
+notes_wrap_indent =   
+num              = 644
+obiwan           = 
+os_exe_ext       = 
+output_format    = txt,html,cfg,pdf,csv
+output_root      = 
+outputdir        = output
+parallel_test    = 0
+parallel_test_submit = 0
+parallel_test_workloads = 
+path             = /home/gem5/spec2017/benchspec/CPU/644.nab_s
+plain_train      = 1
+platform         = 
+power            = 0
+preENV_LD_LIBRARY_PATH = %{gcc_dir}/lib64/:%{gcc_dir}/lib/:/lib64
+preENV_OMP_STACKSIZE = 120M
+preenv           = 0
+prefix           = 
+ranks            = 1
+rawhash_bits     = 256
+rebuild          = 0
+reftime          = reftime
+reltol           = 0.01
+reportable       = 0
+resultdir        = result
+review           = 0
+run              = all
+runcpu           = /home/gem5/spec2017/bin/harness/runcpu --configfile myconfig.x86.cfg --action build --noreportable --nopower --runmode speed --tune base --size refspeed 644.nab_s --nopreenv --note-preenv --logfile /home/gem5/spec2017/tmp/CPU2017.006/templogs/preenv.fpspeed.006.0 --lognum 006.0 --from_runcpu 2
+rundir           = run
+runmode          = speed
+safe_eval        = 1
+save_build_files = 
+section_specifier_fatal = 1
+setprocgroup     = 1
+setup_error      = 0
+sigint           = 2
+size             = refspeed
+size_class       = ref
+skipabstol       = 
+skipobiwan       = 
+skipreltol       = 2
+skiptol          = 
+smarttune        = base
+specdiff         = specdiff
+specrun          = specinvoke
+srcalt           = 
+srcdir           = src
+srcsource        = /home/gem5/spec2017/benchspec/CPU/544.nab_r/src
+stagger          = 10
+strict_rundir_verify = 1
+sw_avail         = 
+sw_base_ptrsize  = 64-bit
+sw_compiler001   = C/C++/Fortran: Version 6.2.0 of GCC, the
+sw_compiler002   = GNU Compiler Collection
+sw_other         = 
+sw_peak_ptrsize  = 64-bit
+sysinfo_hash_bits = 256
+sysinfo_program  = 
+sysinfo_program_hash = 
+table            = 1
+teeout           = 0
+test_date        = Jun-2022
+test_sponsor     = My Corporation
+tester           = My Corporation
+threads          = 4
+top              = /home/gem5/spec2017
+train_single_thread = 0
+train_with       = train
+tune             = base
+uid              = 0
+unbuffer         = 1
+uncertainty_exception = 5
+update           = 0
+update_url       = http://www.spec.org/auto/cpu2017/updates/
+use_submit_for_compare = 0
+use_submit_for_speed = 0
+username         = root
+verbose          = 5
+verify_binaries  = 1
+version          = 0.903000
+version_url      = http://www.spec.org/auto/cpu2017/current_version
+voltage_range    = 
+worklist         = list
+OUTPUT_RMFILES   = aminos.out gcn4dna.out
+  Compile for '644.nab_s' started at: 2022-06-26 12:02:12 (1656259332)
+Issuing make.clean command 'specmake --output-sync --jobs=8 clean'
+Start make.clean command: 2022-06-26 12:02:12 (1656259332.47824)
+rm -rf *.o  aminos.out gcn4dna.out
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf nab_s
+rm -rf nab_s.exe
+rm -rf core
+Stop make.clean command: 2022-06-26 12:02:12 (1656259332.64115)
+Elapsed time for make.clean command: 00:00:00 (0.162913084030151)
+Issuing make command 'specmake --output-sync --jobs=8 build'
+Start make command: 2022-06-26 12:02:12 (1656259332.64193)
+/usr/bin/gcc     -std=c99   -m64 -c -o errormsg.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  errormsg.c
+/usr/bin/gcc     -std=c99   -m64 -c -o binpos.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  binpos.c
+/usr/bin/gcc     -std=c99   -m64 -c -o nabmd.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  nabmd.c
+/usr/bin/gcc     -std=c99   -m64 -c -o memutil.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  memutil.c
+/usr/bin/gcc     -std=c99   -m64 -c -o rand2.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  rand2.c
+/usr/bin/gcc     -std=c99   -m64 -c -o nblist.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  nblist.c
+/usr/bin/gcc     -std=c99   -m64 -c -o traceback.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  traceback.c
+traceback.c: In function 'rt_errormsg':
+traceback.c:14:2: warning: format not a string literal and no format arguments [-Wformat-security]
+  fprintf( stderr, msg );
+  ^~~~~~~
+/usr/bin/gcc     -std=c99   -m64 -c -o chirvol.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  chirvol.c
+/usr/bin/gcc     -std=c99   -m64 -c -o specrand/specrand.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  specrand/specrand.c
+/usr/bin/gcc     -std=c99   -m64 -c -o molio.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  molio.c
+molio.c: In function 'fgetpdb':
+molio.c:653:39: warning: '__builtin___sprintf_chk' may write a terminating nul past the end of the destination [-Wformat-overflow=]
+                     sprintf(sname, "%d", nchains);
+                                       ^
+In file included from /usr/include/stdio.h:862:0,
+                 from molio.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: '__builtin___sprintf_chk' output between 2 and 11 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/bin/gcc     -std=c99   -m64 -c -o select_atoms.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  select_atoms.c
+/usr/bin/gcc     -std=c99   -m64 -c -o regex-alpha/regerror.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  regex-alpha/regerror.c
+/usr/bin/gcc     -std=c99   -m64 -c -o regex-alpha/regfree.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  regex-alpha/regfree.c
+/usr/bin/gcc     -std=c99   -m64 -c -o reslib.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  reslib.c
+/usr/bin/gcc     -std=c99   -m64 -c -o sff.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  sff.c
+/usr/bin/gcc     -std=c99   -m64 -c -o regex-alpha/regcomp.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  regex-alpha/regcomp.c
+/usr/bin/gcc     -std=c99   -m64 -c -o regex-alpha/regexec.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  regex-alpha/regexec.c
+/usr/bin/gcc     -std=c99   -m64 -c -o prm.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  prm.c
+prm.c: In function 'readparm':
+prm.c:453:7: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+       fscanf(file,
+       ^~~~~~~~~~~~
+              "%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d",
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              &prm->Natom, &prm->Ntypes, &prm->Nbonh, &prm->Mbona,
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              &prm->Ntheth, &prm->Mtheta, &prm->Nphih, &prm->Mphia,
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              &prm->Nhparm, &prm->Nparm, &prm->Nnb, &prm->Nres, &prm->Nbona,
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              &prm->Ntheta, &prm->Nphia, &prm->Numbnd, &prm->Numang,
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              &prm->Nptra, &prm->Natyp, &prm->Nphb, &ifpert, &idum, &idum,
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              &idum, &idum, &idum, &idum, &prm->IfBox, &prm->Nmxrs,
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              &prm->IfCap);
+              ~~~~~~~~~~~~
+prm.c:499:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, "%d", &prm->Numextra);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:591:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Charges[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:612:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %le", &prm->Masses[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:632:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d", &prm->Iac[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:649:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d", &prm->Iblo[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:666:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d", &prm->Cno[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:698:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d", &prm->Ipres[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:717:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Rk[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:738:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Req[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:759:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Tk[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:780:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Teq[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:801:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Pk[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:822:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Pn[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:848:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Phase[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:869:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Solty[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:891:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Cn1[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:913:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->Cn2[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:936:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d %d %d",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->BondHAt1[i], &prm->BondHAt2[i], &prm->BondHNum[i]);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:959:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d %d %d",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->BondAt1[i], &prm->BondAt2[i], &prm->BondNum[i]);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:983:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d %d %d %d",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->AngleHAt1[i], &prm->AngleHAt2[i],
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->AngleHAt3[i], &prm->AngleHNum[i]);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1009:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d %d %d %d",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->AngleAt1[i], &prm->AngleAt2[i],
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->AngleAt3[i], &prm->AngleNum[i]);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1036:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d %d %d %d %d",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->DihHAt1[i], &prm->DihHAt2[i], &prm->DihHAt3[i],
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->DihHAt4[i], &prm->DihHNum[i]);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1064:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d %d %d %d %d",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->DihAt1[i], &prm->DihAt2[i], &prm->DihAt3[i],
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->DihAt4[i], &prm->DihNum[i]);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1087:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d", &prm->ExclAt[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1105:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->HB12[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1126:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &prm->HB10[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1148:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf", &H[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1187:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d", &prm->TreeJoin[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1206:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d", &prm->AtomRes[i]);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1290:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %d ", &prm->Natcap);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1299:10: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+          fscanf(file, " %lf %lf %lf %lf",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 &prm->Cutcap, &prm->Xcap, &prm->Ycap, &prm->Zcap);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1325:13: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+             fscanf(file, " %lf", &prm->Rborn[i]);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+prm.c:1340:13: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+             fscanf(file, " %lf", &prm->Fs[i]);
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/bin/gcc     -std=c99   -m64 -c -o molutil.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  molutil.c
+/usr/bin/gcc     -std=c99   -m64 -c -o database.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  database.c
+database.c: In function 'zbDBReadLine':
+database.c:688:6: warning: ignoring return value of 'fgets', declared with attribute warn_unused_result [-Wunused-result]
+      fgets( sLine, MAXDATALINELEN, db->fDataBase );
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/stdio.h:862:0,
+                 from database.c:68:
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1159:21,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1161:21,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1164:21,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1166:21,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1169:21,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1171:21,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1183:15,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1190:15,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'fgets',
+    inlined from 'zbDBReadLine' at database.c:688:6,
+    inlined from 'zbDBReadDataLine' at database.c:720:10,
+    inlined from 'zbDBGetValue' at database.c:1197:15,
+    inlined from 'bDBGetValue' at database.c:1932:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:260:9: warning: call to '__fgets_chk_warn' declared with attribute warning: fgets called with bigger size than length of destination buffer
+  return __fgets_chk_warn (__s, __bos (__s), __n, __stream);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/bin/gcc     -std=c99   -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  nabmd.o sff.o nblist.o prm.o memutil.o molio.o molutil.o errormsg.o binpos.o rand2.o select_atoms.o reslib.o database.o traceback.o chirvol.o specrand/specrand.o regex-alpha/regcomp.o regex-alpha/regerror.o regex-alpha/regexec.o regex-alpha/regfree.o             -lm         -o nab_s  
+Stop make command: 2022-06-26 12:02:13 (1656259333.62867)
+Elapsed time for make command: 00:00:00 (0.986739158630371)
+Issuing options command 'specmake --output-sync --jobs=8 options'
+Start options command: 2022-06-26 12:02:13 (1656259333.6316)
+COMP: "/usr/bin/gcc     -std=c99   -m64 -c -o options.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  <source>"
+C: CC="/usr/bin/gcc     -std=c99   -m64"
+C: COBJOPT="-c -o options"
+P: CPUFLAGS="-DSPEC -DNDEBUG"
+P: BENCH_FLAGS="-Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE"
+P: BENCH_CFLAGS=""
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: COPTIMIZE=""
+P: PORTABILITY=""
+P: CPORTABILITY=""
+O: EXTRA_CFLAGS=""
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+O: EXTRA_COPTIMIZE=""
+P: EXTRA_PORTABILITY="-DSPEC_LP64"
+P: EXTRA_CPORTABILITY=""
+LINK: "/usr/bin/gcc     -std=c99   -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  <objects>   -lm         -o options  "
+C: LD="/usr/bin/gcc     -std=c99   -m64"
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+C: MATH_LIBS="-lm"
+C: LDOUT="-o options"
+Stop options command: 2022-06-26 12:02:13 (1656259333.80934)
+Elapsed time for options command: 00:00:00 (0.177735090255737)
+Issuing compiler-version command 'specmake --output-sync --jobs=8 compiler-version'
+Start compiler-version command: 2022-06-26 12:02:13 (1656259333.81339)
+ CC_VERSION_OPTION:
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --tar
+get=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+Stop compiler-version command: 2022-06-26 12:02:13 (1656259333.99512)
+Elapsed time for compiler-version command: 00:00:00 (0.181730985641479)
+  Compile for '644.nab_s' ended at: 2022-06-26 12:02:13 (1656259333)
+  Elapsed compile for '644.nab_s': 00:00:01 (1)
+COMP: "/usr/bin/gcc     -std=c99   -m64 -c -o options.o -DSPEC -DNDEBUG -Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE  -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize           -fopenmp -DSPEC_OPENMP    -DSPEC_LP64  <source>"
+C: CC="/usr/bin/gcc     -std=c99   -m64"
+C: COBJOPT="-c -o options"
+P: CPUFLAGS="-DSPEC -DNDEBUG"
+P: BENCH_FLAGS="-Ispecrand -Iregex-alpha -DNDEBUG -DNOPERFLIB -DNOREDUCE"
+P: BENCH_CFLAGS=""
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: COPTIMIZE=""
+P: PORTABILITY=""
+P: CPORTABILITY=""
+O: EXTRA_CFLAGS=""
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+O: EXTRA_COPTIMIZE=""
+P: EXTRA_PORTABILITY="-DSPEC_LP64"
+P: EXTRA_CPORTABILITY=""
+LINK: "/usr/bin/gcc     -std=c99   -m64      -g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize        -fopenmp -DSPEC_OPENMP  <objects>   -lm         -o options  "
+C: LD="/usr/bin/gcc     -std=c99   -m64"
+O: OPTIMIZE="-g -O3  -fno-unsafe-math-optimizations  -fno-tree-loop-vectorize"
+O: EXTRA_OPTIMIZE="-fopenmp -DSPEC_OPENMP"
+C: MATH_LIBS="-lm"
+C: LDOUT="-o options"
+ CC_VERSION_OPTION:
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --tar
+get=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+
+Build successes for fpspeed: 644.nab_s(base)
+Build errors for fpspeed: None
+
+Build Complete
+runcpu finished at 2022-06-26 12:02:14; 2 total seconds elapsed
+Info: file_tail(86567): file '/home/gem5/spec2017/tmp/CPU2017.006/templogs/preenv.fpspeed.006.0.debug' was removed and will no longer be followed.  No action is required.
+The log for this run is in /home/gem5/spec2017/result/CPU2017.006.log
+
+runcpu finished at 2022-06-26 12:02:14; 3 total seconds elapsed

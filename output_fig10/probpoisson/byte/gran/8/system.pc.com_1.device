@@ -1,6 +1,6 @@
             Starting IITK gemOS ......
 Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
-ESP=0x11A238 EBP=0x11A2A8
+ESP=0x11B238 EBP=0x11B2A8
 cr0=0xE0000011 cr3=0x70000 cr4=0x20
 Initializing memory
 base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
@@ -13,15 +13,16 @@
 Disk Initialization is successful for IDE disk 0x40
 GemOS# Setting up init process ...
 Page table setup done, launching init ...
-checkpoint:1, time:108241, size:744 
-checkpoint:2, time:74802, size:704 
-checkpoint:3, time:74798, size:704 
-checkpoint:4, time:74805, size:704 
-checkpoint:5, time:74805, size:704 
-checkpoint:6, time:74804, size:704 
-checkpoint:7, time:74804, size:704 
-checkpoint:8, time:74829, size:704 
-checkpoint:9, time:75946, size:744 
+checkpoint:1, time:167911, size:744 
+checkpoint:2, time:114113, size:704 
+checkpoint:3, time:114090, size:704 
+checkpoint:4, time:114094, size:704 
+checkpoint:5, time:114085, size:704 
+checkpoint:6, time:114073, size:704 
+checkpoint:7, time:114097, size:704 
+checkpoint:8, time:114134, size:704 
+checkpoint:9, time:114113, size:704 
+checkpoint:10, time:115935, size:744 
 Cleaned up init process
 GemOS shell again!
 GemOS# Shutting down...

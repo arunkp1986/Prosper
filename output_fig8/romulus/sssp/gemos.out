@@ -19,4 +19,9 @@ Escape character is '^]'.
 GemOS# init
 Setting up init process ...
 Page table setup done, launching init ...
-
+checkpoint:1,time:28057668,copy_size:121528 
+Cleaned up init process
+GemOS shell again!
+GemOS# exit
+Shutting down...
+Connection closed by foreign host.

@@ -1,0 +1,310 @@
+valid,0
+
+"SPEC CPU2017 Integer Speed Result"
+
+"Full Results Table"
+
+Benchmark,"Base # Threads","Est. Base Run Time","Est. Base Ratio","Base Selected","Base Status","Peak # Threads","Est. Peak Run Time","Est. Peak Ratio","Peak Selected","Peak Status",Description
+600.perlbench_s,,,,,NR,,,,,NR
+602.gcc_s,,,,,NR,,,,,NR
+605.mcf_s,4,71.607,--,1,S,,,,,,"test iteration #1"
+620.omnetpp_s,,,,,NR,,,,,NR
+623.xalancbmk_s,,,,,NR,,,,,NR
+625.x264_s,,,,,NR,,,,,NR
+631.deepsjeng_s,,,,,NR,,,,,NR
+641.leela_s,,,,,NR,,,,,NR
+648.exchange2_s,,,,,NR,,,,,NR
+657.xz_s,,,,,NR,,,,,NR
+
+"Selected Results Table"
+
+Benchmark,"Base # Threads","Est. Base Run Time","Est. Base Ratio","Base Selected","Base Status","Peak # Threads","Est. Peak Run Time","Est. Peak Ratio","Peak Selected","Peak Status",Description
+600.perlbench_s,,,,,NR,,,,,NR
+602.gcc_s,,,,,NR,,,,,NR
+605.mcf_s,4,71.607,--,1,S,,,,,NR,"SelectedIteration (base #1; peak NR)"
+620.omnetpp_s,,,,,NR,,,,,NR
+623.xalancbmk_s,,,,,NR,,,,,NR
+625.x264_s,,,,,NR,,,,,NR
+631.deepsjeng_s,,,,,NR,,,,,NR
+641.leela_s,,,,,NR,,,,,NR
+648.exchange2_s,,,,,NR,,,,,NR
+657.xz_s,,,,,NR,,,,,NR
+
+SPECspeed2017_int_base,0,,0
+SPECspeed2017_int_peak,"Not Run",,,,,,,"Not Run"
+
+"Run number:",007.0
+"runcpu command:","/home/gem5/spec2017/bin/harness/runcpu --size test --iterations 1 --configfile myconfig.x86.cfg --noreportable --nobuild --noreportable --nopower --runmode speed --tune base --size test 605.mcf_s"
+"output root:","not used"
+
+"Hardware Vendor:","My Corporation"
+"Hardware Model:",
+"Date tested:",Jun-2022
+"CPU2017 License:","nnn (Your SPEC license number)"
+"Test sponsor:","My Corporation"
+"Tested by:","My Corporation"
+"Hardware avail:",
+"Software avail:",
+
+
+HARDWARE
+
+"CPU Name",--
+"  Max MHz."," "
+"  Nominal"," "
+Enabled," cores, -1 chips,  threads/core"
+Orderable," "
+"Cache L1"," "
+"  L2"," "
+"  L3"," "
+"  Other"," "
+Memory,--
+Storage,--
+Other," "
+
+SOFTWARE
+
+OS,--
+Compiler,"C/C++/Fortran: Version 6.2.0 of GCC, the"
+,"GNU Compiler Collection"
+Parallel,Yes
+Firmware," "
+"File System",--
+"System State",--
+"Base Pointers",64-bit
+"Peak Pointers","Not Applicable"
+Other," "
+
+"General Notes"
+
+"Environment variables set by runcpu before the start of the run:"
+"LD_LIBRARY_PATH = ""/usr/lib/gcc/x86_64-linux-gnu/7//lib64/:/usr/lib/gcc/x86_64-linux-gnu/7//lib/:/lib64"""
+
+
+"Compiler Version Notes"
+
+==============================================================================
+" CC  605.mcf_s(base)
+"
+------------------------------------------------------------------------------
+"Using built-in specs."
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+"Target: x86_64-linux-gnu"
+"Configured with: ../src/configure -v --with-pkgversion='Ubuntu"
+"  7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs"
+"  --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr"
+"  --with-gcc-major-version-only --program-suffix=-7"
+"  --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id"
+"  --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix"
+"  --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu"
+"  --enable-libstdcxx-debug --enable-libstdcxx-time=yes"
+"  --with-default-libstdcxx-abi=new --enable-gnu-unique-object"
+"  --disable-vtable-verify --enable-libmpx --enable-plugin"
+"  --enable-default-pie --with-system-zlib --with-target-system-zlib"
+"  --enable-objc-gc=auto --enable-multiarch --disable-werror"
+"  --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32"
+"  --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none"
+"  --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu"
+"  --host=x86_64-linux-gnu --target=x86_64-linux-gnu"
+"Thread model: posix"
+"gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) "
+------------------------------------------------------------------------------
+
+"Base Runtime Environment"
+600.perlbench_s
+602.gcc_s
+605.mcf_s," No flags used"
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Base Compiler Invocation"
+600.perlbench_s
+602.gcc_s
+605.mcf_s," gcc"," gcc"
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Base Portability Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s," -DSPEC_LP64"
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Base Optimization Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s," -m64"," -std=c99"," -std=c99"," -m64"," -z muldefs"," -g"," -O3"," -fno-unsafe-math-optimizations"," -fno-tree-loop-vectorize"," -fopenmp"," -DSPEC_OPENMP"," -fno-strict-aliasing"
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Base Other Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s," No flags used"
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Base Forbidden Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Base Unknown Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Peak Runtime Environment"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Peak Compiler Invocation"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Peak Portability Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Peak Optimization Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Peak Other Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Peak Forbidden Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+"Peak Unknown Flags"
+600.perlbench_s
+602.gcc_s
+605.mcf_s
+620.omnetpp_s
+623.xalancbmk_s
+625.x264_s
+631.deepsjeng_s
+641.leela_s
+648.exchange2_s
+657.xz_s
+
+ERRORS
+
+##############################################################################
+"#   INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN  #"
+"#                                                                            #"
+"# 'reportable' flag not set during run                                       #"
+"# 648.exchange2_s (base) did not have enough runs!                           #"
+"# 600.perlbench_s (base) did not have enough runs!                           #"
+"# 641.leela_s (base) did not have enough runs!                               #"
+"# 620.omnetpp_s (base) did not have enough runs!                             #"
+"# 657.xz_s (base) did not have enough runs!                                  #"
+"# 623.xalancbmk_s (base) did not have enough runs!                           #"
+"# 605.mcf_s (base) did not have enough runs!                                 #"
+"# 631.deepsjeng_s (base) did not have enough runs!                           #"
+"# 625.x264_s (base) did not have enough runs!                                #"
+"# 602.gcc_s (base) did not have enough runs!                                 #"
+"# Input set must be 'refspeed' for a valid run (set to 'test' for this run)  #"
+"#                                                                            #"
+"#   INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN INVALID RUN  #"
+##############################################################################
+----------------
+"For questions about","this result, please","contact the tester.",
+"For other inquiries,","please contact",info@spec.org.,
+"Copyright 2017-2022 Standard","Performance Evaluation",Corporation,
+"Tested with SPEC CPU2017",v1.0.2.
+"Result run on","2022-06-26 05:18:23-0400."
+"Report generated on","2022-06-26 05:19:59","by SPEC CPU2017 CSV","formatter v5178."

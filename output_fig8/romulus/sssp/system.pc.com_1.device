@@ -13,4 +13,8 @@
 Disk Initialization is successful for IDE disk 0x40
 GemOS# Setting up init process ...
 Page table setup done, launching init ...
+checkpoint:1,time:28057668,copy_size:121528 
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
 

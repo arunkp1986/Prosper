@@ -843,7 +843,7 @@
             },
             "load_addr_mask": 18446744073709551615,
             "load_addr_offset": 0,
-            "object_file": "/home/kparun/stack_persistence/gemOS_nvm_ssp_thread/gemOS_ssp.kernel",
+            "object_file": "/home/kparun/stack_persistence/Prosper/gemOS_ssp_thread/gemOS_ssp.kernel",
             "smbios_table": {
                 "type": "X86SMBiosSMBiosTable",
                 "cxx_class": "gem5::X86ISA::smbios::SMBiosTable",
@@ -2893,7 +2893,7 @@
                                     "name": "child",
                                     "path": "system.pc.south_bridge.ide.disks.image.child",
                                     "eventq_index": 0,
-                                    "image_file": "/home/kparun/hybrid_work/motivation/simpoint/data_sssp.img",
+                                    "image_file": "/home/kparun/stack_persistence/Prosper/disk_image/data_sssp.img",
                                     "read_only": true
                                 },
                                 "eventq_index": 0,

@@ -7,7 +7,7 @@
 #define MILLI_SEC 3000000 //3000000 cycles
 #define STACK_ELEM  65536 // 64 pages
 #define STACK_SIZE 262144 // 256KB, pages 
-#define REC_COUNT 1000000 // number of operations
+#define REC_COUNT 1000 // number of operations
 
 
 unsigned lfsr_rand(unsigned seed){

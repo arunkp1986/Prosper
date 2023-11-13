@@ -1,6 +1,6 @@
 #!/bin/bash
-echo $OUTPUT_NAME
-echo $KERNEL_NAME
-echo $DISK_NAME
+echo $OUTPUT_NAME_A
+echo $KERNEL_NAME_A
+echo $DISK_NAME_A
 
-./run_nobypass.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME > gapbs_db_10us.out 2>&1
+./run_nobypass.sh $OUTPUT_NAME_A $KERNEL_NAME_A $DISK_NAME_A > gapbs_db_10us.out 2>&1

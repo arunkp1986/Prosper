@@ -19,8 +19,8 @@ Escape character is '^]'.
 GemOS# init
 Setting up init process ...
 Page table setup done, launching init ...
-exit
-Cleaned up init process
+Cleaned up init process
 GemOS shell again!
-GemOS# Shutting down...
+GemOS# exit
+Shutting down...
 Connection closed by foreign host.

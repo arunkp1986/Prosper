@@ -1,4 +1,4 @@
-spawn telnet localhost 3458
+spawn telnet localhost 3456
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
@@ -19,24 +19,9 @@ Escape character is '^]'.
 GemOS# init
 Setting up init process ...
 Page table setup done, launching init ...
-exit
-checkpoint:1, log_time:192892, time_merge:0, copy_size:0 
-checkpoint:2, log_time:133282, time_merge:0, copy_size:0 
-checkpoint:3, log_time:132424, time_merge:1047736, copy_size:16960 
-checkpoint:4, log_time:133397, time_merge:0, copy_size:0 
-checkpoint:5, log_time:133205, time_merge:1021680, copy_size:17152 
-checkpoint:6, log_time:133355, time_merge:0, copy_size:0 
-checkpoint:7, log_time:133064, time_merge:1002055, copy_size:15296 
-checkpoint:8, log_time:133337, time_merge:0, copy_size:0 
-checkpoint:9, log_time:133229, time_merge:1020590, copy_size:17152 
-checkpoint:10, log_time:133331, time_merge:0, copy_size:0 
-checkpoint:11, log_time:132694, time_merge:997166, copy_size:14912 
-checkpoint:12, log_time:133354, time_merge:0, copy_size:0 
-checkpoint:13, log_time:133148, time_merge:996743, copy_size:15040 
-checkpoint:14, log_time:133349, time_merge:0, copy_size:0 
-checkpoint:15, log_time:132583, time_merge:1021716, copy_size:16960 
-checkpoint:16, log_time:133412, time_merge:0, copy_size:0 
+checkpoint:1, log_time:192981, time_merge:0, copy_size:0 
 Cleaned up init process
 GemOS shell again!
-GemOS# Shutting down...
+GemOS# exit
+Shutting down...
 Connection closed by foreign host.

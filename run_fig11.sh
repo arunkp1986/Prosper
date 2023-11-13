@@ -35,8 +35,8 @@ scons build/X86/gem5.opt -j $NUM_CPUS
 echo "Copying run scripts to gem5 folder"
 
 cd $script_path
-cp ../run_nobypass.sh $gem5_path 
-cp ../run.except $gem5_path 
+cp run_nobypass.sh $gem5_path 
+cp run.except $gem5_path 
 
 for g in 1ms 5ms 10ms
 do

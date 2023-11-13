@@ -34,8 +34,8 @@ scons build/X86/gem5.opt -j $NUM_CPUS
 #Going to run Gapbs_pr, G500_sssp, Ycsb_mem
 
 cd $script_path
-cp ../run_nobypass.sh $gem5_path 
-cp ../run.except $gem5_path 
+cp run_nobypass.sh $gem5_path 
+cp run.except $gem5_path 
 for g in 8 16 32 64 128
 do
 	cp random_run_$g.sh $gem5_path 

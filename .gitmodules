@@ -18,3 +18,7 @@
 	path = gem5_romulus
 	url = https://github.com/arunkp1986/gem5.git
 	ignore = dirty
+[submodule "gem5_prosper_linux"]
+	path = gem5_prosper_linux
+	url = https://github.com/arunkp1986/gem5.git
+	ignore = dirty

@@ -13,7 +13,7 @@ fi
 
 gem5_path="$CWD/gem5"
 gemOS_path="$CWD/gemOS_vanilla"
-script_path="$CWD/run_scripts_fig8/vanilla"
+script_path="$CWD/run_scripts_fig9/vanilla"
 output_path="$CWD/output_fig9/vanilla"
 disk_path="$CWD/disk_image"
 

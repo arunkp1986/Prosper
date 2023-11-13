@@ -1,0 +1,101 @@
+Linux version 5.2.3 (kparun@intel) (gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2)) #98 SMP Thu Nov 17 18:15:32 UTC 2022
+Command line: earlyprintk=ttyS0 console=ttyS0 lpj=7999923 root=/dev/hda1 nopti
+CPU: vendor_id 'M5 Simulator' unknown, using generic init.
+CPU: Your system may be unstable.
+x86/fpu: x87 FPU will use FXSAVE
+BIOS-provided physical RAM map:
+BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+BIOS-e820: [mem 0x000000000009fc00-0x00000000000fffff] reserved
+BIOS-e820: [mem 0x0000000000100000-0x00000000063fffff] usable
+BIOS-e820: [mem 0x0000000006400000-0x00000000bfffffff] reserved
+BIOS-e820: [mem 0x00000000ffff0000-0x00000000ffffffff] reserved
+BIOS-e820: [mem 0x0000000100000000-0x00000008ffffffff] usable
+printk: bootconsole [earlyser0] enabled
+NX (Execute Disable) protection: active
+SMBIOS 2.5 present.
+DMI:  , BIOS  06/08/2008
+tsc: Fast TSC calibration failed
+last_pfn = 0x900000 max_arch_pfn = 0x400000000
+Disabled
+x86/PAT: MTRRs disabled, skipping PAT initialization too.
+CPU MTRRs all blank - virtualized system.
+x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+last_pfn = 0x6400 max_arch_pfn = 0x400000000
+found SMP MP-table at [mem 0x000f0050-0x000f005f]
+Kernel/User page tables isolation: disabled on command line.
+ACPI: Early table checksum verification disabled
+ACPI: RSDP 0x00000000000F01B0 000024 (v02       )
+ACPI: XSDT 0x00000000000F01F8 000024 (v01                 00000000      00000000)
+ACPI BIOS Error (bug): Invalid table length 0x24 in RSDT/XSDT (20190509/tbutils-291)
+Zone ranges:
+  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+  Normal   [mem 0x0000000100000000-0x00000008ffffffff]
+Movable zone start for each node
+Early memory node ranges
+  node   0: [mem 0x0000000000001000-0x000000000009efff]
+  node   0: [mem 0x0000000000100000-0x00000000063fffff]
+  node   0: [mem 0x0000000100000000-0x00000008ffffffff]
+Zeroed struct page in unavailable ranges: 7266 pages
+Initmem setup node 0 [mem 0x0000000000001000-0x00000008ffffffff]
+Intel MultiProcessor Specification v1.4
+MPTABLE: OEM ID: 
+MPTABLE: Product ID: 
+MPTABLE: APIC at: 0xFEE00000
+Processor #0 (Bootup-CPU)
+IOAPIC[0]: apic_id 1, version 20, address 0xfec00000, GSI 0-23
+Processors: 1
+smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+[mem 0xc0000000-0xfffeffff] available for PCI devices
+Booting paravirtualized kernel on bare hardware
+clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+percpu: Embedded 50 pages/cpu s164760 r8192 d31848 u2097152
+Built 1 zonelists, mobility grouping on.  Total pages: 8299051
+Kernel command line: earlyprintk=ttyS0 console=ttyS0 lpj=7999923 root=/dev/hda1 nopti
+Dentry cache hash table entries: 4194304 (order: 13, 33554432 bytes)
+Inode-cache hash table entries: 2097152 (order: 12, 16777216 bytes)
+Memory: 33004924K/33656440K available (8195K kernel code, 1280K rwdata, 1972K rodata, 1200K init, 1900K bss, 651516K reserved, 0K cma-reserved)
+rcu: Hierarchical RCU implementation.
+rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+random: get_random_bytes called from start_kernel+0x31e/0x65a with crng_init=0
+divide error: 0000 [#1] SMP NOPTI
+CPU: 0 PID: 0 Comm: swapper/0 Not tainted 5.2.3 #98
+Hardware name:  , BIOS  06/08/2008
+RIP: 0010:kmem_cache_init_late+0x0/0x5d
+Code: 00 48 c7 c6 c0 56 fe 81 e8 11 fd ff ff 48 8b 3d b3 42 c6 ff 48 c7 c6 38 57 fe 81 e8 fe fc ff ff bf 00 20 00 00 e9 5f c3 ff ff <f3> 0f 1e fa 53 48 c7 c7 c0 2c c9 81 e8 72 39 60 ff 48 8b 05 4d c1
+RSP: 0000:ffffffff81c03ea8 EFLAGS: 00000202
+RAX: 0000000000000002 RBX: 0000000000000041 RCX: 0000000000000001
+RDX: 0000000000000000 RSI: 0000000000000001 RDI: ffffffff81d39760
+RBP: ffffffff81c03f40 R08: 0000000000000001 R09: 00000000000002b8
+R10: 00000000000002c0 R11: 0000000000000000 R12: ffffffffffffffff
+R13: ffffffff81fb2920 R14: ffffffff81fb92e0 R15: ffff8888fffda900
+FS:  0000000000000000(0000) GS:ffff8888e0200000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: ffff8888fffff000 CR3: 0000000001c0a000 CR4: 00000000000006b0
+DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+Call Trace:
+ start_kernel+0x38f/0x65a
+ ? secondary_startup_64+0xa4/0xb0
+ secondary_startup_64+0xa4/0xb0
+Modules linked in:
+---[ end trace fc2336a27f6b1580 ]---
+RIP: 0010:kmem_cache_init_late+0x0/0x5d
+Code: 00 48 c7 c6 c0 56 fe 81 e8 11 fd ff ff 48 8b 3d b3 42 c6 ff 48 c7 c6 38 57 fe 81 e8 fe fc ff ff bf 00 20 00 00 e9 5f c3 ff ff <f3> 0f 1e fa 53 48 c7 c7 c0 2c c9 81 e8 72 39 60 ff 48 8b 05 4d c1
+RSP: 0000:ffffffff81c03ea8 EFLAGS: 00000202
+RAX: 0000000000000002 RBX: 0000000000000041 RCX: 0000000000000001
+RDX: 0000000000000000 RSI: 0000000000000001 RDI: ffffffff81d39760
+RBP: ffffffff81c03f40 R08: 0000000000000001 R09: 00000000000002b8
+R10: 00000000000002c0 R11: 0000000000000000 R12: ffffffffffffffff
+R13: ffffffff81fb2920 R14: ffffffff81fb92e0 R15: ffff8888fffda900
+FS:  0000000000000000(0000) GS:ffff8888e0200000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: ffff8888fffff000 CR3: 0000000001c0a000 CR4: 00000000000006b0
+DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+Kernel panic - not syncing: Attempted to kill the idle task!
+---[ end Kernel panic - not syncing: Attempted to kill the idle task! ]---

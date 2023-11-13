@@ -1,6 +1,6 @@
 #!/bin/bash
-echo $OUTPUT_NAME
-echo $KERNEL_NAME
-echo $DISK_NAME
+echo $OUTPUT_NAME_B
+echo $KERNEL_NAME_B
+echo $DISK_NAME_B
 
-./run_nobypass.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME > quick_32.out 2>&1
+./run_nobypass.sh $OUTPUT_NAME_B $KERNEL_NAME_B $DISK_NAME_B > quick_32.out 2>&1

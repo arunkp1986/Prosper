@@ -1,4 +1,4 @@
-spawn telnet localhost 3459
+spawn telnet localhost 3456
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
@@ -19,17 +19,18 @@ Escape character is '^]'.
 GemOS# init
 Setting up init process ...
 Page table setup done, launching init ...
-checkpoint:1, time:24872, size:848 
-checkpoint:2, time:17740, size:848 
-checkpoint:3, time:30121, size:1352 
-checkpoint:4, time:17736, size:848 
-checkpoint:5, time:27583, size:1352 
-checkpoint:6, time:17734, size:848 
-checkpoint:7, time:17738, size:848 
-checkpoint:8, time:17740, size:848 
-checkpoint:9, time:17740, size:848 
-checkpoint:10, time:17740, size:848 
-checkpoint:11, time:6022, size:232 
+checkpoint:1, time:29956, size:848 
+checkpoint:2, time:19440, size:848 
+checkpoint:3, time:34616, size:1352 
+checkpoint:4, time:9084, size:336 
+checkpoint:5, time:19441, size:848 
+checkpoint:6, time:9085, size:336 
+checkpoint:7, time:9084, size:336 
+checkpoint:8, time:19440, size:848 
+checkpoint:9, time:9086, size:336 
+checkpoint:10, time:9120, size:336 
+checkpoint:11, time:17729, size:808 
+checkpoint:12, time:3777, size:48 
 Cleaned up init process
 GemOS shell again!
 GemOS# exit

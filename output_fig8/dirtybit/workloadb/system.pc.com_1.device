@@ -13,331 +13,7 @@
 Disk Initialization is successful for IDE disk 0x40
 GemOS# Setting up init process ...
 Page table setup done, launching init ...
-checkpoint:1, page_time:18536696, size_db:790528
-checkpoint:2, page_time:500945, size_db:24576
-checkpoint:3, page_time:9550412, size_db:409600
-checkpoint:4, page_time:4091722, size_db:266240
-checkpoint:5, page_time:11047293, size_db:528384
-checkpoint:6, page_time:4144892, size_db:266240
-checkpoint:7, page_time:3577352, size_db:266240
-checkpoint:8, page_time:3581186, size_db:266240
-checkpoint:9, page_time:15454357, size_db:700416
-checkpoint:10, page_time:12937485, size_db:528384
-checkpoint:11, page_time:24387232, size_db:1052672
-checkpoint:12, page_time:13117797, size_db:528384
-checkpoint:13, page_time:7174890, size_db:397312
-checkpoint:14, page_time:3627992, size_db:266240
-checkpoint:15, page_time:3702931, size_db:266240
-checkpoint:16, page_time:17684956, size_db:790528
-checkpoint:17, page_time:753044, size_db:36864
-checkpoint:18, page_time:12357020, size_db:528384
-checkpoint:19, page_time:13227226, size_db:626688
-checkpoint:20, page_time:11658358, size_db:528384
-checkpoint:21, page_time:12531232, size_db:593920
-checkpoint:22, page_time:5265448, size_db:266240
-checkpoint:23, page_time:10919106, size_db:528384
-checkpoint:24, page_time:4104490, size_db:266240
-checkpoint:25, page_time:10944157, size_db:528384
-checkpoint:26, page_time:10891184, size_db:528384
-checkpoint:27, page_time:4092090, size_db:266240
-checkpoint:28, page_time:11333254, size_db:528384
-checkpoint:29, page_time:10816109, size_db:528384
-checkpoint:30, page_time:17043695, size_db:790528
-checkpoint:31, page_time:8422963, size_db:368640
-checkpoint:32, page_time:24709922, size_db:1052672
-checkpoint:33, page_time:13069467, size_db:528384
-checkpoint:34, page_time:17097058, size_db:790528
-checkpoint:35, page_time:19271671, size_db:790528
-checkpoint:36, page_time:5650040, size_db:266240
-checkpoint:37, page_time:17665219, size_db:790528
-checkpoint:38, page_time:16611155, size_db:679936
-checkpoint:39, page_time:25351992, size_db:1044480
-checkpoint:40, page_time:19470380, size_db:790528
-checkpoint:41, page_time:12953107, size_db:520192
-checkpoint:42, page_time:24554937, size_db:1052672
-checkpoint:43, page_time:5635638, size_db:266240
-checkpoint:44, page_time:9938422, size_db:487424
-checkpoint:45, page_time:10098313, size_db:512000
-checkpoint:46, page_time:17030085, size_db:790528
-checkpoint:47, page_time:5436185, size_db:266240
-checkpoint:48, page_time:3573018, size_db:266240
-checkpoint:49, page_time:10590644, size_db:528384
-checkpoint:50, page_time:3902716, size_db:266240
-checkpoint:51, page_time:3573264, size_db:266240
-checkpoint:52, page_time:3043032, size_db:229376
-checkpoint:53, page_time:4133661, size_db:282624
-checkpoint:54, page_time:17547584, size_db:790528
-checkpoint:55, page_time:5283008, size_db:266240
-checkpoint:56, page_time:10643265, size_db:528384
-checkpoint:57, page_time:16961653, size_db:790528
-checkpoint:58, page_time:5534525, size_db:270336
-checkpoint:59, page_time:17614909, size_db:790528
-checkpoint:60, page_time:11829230, size_db:499712
-checkpoint:61, page_time:9904571, size_db:528384
-checkpoint:62, page_time:3819490, size_db:266240
-checkpoint:63, page_time:53643, size_db:4096
-checkpoint:64, page_time:8053607, size_db:368640
-checkpoint:65, page_time:14192426, size_db:659456
-checkpoint:66, page_time:5183821, size_db:266240
-checkpoint:67, page_time:10987239, size_db:528384
-checkpoint:68, page_time:10804541, size_db:528384
-checkpoint:69, page_time:4358899, size_db:270336
-checkpoint:70, page_time:15833356, size_db:712704
-checkpoint:71, page_time:17715611, size_db:745472
-checkpoint:72, page_time:19087819, size_db:790528
-checkpoint:73, page_time:13064116, size_db:528384
-checkpoint:74, page_time:10057400, size_db:499712
-checkpoint:75, page_time:24435018, size_db:1052672
-checkpoint:76, page_time:1981008, size_db:94208
-checkpoint:77, page_time:14366163, size_db:626688
-checkpoint:78, page_time:7031319, size_db:389120
-checkpoint:79, page_time:3589313, size_db:266240
-checkpoint:80, page_time:3572341, size_db:266240
-checkpoint:81, page_time:3572797, size_db:266240
-checkpoint:82, page_time:21010119, size_db:933888
-checkpoint:83, page_time:5634356, size_db:266240
-checkpoint:84, page_time:17654299, size_db:790528
-checkpoint:85, page_time:18561957, size_db:790528
-checkpoint:86, page_time:18579278, size_db:790528
-checkpoint:87, page_time:5399224, size_db:266240
-checkpoint:88, page_time:25020208, size_db:1052672
-checkpoint:89, page_time:19378548, size_db:790528
-checkpoint:90, page_time:5772518, size_db:286720
-checkpoint:91, page_time:4570490, size_db:315392
-checkpoint:92, page_time:10296326, size_db:528384
-checkpoint:93, page_time:16917442, size_db:790528
-checkpoint:94, page_time:5432389, size_db:266240
-checkpoint:95, page_time:3787703, size_db:274432
-checkpoint:96, page_time:53730, size_db:4096
-checkpoint:97, page_time:18166195, size_db:790528
-checkpoint:98, page_time:5654037, size_db:266240
-checkpoint:99, page_time:11044902, size_db:528384
-checkpoint:100, page_time:10894052, size_db:528384
-checkpoint:101, page_time:10901793, size_db:528384
-checkpoint:102, page_time:4162241, size_db:266240
-checkpoint:103, page_time:1249276, size_db:94208
-checkpoint:104, page_time:5149488, size_db:266240
-checkpoint:105, page_time:107238, size_db:8192
-checkpoint:106, page_time:25265963, size_db:1052672
-checkpoint:107, page_time:13165443, size_db:528384
-checkpoint:108, page_time:9741388, size_db:528384
-checkpoint:109, page_time:3764382, size_db:266240
-checkpoint:110, page_time:17614311, size_db:790528
-checkpoint:111, page_time:19128465, size_db:823296
-checkpoint:112, page_time:12847383, size_db:528384
-checkpoint:113, page_time:3809013, size_db:266240
-checkpoint:114, page_time:3572798, size_db:266240
-checkpoint:115, page_time:4468615, size_db:303104
-checkpoint:116, page_time:24872344, size_db:1052672
-checkpoint:117, page_time:5623558, size_db:266240
-checkpoint:118, page_time:10672212, size_db:528384
-checkpoint:119, page_time:16959568, size_db:790528
-checkpoint:120, page_time:25849735, size_db:1052672
-checkpoint:121, page_time:5635308, size_db:266240
-checkpoint:122, page_time:3572432, size_db:266240
-checkpoint:123, page_time:24997959, size_db:1052672
-checkpoint:124, page_time:19338002, size_db:790528
-checkpoint:125, page_time:5621605, size_db:266240
-checkpoint:126, page_time:24988636, size_db:1052672
-checkpoint:127, page_time:4959302, size_db:237568
-checkpoint:128, page_time:3868463, size_db:266240
-checkpoint:129, page_time:11065871, size_db:528384
-checkpoint:130, page_time:10860650, size_db:528384
-checkpoint:131, page_time:4856985, size_db:299008
-checkpoint:132, page_time:24944478, size_db:1052672
-checkpoint:133, page_time:5628485, size_db:266240
-checkpoint:134, page_time:10968296, size_db:528384
-checkpoint:135, page_time:10236199, size_db:528384
-checkpoint:136, page_time:18465991, size_db:856064
-checkpoint:137, page_time:19164140, size_db:790528
-checkpoint:138, page_time:5343134, size_db:266240
-checkpoint:139, page_time:3572545, size_db:266240
-checkpoint:140, page_time:2227571, size_db:167936
-checkpoint:141, page_time:17747251, size_db:790528
-checkpoint:142, page_time:12740555, size_db:528384
-checkpoint:143, page_time:3759352, size_db:266240
-checkpoint:144, page_time:22529191, size_db:983040
-checkpoint:145, page_time:5622308, size_db:266240
-checkpoint:146, page_time:3573029, size_db:266240
-checkpoint:147, page_time:3572409, size_db:266240
-checkpoint:148, page_time:869229, size_db:65536
-checkpoint:149, page_time:3686477, size_db:245760
-checkpoint:150, page_time:4195883, size_db:282624
-checkpoint:151, page_time:18585805, size_db:831488
-checkpoint:152, page_time:26638172, size_db:1052672
-checkpoint:153, page_time:13145344, size_db:528384
-checkpoint:154, page_time:10889232, size_db:528384
-checkpoint:155, page_time:10901436, size_db:528384
-checkpoint:156, page_time:21925181, size_db:978944
-checkpoint:157, page_time:19314149, size_db:790528
-checkpoint:158, page_time:17238836, size_db:708608
-checkpoint:159, page_time:12596594, size_db:528384
-checkpoint:160, page_time:4296760, size_db:266240
-checkpoint:161, page_time:23698191, size_db:1032192
-checkpoint:162, page_time:81840, size_db:4096
-checkpoint:163, page_time:6130850, size_db:266240
-checkpoint:164, page_time:10597670, size_db:528384
-checkpoint:165, page_time:9623084, size_db:528384
-checkpoint:166, page_time:24283343, size_db:1052672
-checkpoint:167, page_time:13138467, size_db:528384
-checkpoint:168, page_time:9705838, size_db:528384
-checkpoint:169, page_time:2487046, size_db:180224
-checkpoint:170, page_time:4431305, size_db:266240
-checkpoint:171, page_time:10606395, size_db:528384
-checkpoint:172, page_time:161980, size_db:12288
-checkpoint:173, page_time:12618052, size_db:528384
-checkpoint:174, page_time:9729872, size_db:528384
-checkpoint:175, page_time:9781671, size_db:528384
-checkpoint:176, page_time:1716998, size_db:126976
-checkpoint:177, page_time:18310880, size_db:790528
-checkpoint:178, page_time:12586474, size_db:528384
-checkpoint:179, page_time:10525100, size_db:528384
-checkpoint:180, page_time:162163, size_db:12288
-checkpoint:181, page_time:12705235, size_db:528384
-checkpoint:182, page_time:24434719, size_db:1052672
-checkpoint:183, page_time:5647176, size_db:266240
-checkpoint:184, page_time:3577036, size_db:266240
-checkpoint:185, page_time:25013237, size_db:1052672
-checkpoint:186, page_time:165708, size_db:8192
-checkpoint:187, page_time:6445861, size_db:266240
-checkpoint:188, page_time:3577981, size_db:266240
-checkpoint:189, page_time:22245738, size_db:974848
-checkpoint:190, page_time:13149947, size_db:528384
-checkpoint:191, page_time:24262172, size_db:1052672
-checkpoint:192, page_time:13101572, size_db:528384
-checkpoint:193, page_time:4183349, size_db:266240
-checkpoint:194, page_time:11034179, size_db:528384
-checkpoint:195, page_time:3895310, size_db:245760
-checkpoint:196, page_time:2392856, size_db:180224
-checkpoint:197, page_time:4351598, size_db:266240
-checkpoint:198, page_time:3582212, size_db:266240
-checkpoint:199, page_time:17654544, size_db:790528
-checkpoint:200, page_time:13066606, size_db:528384
-checkpoint:201, page_time:10822485, size_db:528384
-checkpoint:202, page_time:4199817, size_db:266240
-checkpoint:203, page_time:3572896, size_db:266240
-checkpoint:204, page_time:12708307, size_db:606208
-checkpoint:205, page_time:24113247, size_db:1052672
-checkpoint:206, page_time:19418623, size_db:790528
-checkpoint:207, page_time:5592149, size_db:274432
-checkpoint:208, page_time:17625546, size_db:790528
-checkpoint:209, page_time:12589293, size_db:528384
-checkpoint:210, page_time:16995821, size_db:790528
-checkpoint:211, page_time:2631455, size_db:131072
-checkpoint:212, page_time:12681000, size_db:565248
-checkpoint:213, page_time:2101962, size_db:147456
-checkpoint:214, page_time:18140813, size_db:790528
-checkpoint:215, page_time:5427121, size_db:266240
-checkpoint:216, page_time:8048947, size_db:442368
-checkpoint:217, page_time:24523853, size_db:1052672
-checkpoint:218, page_time:5587906, size_db:266240
-checkpoint:219, page_time:3573425, size_db:266240
-checkpoint:220, page_time:3573031, size_db:266240
-checkpoint:221, page_time:3572472, size_db:266240
-checkpoint:222, page_time:18245460, size_db:815104
-checkpoint:223, page_time:15475695, size_db:630784
-checkpoint:224, page_time:25063031, size_db:1052672
-checkpoint:225, page_time:26628738, size_db:1052672
-checkpoint:226, page_time:17819948, size_db:724992
-checkpoint:227, page_time:17726590, size_db:790528
-checkpoint:228, page_time:12965641, size_db:528384
-checkpoint:229, page_time:3775689, size_db:266240
-checkpoint:230, page_time:3572601, size_db:266240
-checkpoint:231, page_time:3572661, size_db:266240
-checkpoint:232, page_time:17616881, size_db:790528
-checkpoint:233, page_time:5425956, size_db:266240
-checkpoint:234, page_time:17650023, size_db:790528
-checkpoint:235, page_time:25763890, size_db:1052672
-checkpoint:236, page_time:19376059, size_db:790528
-checkpoint:237, page_time:12654128, size_db:528384
-checkpoint:238, page_time:3771988, size_db:266240
-checkpoint:239, page_time:3572724, size_db:266240
-checkpoint:240, page_time:3573319, size_db:266240
-checkpoint:241, page_time:3787322, size_db:274432
-checkpoint:242, page_time:3574002, size_db:266240
-checkpoint:243, page_time:10767194, size_db:528384
-checkpoint:244, page_time:12862133, size_db:610304
-checkpoint:245, page_time:4604256, size_db:266240
-checkpoint:246, page_time:17673474, size_db:790528
-checkpoint:247, page_time:15229524, size_db:618496
-checkpoint:248, page_time:11781619, size_db:528384
-checkpoint:249, page_time:4011941, size_db:266240
-checkpoint:250, page_time:3580490, size_db:266240
-checkpoint:251, page_time:3573795, size_db:266240
-checkpoint:252, page_time:17634537, size_db:790528
-checkpoint:253, page_time:5384770, size_db:266240
-checkpoint:254, page_time:25043345, size_db:1052672
-checkpoint:255, page_time:5627765, size_db:266240
-checkpoint:256, page_time:3572731, size_db:266240
-checkpoint:257, page_time:3572510, size_db:266240
-checkpoint:258, page_time:17577770, size_db:790528
-checkpoint:259, page_time:12535944, size_db:528384
-checkpoint:260, page_time:24342241, size_db:1052672
-checkpoint:261, page_time:5588942, size_db:266240
-checkpoint:262, page_time:7616664, size_db:430080
-checkpoint:263, page_time:10016728, size_db:532480
-checkpoint:264, page_time:3768003, size_db:266240
-checkpoint:265, page_time:17656259, size_db:790528
-checkpoint:266, page_time:5418738, size_db:266240
-checkpoint:267, page_time:15964366, size_db:729088
-checkpoint:268, page_time:15724665, size_db:700416
-checkpoint:269, page_time:17848787, size_db:790528
-checkpoint:270, page_time:13097043, size_db:528384
-checkpoint:271, page_time:24475818, size_db:1052672
-checkpoint:272, page_time:16836515, size_db:684032
-checkpoint:273, page_time:3206728, size_db:167936
-checkpoint:274, page_time:6879734, size_db:360448
-checkpoint:275, page_time:3582000, size_db:266240
-checkpoint:276, page_time:13340257, size_db:626688
-checkpoint:277, page_time:4111998, size_db:266240
-checkpoint:278, page_time:10669999, size_db:528384
-checkpoint:279, page_time:739833, size_db:53248
-checkpoint:280, page_time:19951515, size_db:856064
-checkpoint:281, page_time:4584284, size_db:217088
-checkpoint:282, page_time:9090200, size_db:462848
-checkpoint:283, page_time:9927929, size_db:528384
-checkpoint:284, page_time:10076644, size_db:528384
-checkpoint:285, page_time:24292373, size_db:1052672
-checkpoint:286, page_time:5592918, size_db:266240
-checkpoint:287, page_time:3572444, size_db:266240
-checkpoint:288, page_time:10613482, size_db:528384
-checkpoint:289, page_time:16499830, size_db:770048
-checkpoint:290, page_time:25646876, size_db:1052672
-checkpoint:291, page_time:14594638, size_db:585728
-checkpoint:292, page_time:10595601, size_db:528384
-checkpoint:293, page_time:15006923, size_db:708608
-checkpoint:294, page_time:4858263, size_db:266240
-checkpoint:295, page_time:10969708, size_db:528384
-checkpoint:296, page_time:10871431, size_db:528384
-checkpoint:297, page_time:16474121, size_db:765952
-checkpoint:298, page_time:13022822, size_db:528384
-checkpoint:299, page_time:17239057, size_db:790528
-checkpoint:300, page_time:4309987, size_db:204800
-checkpoint:301, page_time:11261277, size_db:528384
-checkpoint:302, page_time:23153857, size_db:1036288
-checkpoint:303, page_time:26787176, size_db:1052672
-checkpoint:304, page_time:13101416, size_db:528384
-checkpoint:305, page_time:3781983, size_db:266240
-checkpoint:306, page_time:17688068, size_db:790528
-checkpoint:307, page_time:1406510, size_db:69632
-checkpoint:308, page_time:5593679, size_db:266240
-checkpoint:309, page_time:17675050, size_db:790528
-checkpoint:310, page_time:12581065, size_db:528384
-checkpoint:311, page_time:9992559, size_db:528384
-checkpoint:312, page_time:3724121, size_db:266240
-checkpoint:313, page_time:3572452, size_db:266240
-checkpoint:314, page_time:4957066, size_db:323584
-checkpoint:315, page_time:3578307, size_db:266240
-checkpoint:316, page_time:923477, size_db:69632
-checkpoint:317, page_time:4153890, size_db:266240
-checkpoint:318, page_time:3572397, size_db:266240
-checkpoint:319, page_time:9127604, size_db:483328
-checkpoint:320, page_time:13230517, size_db:626688
-checkpoint:321, page_time:17633721, size_db:790528
-checkpoint:322, page_time:13096095, size_db:528384
-checkpoint:323, page_time:17038247, size_db:790528
-checkpoint:324, page_time:13015125, size_db:528384
-checkpoint:325, page_time:53925, size_db:4096
+checkpoint:1, page_time:82372, size_db:4096
 Cleaned up init process
 GemOS shell again!
 GemOS# Shutting down...
