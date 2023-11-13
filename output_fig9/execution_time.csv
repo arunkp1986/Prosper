@@ -1,0 +1,10 @@
+type,gapbs,sssp,workloadb
+ssp_dirtybit_10ms_1000us,4.2695,4.0776,4.014
+ssp_dirtybit_10ms_100us,4.2695,4.0776,4.014
+ssp_dirtybit_10ms_10us,4.2695,4.0776,4.014
+ssp_prosper_10ms_1000us,4.2952,4.1002,4.0357
+ssp_prosper_10ms_100us,4.2952,4.1002,4.0357
+ssp_prosper_10ms_10us,4.2952,4.1002,4.0357
+ssp_stack_heap_10ms_1000us,6.5336,6.2078,6.1012
+ssp_stack_heap_10ms_100us,6.5336,6.2078,6.1012
+ssp_stack_heap_10ms_10us,6.9726,6.6178,6.5093
