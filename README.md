@@ -4,9 +4,10 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 ### Building and Running Prosper
 - Install Docker on your system, we used Ubuntu 20.04.3.
 - Download Docker export file [prosper.tar](https://iitk-my.sharepoint.com/:u:/g/personal/kparun_iitk_ac_in/EQRtpc9JHR1JlMByP-Evg6QBudagDQNgeBV2I_aBUOTshQ?e=TCvZI7), size ~ 1GB
-- Import downloaded **prosper.tar** using `docker import prosper.tar prosper:latest`.
-- List the image using `docker image ls`.
-- Start the docker container `docker run -it prosper:latest /bin/bash`.
+- Import downloaded **prosper.tar** using `docker import prosper.tar prosper:latest`
+- List the image using `docker image ls`
+- Start the docker container `docker run -it prosper:latest /bin/bash`
+- Change to home directory inside the docker container `cd /home`
 - Clone this git repo using `git clone --recurse-submodules` inside the running container.
 - All steps mentioned below are to be performed inside container.
 - Download linux disk image (linux_disk.xz) from [OneDrive](https://iitk-my.sharepoint.com/:u:/g/personal/kparun_iitk_ac_in/Eb12ZLz_oe5Brc7WtYH9a7QBO_glbhSxE9gci0HldbFKQw?e=J5tLp2) to **disk_image** directory.
