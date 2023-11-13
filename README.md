@@ -12,7 +12,8 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - All steps mentioned below are to be performed inside container.
 - Download linux disk image (linux_disk.xz) `gdown https://drive.google.com/uc?id=1QPTfRPezp3P2YrPnOFRisFDhPBD0N3Es` to **Prosper/disk_image**.
 - Extract all **.xz** files in **Prosper/disk_image** directory ( data_gapbs.img.xz, data_sssp.img.xz, data_workloadb.img.xz, gemos.img.xz, and linux_disk.xz), for example `xz -v -d data_gapbs.img.xz`
-- Bash scripts to generate output corresponding to each plot in paper is named after the Figure number, **run_fig8.sh** corresponds to **Figure 8** in paper.
+- Bash scripts to generate output corresponding to each plot in paper is named after the Figure number, **run_fig8.sh** corresponds to **Figure 8** in paper. Other scripts are **run_fig9.sh**, **run_fig10.sh**, **run_fig11.sh**, **run_fig12.sh** and **run_fig13.sh**. No need to run other scripts as they are called internally.
+- Press **enter** to continue while asked for while running scripts (the question is part of gem5 building).
 - Bash scripts build **gem5** and **gemOS kernel** required for running experiments and generate output in folders designated with Figure number, for example, `./run_fig8.sh` saves output in **output_fig8** for **Figure 8** in paper.
 - Python script to parse output files is provided in corresponding output folder.
 - Expected output file is provided in corresponding output folder for comparison.
