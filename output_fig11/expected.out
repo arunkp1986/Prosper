@@ -1,0 +1,5 @@
+bench         1ms  5ms  10ms
+quick         594  883  660
+recursive_4   87   296  441
+recursive_8   88   331  537
+recursive_16  88   352  626

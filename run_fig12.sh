@@ -50,13 +50,13 @@ do
 	echo $bench
 	
 	if [ $bench == "gap_0_1" ];then
-		OUTPUT_NAME="$output_path/linux/gaps/0bytes"
+		OUTPUT_NAME="$output_path/linux/gaps/0bytes/hwsw"
 	elif [ $bench == "gap_8_1" ];then
-		OUTPUT_NAME="$output_path/linux/gaps/8bytes"
+		OUTPUT_NAME="$output_path/linux/gaps/8bytes/hwsw"
 	elif [ $bench == "gap_64_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/gaps/64bytes"
+		OUTPUT_NAME="$ouitput_path/linux/gaps/64bytes/hwsw"
 	elif [ $bench == "gap_128_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/gaps/128bytes"
+		OUTPUT_NAME="$ouitput_path/linux/gaps/128bytes/hwsw"
 	fi
 	
 	./run_linux.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME $bench
@@ -69,13 +69,13 @@ do
 	echo $bench
 	
 	if [ $bench == "g500_0_1" ];then
-		OUTPUT_NAME="$output_path/linux/g500_sssp/0bytes"
+		OUTPUT_NAME="$output_path/linux/g500_sssp/0bytes/hwsw"
 	elif [ $bench == "g500_8_1" ];then
-		OUTPUT_NAME="$output_path/linux/g500_sssp/8bytes"
+		OUTPUT_NAME="$output_path/linux/g500_sssp/8bytes/hwsw"
 	elif [ $bench == "g500_64_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/g500_sssp/64bytes"
+		OUTPUT_NAME="$ouitput_path/linux/g500_sssp/64bytes/hwsw"
 	elif [ $bench == "g500_128_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/g500_sssp/128bytes"
+		OUTPUT_NAME="$ouitput_path/linux/g500_sssp/128bytes/hwsw"
 	fi
 	
 	./run_linux.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME $bench
@@ -90,13 +90,13 @@ do
 	echo $bench
 	
 	if [ $bench == "stream_0_1" ];then
-		OUTPUT_NAME="$output_path/linux/stream/0bytes"
+		OUTPUT_NAME="$output_path/linux/stream/0bytes/hwsw"
 	elif [ $bench == "stream_8_1" ];then
-		OUTPUT_NAME="$output_path/linux/stream/8bytes"
+		OUTPUT_NAME="$output_path/linux/stream/8bytes/hwsw"
 	elif [ $bench == "stream_64_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/stream/64bytes"
+		OUTPUT_NAME="$ouitput_path/linux/stream/64bytes/hwsw"
 	elif [ $bench == "stream_128_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/stream/128bytes"
+		OUTPUT_NAME="$ouitput_path/linux/stream/128bytes/hwsw"
 	fi
 	
 	./run_linux.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME $bench
@@ -109,13 +109,13 @@ do
 	echo $bench
 	
 	if [ $bench == "mcf_0_1" ];then
-		OUTPUT_NAME="$output_path/linux/mcf_s/0bytes"
+		OUTPUT_NAME="$output_path/linux/mcf_s/0bytes/hwsw"
 	elif [ $bench == "mcf_8_1" ];then
-		OUTPUT_NAME="$output_path/linux/mcf_s/8bytes"
+		OUTPUT_NAME="$output_path/linux/mcf_s/8bytes/hwsw"
 	elif [ $bench == "mcf_64_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/mcf_s/64bytes"
+		OUTPUT_NAME="$ouitput_path/linux/mcf_s/64bytes/hwsw"
 	elif [ $bench == "mcf_128_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/mcf_s/128bytes"
+		OUTPUT_NAME="$ouitput_path/linux/mcf_s/128bytes/hwsw"
 	fi
 	
 	./run_linux.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME $bench
@@ -129,13 +129,13 @@ do
 	echo $bench
 	
 	if [ $bench == "omnetpp_0_1" ];then
-		OUTPUT_NAME="$output_path/linux/omnetpp_s/0bytes"
+		OUTPUT_NAME="$output_path/linux/omnetpp_s/0bytes/hwsw"
 	elif [ $bench == "omnetpp_8_1" ];then
-		OUTPUT_NAME="$output_path/linux/omnetpp_s/8bytes"
+		OUTPUT_NAME="$output_path/linux/omnetpp_s/8bytes/hwsw"
 	elif [ $bench == "omnetpp_64_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/omnetpp_s/64bytes"
+		OUTPUT_NAME="$ouitput_path/linux/omnetpp_s/64bytes/hwsw"
 	elif [ $bench == "omnetpp_128_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/omnetpp_s/128bytes"
+		OUTPUT_NAME="$ouitput_path/linux/omnetpp_s/128bytes/hwsw"
 	fi
 	
 	./run_linux.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME $bench
@@ -148,13 +148,13 @@ do
 	echo $bench
 	
 	if [ $bench == "perlbench_0_1" ];then
-		OUTPUT_NAME="$output_path/linux/perlbench_s/0bytes"
+		OUTPUT_NAME="$output_path/linux/perlbench_s/0bytes/hwsw"
 	elif [ $bench == "perlbench_8_1" ];then
-		OUTPUT_NAME="$output_path/linux/perlbench_s/8bytes"
+		OUTPUT_NAME="$output_path/linux/perlbench_s/8bytes/hwsw"
 	elif [ $bench == "perlbench_64_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/perlbench_s/64bytes"
+		OUTPUT_NAME="$ouitput_path/linux/perlbench_s/64bytes/hwsw"
 	elif [ $bench == "perlbench_128_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/perlbench_s/128bytes"
+		OUTPUT_NAME="$ouitput_path/linux/perlbench_s/128bytes/hwsw"
 	fi
 	
 	./run_linux.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME $bench
@@ -167,13 +167,13 @@ do
 	echo $bench
 	
 	if [ $bench == "leela_0_1" ];then
-		OUTPUT_NAME="$output_path/linux/leela_s/0bytes"
+		OUTPUT_NAME="$output_path/linux/leela_s/0bytes/hwsw"
 	elif [ $bench == "leela_8_1" ];then
-		OUTPUT_NAME="$output_path/linux/leela_s/8bytes"
+		OUTPUT_NAME="$output_path/linux/leela_s/8bytes/hwsw"
 	elif [ $bench == "leela_64_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/leela_s/64bytes"
+		OUTPUT_NAME="$ouitput_path/linux/leela_s/64bytes/hwsw"
 	elif [ $bench == "leela_128_1" ];then
-		OUTPUT_NAME="$ouitput_path/linux/leela_s/128bytes"
+		OUTPUT_NAME="$ouitput_path/linux/leela_s/128bytes/hwsw"
 	fi
 	
 	./run_linux.sh $OUTPUT_NAME $KERNEL_NAME $DISK_NAME $bench
