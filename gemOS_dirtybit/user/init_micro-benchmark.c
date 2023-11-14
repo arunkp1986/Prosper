@@ -10,7 +10,7 @@
 #define HEAP1_ELEM 524288 // 512 pages 
 #define HEAP2_SIZE 4194304 // 4MB,
 #define HEAP2_ELEM 1048576 // 1024 pages 
-#define REC_COUNT 1000 // number of operations
+#define REC_COUNT 10000000 // number of operations
 
 
 #define RDTSC_START()            \
