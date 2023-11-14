@@ -13,8 +13,12 @@
 Disk Initialization is successful for IDE disk 0x40
 GemOS# Setting up init process ...
 Page table setup done, launching init ...
-page fault in kernel mode. pid: 1
-(Sig_Exit) PF Error @ [RIP: 0x100650] [accessed VA: 0x7FFFFFE400] [error code: 0x0]
+checkpoint:1, time:23220, size:1536 
+checkpoint:2, time:16661, size:1536 
+checkpoint:3, time:16660, size:1536 
+checkpoint:4, time:16661, size:1536 
+checkpoint:5, time:16660, size:1536 
+checkpoint:6, time:16259, size:1536 
 Cleaned up init process
 GemOS shell again!
 GemOS# Shutting down...

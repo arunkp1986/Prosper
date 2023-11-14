@@ -1,11 +1,11 @@
-spawn telnet localhost 3456
+spawn telnet localhost 3486
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
 ==== m5 terminal: Terminal 0 ====
             Starting IITK gemOS ......
 Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
-ESP=0x11B238 EBP=0x11B2A8
+ESP=0x11A238 EBP=0x11A2A8
 cr0=0xE0000011 cr3=0x70000 cr4=0x20
 Initializing memory
 base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
@@ -20,16 +20,16 @@ Escape character is '^]'.
 Setting up init process ...
 Page table setup done, launching init ...
 exit
-checkpoint:1, time:229401, size:1064 
-checkpoint:2, time:157322, size:1024 
-checkpoint:3, time:157091, size:1024 
-checkpoint:4, time:157112, size:1024 
-checkpoint:5, time:157101, size:1024 
-checkpoint:6, time:157115, size:1024 
-checkpoint:7, time:157131, size:1024 
-checkpoint:8, time:157118, size:1024 
-checkpoint:9, time:157089, size:1024 
-checkpoint:10, time:159175, size:1064 
+:q
+checkpoint:1, time:145655, size:1064 
+checkpoint:2, time:99983, size:1024 
+checkpoint:3, time:99974, size:1024 
+checkpoint:4, time:100010, size:1024 
+checkpoint:5, time:99987, size:1024 
+checkpoint:6, time:99990, size:1024 
+checkpoint:7, time:99991, size:1024 
+checkpoint:8, time:99999, size:1024 
+checkpoint:9, time:101309, size:1064 
 Cleaned up init process
 GemOS shell again!
 GemOS# Shutting down...

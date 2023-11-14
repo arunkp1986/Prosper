@@ -1,4 +1,4 @@
-type,gapbs,sssp,workloadb
-ssp_dirtybit,1.6701,1.7143,1.8908
-ssp_prosper,1.4718,1.4285,1.6558
-ssp,2.0392,1.9846,2.372
+type          gapbs   sssp    workloadb
+ssp_dirtybit  1.6701  1.7143  1.8908
+ssp_prosper   1.4718  1.4285  1.6558
+ssp           2.0392  1.9846  2.372

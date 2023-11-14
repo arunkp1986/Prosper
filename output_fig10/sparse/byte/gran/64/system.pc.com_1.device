@@ -13,7 +13,21 @@
 Disk Initialization is successful for IDE disk 0x40
 GemOS# Setting up init process ...
 Page table setup done, launching init ...
-checkpoint:1, time:18307, size:192 
+checkpoint:1, time:284763, size:8512 
+checkpoint:2, time:111203, size:4352 
+checkpoint:3, time:207105, size:8512 
+checkpoint:4, time:21764, size:448 
+checkpoint:5, time:207205, size:8512 
+checkpoint:6, time:111206, size:4352 
+checkpoint:7, time:118488, size:4672 
+checkpoint:8, time:528602, size:20992 
+checkpoint:9, time:323769, size:14784 
+checkpoint:10, time:323879, size:14784 
+checkpoint:11, time:207390, size:8512 
+checkpoint:12, time:111271, size:4352 
+checkpoint:13, time:207259, size:8512 
+checkpoint:14, time:207361, size:8512 
+checkpoint:15, time:16013, size:192 
 Cleaned up init process
 GemOS shell again!
 GemOS# Shutting down...

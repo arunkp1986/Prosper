@@ -1,4 +1,4 @@
-spawn telnet localhost 3456
+spawn telnet localhost 3488
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
@@ -19,10 +19,14 @@ Escape character is '^]'.
 GemOS# init
 Setting up init process ...
 Page table setup done, launching init ...
-page fault in kernel mode. pid: 1
-(Sig_Exit) PF Error @ [RIP: 0x100650] [accessed VA: 0x7FFFFFE400] [error code: 0x0]
+exit
+checkpoint:1, time:23220, size:1536 
+checkpoint:2, time:16661, size:1536 
+checkpoint:3, time:16660, size:1536 
+checkpoint:4, time:16661, size:1536 
+checkpoint:5, time:16660, size:1536 
+checkpoint:6, time:16259, size:1536 
 Cleaned up init process
 GemOS shell again!
-GemOS# exit
-Shutting down...
+GemOS# Shutting down...
 Connection closed by foreign host.

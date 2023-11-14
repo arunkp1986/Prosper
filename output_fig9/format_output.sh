@@ -17,6 +17,13 @@ sed -i -e 's/ssp_stack_heap_10ms_100us/ssp/g' result_100us.out
 sed -i -e 's/ssp_stack_heap_10ms_10us/ssp/g' result_10us.out
 
 sed -i '1 i type,gapbs,sssp,workloadb' result_1ms.out
+cat result_1ms.out | column -t -s, | less -S > result.out
+mv result.out result_1ms.out
 sed -i '1 i type,gapbs,sssp,workloadb' result_100us.out
+cat result_100us.out | column -t -s, | less -S > result.out
+mv result.out result_100us.out
 sed -i '1 i type,gapbs,sssp,workloadb' result_10us.out
+cat result_10us.out | column -t -s, | less -S > result.out
+mv result.out result_10us.out
+
 
