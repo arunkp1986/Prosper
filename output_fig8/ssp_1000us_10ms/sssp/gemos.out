@@ -1,4 +1,4 @@
-spawn telnet localhost 3456
+spawn telnet localhost 3459
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
@@ -19,9 +19,357 @@ Escape character is '^]'.
 GemOS# init
 Setting up init process ...
 Page table setup done, launching init ...
-checkpoint:1, log_time:943155, time_merge:0, copy_size:0 
+exit
+checkpoint:1, log_time:1936519, time_merge:4989904, copy_size:0 
+checkpoint:2, log_time:961685, time_merge:0, copy_size:0 
+checkpoint:3, log_time:960876, time_merge:1708797, copy_size:15040 
+checkpoint:4, log_time:963202, time_merge:0, copy_size:0 
+checkpoint:5, log_time:962043, time_merge:0, copy_size:0 
+checkpoint:6, log_time:961631, time_merge:0, copy_size:0 
+checkpoint:7, log_time:963162, time_merge:0, copy_size:0 
+checkpoint:8, log_time:962120, time_merge:0, copy_size:0 
+checkpoint:9, log_time:962735, time_merge:0, copy_size:0 
+checkpoint:10, log_time:961664, time_merge:0, copy_size:0 
+checkpoint:11, log_time:962687, time_merge:0, copy_size:0 
+checkpoint:12, log_time:962411, time_merge:0, copy_size:0 
+checkpoint:13, log_time:961316, time_merge:0, copy_size:0 
+checkpoint:14, log_time:962105, time_merge:0, copy_size:0 
+checkpoint:15, log_time:963183, time_merge:0, copy_size:0 
+checkpoint:16, log_time:962850, time_merge:0, copy_size:0 
+checkpoint:17, log_time:961301, time_merge:0, copy_size:0 
+checkpoint:18, log_time:962847, time_merge:0, copy_size:0 
+checkpoint:19, log_time:961912, time_merge:0, copy_size:0 
+checkpoint:20, log_time:963189, time_merge:0, copy_size:0 
+checkpoint:21, log_time:961739, time_merge:0, copy_size:0 
+checkpoint:22, log_time:961874, time_merge:0, copy_size:0 
+checkpoint:23, log_time:947228, time_merge:1779143, copy_size:15104 
+checkpoint:24, log_time:962099, time_merge:0, copy_size:0 
+checkpoint:25, log_time:962229, time_merge:0, copy_size:0 
+checkpoint:26, log_time:962920, time_merge:0, copy_size:0 
+checkpoint:27, log_time:961643, time_merge:0, copy_size:0 
+checkpoint:28, log_time:961903, time_merge:0, copy_size:0 
+checkpoint:29, log_time:962884, time_merge:0, copy_size:0 
+checkpoint:30, log_time:962415, time_merge:0, copy_size:0 
+checkpoint:31, log_time:962250, time_merge:0, copy_size:0 
+checkpoint:32, log_time:963621, time_merge:0, copy_size:0 
+checkpoint:33, log_time:962196, time_merge:0, copy_size:0 
+checkpoint:34, log_time:963587, time_merge:0, copy_size:0 
+checkpoint:35, log_time:962053, time_merge:0, copy_size:0 
+checkpoint:36, log_time:963307, time_merge:0, copy_size:0 
+checkpoint:37, log_time:963592, time_merge:0, copy_size:0 
+checkpoint:38, log_time:961644, time_merge:0, copy_size:0 
+checkpoint:39, log_time:963270, time_merge:0, copy_size:0 
+checkpoint:40, log_time:962460, time_merge:0, copy_size:0 
+checkpoint:41, log_time:963349, time_merge:0, copy_size:0 
+checkpoint:42, log_time:962992, time_merge:0, copy_size:0 
+checkpoint:43, log_time:922455, time_merge:1807275, copy_size:16256 
+checkpoint:44, log_time:962349, time_merge:0, copy_size:0 
+checkpoint:45, log_time:961929, time_merge:0, copy_size:0 
+checkpoint:46, log_time:962265, time_merge:0, copy_size:0 
+checkpoint:47, log_time:962569, time_merge:0, copy_size:0 
+checkpoint:48, log_time:961966, time_merge:0, copy_size:0 
+checkpoint:49, log_time:963625, time_merge:0, copy_size:0 
+checkpoint:50, log_time:962634, time_merge:0, copy_size:0 
+checkpoint:51, log_time:962329, time_merge:0, copy_size:0 
+checkpoint:52, log_time:962129, time_merge:0, copy_size:0 
+checkpoint:53, log_time:962736, time_merge:0, copy_size:0 
+checkpoint:54, log_time:961836, time_merge:0, copy_size:0 
+checkpoint:55, log_time:963712, time_merge:0, copy_size:0 
+checkpoint:56, log_time:963178, time_merge:0, copy_size:0 
+checkpoint:57, log_time:961607, time_merge:0, copy_size:0 
+checkpoint:58, log_time:961661, time_merge:0, copy_size:0 
+checkpoint:59, log_time:963710, time_merge:0, copy_size:0 
+checkpoint:60, log_time:961802, time_merge:0, copy_size:0 
+checkpoint:61, log_time:961774, time_merge:0, copy_size:0 
+checkpoint:62, log_time:962983, time_merge:0, copy_size:0 
+checkpoint:63, log_time:919565, time_merge:1802789, copy_size:16192 
+checkpoint:64, log_time:962384, time_merge:0, copy_size:0 
+checkpoint:65, log_time:962432, time_merge:0, copy_size:0 
+checkpoint:66, log_time:962089, time_merge:0, copy_size:0 
+checkpoint:67, log_time:963186, time_merge:0, copy_size:0 
+checkpoint:68, log_time:962166, time_merge:0, copy_size:0 
+checkpoint:69, log_time:962181, time_merge:0, copy_size:0 
+checkpoint:70, log_time:962054, time_merge:0, copy_size:0 
+checkpoint:71, log_time:963833, time_merge:0, copy_size:0 
+checkpoint:72, log_time:962775, time_merge:0, copy_size:0 
+checkpoint:73, log_time:962461, time_merge:0, copy_size:0 
+checkpoint:74, log_time:963471, time_merge:0, copy_size:0 
+checkpoint:75, log_time:962183, time_merge:0, copy_size:0 
+checkpoint:76, log_time:963151, time_merge:0, copy_size:0 
+checkpoint:77, log_time:963271, time_merge:0, copy_size:0 
+checkpoint:78, log_time:963781, time_merge:0, copy_size:0 
+checkpoint:79, log_time:963424, time_merge:0, copy_size:0 
+checkpoint:80, log_time:962034, time_merge:0, copy_size:0 
+checkpoint:81, log_time:962358, time_merge:0, copy_size:0 
+checkpoint:82, log_time:961745, time_merge:0, copy_size:0 
+checkpoint:83, log_time:964306, time_merge:0, copy_size:0 
+checkpoint:84, log_time:962460, time_merge:1753056, copy_size:15680 
+checkpoint:85, log_time:962450, time_merge:0, copy_size:0 
+checkpoint:86, log_time:962505, time_merge:0, copy_size:0 
+checkpoint:87, log_time:963355, time_merge:0, copy_size:0 
+checkpoint:88, log_time:962099, time_merge:0, copy_size:0 
+checkpoint:89, log_time:961760, time_merge:0, copy_size:0 
+checkpoint:90, log_time:961475, time_merge:0, copy_size:0 
+checkpoint:91, log_time:962177, time_merge:0, copy_size:0 
+checkpoint:92, log_time:962960, time_merge:0, copy_size:0 
+checkpoint:93, log_time:963048, time_merge:0, copy_size:0 
+checkpoint:94, log_time:961718, time_merge:0, copy_size:0 
+checkpoint:95, log_time:962718, time_merge:0, copy_size:0 
+checkpoint:96, log_time:962883, time_merge:0, copy_size:0 
+checkpoint:97, log_time:962391, time_merge:0, copy_size:0 
+checkpoint:98, log_time:962517, time_merge:0, copy_size:0 
+checkpoint:99, log_time:962715, time_merge:0, copy_size:0 
+checkpoint:100, log_time:962025, time_merge:0, copy_size:0 
+checkpoint:101, log_time:963318, time_merge:0, copy_size:0 
+checkpoint:102, log_time:962829, time_merge:0, copy_size:0 
+checkpoint:103, log_time:963030, time_merge:0, copy_size:0 
+checkpoint:104, log_time:961546, time_merge:1770617, copy_size:15936 
+checkpoint:105, log_time:961956, time_merge:0, copy_size:0 
+checkpoint:106, log_time:961841, time_merge:0, copy_size:0 
+checkpoint:107, log_time:962487, time_merge:0, copy_size:0 
+checkpoint:108, log_time:963324, time_merge:0, copy_size:0 
+checkpoint:109, log_time:962328, time_merge:0, copy_size:0 
+checkpoint:110, log_time:961637, time_merge:0, copy_size:0 
+checkpoint:111, log_time:963882, time_merge:0, copy_size:0 
+checkpoint:112, log_time:962205, time_merge:0, copy_size:0 
+checkpoint:113, log_time:962051, time_merge:0, copy_size:0 
+checkpoint:114, log_time:962115, time_merge:0, copy_size:0 
+checkpoint:115, log_time:962202, time_merge:0, copy_size:0 
+checkpoint:116, log_time:962300, time_merge:0, copy_size:0 
+checkpoint:117, log_time:962446, time_merge:0, copy_size:0 
+checkpoint:118, log_time:961399, time_merge:0, copy_size:0 
+checkpoint:119, log_time:963021, time_merge:0, copy_size:0 
+checkpoint:120, log_time:962691, time_merge:0, copy_size:0 
+checkpoint:121, log_time:962943, time_merge:0, copy_size:0 
+checkpoint:122, log_time:961414, time_merge:0, copy_size:0 
+checkpoint:123, log_time:963126, time_merge:0, copy_size:0 
+checkpoint:124, log_time:942334, time_merge:1805542, copy_size:16256 
+checkpoint:125, log_time:961303, time_merge:0, copy_size:0 
+checkpoint:126, log_time:961994, time_merge:0, copy_size:0 
+checkpoint:127, log_time:962024, time_merge:0, copy_size:0 
+checkpoint:128, log_time:963163, time_merge:0, copy_size:0 
+checkpoint:129, log_time:962964, time_merge:0, copy_size:0 
+checkpoint:130, log_time:962583, time_merge:0, copy_size:0 
+checkpoint:131, log_time:962857, time_merge:0, copy_size:0 
+checkpoint:132, log_time:961814, time_merge:0, copy_size:0 
+checkpoint:133, log_time:962363, time_merge:0, copy_size:0 
+checkpoint:134, log_time:962679, time_merge:0, copy_size:0 
+checkpoint:135, log_time:962548, time_merge:0, copy_size:0 
+checkpoint:136, log_time:963092, time_merge:0, copy_size:0 
+checkpoint:137, log_time:962676, time_merge:0, copy_size:0 
+checkpoint:138, log_time:961874, time_merge:0, copy_size:0 
+checkpoint:139, log_time:962192, time_merge:0, copy_size:0 
+checkpoint:140, log_time:961734, time_merge:0, copy_size:0 
+checkpoint:141, log_time:963021, time_merge:0, copy_size:0 
+checkpoint:142, log_time:962318, time_merge:0, copy_size:0 
+checkpoint:143, log_time:963296, time_merge:0, copy_size:0 
+checkpoint:144, log_time:923035, time_merge:1807089, copy_size:16320 
+checkpoint:145, log_time:961450, time_merge:0, copy_size:0 
+checkpoint:146, log_time:961829, time_merge:0, copy_size:0 
+checkpoint:147, log_time:961291, time_merge:0, copy_size:0 
+checkpoint:148, log_time:962808, time_merge:0, copy_size:0 
+checkpoint:149, log_time:962730, time_merge:0, copy_size:0 
+checkpoint:150, log_time:964055, time_merge:0, copy_size:0 
+checkpoint:151, log_time:962548, time_merge:0, copy_size:0 
+checkpoint:152, log_time:962952, time_merge:0, copy_size:0 
+checkpoint:153, log_time:962331, time_merge:0, copy_size:0 
+checkpoint:154, log_time:962021, time_merge:0, copy_size:0 
+checkpoint:155, log_time:962086, time_merge:0, copy_size:0 
+checkpoint:156, log_time:961401, time_merge:0, copy_size:0 
+checkpoint:157, log_time:962344, time_merge:0, copy_size:0 
+checkpoint:158, log_time:962733, time_merge:0, copy_size:0 
+checkpoint:159, log_time:962789, time_merge:0, copy_size:0 
+checkpoint:160, log_time:961490, time_merge:0, copy_size:0 
+checkpoint:161, log_time:961806, time_merge:0, copy_size:0 
+checkpoint:162, log_time:962448, time_merge:0, copy_size:0 
+checkpoint:163, log_time:961831, time_merge:0, copy_size:0 
+checkpoint:164, log_time:963453, time_merge:0, copy_size:0 
+checkpoint:165, log_time:962116, time_merge:1733918, copy_size:15168 
+checkpoint:166, log_time:962814, time_merge:0, copy_size:0 
+checkpoint:167, log_time:962199, time_merge:0, copy_size:0 
+checkpoint:168, log_time:961590, time_merge:0, copy_size:0 
+checkpoint:169, log_time:961796, time_merge:0, copy_size:0 
+checkpoint:170, log_time:964312, time_merge:0, copy_size:0 
+checkpoint:171, log_time:961646, time_merge:0, copy_size:0 
+checkpoint:172, log_time:963294, time_merge:0, copy_size:0 
+checkpoint:173, log_time:962371, time_merge:0, copy_size:0 
+checkpoint:174, log_time:963210, time_merge:0, copy_size:0 
+checkpoint:175, log_time:963332, time_merge:0, copy_size:0 
+checkpoint:176, log_time:963796, time_merge:0, copy_size:0 
+checkpoint:177, log_time:962923, time_merge:0, copy_size:0 
+checkpoint:178, log_time:962270, time_merge:0, copy_size:0 
+checkpoint:179, log_time:962610, time_merge:0, copy_size:0 
+checkpoint:180, log_time:961652, time_merge:0, copy_size:0 
+checkpoint:181, log_time:961742, time_merge:0, copy_size:0 
+checkpoint:182, log_time:962192, time_merge:0, copy_size:0 
+checkpoint:183, log_time:962198, time_merge:0, copy_size:0 
+checkpoint:184, log_time:962110, time_merge:0, copy_size:0 
+checkpoint:185, log_time:963027, time_merge:1762320, copy_size:16384 
+checkpoint:186, log_time:961934, time_merge:0, copy_size:0 
+checkpoint:187, log_time:961991, time_merge:0, copy_size:0 
+checkpoint:188, log_time:962519, time_merge:0, copy_size:0 
+checkpoint:189, log_time:962591, time_merge:0, copy_size:0 
+checkpoint:190, log_time:961436, time_merge:0, copy_size:0 
+checkpoint:191, log_time:961736, time_merge:0, copy_size:0 
+checkpoint:192, log_time:961873, time_merge:0, copy_size:0 
+checkpoint:193, log_time:962580, time_merge:0, copy_size:0 
+checkpoint:194, log_time:962963, time_merge:0, copy_size:0 
+checkpoint:195, log_time:963874, time_merge:0, copy_size:0 
+checkpoint:196, log_time:962250, time_merge:0, copy_size:0 
+checkpoint:197, log_time:963504, time_merge:0, copy_size:0 
+checkpoint:198, log_time:961616, time_merge:0, copy_size:0 
+checkpoint:199, log_time:961797, time_merge:0, copy_size:0 
+checkpoint:200, log_time:961868, time_merge:0, copy_size:0 
+checkpoint:201, log_time:962301, time_merge:0, copy_size:0 
+checkpoint:202, log_time:962259, time_merge:0, copy_size:0 
+checkpoint:203, log_time:962937, time_merge:0, copy_size:0 
+checkpoint:204, log_time:962134, time_merge:0, copy_size:0 
+checkpoint:205, log_time:962510, time_merge:1782065, copy_size:16192 
+checkpoint:206, log_time:962427, time_merge:0, copy_size:0 
+checkpoint:207, log_time:962494, time_merge:0, copy_size:0 
+checkpoint:208, log_time:962331, time_merge:0, copy_size:0 
+checkpoint:209, log_time:962554, time_merge:0, copy_size:0 
+checkpoint:210, log_time:963072, time_merge:0, copy_size:0 
+checkpoint:211, log_time:961736, time_merge:0, copy_size:0 
+checkpoint:212, log_time:962541, time_merge:0, copy_size:0 
+checkpoint:213, log_time:962655, time_merge:0, copy_size:0 
+checkpoint:214, log_time:963807, time_merge:0, copy_size:0 
+checkpoint:215, log_time:961977, time_merge:0, copy_size:0 
+checkpoint:216, log_time:961309, time_merge:0, copy_size:0 
+checkpoint:217, log_time:961623, time_merge:0, copy_size:0 
+checkpoint:218, log_time:962732, time_merge:0, copy_size:0 
+checkpoint:219, log_time:962088, time_merge:0, copy_size:0 
+checkpoint:220, log_time:961987, time_merge:0, copy_size:0 
+checkpoint:221, log_time:962754, time_merge:0, copy_size:0 
+checkpoint:222, log_time:963927, time_merge:0, copy_size:0 
+checkpoint:223, log_time:962181, time_merge:0, copy_size:0 
+checkpoint:224, log_time:962622, time_merge:0, copy_size:0 
+checkpoint:225, log_time:938189, time_merge:1795477, copy_size:15744 
+checkpoint:226, log_time:962281, time_merge:0, copy_size:0 
+checkpoint:227, log_time:961765, time_merge:0, copy_size:0 
+checkpoint:228, log_time:962124, time_merge:0, copy_size:0 
+checkpoint:229, log_time:961628, time_merge:0, copy_size:0 
+checkpoint:230, log_time:962997, time_merge:0, copy_size:0 
+checkpoint:231, log_time:962931, time_merge:0, copy_size:0 
+checkpoint:232, log_time:961696, time_merge:0, copy_size:0 
+checkpoint:233, log_time:961760, time_merge:0, copy_size:0 
+checkpoint:234, log_time:962568, time_merge:0, copy_size:0 
+checkpoint:235, log_time:963179, time_merge:0, copy_size:0 
+checkpoint:236, log_time:963445, time_merge:0, copy_size:0 
+checkpoint:237, log_time:961661, time_merge:0, copy_size:0 
+checkpoint:238, log_time:962610, time_merge:0, copy_size:0 
+checkpoint:239, log_time:962315, time_merge:0, copy_size:0 
+checkpoint:240, log_time:962342, time_merge:0, copy_size:0 
+checkpoint:241, log_time:962277, time_merge:0, copy_size:0 
+checkpoint:242, log_time:963903, time_merge:0, copy_size:0 
+checkpoint:243, log_time:964186, time_merge:0, copy_size:0 
+checkpoint:244, log_time:963039, time_merge:0, copy_size:0 
+checkpoint:245, log_time:920610, time_merge:1808330, copy_size:16320 
+checkpoint:246, log_time:961806, time_merge:0, copy_size:0 
+checkpoint:247, log_time:962124, time_merge:0, copy_size:0 
+checkpoint:248, log_time:963075, time_merge:0, copy_size:0 
+checkpoint:249, log_time:962096, time_merge:0, copy_size:0 
+checkpoint:250, log_time:962251, time_merge:0, copy_size:0 
+checkpoint:251, log_time:962685, time_merge:0, copy_size:0 
+checkpoint:252, log_time:962731, time_merge:0, copy_size:0 
+checkpoint:253, log_time:963030, time_merge:0, copy_size:0 
+checkpoint:254, log_time:962838, time_merge:0, copy_size:0 
+checkpoint:255, log_time:961552, time_merge:0, copy_size:0 
+checkpoint:256, log_time:961946, time_merge:0, copy_size:0 
+checkpoint:257, log_time:962271, time_merge:0, copy_size:0 
+checkpoint:258, log_time:962331, time_merge:0, copy_size:0 
+checkpoint:259, log_time:962278, time_merge:0, copy_size:0 
+checkpoint:260, log_time:963042, time_merge:0, copy_size:0 
+checkpoint:261, log_time:962515, time_merge:0, copy_size:0 
+checkpoint:262, log_time:963549, time_merge:0, copy_size:0 
+checkpoint:263, log_time:961256, time_merge:0, copy_size:0 
+checkpoint:264, log_time:964019, time_merge:0, copy_size:0 
+checkpoint:265, log_time:962020, time_merge:0, copy_size:0 
+checkpoint:266, log_time:961646, time_merge:1754275, copy_size:16384 
+checkpoint:267, log_time:962498, time_merge:0, copy_size:0 
+checkpoint:268, log_time:963400, time_merge:0, copy_size:0 
+checkpoint:269, log_time:962915, time_merge:0, copy_size:0 
+checkpoint:270, log_time:961835, time_merge:0, copy_size:0 
+checkpoint:271, log_time:963616, time_merge:0, copy_size:0 
+checkpoint:272, log_time:961808, time_merge:0, copy_size:0 
+checkpoint:273, log_time:962026, time_merge:0, copy_size:0 
+checkpoint:274, log_time:962503, time_merge:0, copy_size:0 
+checkpoint:275, log_time:962809, time_merge:0, copy_size:0 
+checkpoint:276, log_time:962865, time_merge:0, copy_size:0 
+checkpoint:277, log_time:962177, time_merge:0, copy_size:0 
+checkpoint:278, log_time:962888, time_merge:0, copy_size:0 
+checkpoint:279, log_time:962896, time_merge:0, copy_size:0 
+checkpoint:280, log_time:962811, time_merge:0, copy_size:0 
+checkpoint:281, log_time:962177, time_merge:0, copy_size:0 
+checkpoint:282, log_time:963295, time_merge:0, copy_size:0 
+checkpoint:283, log_time:962771, time_merge:0, copy_size:0 
+checkpoint:284, log_time:962574, time_merge:0, copy_size:0 
+checkpoint:285, log_time:963447, time_merge:0, copy_size:0 
+checkpoint:286, log_time:964227, time_merge:1737668, copy_size:15232 
+checkpoint:287, log_time:962499, time_merge:0, copy_size:0 
+checkpoint:288, log_time:962157, time_merge:0, copy_size:0 
+checkpoint:289, log_time:962333, time_merge:0, copy_size:0 
+checkpoint:290, log_time:961821, time_merge:0, copy_size:0 
+checkpoint:291, log_time:962461, time_merge:0, copy_size:0 
+checkpoint:292, log_time:962985, time_merge:0, copy_size:0 
+checkpoint:293, log_time:961448, time_merge:0, copy_size:0 
+checkpoint:294, log_time:962495, time_merge:0, copy_size:0 
+checkpoint:295, log_time:962855, time_merge:0, copy_size:0 
+checkpoint:296, log_time:962474, time_merge:0, copy_size:0 
+checkpoint:297, log_time:962087, time_merge:0, copy_size:0 
+checkpoint:298, log_time:961397, time_merge:0, copy_size:0 
+checkpoint:299, log_time:962370, time_merge:0, copy_size:0 
+checkpoint:300, log_time:964160, time_merge:0, copy_size:0 
+checkpoint:301, log_time:962489, time_merge:0, copy_size:0 
+checkpoint:302, log_time:962481, time_merge:0, copy_size:0 
+checkpoint:303, log_time:962255, time_merge:0, copy_size:0 
+checkpoint:304, log_time:962643, time_merge:0, copy_size:0 
+checkpoint:305, log_time:962469, time_merge:0, copy_size:0 
+checkpoint:306, log_time:958060, time_merge:1781605, copy_size:16384 
+checkpoint:307, log_time:962090, time_merge:0, copy_size:0 
+checkpoint:308, log_time:962487, time_merge:0, copy_size:0 
+checkpoint:309, log_time:961832, time_merge:0, copy_size:0 
+checkpoint:310, log_time:961817, time_merge:0, copy_size:0 
+checkpoint:311, log_time:961646, time_merge:0, copy_size:0 
+checkpoint:312, log_time:962980, time_merge:0, copy_size:0 
+checkpoint:313, log_time:962226, time_merge:0, copy_size:0 
+checkpoint:314, log_time:962233, time_merge:0, copy_size:0 
+checkpoint:315, log_time:963436, time_merge:0, copy_size:0 
+checkpoint:316, log_time:962251, time_merge:0, copy_size:0 
+checkpoint:317, log_time:963028, time_merge:0, copy_size:0 
+checkpoint:318, log_time:962802, time_merge:0, copy_size:0 
+checkpoint:319, log_time:961835, time_merge:0, copy_size:0 
+checkpoint:320, log_time:961913, time_merge:0, copy_size:0 
+checkpoint:321, log_time:962396, time_merge:0, copy_size:0 
+checkpoint:322, log_time:963159, time_merge:0, copy_size:0 
+checkpoint:323, log_time:962913, time_merge:0, copy_size:0 
+checkpoint:324, log_time:962679, time_merge:0, copy_size:0 
+checkpoint:325, log_time:963081, time_merge:0, copy_size:0 
+checkpoint:326, log_time:935110, time_merge:1813362, copy_size:16384 
+checkpoint:327, log_time:962325, time_merge:0, copy_size:0 
+checkpoint:328, log_time:961892, time_merge:0, copy_size:0 
+checkpoint:329, log_time:962839, time_merge:0, copy_size:0 
+checkpoint:330, log_time:963361, time_merge:0, copy_size:0 
+checkpoint:331, log_time:962648, time_merge:0, copy_size:0 
+checkpoint:332, log_time:962593, time_merge:0, copy_size:0 
+checkpoint:333, log_time:962883, time_merge:0, copy_size:0 
+checkpoint:334, log_time:962904, time_merge:0, copy_size:0 
+checkpoint:335, log_time:963768, time_merge:0, copy_size:0 
+checkpoint:336, log_time:962798, time_merge:0, copy_size:0 
+checkpoint:337, log_time:962553, time_merge:0, copy_size:0 
+checkpoint:338, log_time:962202, time_merge:0, copy_size:0 
+checkpoint:339, log_time:962709, time_merge:0, copy_size:0 
+checkpoint:340, log_time:962690, time_merge:0, copy_size:0 
+checkpoint:341, log_time:962702, time_merge:0, copy_size:0 
+checkpoint:342, log_time:962384, time_merge:0, copy_size:0 
+checkpoint:343, log_time:962841, time_merge:0, copy_size:0 
+checkpoint:344, log_time:962224, time_merge:0, copy_size:0 
+checkpoint:345, log_time:961758, time_merge:0, copy_size:0 
+checkpoint:346, log_time:920232, time_merge:1798534, copy_size:15424 
+checkpoint:347, log_time:961871, time_merge:0, copy_size:0 
+checkpoint:348, log_time:962936, time_merge:0, copy_size:0 
+checkpoint:349, log_time:962789, time_merge:0, copy_size:0 
 Cleaned up init process
 GemOS shell again!
-GemOS# exit
-Shutting down...
+GemOS# Shutting down...
 Connection closed by foreign host.

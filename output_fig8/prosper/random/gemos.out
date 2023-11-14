@@ -19,9 +19,264 @@ Escape character is '^]'.
 GemOS# init
 Setting up init process ...
 Page table setup done, launching init ...
-checkpoint:1, time:73101, size:184 
+exit
+checkpoint:1, time:13920666, size:98952 
+checkpoint:2, time:10049233, size:98952 
+checkpoint:3, time:7598728, size:74320 
+checkpoint:4, time:10046417, size:98952 
+checkpoint:5, time:7541116, size:74320 
+checkpoint:6, time:10038553, size:98952 
+checkpoint:7, time:10042004, size:98952 
+checkpoint:8, time:7541491, size:74320 
+checkpoint:9, time:5055097, size:49616 
+checkpoint:10, time:2546239, size:24896 
+checkpoint:11, time:5042116, size:49616 
+checkpoint:12, time:5046048, size:49616 
+checkpoint:13, time:2541022, size:24896 
+checkpoint:14, time:5043100, size:49616 
+checkpoint:15, time:5051426, size:49616 
+checkpoint:16, time:5042259, size:49616 
+checkpoint:17, time:5044424, size:49616 
+checkpoint:18, time:2545802, size:24896 
+checkpoint:19, time:10037264, size:98952 
+checkpoint:20, time:2540809, size:24896 
+checkpoint:21, time:5053856, size:49616 
+checkpoint:22, time:2556968, size:24896 
+checkpoint:23, time:7541710, size:74320 
+checkpoint:24, time:7538454, size:74320 
+checkpoint:25, time:2556711, size:24896 
+checkpoint:26, time:2546141, size:24896 
+checkpoint:27, time:10043226, size:98952 
+checkpoint:28, time:5035823, size:49616 
+checkpoint:29, time:10046123, size:98952 
+checkpoint:30, time:5051047, size:49616 
+checkpoint:31, time:2541281, size:24896 
+checkpoint:32, time:2540043, size:24896 
+checkpoint:33, time:2550215, size:24896 
+checkpoint:34, time:2541573, size:24896 
+checkpoint:35, time:10043853, size:98952 
+checkpoint:36, time:5037545, size:49616 
+checkpoint:37, time:7536214, size:74320 
+checkpoint:38, time:2544079, size:24896 
+checkpoint:39, time:5039559, size:49616 
+checkpoint:40, time:5038551, size:49616 
+checkpoint:41, time:7541860, size:74320 
+checkpoint:42, time:2558908, size:24896 
+checkpoint:43, time:660994, size:6000 
+checkpoint:44, time:2534954, size:24896 
+checkpoint:45, time:7538534, size:74320 
+checkpoint:46, time:5043663, size:49616 
+checkpoint:47, time:5039445, size:49616 
+checkpoint:48, time:2545963, size:24896 
+checkpoint:49, time:2539192, size:24896 
+checkpoint:50, time:2540096, size:24896 
+checkpoint:51, time:5036741, size:49616 
+checkpoint:52, time:2545615, size:24896 
+checkpoint:53, time:2539807, size:24896 
+checkpoint:54, time:2545322, size:24896 
+checkpoint:55, time:7488280, size:73568 
+checkpoint:56, time:2549024, size:24896 
+checkpoint:57, time:2544816, size:24896 
+checkpoint:58, time:2544993, size:24896 
+checkpoint:59, time:5044431, size:49616 
+checkpoint:60, time:2542709, size:24896 
+checkpoint:61, time:2541251, size:24896 
+checkpoint:62, time:2544522, size:24896 
+checkpoint:63, time:5034156, size:49536 
+checkpoint:64, time:5041560, size:49616 
+checkpoint:65, time:5042283, size:49616 
+checkpoint:66, time:10044325, size:98952 
+checkpoint:67, time:4830353, size:47408 
+checkpoint:68, time:2544754, size:24896 
+checkpoint:69, time:5046093, size:49616 
+checkpoint:70, time:2545796, size:24896 
+checkpoint:71, time:7536662, size:74320 
+checkpoint:72, time:2542882, size:24896 
+checkpoint:73, time:2549505, size:24896 
+checkpoint:74, time:10049854, size:98952 
+checkpoint:75, time:7539059, size:74320 
+checkpoint:76, time:2541261, size:24896 
+checkpoint:77, time:10046510, size:98952 
+checkpoint:78, time:7536288, size:74320 
+checkpoint:79, time:2540579, size:24896 
+checkpoint:80, time:2543467, size:24896 
+checkpoint:81, time:2548016, size:24896 
+checkpoint:82, time:2544998, size:24896 
+checkpoint:83, time:2541328, size:24896 
+checkpoint:84, time:2544239, size:24896 
+checkpoint:85, time:2547296, size:24896 
+checkpoint:86, time:5040467, size:49616 
+checkpoint:87, time:2544017, size:24896 
+checkpoint:88, time:5041474, size:49616 
+checkpoint:89, time:7546757, size:74320 
+checkpoint:90, time:2540073, size:24896 
+checkpoint:91, time:10039847, size:98952 
+checkpoint:92, time:5042710, size:49616 
+checkpoint:93, time:2542480, size:24896 
+checkpoint:94, time:2540673, size:24896 
+checkpoint:95, time:5046774, size:49616 
+checkpoint:96, time:2545088, size:24896 
+checkpoint:97, time:2540432, size:24896 
+checkpoint:98, time:2545844, size:24896 
+checkpoint:99, time:2549500, size:24896 
+checkpoint:100, time:5043232, size:49616 
+checkpoint:101, time:2540753, size:24896 
+checkpoint:102, time:2553700, size:24896 
+checkpoint:103, time:2541868, size:24896 
+checkpoint:104, time:5038423, size:49616 
+checkpoint:105, time:10041801, size:98952 
+checkpoint:106, time:7539658, size:74320 
+checkpoint:107, time:7541013, size:74320 
+checkpoint:108, time:2543053, size:24896 
+checkpoint:109, time:7537738, size:74320 
+checkpoint:110, time:5054865, size:49616 
+checkpoint:111, time:7549339, size:74320 
+checkpoint:112, time:7472668, size:73568 
+checkpoint:113, time:10046161, size:98952 
+checkpoint:114, time:2542637, size:24896 
+checkpoint:115, time:5041313, size:49616 
+checkpoint:116, time:2540504, size:24896 
+checkpoint:117, time:9912988, size:97520 
+checkpoint:118, time:10042595, size:98952 
+checkpoint:119, time:5040829, size:49616 
+checkpoint:120, time:2540764, size:24896 
+checkpoint:121, time:7539688, size:74320 
+checkpoint:122, time:2542674, size:24896 
+checkpoint:123, time:5042687, size:49616 
+checkpoint:124, time:2540107, size:24896 
+checkpoint:125, time:2540109, size:24896 
+checkpoint:126, time:2557888, size:24896 
+checkpoint:127, time:5045022, size:49616 
+checkpoint:128, time:2544088, size:24896 
+checkpoint:129, time:7535846, size:74320 
+checkpoint:130, time:5039440, size:49616 
+checkpoint:131, time:5042027, size:49616 
+checkpoint:132, time:5041938, size:49616 
+checkpoint:133, time:5045931, size:49616 
+checkpoint:134, time:2544471, size:24896 
+checkpoint:135, time:5046651, size:49616 
+checkpoint:136, time:5039690, size:49616 
+checkpoint:137, time:2544350, size:24896 
+checkpoint:138, time:2548424, size:24896 
+checkpoint:139, time:2546684, size:24896 
+checkpoint:140, time:5047071, size:49616 
+checkpoint:141, time:2540100, size:24896 
+checkpoint:142, time:10045565, size:98952 
+checkpoint:143, time:7534847, size:74320 
+checkpoint:144, time:5034982, size:49560 
+checkpoint:145, time:2540734, size:24896 
+checkpoint:146, time:7538155, size:74320 
+checkpoint:147, time:5036800, size:49536 
+checkpoint:148, time:5054541, size:49616 
+checkpoint:149, time:5050339, size:49616 
+checkpoint:150, time:5044531, size:49616 
+checkpoint:151, time:5034144, size:49616 
+checkpoint:152, time:7537488, size:74320 
+checkpoint:153, time:5043210, size:49616 
+checkpoint:154, time:5050558, size:49616 
+checkpoint:155, time:5045196, size:49616 
+checkpoint:156, time:7538849, size:74320 
+checkpoint:157, time:10045685, size:98952 
+checkpoint:158, time:7537482, size:74320 
+checkpoint:159, time:5040716, size:49616 
+checkpoint:160, time:5045152, size:49616 
+checkpoint:161, time:7540382, size:74320 
+checkpoint:162, time:5038996, size:49616 
+checkpoint:163, time:2545607, size:24896 
+checkpoint:164, time:5042391, size:49616 
+checkpoint:165, time:7538211, size:74320 
+checkpoint:166, time:2546311, size:24896 
+checkpoint:167, time:2547020, size:24896 
+checkpoint:168, time:2542236, size:24896 
+checkpoint:169, time:5055629, size:49616 
+checkpoint:170, time:5042182, size:49616 
+checkpoint:171, time:7479263, size:73568 
+checkpoint:172, time:5042636, size:49616 
+checkpoint:173, time:2539262, size:24896 
+checkpoint:174, time:5031310, size:49536 
+checkpoint:175, time:2540060, size:24896 
+checkpoint:176, time:2544277, size:24896 
+checkpoint:177, time:10043455, size:98952 
+checkpoint:178, time:5040314, size:49616 
+checkpoint:179, time:10032709, size:98952 
+checkpoint:180, time:10042141, size:98952 
+checkpoint:181, time:7540119, size:74320 
+checkpoint:182, time:7476780, size:73568 
+checkpoint:183, time:5042086, size:49616 
+checkpoint:184, time:10037198, size:98952 
+checkpoint:185, time:5040059, size:49616 
+checkpoint:186, time:5041829, size:49616 
+checkpoint:187, time:2541285, size:24896 
+checkpoint:188, time:7536619, size:74320 
+checkpoint:189, time:2544456, size:24896 
+checkpoint:190, time:2540746, size:24896 
+checkpoint:191, time:2540733, size:24896 
+checkpoint:192, time:5038779, size:49616 
+checkpoint:193, time:7543524, size:74320 
+checkpoint:194, time:5036132, size:49616 
+checkpoint:195, time:2539653, size:24896 
+checkpoint:196, time:2542633, size:24896 
+checkpoint:197, time:2544433, size:24896 
+checkpoint:198, time:5047165, size:49616 
+checkpoint:199, time:5048522, size:49616 
+checkpoint:200, time:10038789, size:98952 
+checkpoint:201, time:10040550, size:98952 
+checkpoint:202, time:5042835, size:49616 
+checkpoint:203, time:2544024, size:24896 
+checkpoint:204, time:2471558, size:24112 
+checkpoint:205, time:2540796, size:24896 
+checkpoint:206, time:2556652, size:24896 
+checkpoint:207, time:5036375, size:49616 
+checkpoint:208, time:2546371, size:24896 
+checkpoint:209, time:2548480, size:24896 
+checkpoint:210, time:5041395, size:49616 
+checkpoint:211, time:7536962, size:74320 
+checkpoint:212, time:2546768, size:24896 
+checkpoint:213, time:7543981, size:74320 
+checkpoint:214, time:2542687, size:24896 
+checkpoint:215, time:5040962, size:49616 
+checkpoint:216, time:7538059, size:74320 
+checkpoint:217, time:7545980, size:74320 
+checkpoint:218, time:2541886, size:24896 
+checkpoint:219, time:5037893, size:49616 
+checkpoint:220, time:10040603, size:98952 
+checkpoint:221, time:7547751, size:74320 
+checkpoint:222, time:5043921, size:49616 
+checkpoint:223, time:10042966, size:98952 
+checkpoint:224, time:5036400, size:49536 
+checkpoint:225, time:5047869, size:49616 
+checkpoint:226, time:7535330, size:74320 
+checkpoint:227, time:5046698, size:49616 
+checkpoint:228, time:2550028, size:24896 
+checkpoint:229, time:2544102, size:24896 
+checkpoint:230, time:5039368, size:49616 
+checkpoint:231, time:7539549, size:74320 
+checkpoint:232, time:5038755, size:49616 
+checkpoint:233, time:7537039, size:74320 
+checkpoint:234, time:5043133, size:49616 
+checkpoint:235, time:7537236, size:74320 
+checkpoint:236, time:5044979, size:49616 
+checkpoint:237, time:7541182, size:74320 
+checkpoint:238, time:7536105, size:74320 
+checkpoint:239, time:10039727, size:98952 
+checkpoint:240, time:5039671, size:49616 
+checkpoint:241, time:2542779, size:24896 
+checkpoint:242, time:5040431, size:49616 
+checkpoint:243, time:10044991, size:98952 
+checkpoint:244, time:7542032, size:74320 
+checkpoint:245, time:2541366, size:24896 
+checkpoint:246, time:5033821, size:49536 
+checkpoint:247, time:7540442, size:74320 
+checkpoint:248, time:2540761, size:24896 
+checkpoint:249, time:7541399, size:74320 
+checkpoint:250, time:7545675, size:74320 
+checkpoint:251, time:2543258, size:24896 
+checkpoint:252, time:2541743, size:24896 
+checkpoint:253, time:2545528, size:24896 
+checkpoint:254, time:7545849, size:74320 
+checkpoint:255, time:5041715, size:49616 
+checkpoint:256, time:65604, size:184 
 Cleaned up init process
 GemOS shell again!
-GemOS# exit
-Shutting down...
+GemOS# Shutting down...
 Connection closed by foreign host.
