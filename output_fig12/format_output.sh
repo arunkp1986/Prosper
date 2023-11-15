@@ -19,18 +19,26 @@ rm stream_result.csv
 
 python getcopy_linux_vanilla.py
 
-cat mcf_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/mcf_s_result.out
-rm mcf_result_vanilla.csv
-cat g500_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/g500_sssp_result.out
-rm g500_result_vanilla.csv
-cat gap_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/gaps_result.out
-rm gap_result_vanilla.csv
-cat leela_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/leela_s_result.out
-rm leela_result_vanilla.csv
-cat omnetpp_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/omnetpp_s_result.out
-rm omnetpp_result_vanilla.csv
-cat perlbench_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/perlbench_s_result.out
-rm perlbench_result_vanilla.csv
+cat mcf_s_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/mcf_s_result.out
+rm mcf_s_result_vanilla.csv
+cat g500_sssp_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/g500_sssp_result.out
+rm g500_sssp_result_vanilla.csv
+cat gaps_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/gaps_result.out
+rm gaps_result_vanilla.csv
+cat leela_s_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/leela_s_result.out
+rm leela_s_result_vanilla.csv
+cat omnetpp_s_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/omnetpp_s_result.out
+rm omnetpp_s_result_vanilla.csv
+cat perlbench_s_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/perlbench_s_result.out
+rm perlbench_s_result_vanilla.csv
 cat stream_result_vanilla.csv | column -t -s, | less -S > ./linux_vanilla/stream_result.out
 rm stream_result_vanilla.csv
+
+python file_read_expected.py
+cat expected.csv | column -t -s, | less -S > expected.out
+rm expected.csv
+
+python file_read_result.py
+cat result.csv | column -t -s, | less -S > result.out
+rm result.csv
 

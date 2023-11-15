@@ -218,17 +218,17 @@ do
 	echo $bench
 	
 	if [ $bench == "mcf_0_0" ];then
-		OUTPUT_NAME="$output_path/linux_vanilla/mcf"
+		OUTPUT_NAME="$output_path/linux_vanilla/mcf_s"
 	elif [ $bench == "omnetpp_0_0" ];then
-		OUTPUT_NAME="$output_path/linux_vanilla/omnetpp"
+		OUTPUT_NAME="$output_path/linux_vanilla/omnetpp_s"
 	elif [ $bench == "perlbench_0_0" ];then
-		OUTPUT_NAME="$output_path/linux_vanilla/perlbench"
+		OUTPUT_NAME="$output_path/linux_vanilla/perlbench_s"
 	elif [ $bench == "leela_0_0" ];then
-		OUTPUT_NAME="$output_path/linux_vanilla/leela"
+		OUTPUT_NAME="$output_path/linux_vanilla/leela_s"
         elif [ $bench == "g500_0_0" ];then
-		OUTPUT_NAME="$output_path/linux_vanilla/g500"
+		OUTPUT_NAME="$output_path/linux_vanilla/g500_sssp"
         elif [ $bench == "gap_0_0" ];then
-		OUTPUT_NAME="$output_path/linux_vanilla/gap"
+		OUTPUT_NAME="$output_path/linux_vanilla/gaps"
         elif [ $bench == "stream_0_0" ];then
 		OUTPUT_NAME="$output_path/linux_vanilla/stream"
 	fi

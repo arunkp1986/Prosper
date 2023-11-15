@@ -28,4 +28,4 @@ sed -i '1 i type,gapbs,sssp,workloadb' result_10us.out
 cat result_10us.out | column -t -s, | less -S > result.out
 mv result.out result_10us.out
 
-
+rm execution_time.csv

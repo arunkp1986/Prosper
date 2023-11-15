@@ -6,7 +6,7 @@ import sys
 cwd = os.getcwd()
 
 #benchmarks = ["deepsjeng_s","leela_s","mcf_s","omnetpp_s","perlbench_s"]
-benchmarks = ["leela","mcf","omnetpp","perlbench","g500","gap","stream"]
+benchmarks = ["leela_s","mcf_s","omnetpp_s","perlbench_s","g500_sssp","gaps","stream"]
 #benchmarks = ["g500_sssp","gaps","stream"]
 def get_files(dirname, files):
     for (dirpath, dirnames, filenames) in os.walk(cwd):

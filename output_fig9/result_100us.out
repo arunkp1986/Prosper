@@ -1,4 +1,4 @@
 type          gapbs   sssp    workloadb
 ssp_dirtybit  1.6701  1.7143  1.8908
-ssp_prosper   0.0011  0.0016  0.0013
-ssp           0.0017  0.0024  0.0019
+ssp_prosper   1.4718  1.4285  1.6558
+ssp           2.0392  1.9846  2.372
