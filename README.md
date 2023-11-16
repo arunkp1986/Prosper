@@ -6,7 +6,7 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - Download Docker export file [prosper.tar](https://drive.google.com/file/d/15zgZGVF875KMg2COBpXdJpEJAlfV88Jr/view?usp=sharing), size ~ 1GB
 - Import downloaded **prosper.tar** using `docker import prosper.tar prosper:latest`
 - List the image using `docker image ls`
-- Start the docker container `docker run -it prosper:latest /bin/bash`
+- Start the docker container `docker run -it --privileged prosper:latest /bin/bash`
 - Change to home directory inside the docker container `cd /home`
 - Clone this git repo using `git clone --recurse-submodules https://github.com/arunkp1986/Prosper.git` inside the running container.
 - All steps mentioned below are to be performed inside container.
