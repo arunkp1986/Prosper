@@ -18,3 +18,4 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - Execute **format_output.sh** in output directory to run Python script and parse output files and generate **\*result.out**.
 - Expected output file, **\*expected.out**, is provided in corresponding output folder for comparison.
 - This repository also contains implementation of state-of-the-art memory persistence mechanisms, **SSP** and **Romulus**, used for comparison with Prosper.
+- Linux experiments (run_fig12.sh, run_fig13.sh) requires 32GB DRAM (configured in gem5_prosper_linux/configs/spec_config/system/system.py)
