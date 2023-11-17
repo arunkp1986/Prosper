@@ -13,8 +13,9 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - Download linux disk image (linux_disk.xz) `gdown https://drive.google.com/uc?id=1QPTfRPezp3P2YrPnOFRisFDhPBD0N3Es` to **Prosper/disk_image**.
 - Extract all **.xz** files in **Prosper/disk_image** directory ( data_gapbs.img.xz, data_sssp.img.xz, data_workloadb.img.xz, gemos.img.xz, and linux_disk.xz), for example `xz -v -d data_gapbs.img.xz`
 - Bash scripts to generate output corresponding to each plot in paper is named after the Figure number, **run_fig8.sh** corresponds to **Figure 8** in paper. Similarly remaining scripts are **run_fig9.sh**, **run_fig10.sh**, **run_fig11.sh**, **run_fig12.sh** and **run_fig13.sh**. You need to run only these scripts.
+- Execute `./run_fig8.sh`
+- Press **enter** to continue while asked for when running scripts (the question is part of gem5 building).
 - Note that Linux experiments (**run_fig12.sh**, **run_fig13.sh**) requires 32GB DRAM (configured in gem5_prosper_linux/configs/spec_config/system/system.py)
-- Press **enter** to continue while asked for while running scripts (the question is part of gem5 building).
 - Bash scripts build **gem5** and **gemOS kernel** required for running experiments and generate output in folders designated with Figure number, for example, `./run_fig8.sh` saves output in **output_fig8** for **Figure 8** in paper.
 - Execute **format_output.sh** in output directory to run Python script and parse output files and generate **\*result.out**.
 - Expected output file, **\*expected.out**, is provided in corresponding output folder for comparison.
