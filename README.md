@@ -16,6 +16,7 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - Execute `./run_fig8.sh`
 - Press **enter** to continue while asked for when running scripts (the question is part of gem5 building).
 - Note that Linux experiments (**run_fig12.sh**, **run_fig13.sh**) requires 32GB DRAM (configured in gem5_prosper_linux/configs/spec_config/system/system.py)
+- Note that romulus in **run_fig8.sh** takes ~20+ hours to run.
 - Bash scripts build **gem5** and **gemOS kernel** required for running experiments and generate output in folders designated with Figure number, for example, `./run_fig8.sh` saves output in **output_fig8** for **Figure 8** in paper.
 - Execute **format_output.sh** in output directory to run Python script and parse output files and generate **\*result.out**.
 - Expected output file, **\*expected.out**, is provided in corresponding output folder for comparison.
