@@ -7,9 +7,9 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - Import downloaded **prosper.tar** using `docker import prosper.tar prosper:latest`
 - List the image using `docker image ls`
 - Start the docker container `docker run -it --privileged prosper:latest /bin/bash`
+- All steps mentioned below are to be performed inside container.
 - Change to home directory inside the docker container `cd /home`
 - Clone this git repo using `git clone --recurse-submodules https://github.com/arunkp1986/Prosper.git` inside the running container.
-- All steps mentioned below are to be performed inside container.
 - Download linux disk image (linux_disk.xz) `gdown https://drive.google.com/uc?id=1QPTfRPezp3P2YrPnOFRisFDhPBD0N3Es` to **Prosper/disk_image**.
 - Extract all **.xz** files in **Prosper/disk_image** directory ( data_gapbs.img.xz, data_sssp.img.xz, data_workloadb.img.xz, gemos.img.xz, and linux_disk.xz), for example `xz -v -d data_gapbs.img.xz`
 - Bash scripts to generate output corresponding to each plot in paper is named after the Figure number, **run_fig8.sh** corresponds to **Figure 8** in paper. Similarly remaining scripts are **run_fig9.sh**, **run_fig10.sh**, **run_fig11.sh**, **run_fig12.sh** and **run_fig13.sh**. You need to run only these scripts.
