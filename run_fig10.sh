@@ -12,7 +12,7 @@ if [ ! -d "gem5" ];then
 fi
 
 gem5_path="$CWD/gem5_prosper"
-gemOS_path="$CWD/gemOS_prosper"
+gemOS_path="$CWD/gemOS_prosper_fig10"
 script_path="$CWD/run_scripts_fig10"
 disk_path="$CWD/disk_image"
 
