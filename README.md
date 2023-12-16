@@ -8,7 +8,7 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - List the image using `docker image ls`
 - Start the docker container `docker run -it --privileged prosper:latest /bin/bash`
 - All steps mentioned below are to be performed inside container.
-- For "column" command run `apt-get install bsdmainutils` inside container.
+- To install "column" command run `apt-get install bsdmainutils` inside container.
 - Change to home directory inside the docker container `cd /home`
 - Clone this git repo using `git clone --recurse-submodules https://github.com/arunkp1986/Prosper.git` inside the running container.
 - Download linux disk image (linux_disk.xz) `gdown https://drive.google.com/uc?id=1QPTfRPezp3P2YrPnOFRisFDhPBD0N3Es` to **Prosper/disk_image**.
