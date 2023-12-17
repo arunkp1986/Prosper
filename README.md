@@ -24,4 +24,5 @@ Prosper is a hardware-software (OS) co-designed checkpoint approach for stack pe
 - Execute **format_output.sh** in output directory to run Python script and parse output files and generate **\*result.out**.
 - Expected output file, **\*expected.out**, is provided in corresponding output folder for comparison.
 - This repository also contains implementation of state-of-the-art memory persistence mechanisms, **SSP** and **Romulus**, used for comparison with Prosper.
+- **Note:** You can run bash scripts in parallel to reduce the overall execution time of experiments. For example, running Figure 8 and Figure 9 bash scripts in parallel requires starting the docker instance as mentioned earlier and executing **./run_fig8.sh** inside it. Then, attach another terminal using exec as `docker exec -it name\_of\_the\_container /bin/bash` and running **./run_fig9.sh** inside it. Please note that each experiment of "Romulus" in Figure 8 takes a longer duration, so you may split **run_fig8_romulus.sh** (called from **run_fig8.sh** ) to run in parallel.
 
